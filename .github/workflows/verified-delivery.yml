@@ -1,0 +1,20 @@
+name: Transfer verified 3.6.3 commits
+on:
+  push:
+    branches: [delivery-3.6.3]
+    paths: ['.delivery/**', '.github/workflows/verified-delivery.yml']
+permissions:
+  contents: read
+jobs:
+  transfer:
+    if: github.repository == 'Adinlm/neon-vertigo' && github.ref == 'refs/heads/delivery-3.6.3'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          fetch-depth: 0
+      - name: Verify and transfer existing local commits without force push
+        run: python3 .delivery/import.py
