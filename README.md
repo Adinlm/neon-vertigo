@@ -21,9 +21,10 @@ Usa orientación horizontal para las carreras. Los finales también funcionan en
 - Gana los diez eventos en Difícil para revelar PROJECT ZERO.
 - Las carreras libres no completan la campaña. No hay botones ni accesos de diagnóstico.
 
-![Jefes derrotados — Difícil desbloqueado](assets/ending_hardmode_unlocked.webp)
+<img width="654" height="890" alt="image" src="https://github.com/user-attachments/assets/80aad8a5-de57-4e91-871b-71877fcf2119" />
+<img width="637" height="884" alt="image" src="https://github.com/user-attachments/assets/a15fe513-c513-4df0-8eb3-7b9fe34d37c9" />
 
-![Hangar orbital — PROJECT ZERO desbloqueada](assets/ending_project_zero_unlocked.webp)
+
 
 ## Guardado
 
