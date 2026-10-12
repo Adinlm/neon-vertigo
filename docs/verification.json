@@ -1,526 +1,1791 @@
 {
-  "game": "NEON VERTIGO 3.6.1",
-  "date": "2026-10-11",
-  "timezone": "America/Santiago",
-  "status": "PASS",
-  "hashes": {
-    "source_sha256": "cb67f1b124d44be3ec226b8f23ec69f3da9560ef898bebe8c41e7d959b86c7f4",
-    "artifact_sha256": "ab430cecac92ed6e47083b3ef2e6259f50be1092877ebf85fc37d9e235a2b4a1"
-  },
-  "file_sizes": {
-    "source_bytes": 25433956,
-    "artifact_bytes": 27912735
-  },
-  "check_counts": {
-    "unit": 18,
-    "chromium": 27,
-    "total": 45
-  },
-  "test_method": {
-    "race_progress": "Directed preparation with original __NV.completeEvent sandbox diagnostics; actual results/coronation/ending handlers exercised with original __NV.finishRace, a temporary invulnerability/velocity fixture and actual localStorage reloads in isolated Chromium contexts.",
-    "device": "Headless Microsoft Edge / Chromium, SwiftShader WebGL; desktop and touch-enabled mobile viewports.",
-    "physical_fold5_tested": false,
-    "manual_full_campaign_playthrough": false,
-    "critical_audio_listening": false
-  },
-  "unit_checks": [
-    {
-      "name": "HTML script parses; base has 18 unchanged portraits + two ending WebP URIs",
-      "status": "PASS"
+  "version": "3.6.2",
+  "success": true,
+  "phase": "local_validation_complete",
+  "local_check_count": 91,
+  "base_commit": "e15678f5bfe332955e722375003a10d67f9cafa4",
+  "html_sha256": "3d91fe904e9ee241177382690fbf8f64c5e88854e6379a25ef2c47c5e05f8187",
+  "html_bytes": 31102908,
+  "arts": {
+    "hard": {
+      "input_name": "Derrota real entre neones y coronas.png",
+      "input_sha256": "9b53d2e28c69bd3d5e56db7fa494a1b592e0190122bab9dd8dde63786b55db83",
+      "webp_sha256": "2c148cab65b6dba127e77b25bf5a204494f437d1e71f4a48397d0fb93b179821",
+      "bytes": 2474484,
+      "size": [
+        1672,
+        941
+      ],
+      "decoded_pixels_identical": true
     },
-    {
-      "name": "New career: hard/Zero locked; hard cannot be selected; all test tracks do not grant wins",
-      "status": "PASS"
-    },
-    {
-      "name": "A saved Hard setting with no earned unlock is normalized to Normal",
-      "status": "PASS"
-    },
-    {
-      "name": "Winning only THE CROWN in the open-track edition grants neither Hard nor Zero, including reload",
-      "status": "PASS"
-    },
-    {
-      "name": "A failed final, free-race win or locked Hard diagnostic cannot unlock rewards",
-      "status": "PASS"
-    },
-    {
-      "name": "Full Easy campaign: hard only; art 1 once; no Zero toast",
-      "status": "PASS"
-    },
-    {
-      "name": "Full Normal campaign: hard only; art 1 once; no Zero toast",
-      "status": "PASS"
-    },
-    {
-      "name": "Easy/Normal mixture counts as a low-difficulty campaign without discarding progress",
-      "status": "PASS"
-    },
-    {
-      "name": "Normal clear does not imply hard completion; winning only hard final still insufficient",
-      "status": "PASS"
-    },
-    {
-      "name": "All 10 hard wins + final: PROJECT ZERO unlocked, art 2 once, hangar continuation",
-      "status": "PASS"
-    },
-    {
-      "name": "Losing and incomplete hard campaigns cannot unlock Zero",
-      "status": "PASS"
-    },
-    {
-      "name": "Unseen earned reward survives sanitation/export/import; seen reward stays suppressed",
-      "status": "PASS"
-    },
-    {
-      "name": "Legacy normal winner keeps Zero selection and hard access without inventing a hard campaign",
-      "status": "PASS"
-    },
-    {
-      "name": "Legacy hard final alone is not a hard campaign; all-ten hard evidence is recognized",
-      "status": "PASS"
-    },
-    {
-      "name": "Legacy fresh/partial progress preserves records and does not grant rewards",
-      "status": "PASS"
-    },
-    {
-      "name": "New-format fabricated unlock flags without win evidence are rejected",
-      "status": "PASS"
-    },
-    {
-      "name": "Fleet diagnostic grants temporary Zero access without earning/persisting rewards",
-      "status": "PASS"
-    },
-    {
-      "name": "Difficulty UI is disabled/labeled then enables after a genuine clear",
-      "status": "PASS"
+    "zero": {
+      "input_name": "Hangar orbital cyberpunk con nave flotante.png",
+      "input_sha256": "d421d3532fbde27c81465089511d5147919cdc1924e4b0ed5e9de238f4237ddc",
+      "webp_sha256": "39a99e94301173a68c8c67069194d768fac79185ac39defed8ec48e2531c4cb0",
+      "bytes": 1781170,
+      "size": [
+        1672,
+        941
+      ],
+      "decoded_pixels_identical": true
     }
-  ],
-  "browser_checks": [
-    {
-      "name": "New Easy profile: Hard/Zero locked, 13 test tracks open",
-      "status": "PASS",
-      "details": {
-        "trackCount": 13
-      }
-    },
-    {
-      "name": "low_0 ending fits 1280x720",
-      "status": "PASS",
-      "details": {
-        "viewport": [
-          1280,
-          720
-        ],
-        "button": {
-          "x": 30.546875,
-          "y": 611.9375,
-          "w": 201.328125,
-          "h": 53
-        },
-        "copyOverflow": false,
-        "cardOverflow": false,
-        "image": [
-          1024,
-          576
-        ],
-        "fit": "contain",
-        "z": 12
-      }
-    },
-    {
-      "name": "low_0 ending fits 1080x884",
-      "status": "PASS",
-      "details": {
-        "viewport": [
-          1080,
-          884
-        ],
-        "button": {
-          "x": 34.328125,
-          "y": 757.671875,
-          "w": 201.328125,
-          "h": 53
-        },
-        "copyOverflow": false,
-        "cardOverflow": false,
-        "image": [
-          1024,
-          576
-        ],
-        "fit": "contain",
-        "z": 12
-      }
-    },
-    {
-      "name": "low_0 ending fits 904x412",
-      "status": "PASS",
-      "details": {
-        "viewport": [
-          904,
-          412
-        ],
-        "button": {
-          "x": 523.328125,
-          "y": 244.96875,
-          "w": 127.84375,
-          "h": 34.15625
-        },
-        "copyOverflow": false,
-        "cardOverflow": false,
-        "image": [
-          1024,
-          576
-        ],
-        "fit": "contain",
-        "z": 12
-      }
-    },
-    {
-      "name": "low_0 ending fits 740x360",
-      "status": "PASS",
-      "details": {
-        "viewport": [
-          740,
-          360
-        ],
-        "button": {
-          "x": 429.84375,
-          "y": 212.28125,
-          "w": 126.15625,
-          "h": 34
-        },
-        "copyOverflow": false,
-        "cardOverflow": false,
-        "image": [
-          1024,
-          576
-        ],
-        "fit": "contain",
-        "z": 12
-      }
-    },
-    {
-      "name": "Full Easy clear: normal results → coronation → art 1 → menu; survives reload without repetition",
-      "status": "PASS",
-      "details": {
-        "v": 1,
-        "hardUnlocked": true,
-        "hardUnlockShown": true,
-        "projectZeroUnlocked": false,
-        "projectZeroUnlockShown": false,
-        "hardCompleted": false,
-        "legacyCampaignClear": false,
-        "legacyProjectZero": false
-      }
-    },
-    {
-      "name": "Repeat Easy final does not repeat the unlock screen",
-      "status": "PASS"
-    },
-    {
-      "name": "New Normal profile: Hard/Zero locked, 13 test tracks open",
-      "status": "PASS",
-      "details": {
-        "trackCount": 13
-      }
-    },
-    {
-      "name": "low_1 ending fits 1280x720",
-      "status": "PASS",
-      "details": {
-        "viewport": [
-          1280,
-          720
-        ],
-        "button": {
-          "x": 30.546875,
-          "y": 611.9375,
-          "w": 201.328125,
-          "h": 53
-        },
-        "copyOverflow": false,
-        "cardOverflow": false,
-        "image": [
-          1024,
-          576
-        ],
-        "fit": "contain",
-        "z": 12
-      }
-    },
-    {
-      "name": "low_1 ending fits 1080x884",
-      "status": "PASS",
-      "details": {
-        "viewport": [
-          1080,
-          884
-        ],
-        "button": {
-          "x": 34.328125,
-          "y": 757.671875,
-          "w": 201.328125,
-          "h": 53
-        },
-        "copyOverflow": false,
-        "cardOverflow": false,
-        "image": [
-          1024,
-          576
-        ],
-        "fit": "contain",
-        "z": 12
-      }
-    },
-    {
-      "name": "low_1 ending fits 904x412",
-      "status": "PASS",
-      "details": {
-        "viewport": [
-          904,
-          412
-        ],
-        "button": {
-          "x": 523.328125,
-          "y": 244.96875,
-          "w": 127.84375,
-          "h": 34.15625
-        },
-        "copyOverflow": false,
-        "cardOverflow": false,
-        "image": [
-          1024,
-          576
-        ],
-        "fit": "contain",
-        "z": 12
-      }
-    },
-    {
-      "name": "low_1 ending fits 740x360",
-      "status": "PASS",
-      "details": {
-        "viewport": [
-          740,
-          360
-        ],
-        "button": {
-          "x": 429.84375,
-          "y": 212.28125,
-          "w": 126.15625,
-          "h": 34
-        },
-        "copyOverflow": false,
-        "cardOverflow": false,
-        "image": [
-          1024,
-          576
-        ],
-        "fit": "contain",
-        "z": 12
-      }
-    },
-    {
-      "name": "Full Normal clear: normal results → coronation → art 1 → menu; survives reload without repetition",
-      "status": "PASS",
-      "details": {
-        "v": 1,
-        "hardUnlocked": true,
-        "hardUnlockShown": true,
-        "projectZeroUnlocked": false,
-        "projectZeroUnlockShown": false,
-        "hardCompleted": false,
-        "legacyCampaignClear": false,
-        "legacyProjectZero": false
-      }
-    },
-    {
-      "name": "Repeat Normal final does not repeat the unlock screen",
-      "status": "PASS"
-    },
-    {
-      "name": "zero ending fits 1280x720",
-      "status": "PASS",
-      "details": {
-        "viewport": [
-          1280,
-          720
-        ],
-        "button": {
-          "x": 30.546875,
-          "y": 611.9375,
-          "w": 232.09375,
-          "h": 53
-        },
-        "copyOverflow": false,
-        "cardOverflow": false,
-        "image": [
-          1024,
-          576
-        ],
-        "fit": "contain",
-        "z": 12
-      }
-    },
-    {
-      "name": "zero ending fits 1080x884",
-      "status": "PASS",
-      "details": {
-        "viewport": [
-          1080,
-          884
-        ],
-        "button": {
-          "x": 34.328125,
-          "y": 757.671875,
-          "w": 232.09375,
-          "h": 53
-        },
-        "copyOverflow": false,
-        "cardOverflow": false,
-        "image": [
-          1024,
-          576
-        ],
-        "fit": "contain",
-        "z": 12
-      }
-    },
-    {
-      "name": "zero ending fits 904x412",
-      "status": "PASS",
-      "details": {
-        "viewport": [
-          904,
-          412
-        ],
-        "button": {
-          "x": 523.328125,
-          "y": 244.96875,
-          "w": 147.140625,
-          "h": 34.15625
-        },
-        "copyOverflow": false,
-        "cardOverflow": false,
-        "image": [
-          1024,
-          576
-        ],
-        "fit": "contain",
-        "z": 12
-      }
-    },
-    {
-      "name": "zero ending fits 740x360",
-      "status": "PASS",
-      "details": {
-        "viewport": [
-          740,
-          360
-        ],
-        "button": {
-          "x": 429.84375,
-          "y": 218.28125,
-          "w": 145.203125,
-          "h": 34
-        },
-        "copyOverflow": false,
-        "cardOverflow": false,
-        "image": [
-          1024,
-          576
-        ],
-        "fit": "contain",
-        "z": 12
-      }
-    },
-    {
-      "name": "All 10 hard wins: normal results → coronation → art 2 → Zero hangar; ship selectable and saved",
-      "status": "PASS"
-    },
-    {
-      "name": "Repeat hard final does not repeat the unlock screen",
-      "status": "PASS"
-    },
-    {
-      "name": "Campaign reset clears rewards and normalizes previously selected hard mode",
-      "status": "PASS"
-    },
-    {
-      "name": "Legacy 3.6.0 save: Zero + selection + Hard preserved, no invented hard clear, no popup",
-      "status": "PASS"
-    },
-    {
-      "name": "Fleet diagnostic keeps ephemeral access separate from earned unlocks",
-      "status": "PASS"
-    },
-    {
-      "name": "Only THE CROWN win in test edition does not gift campaign unlocks, even after reload",
-      "status": "PASS"
-    },
-    {
-      "name": "Unseen saved reward recovers after boot; image tap closes it; reload does not repeat it",
-      "status": "PASS"
-    },
-    {
-      "name": "Results Menu route shows the pending reward above the map and returns cleanly",
-      "status": "PASS"
-    },
-    {
-      "name": "Zero page errors and no HTTP/HTTPS requests from the local offline HTML",
-      "status": "PASS"
-    }
-  ],
-  "integrity": {
-    "source_unchanged": true,
-    "complete_html": true,
-    "exact_reverse_reconstruction": true,
-    "original_css_preserved": true,
-    "preserved_sections": {
-      "ships_meshes_webgl_audio_music": {
-        "bytes": 18939456,
-        "sha256": "def158a37faeb9612d388dfc83dce0e5560e3b89c564935ba0705faa1a18bf63",
-        "identical": true
-      },
-      "portraits_dialogues_rivalry": {
-        "bytes": 1302834,
-        "sha256": "2aa94b522105891ebdd3289f9b9c7856f4e158deb5b14082db33a57ae33089d1",
-        "identical": true
-      },
-      "physics_controls_circuits_simulation": {
-        "bytes": 88181,
-        "sha256": "dfe96b8879e48e9fd6e5ab41364213c334e81b0640ce0cce4f9705e9c35e6e76",
-        "identical": true
-      },
-      "garage": {
-        "bytes": 7673,
-        "sha256": "03486412d3216786b2cea0e6cd89b0c6d0028213735841a46ee3367fbaa9d403",
-        "identical": true
-      },
-      "old_webp": {
-        "original_count": 18,
-        "all_unchanged": true,
-        "new_count": 20
-      }
-    },
-    "embedded_audio_payloads": {
-      "original_long_base64_payloads": 80,
-      "original_unique_long_base64_payloads": 80,
-      "every_original_payload_preserved_exactly": true
-    },
-    "storage_keys_preserved": [
-      "nv3_career_unlocked_test_351",
-      "nv3_test_set_353"
-    ],
-    "new_external_dependencies": false
   },
-  "external_http_requests": 0,
-  "runtime_page_errors": [],
+  "preserved": {
+    "audio_fleet_meshes": {
+      "sha256": "def158a37faeb9612d388dfc83dce0e5560e3b89c564935ba0705faa1a18bf63",
+      "identical": true
+    },
+    "portrait_assets_and_dialogues": {
+      "sha256": "7e44a6c7a2ad31903c99151f875bce6c102049750250ac683e84ebb928d37543",
+      "identical": true
+    },
+    "tracks_city": {
+      "sha256": "8923104b59c2a7a141b532687f0126953e29b5f86c944e1d05609c4d8b0e194a",
+      "identical": true
+    },
+    "normal_controls": {
+      "sha256": "13fb4790633bf1a26847596673c2fe2a735aabff12e8bfe51d8b98e65cfbe5a5",
+      "identical": true
+    }
+  },
+  "instrumentation": {
+    "shipping_html_has_no_qa_api": true,
+    "temporary_copy_restores_exact_shipping_bytes": true,
+    "copy_outside_pages_tree": true,
+    "shipping_sha256": "3d91fe904e9ee241177382690fbf8f64c5e88854e6379a25ef2c47c5e05f8187"
+  },
+  "suites": {
+    "unit": {
+      "success": true,
+      "checks": [
+        {
+          "name": "HTML script parses; base has 18 unchanged portraits + two ending WebP URIs",
+          "status": "PASS"
+        },
+        {
+          "name": "New career: hard/Zero locked; hard cannot be selected; three first crew events only; two starter ships",
+          "status": "PASS"
+        },
+        {
+          "name": "A saved Hard setting with no earned unlock is normalized to Normal",
+          "status": "PASS"
+        },
+        {
+          "name": "Winning only THE CROWN while locked grants neither Hard nor Zero, including reload",
+          "status": "PASS"
+        },
+        {
+          "name": "A failed final, free-race win or locked Hard diagnostic cannot unlock rewards",
+          "status": "PASS"
+        },
+        {
+          "name": "Full Easy campaign: hard only; art 1 once; no Zero toast",
+          "status": "PASS"
+        },
+        {
+          "name": "Full Normal campaign: hard only; art 1 once; no Zero toast",
+          "status": "PASS"
+        },
+        {
+          "name": "Easy/Normal mixture counts as a low-difficulty campaign without discarding progress",
+          "status": "PASS"
+        },
+        {
+          "name": "Normal clear does not imply hard completion; winning only hard final still insufficient",
+          "status": "PASS"
+        },
+        {
+          "name": "All 10 hard wins + final: PROJECT ZERO unlocked, art 2 once, hangar continuation",
+          "status": "PASS"
+        },
+        {
+          "name": "Losing and incomplete hard campaigns cannot unlock Zero",
+          "status": "PASS"
+        },
+        {
+          "name": "Unseen earned reward survives sanitation/export/import; seen reward stays suppressed",
+          "status": "PASS"
+        },
+        {
+          "name": "Legacy normal winner keeps Zero selection and hard access without inventing a hard campaign",
+          "status": "PASS"
+        },
+        {
+          "name": "Legacy hard final alone is not a hard campaign; all-ten hard evidence is recognized",
+          "status": "PASS"
+        },
+        {
+          "name": "Legacy fresh/partial progress preserves records and does not grant rewards",
+          "status": "PASS"
+        },
+        {
+          "name": "New-format fabricated unlock flags without win evidence are rejected",
+          "status": "PASS"
+        },
+        {
+          "name": "Difficulty UI is disabled/labeled then enables after a genuine clear",
+          "status": "PASS"
+        },
+        {
+          "name": "Shipping source contains no diagnostic controls, state, API or URL activation",
+          "status": "PASS"
+        },
+        {
+          "name": "All campaign and free entry guards are functional in the shipping source",
+          "status": "PASS"
+        },
+        {
+          "name": "k9 boss unlocks only fang after its two crew events",
+          "status": "PASS"
+        },
+        {
+          "name": "ia boss unlocks only iron after its two crew events",
+          "status": "PASS"
+        },
+        {
+          "name": "sv boss unlocks only sov after its two crew events",
+          "status": "PASS"
+        },
+        {
+          "name": "CROWN requires all three territory conquests; failed crew race unlocks nothing",
+          "status": "PASS"
+        },
+        {
+          "name": "Each locked ship refuses selection without modifying normal career",
+          "status": "PASS"
+        },
+        {
+          "name": "Old diagnostic keys are ignored and retained; normal career key saves normally",
+          "status": "PASS"
+        },
+        {
+          "name": "Legitimate normal-key partial progress, vehicle and statistics survive load",
+          "status": "PASS"
+        },
+        {
+          "name": "Explicitly diagnostic careers and imported envelopes are rejected",
+          "status": "PASS"
+        },
+        {
+          "name": "Unmarked legacy normal saves remain importable without invented win records",
+          "status": "PASS"
+        }
+      ]
+    },
+    "browser": {
+      "success": true,
+      "checks": [
+        {
+          "name": "Exact offline production: removed diagnostic DOM/APIs/URL shortcuts, gated menus, ship selection and normal export",
+          "status": "PASS",
+          "details": {
+            "v": 3,
+            "game": "NEON VERTIGO 3.6.2",
+            "edition": "public",
+            "career": {
+              "v": 3,
+              "edition": "public",
+              "created": 1791767539745,
+              "updated": 1791767544298,
+              "ev": {},
+              "conq": {
+                "k9": false,
+                "ia": false,
+                "sv": false
+              },
+              "finalDone": false,
+              "fleet": {
+                "sel": "razor",
+                "chosen": true
+              },
+              "unlocks": {
+                "v": 1,
+                "hardUnlocked": false,
+                "hardUnlockShown": false,
+                "projectZeroUnlocked": false,
+                "projectZeroUnlockShown": false,
+                "hardCompleted": false,
+                "legacyCampaignClear": false,
+                "legacyProjectZero": false
+              },
+              "stats": {
+                "races": 0,
+                "wins": 0,
+                "td": 0,
+                "checks": 0,
+                "wrecks": 0,
+                "time": 0,
+                "bossWins": 0,
+                "campTime": 0
+              },
+              "ach": {}
+            },
+            "set": {
+              "diff": 1,
+              "track": 0,
+              "autoAcc": true,
+              "qual": -1,
+              "dz": 12,
+              "sens": 100,
+              "invY": false,
+              "vib": true,
+              "vol": {
+                "master": 80,
+                "music": 70,
+                "sfx": 85,
+                "ui": 70
+              },
+              "mute": {
+                "master": false,
+                "music": false,
+                "sfx": false,
+                "ui": false
+              }
+            }
+          }
+        },
+        {
+          "name": "New Easy profile has two ships, six initial free tracks and locked Hard/CROWN/Zero",
+          "status": "PASS",
+          "details": {
+            "c": {
+              "v": 3,
+              "edition": "public",
+              "created": 1791767545979,
+              "updated": 1791767545979,
+              "ev": {},
+              "conq": {
+                "k9": false,
+                "ia": false,
+                "sv": false
+              },
+              "finalDone": false,
+              "fleet": {
+                "sel": "strix",
+                "chosen": false
+              },
+              "unlocks": {
+                "v": 1,
+                "hardUnlocked": false,
+                "hardUnlockShown": false,
+                "projectZeroUnlocked": false,
+                "projectZeroUnlockShown": false,
+                "hardCompleted": false,
+                "legacyCampaignClear": false,
+                "legacyProjectZero": false
+              },
+              "stats": {
+                "races": 0,
+                "wins": 0,
+                "td": 0,
+                "checks": 0,
+                "wrecks": 0,
+                "time": 0,
+                "bossWins": 0,
+                "campTime": 0
+              },
+              "ach": {}
+            },
+            "fleet": {
+              "sel": "strix",
+              "saved": {
+                "sel": "strix",
+                "chosen": false
+              },
+              "needStarter": true,
+              "ships": [
+                {
+                  "id": "strix",
+                  "n": "STRIX-01",
+                  "earned": true,
+                  "unlocked": true,
+                  "st": {
+                    "spd": 3,
+                    "acc": 3,
+                    "han": 3,
+                    "res": 3,
+                    "tur": 3
+                  },
+                  "eng": "std",
+                  "bcat": "boost",
+                  "mods": {
+                    "vm": 1,
+                    "vb": 1,
+                    "acc": 1,
+                    "lat": 1,
+                    "str": 1,
+                    "dm": 1,
+                    "mass": 1,
+                    "bd": 1,
+                    "rg": 1
+                  }
+                },
+                {
+                  "id": "razor",
+                  "n": "RAZOR-X",
+                  "earned": true,
+                  "unlocked": true,
+                  "st": {
+                    "spd": 3,
+                    "acc": 2,
+                    "han": 2,
+                    "res": 5,
+                    "tur": 3
+                  },
+                  "eng": "razor",
+                  "bcat": "boost_razor",
+                  "mods": {
+                    "vm": 1,
+                    "vb": 1,
+                    "acc": 0.88,
+                    "lat": 0.9299999999999999,
+                    "str": 0.9,
+                    "dm": 0.7692307692307692,
+                    "mass": 1.12,
+                    "bd": 1,
+                    "rg": 1
+                  }
+                },
+                {
+                  "id": "fang",
+                  "n": "FANG GT",
+                  "earned": false,
+                  "unlocked": false,
+                  "st": {
+                    "spd": 4,
+                    "acc": 5,
+                    "han": 5,
+                    "res": 1,
+                    "tur": 3
+                  },
+                  "eng": "fang",
+                  "bcat": "boost_fang",
+                  "mods": {
+                    "vm": 1.025,
+                    "vb": 1.0125,
+                    "acc": 1.24,
+                    "lat": 1.1400000000000001,
+                    "str": 1.2,
+                    "dm": 1.4285714285714286,
+                    "mass": 0.88,
+                    "bd": 1,
+                    "rg": 1
+                  }
+                },
+                {
+                  "id": "iron",
+                  "n": "IRON WRAITH",
+                  "earned": false,
+                  "unlocked": false,
+                  "st": {
+                    "spd": 4,
+                    "acc": 2,
+                    "han": 2,
+                    "res": 5,
+                    "tur": 4
+                  },
+                  "eng": "iron",
+                  "bcat": "boost_iron",
+                  "mods": {
+                    "vm": 1.025,
+                    "vb": 1.0125,
+                    "acc": 0.88,
+                    "lat": 0.9299999999999999,
+                    "str": 0.9,
+                    "dm": 0.7692307692307692,
+                    "mass": 1.12,
+                    "bd": 1.08,
+                    "rg": 1.15
+                  }
+                },
+                {
+                  "id": "sov",
+                  "n": "SOVEREIGN",
+                  "earned": false,
+                  "unlocked": false,
+                  "st": {
+                    "spd": 5,
+                    "acc": 4,
+                    "han": 4,
+                    "res": 2,
+                    "tur": 4
+                  },
+                  "eng": "sov",
+                  "bcat": "boost_sov",
+                  "mods": {
+                    "vm": 1.05,
+                    "vb": 1.025,
+                    "acc": 1.12,
+                    "lat": 1.07,
+                    "str": 1.1,
+                    "dm": 1.1764705882352942,
+                    "mass": 0.94,
+                    "bd": 1.08,
+                    "rg": 1.15
+                  }
+                },
+                {
+                  "id": "zero",
+                  "n": "PROJECT ZERO",
+                  "earned": false,
+                  "unlocked": false,
+                  "st": {
+                    "spd": 5,
+                    "acc": 5,
+                    "han": 5,
+                    "res": 5,
+                    "tur": 5
+                  },
+                  "eng": "zero",
+                  "bcat": "boost_zero",
+                  "mods": {
+                    "vm": 1.06,
+                    "vb": 1.03,
+                    "acc": 1.288,
+                    "lat": 1.1680000000000001,
+                    "str": 1.24,
+                    "dm": 0.7352941176470588,
+                    "mass": 1.1440000000000001,
+                    "bd": 1.192,
+                    "rg": 1.36
+                  }
+                }
+              ]
+            },
+            "events": 3,
+            "lines": 324
+          }
+        },
+        {
+          "name": "low_0 full artwork, text and Continue fit 1280x720",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              1280,
+              720
+            ],
+            "button": {
+              "x": 30.546875,
+              "y": 611.9375,
+              "w": 201.328125,
+              "h": 53
+            },
+            "artBox": {
+              "x": 14,
+              "y": 12,
+              "w": 1252,
+              "h": 414.09375
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "low_0 full artwork, text and Continue fit 1080x884",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              1080,
+              884
+            ],
+            "button": {
+              "x": 34.328125,
+              "y": 757.671875,
+              "w": 201.328125,
+              "h": 53
+            },
+            "artBox": {
+              "x": 14,
+              "y": 24,
+              "w": 1052,
+              "h": 531.4375
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "low_0 full artwork, text and Continue fit 904x412",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              904,
+              412
+            ],
+            "button": {
+              "x": 523.328125,
+              "y": 253.578125,
+              "w": 127.84375,
+              "h": 34.15625
+            },
+            "artBox": {
+              "x": 14,
+              "y": 12,
+              "w": 499.328125,
+              "h": 388
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "low_0 full artwork, text and Continue fit 740x360",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              740,
+              360
+            ],
+            "button": {
+              "x": 429.84375,
+              "y": 219.8125,
+              "w": 126.15625,
+              "h": 34
+            },
+            "artBox": {
+              "x": 14,
+              "y": 12,
+              "w": 405.84375,
+              "h": 336
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "low_0 full artwork, text and Continue fit 414x896",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              414,
+              896
+            ],
+            "button": {
+              "x": 26,
+              "y": 801.78125,
+              "w": 128.40625,
+              "h": 34.21875
+            },
+            "artBox": {
+              "x": 14,
+              "y": 30,
+              "w": 386,
+              "h": 634.96875
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "low_0 full artwork, text and Continue fit 892x1100",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              892,
+              1100
+            ],
+            "button": {
+              "x": 34.515625,
+              "y": 865.484375,
+              "w": 201.328125,
+              "h": 53
+            },
+            "artBox": {
+              "x": 14,
+              "y": 132,
+              "w": 864,
+              "h": 531.0625
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "Full Easy clear follows results, coronation, art A and Continue; persists without repeat",
+          "status": "PASS"
+        },
+        {
+          "name": "Repeat Easy final does not repeat reward",
+          "status": "PASS"
+        },
+        {
+          "name": "New Normal profile has two ships, six initial free tracks and locked Hard/CROWN/Zero",
+          "status": "PASS",
+          "details": {
+            "c": {
+              "v": 3,
+              "edition": "public",
+              "created": 1791767553424,
+              "updated": 1791767553424,
+              "ev": {},
+              "conq": {
+                "k9": false,
+                "ia": false,
+                "sv": false
+              },
+              "finalDone": false,
+              "fleet": {
+                "sel": "strix",
+                "chosen": false
+              },
+              "unlocks": {
+                "v": 1,
+                "hardUnlocked": false,
+                "hardUnlockShown": false,
+                "projectZeroUnlocked": false,
+                "projectZeroUnlockShown": false,
+                "hardCompleted": false,
+                "legacyCampaignClear": false,
+                "legacyProjectZero": false
+              },
+              "stats": {
+                "races": 0,
+                "wins": 0,
+                "td": 0,
+                "checks": 0,
+                "wrecks": 0,
+                "time": 0,
+                "bossWins": 0,
+                "campTime": 0
+              },
+              "ach": {}
+            },
+            "fleet": {
+              "sel": "strix",
+              "saved": {
+                "sel": "strix",
+                "chosen": false
+              },
+              "needStarter": true,
+              "ships": [
+                {
+                  "id": "strix",
+                  "n": "STRIX-01",
+                  "earned": true,
+                  "unlocked": true,
+                  "st": {
+                    "spd": 3,
+                    "acc": 3,
+                    "han": 3,
+                    "res": 3,
+                    "tur": 3
+                  },
+                  "eng": "std",
+                  "bcat": "boost",
+                  "mods": {
+                    "vm": 1,
+                    "vb": 1,
+                    "acc": 1,
+                    "lat": 1,
+                    "str": 1,
+                    "dm": 1,
+                    "mass": 1,
+                    "bd": 1,
+                    "rg": 1
+                  }
+                },
+                {
+                  "id": "razor",
+                  "n": "RAZOR-X",
+                  "earned": true,
+                  "unlocked": true,
+                  "st": {
+                    "spd": 3,
+                    "acc": 2,
+                    "han": 2,
+                    "res": 5,
+                    "tur": 3
+                  },
+                  "eng": "razor",
+                  "bcat": "boost_razor",
+                  "mods": {
+                    "vm": 1,
+                    "vb": 1,
+                    "acc": 0.88,
+                    "lat": 0.9299999999999999,
+                    "str": 0.9,
+                    "dm": 0.7692307692307692,
+                    "mass": 1.12,
+                    "bd": 1,
+                    "rg": 1
+                  }
+                },
+                {
+                  "id": "fang",
+                  "n": "FANG GT",
+                  "earned": false,
+                  "unlocked": false,
+                  "st": {
+                    "spd": 4,
+                    "acc": 5,
+                    "han": 5,
+                    "res": 1,
+                    "tur": 3
+                  },
+                  "eng": "fang",
+                  "bcat": "boost_fang",
+                  "mods": {
+                    "vm": 1.025,
+                    "vb": 1.0125,
+                    "acc": 1.24,
+                    "lat": 1.1400000000000001,
+                    "str": 1.2,
+                    "dm": 1.4285714285714286,
+                    "mass": 0.88,
+                    "bd": 1,
+                    "rg": 1
+                  }
+                },
+                {
+                  "id": "iron",
+                  "n": "IRON WRAITH",
+                  "earned": false,
+                  "unlocked": false,
+                  "st": {
+                    "spd": 4,
+                    "acc": 2,
+                    "han": 2,
+                    "res": 5,
+                    "tur": 4
+                  },
+                  "eng": "iron",
+                  "bcat": "boost_iron",
+                  "mods": {
+                    "vm": 1.025,
+                    "vb": 1.0125,
+                    "acc": 0.88,
+                    "lat": 0.9299999999999999,
+                    "str": 0.9,
+                    "dm": 0.7692307692307692,
+                    "mass": 1.12,
+                    "bd": 1.08,
+                    "rg": 1.15
+                  }
+                },
+                {
+                  "id": "sov",
+                  "n": "SOVEREIGN",
+                  "earned": false,
+                  "unlocked": false,
+                  "st": {
+                    "spd": 5,
+                    "acc": 4,
+                    "han": 4,
+                    "res": 2,
+                    "tur": 4
+                  },
+                  "eng": "sov",
+                  "bcat": "boost_sov",
+                  "mods": {
+                    "vm": 1.05,
+                    "vb": 1.025,
+                    "acc": 1.12,
+                    "lat": 1.07,
+                    "str": 1.1,
+                    "dm": 1.1764705882352942,
+                    "mass": 0.94,
+                    "bd": 1.08,
+                    "rg": 1.15
+                  }
+                },
+                {
+                  "id": "zero",
+                  "n": "PROJECT ZERO",
+                  "earned": false,
+                  "unlocked": false,
+                  "st": {
+                    "spd": 5,
+                    "acc": 5,
+                    "han": 5,
+                    "res": 5,
+                    "tur": 5
+                  },
+                  "eng": "zero",
+                  "bcat": "boost_zero",
+                  "mods": {
+                    "vm": 1.06,
+                    "vb": 1.03,
+                    "acc": 1.288,
+                    "lat": 1.1680000000000001,
+                    "str": 1.24,
+                    "dm": 0.7352941176470588,
+                    "mass": 1.1440000000000001,
+                    "bd": 1.192,
+                    "rg": 1.36
+                  }
+                }
+              ]
+            },
+            "events": 3,
+            "lines": 324
+          }
+        },
+        {
+          "name": "low_1 full artwork, text and Continue fit 1280x720",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              1280,
+              720
+            ],
+            "button": {
+              "x": 30.546875,
+              "y": 611.9375,
+              "w": 201.328125,
+              "h": 53
+            },
+            "artBox": {
+              "x": 14,
+              "y": 12,
+              "w": 1252,
+              "h": 414.09375
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "low_1 full artwork, text and Continue fit 1080x884",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              1080,
+              884
+            ],
+            "button": {
+              "x": 34.328125,
+              "y": 757.671875,
+              "w": 201.328125,
+              "h": 53
+            },
+            "artBox": {
+              "x": 14,
+              "y": 24,
+              "w": 1052,
+              "h": 531.4375
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "low_1 full artwork, text and Continue fit 904x412",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              904,
+              412
+            ],
+            "button": {
+              "x": 523.328125,
+              "y": 253.578125,
+              "w": 127.84375,
+              "h": 34.15625
+            },
+            "artBox": {
+              "x": 14,
+              "y": 12,
+              "w": 499.328125,
+              "h": 388
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "low_1 full artwork, text and Continue fit 740x360",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              740,
+              360
+            ],
+            "button": {
+              "x": 429.84375,
+              "y": 219.8125,
+              "w": 126.15625,
+              "h": 34
+            },
+            "artBox": {
+              "x": 14,
+              "y": 12,
+              "w": 405.84375,
+              "h": 336
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "low_1 full artwork, text and Continue fit 414x896",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              414,
+              896
+            ],
+            "button": {
+              "x": 26,
+              "y": 801.78125,
+              "w": 128.40625,
+              "h": 34.21875
+            },
+            "artBox": {
+              "x": 14,
+              "y": 30,
+              "w": 386,
+              "h": 634.96875
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "low_1 full artwork, text and Continue fit 892x1100",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              892,
+              1100
+            ],
+            "button": {
+              "x": 34.515625,
+              "y": 865.484375,
+              "w": 201.328125,
+              "h": 53
+            },
+            "artBox": {
+              "x": 14,
+              "y": 132,
+              "w": 864,
+              "h": 531.0625
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "Full Normal clear follows results, coronation, art A and Continue; persists without repeat",
+          "status": "PASS"
+        },
+        {
+          "name": "Repeat Normal final does not repeat reward",
+          "status": "PASS"
+        },
+        {
+          "name": "zero full artwork, text and Continue fit 1280x720",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              1280,
+              720
+            ],
+            "button": {
+              "x": 30.546875,
+              "y": 611.9375,
+              "w": 232.09375,
+              "h": 53
+            },
+            "artBox": {
+              "x": 14,
+              "y": 12,
+              "w": 1252,
+              "h": 441.640625
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "zero full artwork, text and Continue fit 1080x884",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              1080,
+              884
+            ],
+            "button": {
+              "x": 34.328125,
+              "y": 757.671875,
+              "w": 232.09375,
+              "h": 53
+            },
+            "artBox": {
+              "x": 14,
+              "y": 24,
+              "w": 1052,
+              "h": 558.984375
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "zero full artwork, text and Continue fit 904x412",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              904,
+              412
+            ],
+            "button": {
+              "x": 523.328125,
+              "y": 236.359375,
+              "w": 147.140625,
+              "h": 34.15625
+            },
+            "artBox": {
+              "x": 14,
+              "y": 12,
+              "w": 499.328125,
+              "h": 388
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "zero full artwork, text and Continue fit 740x360",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              740,
+              360
+            ],
+            "button": {
+              "x": 429.84375,
+              "y": 212.28125,
+              "w": 145.203125,
+              "h": 34
+            },
+            "artBox": {
+              "x": 14,
+              "y": 12,
+              "w": 405.84375,
+              "h": 336
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "zero full artwork, text and Continue fit 414x896",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              414,
+              896
+            ],
+            "button": {
+              "x": 26,
+              "y": 801.78125,
+              "w": 147.8125,
+              "h": 34.21875
+            },
+            "artBox": {
+              "x": 14,
+              "y": 30,
+              "w": 386,
+              "h": 669.75
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "zero full artwork, text and Continue fit 892x1100",
+          "status": "PASS",
+          "details": {
+            "viewport": [
+              892,
+              1100
+            ],
+            "button": {
+              "x": 34.515625,
+              "y": 865.484375,
+              "w": 232.09375,
+              "h": 53
+            },
+            "artBox": {
+              "x": 14,
+              "y": 132,
+              "w": 864,
+              "h": 558.609375
+            },
+            "copyOverflow": false,
+            "cardOverflow": false,
+            "native": [
+              1672,
+              941
+            ],
+            "fit": "contain",
+            "rotationOverlay": "none"
+          }
+        },
+        {
+          "name": "All ten Hard wins reveal art B; Continue opens Zero hangar and selected Zero persists",
+          "status": "PASS"
+        },
+        {
+          "name": "Repeat Hard campaign reward remains suppressed",
+          "status": "PASS"
+        },
+        {
+          "name": "All thirteen original circuits available after legitimate conquest",
+          "status": "PASS"
+        },
+        {
+          "name": "3D hangar, motor and turbo preview work for strix",
+          "status": "PASS",
+          "details": {
+            "eng": {
+              "kind": "engine",
+              "id": "strix",
+              "cat": null,
+              "variant": null,
+              "v": 0,
+              "profile": "std"
+            },
+            "tur": {
+              "kind": "turbo",
+              "id": "strix",
+              "cat": "boost",
+              "variant": "boost3_B",
+              "v": null,
+              "profile": "std"
+            }
+          }
+        },
+        {
+          "name": "3D hangar, motor and turbo preview work for razor",
+          "status": "PASS",
+          "details": {
+            "eng": {
+              "kind": "engine",
+              "id": "razor",
+              "cat": null,
+              "variant": null,
+              "v": 0,
+              "profile": "razor"
+            },
+            "tur": {
+              "kind": "turbo",
+              "id": "razor",
+              "cat": "boost_razor",
+              "variant": "boost_razor_B",
+              "v": null,
+              "profile": "razor"
+            }
+          }
+        },
+        {
+          "name": "3D hangar, motor and turbo preview work for fang",
+          "status": "PASS",
+          "details": {
+            "eng": {
+              "kind": "engine",
+              "id": "fang",
+              "cat": null,
+              "variant": null,
+              "v": 0,
+              "profile": "fang"
+            },
+            "tur": {
+              "kind": "turbo",
+              "id": "fang",
+              "cat": "boost_fang",
+              "variant": "boost_fang_A",
+              "v": null,
+              "profile": "fang"
+            }
+          }
+        },
+        {
+          "name": "3D hangar, motor and turbo preview work for iron",
+          "status": "PASS",
+          "details": {
+            "eng": {
+              "kind": "engine",
+              "id": "iron",
+              "cat": null,
+              "variant": null,
+              "v": 0,
+              "profile": "iron"
+            },
+            "tur": {
+              "kind": "turbo",
+              "id": "iron",
+              "cat": "boost_iron",
+              "variant": "boost_iron_A",
+              "v": null,
+              "profile": "iron"
+            }
+          }
+        },
+        {
+          "name": "3D hangar, motor and turbo preview work for sov",
+          "status": "PASS",
+          "details": {
+            "eng": {
+              "kind": "engine",
+              "id": "sov",
+              "cat": null,
+              "variant": null,
+              "v": 0,
+              "profile": "sov"
+            },
+            "tur": {
+              "kind": "turbo",
+              "id": "sov",
+              "cat": "boost_sov",
+              "variant": "boost_sov_A",
+              "v": null,
+              "profile": "sov"
+            }
+          }
+        },
+        {
+          "name": "3D hangar, motor and turbo preview work for zero",
+          "status": "PASS",
+          "details": {
+            "eng": {
+              "kind": "engine",
+              "id": "zero",
+              "cat": null,
+              "variant": null,
+              "v": 0,
+              "profile": "zero"
+            },
+            "tur": {
+              "kind": "turbo",
+              "id": "zero",
+              "cat": "boost_zero",
+              "variant": "boost_zero_A",
+              "v": null,
+              "profile": "zero"
+            }
+          }
+        },
+        {
+          "name": "All eighteen embedded portraits decode and all 324 dialogue lines remain",
+          "status": "PASS"
+        },
+        {
+          "name": "Free race, physics/AI finite state, keyboard pause/resume and results work without campaign reward",
+          "status": "PASS",
+          "details": {
+            "motion": [
+              {
+                "id": "me",
+                "dist": 80.22548631884058,
+                "v": 83.94446728593572,
+                "place": 4
+              },
+              {
+                "id": "vega",
+                "dist": 83.99469679078354,
+                "v": 77.18458581366787,
+                "place": 2
+              },
+              {
+                "id": "kira",
+                "dist": 114.7882979519439,
+                "v": 140.9171881578941,
+                "place": 1
+              },
+              {
+                "id": "rook",
+                "dist": 80.89542890786812,
+                "v": 109.64705224880049,
+                "place": 3
+              }
+            ]
+          }
+        },
+        {
+          "name": "Normal campaign reset clears rewards, normalizes Hard and retains unrelated storage",
+          "status": "PASS"
+        },
+        {
+          "name": "Legacy normal-key save retains Zero and Hard without inventing Hard victories or repeating artwork",
+          "status": "PASS",
+          "details": {
+            "v": 1,
+            "hardUnlocked": true,
+            "hardUnlockShown": true,
+            "projectZeroUnlocked": true,
+            "projectZeroUnlockShown": true,
+            "hardCompleted": false,
+            "legacyCampaignClear": true,
+            "legacyProjectZero": true
+          }
+        },
+        {
+          "name": "Old test career/settings/records are ignored and preserved on the same origin",
+          "status": "PASS"
+        },
+        {
+          "name": "Campaign event entry guard refuses locked CROWN even through isolated QA invocation",
+          "status": "PASS"
+        },
+        {
+          "name": "Unseen reward recovers in portrait, art tap closes and reload does not repeat",
+          "status": "PASS"
+        },
+        {
+          "name": "Results Menu route recovers pending reward without map overlap",
+          "status": "PASS"
+        },
+        {
+          "name": "No JavaScript page errors and no HTTP/HTTPS requests from offline production/isolated QA",
+          "status": "PASS"
+        }
+      ]
+    },
+    "audit": {
+      "success": true,
+      "checks": [
+        {
+          "name": "Entities and state models apart from removal of URL autopilot flag byte identical",
+          "status": "PASS",
+          "details": {
+            "sha256": "6accec6bed4af629eec13f90db543b3834aaf0d24ed8ef081ef9de68a7b07ecf"
+          }
+        },
+        {
+          "name": "Effects pools byte identical",
+          "status": "PASS",
+          "details": {
+            "sha256": "f8f782d411bb4847a076e032f8727eea38e969d6cb9217ee372711a98e041115"
+          }
+        },
+        {
+          "name": "HUD coordinator and input handling byte identical",
+          "status": "PASS",
+          "details": {
+            "sha256": "c5b4e82f8b23967fa1ec34935748075b93522121886740a63d0581586757b540"
+          }
+        },
+        {
+          "name": "Renderer, race HUD and garage 3D byte identical",
+          "status": "PASS",
+          "details": {
+            "sha256": "799374db5d2f2925b423b7bf95b3318c93178e65872904951df8f5e8f22a576d"
+          }
+        },
+        {
+          "name": "Physics, AI, collisions and takedowns identical apart from removal of two autopilot branches",
+          "status": "PASS",
+          "details": null
+        },
+        {
+          "name": "Complete audio implementation and embedded payloads byte identical",
+          "status": "PASS",
+          "details": {
+            "bytes": 18894705,
+            "sha256": "e6bdda683e96100ffb3afb058a19c815971237150644cf5c4739383fbb486ad7"
+          }
+        },
+        {
+          "name": "18 portraits unchanged; only the two ending images replaced; every WebP decodes and no duplicates",
+          "status": "PASS",
+          "details": null
+        },
+        {
+          "name": "Approved hard art embedded exactly once; native size and decoded PNG pixels unchanged",
+          "status": "PASS",
+          "details": {
+            "input_bytes": 2916797,
+            "webp_bytes": 2474484,
+            "reduction_percent": 15.16,
+            "size": [
+              1672,
+              941
+            ]
+          }
+        },
+        {
+          "name": "Approved zero art embedded exactly once; native size and decoded PNG pixels unchanged",
+          "status": "PASS",
+          "details": {
+            "input_bytes": 2187334,
+            "webp_bytes": 1781170,
+            "reduction_percent": 18.57,
+            "size": [
+              1672,
+              941
+            ]
+          }
+        },
+        {
+          "name": "Pages checkout contains only one runnable HTML, with no backup/test route or instrumentation",
+          "status": "PASS",
+          "details": {
+            "html_files": [
+              "index.html"
+            ]
+          }
+        }
+      ]
+    },
+    "regression": {
+      "success": true,
+      "checks": [
+        {
+          "name": "Original adaptive sony soundtrack decodes and plays",
+          "status": "PASS",
+          "details": {
+            "on": true,
+            "bank": "sony",
+            "bankLoaded": "sony",
+            "st": "playing",
+            "err": null,
+            "decodeMs": 275,
+            "decodes": 1,
+            "releases": 0,
+            "starts": 1,
+            "decodedMB": 51.5,
+            "sr": 48000,
+            "playing": true,
+            "lap": 1,
+            "turbo": false,
+            "t0": 0.331,
+            "cycle": 0,
+            "bar": -0.04,
+            "gains": {
+              "mel": 0,
+              "chd": 1,
+              "bas": 1,
+              "drm": 0,
+              "tur": 0
+            },
+            "sources": 5,
+            "negSources": 5,
+            "created": 10,
+            "cineLP": 20000,
+            "pads": "mel:1,chd:1,bas:0,drm:1,tur:1",
+            "loopFrames": 1271172,
+            "log": [
+              {
+                "t": 0.211,
+                "k": "start",
+                "v": 0.331
+              }
+            ]
+          }
+        },
+        {
+          "name": "Original adaptive vader soundtrack decodes and plays",
+          "status": "PASS",
+          "details": {
+            "on": true,
+            "bank": "vader",
+            "bankLoaded": "vader",
+            "st": "playing",
+            "err": null,
+            "decodeMs": 305,
+            "decodes": 2,
+            "releases": 1,
+            "starts": 2,
+            "decodedMB": 51.5,
+            "sr": 48000,
+            "playing": true,
+            "lap": 1,
+            "turbo": false,
+            "t0": 0.712,
+            "cycle": 0,
+            "bar": -0.05,
+            "gains": {
+              "mel": 0,
+              "chd": 0.65,
+              "bas": 0.42,
+              "drm": 0,
+              "tur": 0
+            },
+            "sources": 5,
+            "negSources": 5,
+            "created": 10,
+            "cineLP": 20000,
+            "pads": "mel:1,chd:1,bas:1,drm:0,tur:0",
+            "loopFrames": 1271172,
+            "log": [
+              {
+                "t": 0.592,
+                "k": "start",
+                "v": 0.712
+              }
+            ]
+          }
+        },
+        {
+          "name": "Original adaptive cooper soundtrack decodes and plays",
+          "status": "PASS",
+          "details": {
+            "on": true,
+            "bank": "cooper",
+            "bankLoaded": "cooper",
+            "st": "playing",
+            "err": null,
+            "decodeMs": 436,
+            "decodes": 3,
+            "releases": 2,
+            "starts": 3,
+            "decodedMB": 52.3,
+            "sr": 48000,
+            "playing": true,
+            "lap": 1,
+            "turbo": false,
+            "t0": 1.181,
+            "cycle": 0,
+            "bar": -0.05,
+            "gains": {
+              "mel": 0,
+              "chd": 0.8,
+              "bas": 0.55,
+              "drm": 0,
+              "tur": 0
+            },
+            "sources": 5,
+            "negSources": 5,
+            "created": 10,
+            "cineLP": 20000,
+            "pads": "mel:1,chd:0,bas:0,drm:1,tur:0",
+            "loopFrames": 1271172,
+            "log": [
+              {
+                "t": 1.061,
+                "k": "start",
+                "v": 1.181
+              }
+            ]
+          }
+        },
+        {
+          "name": "Original adaptive crown soundtrack decodes and plays",
+          "status": "PASS",
+          "details": {
+            "on": true,
+            "bank": "crown",
+            "bankLoaded": "crown",
+            "st": "playing",
+            "err": null,
+            "decodeMs": 494,
+            "decodes": 4,
+            "releases": 3,
+            "starts": 4,
+            "decodedMB": 52.3,
+            "sr": 48000,
+            "playing": true,
+            "lap": 1,
+            "turbo": false,
+            "t0": 1.712,
+            "cycle": 0,
+            "bar": -0.04,
+            "gains": {
+              "mel": 0,
+              "chd": 0.78,
+              "bas": 0.53,
+              "drm": 0,
+              "tur": 0
+            },
+            "sources": 5,
+            "negSources": 5,
+            "created": 10,
+            "cineLP": 2553,
+            "pads": "mel:0,chd:1,bas:1,drm:1,tur:0",
+            "loopFrames": 1271172,
+            "log": [
+              {
+                "t": 1.592,
+                "k": "start",
+                "v": 1.712
+              }
+            ]
+          }
+        },
+        {
+          "name": "Touch joystick steers and releases through original pointer input handlers",
+          "status": "PASS",
+          "details": {
+            "IN": {
+              "steer": 0.8425804588886656,
+              "climb": 0.6049729219875678,
+              "thr": true,
+              "brk": false,
+              "turPrev": false,
+              "turEdge": false
+            },
+            "JS": {
+              "id": 2,
+              "raw": [
+                0.8496974163076143,
+                0.6100828987025291
+              ]
+            },
+            "TCH": {
+              "steer": 0.8425804588886656,
+              "climb": 0.6049729219875678,
+              "thr": false,
+              "brk": false,
+              "tur": false
+            }
+          }
+        },
+        {
+          "name": "Touch brake activates and releases without stuck input",
+          "status": "PASS"
+        },
+        {
+          "name": "Touch turbo activates and releases through original controls",
+          "status": "PASS"
+        },
+        {
+          "name": "Controlled contact reaches original collision/damage logic",
+          "status": "PASS",
+          "details": [
+            {
+              "damage": 0.05,
+              "state": 0,
+              "td": 1,
+              "v": 118.23808985026882
+            },
+            {
+              "damage": 0,
+              "state": 1,
+              "td": 0,
+              "v": 108.5108505
+            }
+          ]
+        },
+        {
+          "name": "Original wreck and respawn state machine recovers",
+          "status": "PASS",
+          "details": {
+            "wreck": {
+              "state": 1,
+              "wrecks": 1
+            },
+            "recovered": {
+              "state": 3,
+              "v": 114.70878501819006,
+              "wrecks": 1
+            }
+          }
+        },
+        {
+          "name": "No runtime errors in adaptive audio, touch, collision or respawn checks",
+          "status": "PASS"
+        }
+      ]
+    }
+  },
   "limitations": [
-    "Directed race completions use the original __NV.finishRace diagnostic; the full campaign was not manually driven.",
+    "Campaign completions are directed, isolated automated tests using original progression and finish detection; not a full manually driven campaign.",
+    "Temporary instrumentation exists only in a QA copy outside the Pages tree; no diagnostic API is shipped.",
     "Viewport and touch-event emulation do not verify a physical Galaxy Z Fold5.",
-    "No listening review of the audio mix."
+    "Audio decoding/playback state is checked; no subjective listening review.",
+    "Unmarked historical save exports cannot reliably identify diagnostic provenance; normal saves remain conservatively supported."
   ]
 }
