@@ -1,9 +1,9 @@
 {
   "version": "3.6.3",
-  "artifact_sha256": "60d4068a3dea17809bfc2ba0087d377858d6f24458f809c34fde1ec970f78e72",
+  "artifact_sha256": "c73158be7bb13ce2252a8250566832cea4a0fc23b0899475cf91f97ab09a3e34",
   "logic_dom": {
     "category": "DOM and game logic with mocked Canvas/WebGL; no pixel rendering or real audio",
-    "passed": 39,
+    "passed": 42,
     "failed": 0,
     "tests": [
       {
@@ -24,6 +24,18 @@
       },
       {
         "name": "Settings language switch preserves career and stored save exactly",
+        "status": "PASS"
+      },
+      {
+        "name": "English save-code placeholder is localized",
+        "status": "PASS"
+      },
+      {
+        "name": "Spanish save-code placeholder is restored",
+        "status": "PASS"
+      },
+      {
+        "name": "Localization never changes typed save-code contents",
         "status": "PASS"
       },
       {
@@ -347,7 +359,7 @@
         "format": "WEBP"
       }
     ],
-    "output_sha256": "60d4068a3dea17809bfc2ba0087d377858d6f24458f809c34fde1ec970f78e72"
+    "output_sha256": "c73158be7bb13ce2252a8250566832cea4a0fc23b0899475cf91f97ab09a3e34"
   },
   "catalog": {
     "success": true,
