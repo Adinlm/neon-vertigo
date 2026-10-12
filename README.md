@@ -2,6 +2,8 @@
 
 Juego de carreras antigravitatorias cyberpunk para navegador, con campaña, takedowns, turbo, trece circuitos, seis naves y audio adaptativo. **3.6.2 — Campaña pública**.
 
+Juego base creado por Claude, bugs y planificación de desarrollo se hizo con ChatGPT, la música utiliza Google Lyria y BandLab.
+
 ## Jugar
 
 **[Abrir el juego en GitHub Pages](https://adinlm.github.io/neon-vertigo/)**
