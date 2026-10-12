@@ -1,6 +1,6 @@
 # NEON VERTIGO — Kings of Coope City
 
-Juego de carreras antigravitatorias cyberpunk para navegador, con campaña, takedowns, turbo, trece circuitos, seis naves y audio adaptativo. **3.6.2 — Campaña pública**.
+Juego de carreras antigravitatorias cyberpunk para navegador, con campaña, takedowns, turbo, trece circuitos, seis naves y audio adaptativo. **3.6.3 — International Edition (preparada localmente; publicación pendiente)**.
 
 Juego base creado por Claude, bugs y planificación de desarrollo se hizo con ChatGPT, la música utiliza Google Lyria y BandLab.
 
@@ -13,6 +13,9 @@ El HTML completo pesa aproximadamente 31,1 MB e incluye todos los gráficos y so
 Usa orientación horizontal para las carreras. Los finales también funcionan en vertical. En móvil: joystick a la izquierda para girar y cambiar altitud; freno y turbo a la derecha. La autoaceleración se configura en Ajustes. Teclado: A/D o flechas para girar, W/S para altitud, K/arriba para acelerar, J/abajo para frenar, L/espacio para turbo, P/Escape para pausar.
 
 ## Campaña pública
+
+- Selecciona Español o English al abrir el juego; también puedes cambiarlo desde Ajustes sin alterar la partida.
+- Cada pista muestra las dificultades completadas. Las medallas de campaña exigen victorias; en carrera libre indican tiempos de llegada registrados. Las partidas antiguas sin dificultad registrada se identifican expresamente.
 
 - Empieza con STRIX-01 y RAZOR-X; las otras cuatro naves se desbloquean jugando.
 - Derrota a Sony, Vader y Cooper para obtener FANG GT, IRON WRAITH y SOVEREIGN.
@@ -34,7 +37,9 @@ Las exportaciones históricas sin marca de edición no permiten identificar con 
 
 ## Validación y publicación
 
-Pasaron **91 comprobaciones locales** de progresión, finales, guardados, recursos, navegador, audio adaptativo, controles y colisiones. Los finales se comprobaron en seis viewports verticales/horizontales. Las victorias automatizadas usaron una copia QA aislada fuera del contenido servido. La campaña manual completa, el Galaxy Z Fold5 físico y la revisión de oído de la mezcla siguen pendientes.
+Para 3.6.3 pasaron 31 comprobaciones de lógica/DOM con gráficos simulados y 9 de recursos/preservación. Se verificaron los 324 diálogos en cada idioma, progresión, medallas por dificultad y partidas. La validación gráfica de navegador, los nueve viewports, el Fold5 físico y la mezcla de audio siguen pendientes. Esta rama local no fue publicada: GitHub Pages continúa con 3.6.2 mientras se cierra la auditoría de seguridad. [Detalles 3.6.3](docs/UPDATE_3.6.3.md).
+
+En la entrega anterior 3.6.2 pasaron **91 comprobaciones locales** de progresión, finales, guardados, recursos, navegador, audio adaptativo, controles y colisiones. Los finales se comprobaron en seis viewports verticales/horizontales. Las victorias automatizadas usaron una copia QA aislada fuera del contenido servido. Esos resultados históricos no acreditan el renderizado de 3.6.3.
 
 Pages conserva su configuración: rama `main`, raíz, entrada `index.html`, HTTPS y `.nojekyll`. Existe un solo HTML ejecutable; el respaldo 3.6.1 se conserva mediante una etiqueta Git, sin otra ruta de juego en Pages.
 
