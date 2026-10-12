@@ -1,0 +1,526 @@
+{
+  "game": "NEON VERTIGO 3.6.1",
+  "date": "2026-10-11",
+  "timezone": "America/Santiago",
+  "status": "PASS",
+  "hashes": {
+    "source_sha256": "cb67f1b124d44be3ec226b8f23ec69f3da9560ef898bebe8c41e7d959b86c7f4",
+    "artifact_sha256": "ab430cecac92ed6e47083b3ef2e6259f50be1092877ebf85fc37d9e235a2b4a1"
+  },
+  "file_sizes": {
+    "source_bytes": 25433956,
+    "artifact_bytes": 27912735
+  },
+  "check_counts": {
+    "unit": 18,
+    "chromium": 27,
+    "total": 45
+  },
+  "test_method": {
+    "race_progress": "Directed preparation with original __NV.completeEvent sandbox diagnostics; actual results/coronation/ending handlers exercised with original __NV.finishRace, a temporary invulnerability/velocity fixture and actual localStorage reloads in isolated Chromium contexts.",
+    "device": "Headless Microsoft Edge / Chromium, SwiftShader WebGL; desktop and touch-enabled mobile viewports.",
+    "physical_fold5_tested": false,
+    "manual_full_campaign_playthrough": false,
+    "critical_audio_listening": false
+  },
+  "unit_checks": [
+    {
+      "name": "HTML script parses; base has 18 unchanged portraits + two ending WebP URIs",
+      "status": "PASS"
+    },
+    {
+      "name": "New career: hard/Zero locked; hard cannot be selected; all test tracks do not grant wins",
+      "status": "PASS"
+    },
+    {
+      "name": "A saved Hard setting with no earned unlock is normalized to Normal",
+      "status": "PASS"
+    },
+    {
+      "name": "Winning only THE CROWN in the open-track edition grants neither Hard nor Zero, including reload",
+      "status": "PASS"
+    },
+    {
+      "name": "A failed final, free-race win or locked Hard diagnostic cannot unlock rewards",
+      "status": "PASS"
+    },
+    {
+      "name": "Full Easy campaign: hard only; art 1 once; no Zero toast",
+      "status": "PASS"
+    },
+    {
+      "name": "Full Normal campaign: hard only; art 1 once; no Zero toast",
+      "status": "PASS"
+    },
+    {
+      "name": "Easy/Normal mixture counts as a low-difficulty campaign without discarding progress",
+      "status": "PASS"
+    },
+    {
+      "name": "Normal clear does not imply hard completion; winning only hard final still insufficient",
+      "status": "PASS"
+    },
+    {
+      "name": "All 10 hard wins + final: PROJECT ZERO unlocked, art 2 once, hangar continuation",
+      "status": "PASS"
+    },
+    {
+      "name": "Losing and incomplete hard campaigns cannot unlock Zero",
+      "status": "PASS"
+    },
+    {
+      "name": "Unseen earned reward survives sanitation/export/import; seen reward stays suppressed",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy normal winner keeps Zero selection and hard access without inventing a hard campaign",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy hard final alone is not a hard campaign; all-ten hard evidence is recognized",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy fresh/partial progress preserves records and does not grant rewards",
+      "status": "PASS"
+    },
+    {
+      "name": "New-format fabricated unlock flags without win evidence are rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "Fleet diagnostic grants temporary Zero access without earning/persisting rewards",
+      "status": "PASS"
+    },
+    {
+      "name": "Difficulty UI is disabled/labeled then enables after a genuine clear",
+      "status": "PASS"
+    }
+  ],
+  "browser_checks": [
+    {
+      "name": "New Easy profile: Hard/Zero locked, 13 test tracks open",
+      "status": "PASS",
+      "details": {
+        "trackCount": 13
+      }
+    },
+    {
+      "name": "low_0 ending fits 1280x720",
+      "status": "PASS",
+      "details": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "button": {
+          "x": 30.546875,
+          "y": 611.9375,
+          "w": 201.328125,
+          "h": 53
+        },
+        "copyOverflow": false,
+        "cardOverflow": false,
+        "image": [
+          1024,
+          576
+        ],
+        "fit": "contain",
+        "z": 12
+      }
+    },
+    {
+      "name": "low_0 ending fits 1080x884",
+      "status": "PASS",
+      "details": {
+        "viewport": [
+          1080,
+          884
+        ],
+        "button": {
+          "x": 34.328125,
+          "y": 757.671875,
+          "w": 201.328125,
+          "h": 53
+        },
+        "copyOverflow": false,
+        "cardOverflow": false,
+        "image": [
+          1024,
+          576
+        ],
+        "fit": "contain",
+        "z": 12
+      }
+    },
+    {
+      "name": "low_0 ending fits 904x412",
+      "status": "PASS",
+      "details": {
+        "viewport": [
+          904,
+          412
+        ],
+        "button": {
+          "x": 523.328125,
+          "y": 244.96875,
+          "w": 127.84375,
+          "h": 34.15625
+        },
+        "copyOverflow": false,
+        "cardOverflow": false,
+        "image": [
+          1024,
+          576
+        ],
+        "fit": "contain",
+        "z": 12
+      }
+    },
+    {
+      "name": "low_0 ending fits 740x360",
+      "status": "PASS",
+      "details": {
+        "viewport": [
+          740,
+          360
+        ],
+        "button": {
+          "x": 429.84375,
+          "y": 212.28125,
+          "w": 126.15625,
+          "h": 34
+        },
+        "copyOverflow": false,
+        "cardOverflow": false,
+        "image": [
+          1024,
+          576
+        ],
+        "fit": "contain",
+        "z": 12
+      }
+    },
+    {
+      "name": "Full Easy clear: normal results → coronation → art 1 → menu; survives reload without repetition",
+      "status": "PASS",
+      "details": {
+        "v": 1,
+        "hardUnlocked": true,
+        "hardUnlockShown": true,
+        "projectZeroUnlocked": false,
+        "projectZeroUnlockShown": false,
+        "hardCompleted": false,
+        "legacyCampaignClear": false,
+        "legacyProjectZero": false
+      }
+    },
+    {
+      "name": "Repeat Easy final does not repeat the unlock screen",
+      "status": "PASS"
+    },
+    {
+      "name": "New Normal profile: Hard/Zero locked, 13 test tracks open",
+      "status": "PASS",
+      "details": {
+        "trackCount": 13
+      }
+    },
+    {
+      "name": "low_1 ending fits 1280x720",
+      "status": "PASS",
+      "details": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "button": {
+          "x": 30.546875,
+          "y": 611.9375,
+          "w": 201.328125,
+          "h": 53
+        },
+        "copyOverflow": false,
+        "cardOverflow": false,
+        "image": [
+          1024,
+          576
+        ],
+        "fit": "contain",
+        "z": 12
+      }
+    },
+    {
+      "name": "low_1 ending fits 1080x884",
+      "status": "PASS",
+      "details": {
+        "viewport": [
+          1080,
+          884
+        ],
+        "button": {
+          "x": 34.328125,
+          "y": 757.671875,
+          "w": 201.328125,
+          "h": 53
+        },
+        "copyOverflow": false,
+        "cardOverflow": false,
+        "image": [
+          1024,
+          576
+        ],
+        "fit": "contain",
+        "z": 12
+      }
+    },
+    {
+      "name": "low_1 ending fits 904x412",
+      "status": "PASS",
+      "details": {
+        "viewport": [
+          904,
+          412
+        ],
+        "button": {
+          "x": 523.328125,
+          "y": 244.96875,
+          "w": 127.84375,
+          "h": 34.15625
+        },
+        "copyOverflow": false,
+        "cardOverflow": false,
+        "image": [
+          1024,
+          576
+        ],
+        "fit": "contain",
+        "z": 12
+      }
+    },
+    {
+      "name": "low_1 ending fits 740x360",
+      "status": "PASS",
+      "details": {
+        "viewport": [
+          740,
+          360
+        ],
+        "button": {
+          "x": 429.84375,
+          "y": 212.28125,
+          "w": 126.15625,
+          "h": 34
+        },
+        "copyOverflow": false,
+        "cardOverflow": false,
+        "image": [
+          1024,
+          576
+        ],
+        "fit": "contain",
+        "z": 12
+      }
+    },
+    {
+      "name": "Full Normal clear: normal results → coronation → art 1 → menu; survives reload without repetition",
+      "status": "PASS",
+      "details": {
+        "v": 1,
+        "hardUnlocked": true,
+        "hardUnlockShown": true,
+        "projectZeroUnlocked": false,
+        "projectZeroUnlockShown": false,
+        "hardCompleted": false,
+        "legacyCampaignClear": false,
+        "legacyProjectZero": false
+      }
+    },
+    {
+      "name": "Repeat Normal final does not repeat the unlock screen",
+      "status": "PASS"
+    },
+    {
+      "name": "zero ending fits 1280x720",
+      "status": "PASS",
+      "details": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "button": {
+          "x": 30.546875,
+          "y": 611.9375,
+          "w": 232.09375,
+          "h": 53
+        },
+        "copyOverflow": false,
+        "cardOverflow": false,
+        "image": [
+          1024,
+          576
+        ],
+        "fit": "contain",
+        "z": 12
+      }
+    },
+    {
+      "name": "zero ending fits 1080x884",
+      "status": "PASS",
+      "details": {
+        "viewport": [
+          1080,
+          884
+        ],
+        "button": {
+          "x": 34.328125,
+          "y": 757.671875,
+          "w": 232.09375,
+          "h": 53
+        },
+        "copyOverflow": false,
+        "cardOverflow": false,
+        "image": [
+          1024,
+          576
+        ],
+        "fit": "contain",
+        "z": 12
+      }
+    },
+    {
+      "name": "zero ending fits 904x412",
+      "status": "PASS",
+      "details": {
+        "viewport": [
+          904,
+          412
+        ],
+        "button": {
+          "x": 523.328125,
+          "y": 244.96875,
+          "w": 147.140625,
+          "h": 34.15625
+        },
+        "copyOverflow": false,
+        "cardOverflow": false,
+        "image": [
+          1024,
+          576
+        ],
+        "fit": "contain",
+        "z": 12
+      }
+    },
+    {
+      "name": "zero ending fits 740x360",
+      "status": "PASS",
+      "details": {
+        "viewport": [
+          740,
+          360
+        ],
+        "button": {
+          "x": 429.84375,
+          "y": 218.28125,
+          "w": 145.203125,
+          "h": 34
+        },
+        "copyOverflow": false,
+        "cardOverflow": false,
+        "image": [
+          1024,
+          576
+        ],
+        "fit": "contain",
+        "z": 12
+      }
+    },
+    {
+      "name": "All 10 hard wins: normal results → coronation → art 2 → Zero hangar; ship selectable and saved",
+      "status": "PASS"
+    },
+    {
+      "name": "Repeat hard final does not repeat the unlock screen",
+      "status": "PASS"
+    },
+    {
+      "name": "Campaign reset clears rewards and normalizes previously selected hard mode",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy 3.6.0 save: Zero + selection + Hard preserved, no invented hard clear, no popup",
+      "status": "PASS"
+    },
+    {
+      "name": "Fleet diagnostic keeps ephemeral access separate from earned unlocks",
+      "status": "PASS"
+    },
+    {
+      "name": "Only THE CROWN win in test edition does not gift campaign unlocks, even after reload",
+      "status": "PASS"
+    },
+    {
+      "name": "Unseen saved reward recovers after boot; image tap closes it; reload does not repeat it",
+      "status": "PASS"
+    },
+    {
+      "name": "Results Menu route shows the pending reward above the map and returns cleanly",
+      "status": "PASS"
+    },
+    {
+      "name": "Zero page errors and no HTTP/HTTPS requests from the local offline HTML",
+      "status": "PASS"
+    }
+  ],
+  "integrity": {
+    "source_unchanged": true,
+    "complete_html": true,
+    "exact_reverse_reconstruction": true,
+    "original_css_preserved": true,
+    "preserved_sections": {
+      "ships_meshes_webgl_audio_music": {
+        "bytes": 18939456,
+        "sha256": "def158a37faeb9612d388dfc83dce0e5560e3b89c564935ba0705faa1a18bf63",
+        "identical": true
+      },
+      "portraits_dialogues_rivalry": {
+        "bytes": 1302834,
+        "sha256": "2aa94b522105891ebdd3289f9b9c7856f4e158deb5b14082db33a57ae33089d1",
+        "identical": true
+      },
+      "physics_controls_circuits_simulation": {
+        "bytes": 88181,
+        "sha256": "dfe96b8879e48e9fd6e5ab41364213c334e81b0640ce0cce4f9705e9c35e6e76",
+        "identical": true
+      },
+      "garage": {
+        "bytes": 7673,
+        "sha256": "03486412d3216786b2cea0e6cd89b0c6d0028213735841a46ee3367fbaa9d403",
+        "identical": true
+      },
+      "old_webp": {
+        "original_count": 18,
+        "all_unchanged": true,
+        "new_count": 20
+      }
+    },
+    "embedded_audio_payloads": {
+      "original_long_base64_payloads": 80,
+      "original_unique_long_base64_payloads": 80,
+      "every_original_payload_preserved_exactly": true
+    },
+    "storage_keys_preserved": [
+      "nv3_career_unlocked_test_351",
+      "nv3_test_set_353"
+    ],
+    "new_external_dependencies": false
+  },
+  "external_http_requests": 0,
+  "runtime_page_errors": [],
+  "limitations": [
+    "Directed race completions use the original __NV.finishRace diagnostic; the full campaign was not manually driven.",
+    "Viewport and touch-event emulation do not verify a physical Galaxy Z Fold5.",
+    "No listening review of the audio mix."
+  ]
+}
