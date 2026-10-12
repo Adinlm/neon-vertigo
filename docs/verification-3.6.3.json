@@ -1,0 +1,370 @@
+{
+  "version": "3.6.3",
+  "artifact_sha256": "60d4068a3dea17809bfc2ba0087d377858d6f24458f809c34fde1ec970f78e72",
+  "logic_dom": {
+    "category": "DOM and game logic with mocked Canvas/WebGL; no pixel rendering or real audio",
+    "passed": 39,
+    "failed": 0,
+    "tests": [
+      {
+        "name": "Standalone game JavaScript parses",
+        "status": "PASS"
+      },
+      {
+        "name": "Every full load opens language selection with stored preference highlighted",
+        "status": "PASS"
+      },
+      {
+        "name": "One language tap opens translated title",
+        "status": "PASS"
+      },
+      {
+        "name": "13 original tracks and 6 ships",
+        "status": "PASS"
+      },
+      {
+        "name": "Settings language switch preserves career and stored save exactly",
+        "status": "PASS"
+      },
+      {
+        "name": "Unplayed campaign tracks have no completion badges",
+        "status": "PASS"
+      },
+      {
+        "name": "Campaign defeat earns no completion badge",
+        "status": "PASS"
+      },
+      {
+        "name": "Actual Easy victory adds Easy only",
+        "status": "PASS"
+      },
+      {
+        "name": "Repeated Normal victory adds Normal without replacing Easy",
+        "status": "PASS"
+      },
+      {
+        "name": "Hard remains gated on incomplete campaign",
+        "status": "PASS"
+      },
+      {
+        "name": "Locked event cannot earn a badge",
+        "status": "PASS"
+      },
+      {
+        "name": "Winning all 10 events on Normal unlocks Hard",
+        "status": "PASS"
+      },
+      {
+        "name": "Winning all 10 events on Hard unlocks PROJECT ZERO",
+        "status": "PASS"
+      },
+      {
+        "name": "Campaign track displays all three earned difficulties in order",
+        "status": "PASS"
+      },
+      {
+        "name": "Existing NV3 export/import preserves per-difficulty wins",
+        "status": "PASS"
+      },
+      {
+        "name": "Badges persist after reload and render in Spanish",
+        "status": "PASS"
+      },
+      {
+        "name": "Free-race badges use recorded finishes and reject nonfinite times",
+        "status": "PASS"
+      },
+      {
+        "name": "New free-race record appears on reopening list",
+        "status": "PASS"
+      },
+      {
+        "name": "Visible badges switch English to Spanish without reopening",
+        "status": "PASS"
+      },
+      {
+        "name": "Visible badges switch back to English without reopening",
+        "status": "PASS"
+      },
+      {
+        "name": "Legacy clear does not fabricate difficulty",
+        "status": "PASS"
+      },
+      {
+        "name": "Dynamic English notification: ¡SUPERASTE A COOPER!",
+        "status": "PASS"
+      },
+      {
+        "name": "Dynamic notification switches back to Spanish: ¡SUPERASTE A COOPER!",
+        "status": "PASS"
+      },
+      {
+        "name": "Dynamic English notification: ¡PLASMA!",
+        "status": "PASS"
+      },
+      {
+        "name": "Dynamic notification switches back to Spanish: ¡PLASMA!",
+        "status": "PASS"
+      },
+      {
+        "name": "Dynamic English notification: ¡TURBO!",
+        "status": "PASS"
+      },
+      {
+        "name": "Dynamic notification switches back to Spanish: ¡TURBO!",
+        "status": "PASS"
+      },
+      {
+        "name": "Dynamic English notification: ¡YA!",
+        "status": "PASS"
+      },
+      {
+        "name": "Dynamic notification switches back to Spanish: ¡YA!",
+        "status": "PASS"
+      },
+      {
+        "name": "All 324 ES and 324 EN radio lines render exactly with stable portraits",
+        "status": "PASS"
+      },
+      {
+        "name": "Presenting translated dialogue does not alter dialogue state",
+        "status": "PASS"
+      },
+      {
+        "name": "Anti-repeat dialogue bags avoid immediate repeats for each character/event",
+        "status": "PASS"
+      },
+      {
+        "name": "Hard unlock ending translates",
+        "status": "PASS"
+      },
+      {
+        "name": "PROJECT ZERO ending translates",
+        "status": "PASS"
+      },
+      {
+        "name": "Acknowledged endings do not repeat",
+        "status": "PASS"
+      },
+      {
+        "name": "Actual race simulation starts after language gate",
+        "status": "PASS"
+      },
+      {
+        "name": "HUD English and original rank/lap content remain present",
+        "status": "PASS"
+      },
+      {
+        "name": "Returning from race does not reopen language gate",
+        "status": "PASS"
+      },
+      {
+        "name": "No game boot or DOM errors",
+        "status": "PASS"
+      }
+    ]
+  },
+  "resources": {
+    "passed": 9,
+    "failed": 0,
+    "tests": [
+      {
+        "name": "All 20 embedded WebP resources byte-identical to 3.6.2",
+        "status": "PASS"
+      },
+      {
+        "name": "All 20 WebP images decode",
+        "status": "PASS"
+      },
+      {
+        "name": "Two approved endings retain 1672x941 dimensions",
+        "status": "PASS"
+      },
+      {
+        "name": "No external scripts, stylesheets or resource tags added",
+        "status": "PASS"
+      },
+      {
+        "name": "No test interfaces or diagnostic bypasses published",
+        "status": "PASS"
+      },
+      {
+        "name": "Reversing only explicit changes reconstructs exact original game",
+        "status": "PASS"
+      },
+      {
+        "name": "Repository HTML and standalone deliverable identical",
+        "status": "PASS"
+      },
+      {
+        "name": "Original career save key retained",
+        "status": "PASS"
+      },
+      {
+        "name": "Extra feature adds no career/schema/storage writes",
+        "status": "PASS"
+      }
+    ],
+    "embedded_images": [
+      {
+        "index": 0,
+        "width": 192,
+        "height": 192,
+        "sha256": "056938855ec6ab9a76e44d65a61698b382e8f4fe75412850e5d724f91b3b02e0",
+        "format": "WEBP"
+      },
+      {
+        "index": 1,
+        "width": 192,
+        "height": 192,
+        "sha256": "d4e2dba42147344d628ba9b3ccea82a5db233212b6e22fe8761151664770002f",
+        "format": "WEBP"
+      },
+      {
+        "index": 2,
+        "width": 192,
+        "height": 192,
+        "sha256": "092407d26e946dc073945a07db39a77d2921a50d7f165cae7a1802d4d27e76ac",
+        "format": "WEBP"
+      },
+      {
+        "index": 3,
+        "width": 192,
+        "height": 192,
+        "sha256": "788b1ae245ac2743030314a2fc17d75c51e3e12dd26ceeff497903eee05734cc",
+        "format": "WEBP"
+      },
+      {
+        "index": 4,
+        "width": 192,
+        "height": 192,
+        "sha256": "97ed5f16dc4f8bf66f23bf1513e5b3a1ca8526553eb523865b2509e9700f41c7",
+        "format": "WEBP"
+      },
+      {
+        "index": 5,
+        "width": 192,
+        "height": 192,
+        "sha256": "80010ee92d8dd6b07c734a18bca08211bd63377dac07f477800ba30b8c32f262",
+        "format": "WEBP"
+      },
+      {
+        "index": 6,
+        "width": 192,
+        "height": 192,
+        "sha256": "79bd5acb8fba765849ac3c36b766f1113ee7e12521232a8de29472d53bbef4b6",
+        "format": "WEBP"
+      },
+      {
+        "index": 7,
+        "width": 192,
+        "height": 192,
+        "sha256": "09f6485083d2a3b7d4ce1a95221e38bd0fac98fca2152bbde6619528c896c2ae",
+        "format": "WEBP"
+      },
+      {
+        "index": 8,
+        "width": 192,
+        "height": 192,
+        "sha256": "6a9f8ec6f3a855626a8b96400592cfd8df289cb75c7a407bb284bbb765253302",
+        "format": "WEBP"
+      },
+      {
+        "index": 9,
+        "width": 192,
+        "height": 192,
+        "sha256": "db13d3cdcd9654bff0c444008151029d9d4a523533588772a28f3ac0a0e332b4",
+        "format": "WEBP"
+      },
+      {
+        "index": 10,
+        "width": 192,
+        "height": 192,
+        "sha256": "4c1aa5fdfb38de497521cbb6261f7266ad290a68ba072c9ebb838553ad15aea6",
+        "format": "WEBP"
+      },
+      {
+        "index": 11,
+        "width": 192,
+        "height": 192,
+        "sha256": "044bbd06140c3ac0fbe3e293984ebe384774a24ed3ef1dede71b9997919b0baa",
+        "format": "WEBP"
+      },
+      {
+        "index": 12,
+        "width": 192,
+        "height": 192,
+        "sha256": "cb9b9a792001508ca6f389c2b72d3fbea128db9cb545485591d0809c83b74b7f",
+        "format": "WEBP"
+      },
+      {
+        "index": 13,
+        "width": 192,
+        "height": 192,
+        "sha256": "8ba6a94d662dbff3db1d86b5f5ab162365d7652a8a7fb2e3f3c330a94d37dc98",
+        "format": "WEBP"
+      },
+      {
+        "index": 14,
+        "width": 192,
+        "height": 192,
+        "sha256": "c63ea37fe95099f48d7be3c550a8ea3ece2cea321a094ca0e87f52f39acb596f",
+        "format": "WEBP"
+      },
+      {
+        "index": 15,
+        "width": 192,
+        "height": 192,
+        "sha256": "481e51b5da472def17798f4e806051f4035abc82b5977e87fbf09a120a98345c",
+        "format": "WEBP"
+      },
+      {
+        "index": 16,
+        "width": 192,
+        "height": 192,
+        "sha256": "f511d58a485eb4481395310c9c76bbb2f14539ecdaeed4beabef5151297f5b05",
+        "format": "WEBP"
+      },
+      {
+        "index": 17,
+        "width": 192,
+        "height": 192,
+        "sha256": "82593449ec05162fc29d8770200a78ceedbf338a36a13dfa1c17c8c66184b8f5",
+        "format": "WEBP"
+      },
+      {
+        "index": 18,
+        "width": 1672,
+        "height": 941,
+        "sha256": "2c148cab65b6dba127e77b25bf5a204494f437d1e71f4a48397d0fb93b179821",
+        "format": "WEBP"
+      },
+      {
+        "index": 19,
+        "width": 1672,
+        "height": 941,
+        "sha256": "39a99e94301173a68c8c67069194d768fac79185ac39defed8ec48e2531c4cb0",
+        "format": "WEBP"
+      }
+    ],
+    "output_sha256": "60d4068a3dea17809bfc2ba0087d377858d6f24458f809c34fde1ec970f78e72"
+  },
+  "catalog": {
+    "success": true,
+    "total_catalog_entries": 718,
+    "ui_entries": 394,
+    "ui_translated": 292,
+    "dialogues_per_language": 324,
+    "dialogues_per_character_per_language": 108,
+    "ids_match": true,
+    "empty_translations": 0,
+    "duplicate_english_dialogues": 0,
+    "placeholder_mismatches": 0,
+    "expressions_events_and_indices_preserved": true
+  },
+  "physical_device": {
+    "tested": false,
+    "device": "Galaxy Z Fold5",
+    "pending": "Owner test"
+  }
+}

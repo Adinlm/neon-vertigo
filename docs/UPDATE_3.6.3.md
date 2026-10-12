@@ -1,13 +1,19 @@
 # NEON VERTIGO 3.6.3 — International Edition
 
-Versión local preparada, todavía sin publicar. El sitio activo conserva 3.6.2.
+Spanish (Latin America) and international English are embedded in one autonomous HTML. The initial bilingual selector appears on every full opening/reload, remembers the preferred language and enters the game with one tap. Settings can change the language without modifying the campaign or returning to the title screen.
 
-El juego ofrece Español latinoamericano e inglés internacional en un único HTML offline. El selector aparece en cada apertura completa, conserva la preferencia y entra con un toque. Cambiar idioma desde Ajustes no modifica la partida. El catálogo central mantiene 324 diálogos por idioma y 389 entradas de interfaz, conservando eventos, expresiones y selección de líneas.
+The existing localization has been retained and reviewed, with 394 interface entries and 324 dialogue entries per language (718 stable IDs per catalog). Sony, Vader and Cooper each retain 108 original Spanish lines and 108 English counterparts. Events, portraits, cooldowns, priorities and anti-repeat selection remain unchanged. The final review added missing English variants for pass, plasma, boost and countdown notifications.
 
-Las tarjetas de pistas indican las dificultades completadas: Fácil, Normal y Difícil. En campaña requieren victorias guardadas; en carrera libre usan registros de llegada. Se pueden acumular las tres medallas y se conservan al reiniciar/exportar/importar. Las victorias antiguas sin dificultad muestran «Dificultad no registrada». El extra no cambia el formato de las partidas.
+Track cards show all recorded completion difficulties. Campaign badges require wins; free-race badges use finish records. Existing saves and NV3 import/export are retained. Legacy clears without difficulty evidence are explicitly labelled instead of receiving invented medals.
 
-Se preservan 13 pistas, 6 naves, físicas, IA, controles, audio, progresión, 18 retratos y dos imágenes de final. Las imágenes incrustadas son idénticas byte por byte a 3.6.2. No se incluyen interfaces de pruebas en el juego.
+Thirteen circuits, three territories, six ships, the 3D hangar, physics, rivals, collisions, takedowns, controls and adaptive audio are preserved. The eighteen portraits and two approved 1672×941 ending artworks are byte-identical to 3.6.2. Reversing the explicit localization/presentation changes reconstructs the original game exactly.
 
-Validación ejecutada: 31 comprobaciones de lógica/DOM usando Canvas/WebGL simulados y 9 de recursos/preservación, sin fallos. Se comprobaron las 648 presentaciones de diálogos, medallas, progresión, finales sin repetición, guardado e inicio de carrera.
+Executed automated validation: 39 logic/DOM checks with simulated Canvas/WebGL and 9 resource/preservation checks, all passed. The actual full HTML was scanned for secrets rather than relying on GitHub indexing. Graphical browser verification is tracked separately; these DOM results do not establish pixel rendering, real audio, physical touch controls or device performance.
 
-Pendientes: renderizado gráfico en navegador, nueve viewports, dispositivo Fold5, campaña manual, audio real y rendimiento. Los resultados DOM no prueban esas condiciones. La publicación y verificación remota esperan el cierre de la auditoría de seguridad.
+The physical Galaxy Z Fold5, complete manual campaign, listening review and real-device performance remain player checks. Earlier 3.6.2 screenshots and test results are historical evidence, not substitutes for 3.6.3 verification.
+
+Pages retains the existing public URL, `main` root, `index.html`, HTTPS and `.nojekyll`. No additional game page or remote language dependency is introduced. The 3.6.2 baseline remains recoverable in Git.
+
+## Español
+
+La versión internacional conserva la implementación existente y añade las correcciones finales de avisos en inglés. Ambos idiomas están incluidos en un único HTML offline. Cambiar idioma no modifica la partida; las medallas indican las dificultades realmente registradas. Los resultados automatizados y las comprobaciones gráficas se documentan por separado. La prueba física del Fold5 y la revisión manual de campaña y audio corresponden al jugador.
