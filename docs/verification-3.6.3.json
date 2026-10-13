@@ -3,7 +3,7 @@
   "artifact_sha256": "f194b6d190406574869caf5dcd358804205a25914bcaa7ecbf3c27e17b9c928a",
   "logic_dom": {
     "category": "DOM and game logic with mocked Canvas/WebGL; no pixel rendering or real audio",
-    "passed": 42,
+    "passed": 44,
     "failed": 0,
     "tests": [
       {
@@ -79,6 +79,14 @@
         "status": "PASS"
       },
       {
+        "name": "Imported hard clear without starter selection renders all ship cards safely",
+        "status": "PASS"
+      },
+      {
+        "name": "Starter confirmation enters a race after imported hard clear",
+        "status": "PASS"
+      },
+      {
         "name": "Badges persist after reload and render in Spanish",
         "status": "PASS"
       },
@@ -103,35 +111,35 @@
         "status": "PASS"
       },
       {
-        "name": "Dynamic English notification: Â¡SUPERASTE A COOPER!",
+        "name": "Dynamic English notification: ¡SUPERASTE A COOPER!",
         "status": "PASS"
       },
       {
-        "name": "Dynamic notification switches back to Spanish: Â¡SUPERASTE A COOPER!",
+        "name": "Dynamic notification switches back to Spanish: ¡SUPERASTE A COOPER!",
         "status": "PASS"
       },
       {
-        "name": "Dynamic English notification: Â¡PLASMA!",
+        "name": "Dynamic English notification: ¡PLASMA!",
         "status": "PASS"
       },
       {
-        "name": "Dynamic notification switches back to Spanish: Â¡PLASMA!",
+        "name": "Dynamic notification switches back to Spanish: ¡PLASMA!",
         "status": "PASS"
       },
       {
-        "name": "Dynamic English notification: Â¡TURBO!",
+        "name": "Dynamic English notification: ¡TURBO!",
         "status": "PASS"
       },
       {
-        "name": "Dynamic notification switches back to Spanish: Â¡TURBO!",
+        "name": "Dynamic notification switches back to Spanish: ¡TURBO!",
         "status": "PASS"
       },
       {
-        "name": "Dynamic English notification: Â¡YA!",
+        "name": "Dynamic English notification: ¡YA!",
         "status": "PASS"
       },
       {
-        "name": "Dynamic notification switches back to Spanish: Â¡YA!",
+        "name": "Dynamic notification switches back to Spanish: ¡YA!",
         "status": "PASS"
       },
       {
@@ -174,7 +182,8 @@
         "name": "No game boot or DOM errors",
         "status": "PASS"
       }
-    ]
+    ],
+    "harness_note": "The full production script is evaluated separately; the inert script text node is omitted from DOM parsing to avoid duplicate multi-megabyte parsing."
   },
   "resources": {
     "passed": 9,
