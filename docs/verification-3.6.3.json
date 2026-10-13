@@ -1,6 +1,6 @@
 {
   "version": "3.6.3",
-  "artifact_sha256": "c73158be7bb13ce2252a8250566832cea4a0fc23b0899475cf91f97ab09a3e34",
+  "artifact_sha256": "f194b6d190406574869caf5dcd358804205a25914bcaa7ecbf3c27e17b9c928a",
   "logic_dom": {
     "category": "DOM and game logic with mocked Canvas/WebGL; no pixel rendering or real audio",
     "passed": 42,
@@ -103,35 +103,35 @@
         "status": "PASS"
       },
       {
-        "name": "Dynamic English notification: ¡SUPERASTE A COOPER!",
+        "name": "Dynamic English notification: Â¡SUPERASTE A COOPER!",
         "status": "PASS"
       },
       {
-        "name": "Dynamic notification switches back to Spanish: ¡SUPERASTE A COOPER!",
+        "name": "Dynamic notification switches back to Spanish: Â¡SUPERASTE A COOPER!",
         "status": "PASS"
       },
       {
-        "name": "Dynamic English notification: ¡PLASMA!",
+        "name": "Dynamic English notification: Â¡PLASMA!",
         "status": "PASS"
       },
       {
-        "name": "Dynamic notification switches back to Spanish: ¡PLASMA!",
+        "name": "Dynamic notification switches back to Spanish: Â¡PLASMA!",
         "status": "PASS"
       },
       {
-        "name": "Dynamic English notification: ¡TURBO!",
+        "name": "Dynamic English notification: Â¡TURBO!",
         "status": "PASS"
       },
       {
-        "name": "Dynamic notification switches back to Spanish: ¡TURBO!",
+        "name": "Dynamic notification switches back to Spanish: Â¡TURBO!",
         "status": "PASS"
       },
       {
-        "name": "Dynamic English notification: ¡YA!",
+        "name": "Dynamic English notification: Â¡YA!",
         "status": "PASS"
       },
       {
-        "name": "Dynamic notification switches back to Spanish: ¡YA!",
+        "name": "Dynamic notification switches back to Spanish: Â¡YA!",
         "status": "PASS"
       },
       {
@@ -359,13 +359,13 @@
         "format": "WEBP"
       }
     ],
-    "output_sha256": "c73158be7bb13ce2252a8250566832cea4a0fc23b0899475cf91f97ab09a3e34"
+    "output_sha256": "f194b6d190406574869caf5dcd358804205a25914bcaa7ecbf3c27e17b9c928a"
   },
   "catalog": {
     "success": true,
-    "total_catalog_entries": 718,
-    "ui_entries": 394,
-    "ui_translated": 292,
+    "total_catalog_entries": 719,
+    "ui_entries": 395,
+    "ui_translated": 293,
     "dialogues_per_language": 324,
     "dialogues_per_character_per_language": 108,
     "ids_match": true,
