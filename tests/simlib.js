@@ -6,7 +6,7 @@ window.NVSIM = (function () {
     settings.diff = diff === undefined ? 1 : diff;
     var ti = trackIdx(trackId); if (curTrack !== ti) loadTrack(ti);
     EV = { id: 'free_' + trackId, type: 'free', layout: trackId, title: CFG.name, rivals: rivals || defaultLineup(CFG), music: CFG.music || 'k9' };
-    LINEUP = EV.rivals.slice(); resetRace(false); state = 'race'; raceTime = 0; simT = 0;
+    LINEUP = EV.rivals.slice(); resetRace(false); state = 'race'; raceTime = 0; simT = 0; STATS.wc = {}; STATS.wo = {};
   }
   // full race with the player driven by the standard AI (neutral personality); returns per-racer results
   function race(trackId, opt) {
