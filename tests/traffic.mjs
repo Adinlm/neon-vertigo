@@ -6,7 +6,9 @@ const results = []; const R = (name, pass, info) => { results.push({ name, statu
 const SRC = process.argv[2] || join(ROOT, 'index.html');
 const b = await openGame({ src: SRC });
 await b.ev(readFileSync(join(ROOT, 'tests', 'simlib.js'), 'utf8'));
-// monitor installed for every simulated race: overlaps with obstacles/corridor, spawn distances, lane changes
+// monitor installed for every simulated race: overlaps with obstacles/corridor, spawn distances, lane changes.
+// Route dividers ('div') are the route volume as seen from the avenue: a vehicle that planned the route ignores them (as in the game),
+// and a vehicle entering/leaving at a mouth may sit fully inside that volume (it is on the route side, not crossing the wall).
 await b.ev(`window.TMON=function(){var m={steps:0,obOverlap:0,wall:0,band:0,spawnNear:0,spawns:0,minSpawnGap:1e9,lc:0,lcUnsafe:0,lcNoSignal:0,kinds:{}};
   var prevSt=TF.map(function(t){return t.st;}),prevTg=TF.map(function(t){return t.tgx;});
   return {m:m,hook:function(){m.steps++;for(var i=0;i<TF.length;i++){var t=TF[i];m.kinds[t.kind]=1;
@@ -14,9 +16,9 @@ await b.ev(`window.TMON=function(){var m={steps:0,obOverlap:0,wall:0,band:0,spaw
     if(prevTg[i]===null&&t.tgx!==null){m.lc++;}
     if(t.tgx!==null&&t.sigT<=0&&prevTg[i]!==null){var p0=t.x;racers.forEach(function(r){if(r.st!==RS.ACT)return;var d=wrapD(t.s-r.s);if(d>-t.hs-1&&d<t.hs+3&&Math.abs(r.x-t.x)<t.hx+1.2&&Math.abs(r.y-t.cy)<t.hy+0.4)m.lcUnsafe++;});}
     prevSt[i]=t.st;prevTg[i]=t.tgx;
-    if(t.st!==TFS.ACT&&t.st!==TFS.NUDGE)continue;var x=t.x+t.ox;tf(t.s);
-    if(Math.abs(x)+t.hx>HW+0.05)m.wall++;if(t.cy-t.hy<F.yMin-0.05||t.cy+t.hy>F.yMax+0.05)m.band++;
-    for(var k=0;k<OB.length;k++){var o=OB[k];if(o.k==='mouth')continue;var dd=wrapD(o.s-t.s);if(Math.abs(dd)<o.hs+t.hs&&x+t.hx>o.x0&&x-t.hx<o.x1&&t.cy+t.hy>o.y0&&t.cy-t.hy<o.y1){m.obOverlap++;m.byOb=m.byOb||{};var kk=o.k+(t.st===TFS.NUDGE?'@nudge':'');m.byOb[kk]=(m.byOb[kk]||0)+1;break;}}}}};};1`);
+    if(t.st!==TFS.ACT&&t.st!==TFS.NUDGE)continue;var x=t.x+t.ox;tfr(t.s,t.rt||0);
+    if(Math.abs(x)+t.hx>F.hw+0.05)m.wall++;if(t.cy-t.hy<F.yMin-0.05||t.cy+t.hy>F.yMax+0.05)m.band++;
+    for(var k=0;k<OB.length;k++){var o=OB[k];if(o.k==='mouth')continue;var ro=rel(t,o.rt||0,o.s,o.k==='div');if(!ro)continue;if(o.k==='div'){var RR=ROUTES[o.route],dA=rtD(RR,t.s),m0=CHS+0.6;if((dA<m0+t.hs+1||dA>RR.span-m0-t.hs-1)&&(RR.side>0?x-t.hx>=RR.xs:x+t.hx<=RR.xs))continue;}var dd=wrapD(o.s-t.s);if(Math.abs(dd)<o.hs+t.hs&&x+t.hx>o.x0+ro[0]&&x-t.hx<o.x1+ro[0]&&t.cy+t.hy>o.y0+ro[1]&&t.cy-t.hy<o.y1+ro[1]){m.obOverlap++;m.byOb=m.byOb||{};var kk=o.k+(t.st===TFS.NUDGE?'@nudge':'');m.byOb[kk]=(m.byOb[kk]||0)+1;m.ex=m.ex||[];if(m.ex.length<3&&!(m.ex.length&&m.ex[m.ex.length-1].i===i))m.ex.push({i:i,k:TKIND[t.kind]?TKIND[t.kind].id:t.kind,dir:t.dir,s:Math.round(t.s),x:+x.toFixed(2),cy:+t.cy.toFixed(2),hx:t.hx,ob:o.k,o:[+o.x0.toFixed(2),+o.x1.toFixed(2),+o.y0.toFixed(1),+o.y1.toFixed(1)],dd:+wrapD(o.s-t.s).toFixed(1),hmx:+(t.hmx||0).toFixed(1),avx:+(t.avx||0).toFixed(1),avoid:!!t.avoid,blocked:!!t.blocked,urg:t.urg||0,lc:t.tgx!==null,tpf:t.tplanFor||0});break;}}}}};};1`);
 const tracks = await b.ev('TRACKS.map(function(t){return t.id;})');
 const comp = {}; const sim = {};
 const LEGACY = await b.ev('typeof TKIND==="undefined"');
@@ -43,7 +45,7 @@ for (const id of tracks) {
   }
   const m = sim[id].map((r) => r.mon);
   const agg = (k) => m.reduce((a, x) => a + x[k], 0);
-  R(`${id}: traffic never overlaps obstacles, walls or the flight band`, agg('obOverlap') === 0 && agg('wall') === 0 && agg('band') === 0, { obOverlap: agg('obOverlap'), byOb: m.map((x) => x.byOb || {}), wall: agg('wall'), band: agg('band'), steps: agg('steps') });
+  R(`${id}: traffic never overlaps obstacles, walls or the flight band`, agg('obOverlap') === 0 && agg('wall') === 0 && agg('band') === 0, { obOverlap: agg('obOverlap'), byOb: m.map((x) => x.byOb || {}), examples: m.map((x) => x.ex || []), wall: agg('wall'), band: agg('band'), steps: agg('steps') });
   R(`${id}: respawned traffic never appears near a racer (>= 80 m)`, agg('spawnNear') === 0, { spawns: agg('spawns'), minGap: Math.round(Math.min(...m.map((x) => x.minSpawnGap))) });
   R(`${id}: lane changes never move into an occupied space`, agg('lcUnsafe') === 0, { laneChanges: agg('lc'), unsafe: agg('lcUnsafe') });
   R(`${id}: races finish with every racer and no NaN`, sim[id].every((r) => r.nan === 0 && r.racers.every((x) => x.finished)), sim[id].map((r) => r.racers.map((x) => x.time)));
