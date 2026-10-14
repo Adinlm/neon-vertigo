@@ -1,0 +1,142 @@
+[
+ {
+  "name": "control (sony_none): 3.6.3 vs 3.6.3 differ at most by 1 LSB of 16-bit (platform render jitter)",
+  "status": "PASS",
+  "info": {
+   "max_abs_diff": 6.103515625e-05,
+   "lsb": 6.103515625e-05,
+   "samples_differing": 1473
+  }
+ },
+ {
+  "name": "control (cooper_turbo): 3.6.3 vs 3.6.3 differ at most by 1 LSB of 16-bit (platform render jitter)",
+  "status": "PASS",
+  "info": {
+   "max_abs_diff": 6.103515625e-05,
+   "lsb": 6.103515625e-05,
+   "samples_differing": 1382
+  }
+ },
+ {
+  "name": "sony: without turbo, 3.7 equals 3.6.3 (melody/chords/bass/drums, lap progression) within 1 LSB jitter",
+  "status": "PASS",
+  "info": {
+   "max_abs_diff": 6.103515625e-05,
+   "samples": 1499400,
+   "samples_differing": 1499
+  }
+ },
+ {
+  "name": "vader: without turbo, 3.7 equals 3.6.3 (melody/chords/bass/drums, lap progression) within 1 LSB jitter",
+  "status": "PASS",
+  "info": {
+   "max_abs_diff": 6.103515625e-05,
+   "samples": 1499400,
+   "samples_differing": 843
+  }
+ },
+ {
+  "name": "cooper: equals 3.6.3 including turbo activations (within 1 LSB jitter)",
+  "status": "PASS",
+  "info": {
+   "max_abs_diff": 6.103515625e-05
+  }
+ },
+ {
+  "name": "crown: equals 3.6.3 including turbo activations (within 1 LSB jitter)",
+  "status": "PASS",
+  "info": {
+   "max_abs_diff": 6.103515625e-05
+  }
+ },
+ {
+  "name": "sony: outside turbo windows (incl. 1.4 s fade-out) the mix equals 3.6.3 (within 1 LSB jitter)",
+  "status": "PASS",
+  "info": {
+   "max_abs_diff_outside": 6.103515625e-05
+  }
+ },
+ {
+  "name": "sony: inside turbo windows the new motif is audible (mix differs from 3.6.3)",
+  "status": "PASS",
+  "info": {
+   "max_abs_diff_inside": 0.493
+  }
+ },
+ {
+  "name": "sony: no silences when entering/leaving the turbo (50 ms level never >1 dB below the same instant without turbo)",
+  "status": "PASS",
+  "info": {
+   "min_level_delta_db": -0.17,
+   "same_metric_3_6_3_turbo": -0.13
+  }
+ },
+ {
+  "name": "sony: no clicks at turbo transitions (HF energy at on/off vs steady p99 of the layer; not worse than 3.6.3 under the same events)",
+  "status": "PASS",
+  "info": {
+   "spike_ratio_new": 0.908,
+   "spike_ratio_3_6_3": 1.019
+  }
+ },
+ {
+  "name": "sony: render peak with turbo stays below 0 dBFS",
+  "status": "PASS",
+  "info": {
+   "peak_dbfs": -0.95
+  }
+ },
+ {
+  "name": "sony: seamless 16-bar loop while the turbo is audible",
+  "status": "PASS",
+  "info": {
+   "seam_step": 0.11,
+   "local_p999": 0.1721
+  }
+ },
+ {
+  "name": "vader: outside turbo windows (incl. 1.4 s fade-out) the mix equals 3.6.3 (within 1 LSB jitter)",
+  "status": "PASS",
+  "info": {
+   "max_abs_diff_outside": 6.103515625e-05
+  }
+ },
+ {
+  "name": "vader: inside turbo windows the new motif is audible (mix differs from 3.6.3)",
+  "status": "PASS",
+  "info": {
+   "max_abs_diff_inside": 0.3635
+  }
+ },
+ {
+  "name": "vader: no silences when entering/leaving the turbo (50 ms level never >1 dB below the same instant without turbo)",
+  "status": "PASS",
+  "info": {
+   "min_level_delta_db": -0.51,
+   "same_metric_3_6_3_turbo": -0.5
+  }
+ },
+ {
+  "name": "vader: no clicks at turbo transitions (HF energy at on/off vs steady p99 of the layer; not worse than 3.6.3 under the same events)",
+  "status": "PASS",
+  "info": {
+   "spike_ratio_new": 1.107,
+   "spike_ratio_3_6_3": 1.162
+  }
+ },
+ {
+  "name": "vader: render peak with turbo stays below 0 dBFS",
+  "status": "PASS",
+  "info": {
+   "peak_dbfs": -4.64
+  }
+ },
+ {
+  "name": "vader: seamless 16-bar loop while the turbo is audible",
+  "status": "PASS",
+  "info": {
+   "seam_step": 0.087,
+   "local_p999": 0.1258
+  }
+ }
+]

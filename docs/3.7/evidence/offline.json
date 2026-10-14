@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Distributable has no test evaluator",
+    "status": "PASS"
+  },
+  {
+    "name": "Offline file language selector",
+    "status": "PASS"
+  },
+  {
+    "name": "Offline free race respects fresh campaign locks",
+    "status": "PASS",
+    "info": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      9
+    ]
+  },
+  {
+    "name": "Offline raw HTML starts a race through normal UI",
+    "status": "PASS"
+  },
+  {
+    "name": "WebGL context stays valid offline",
+    "status": "PASS"
+  },
+  {
+    "name": "No HTTP resources with networking blocked",
+    "status": "PASS",
+    "info": []
+  },
+  {
+    "name": "No JavaScript errors opening raw file offline",
+    "status": "PASS",
+    "info": []
+  }
+]

@@ -4,7 +4,7 @@
 
 This branch contains the 3.7 experimental build. The public GitHub Pages version remains **3.6.3 International Edition**. See [technical handoff](docs/3.7/NEON_VERTIGO_3.7_COMPLETE_TECHNICAL_HANDOFF.md), [test results](docs/3.7/NEON_VERTIGO_3.7_TEST_RESULTS.json) and [Fold5 protocol](docs/3.7/NEON_VERTIGO_3.7_FOLD5_CHECKLIST.md).
 
-A cyberpunk anti-gravity racing game for the browser: conquer three territories, challenge Sony, Vader and Cooper, and race for the crown of Coope City. Includes thirteen circuits, six ships, takedowns, boost, a 3D hangar and adaptive music.
+A cyberpunk anti-gravity racing game for the browser: conquer three territories, challenge Sony, Vader and Cooper, and race for the crown of Coope City. Includes thirteen circuits, six ships, takedowns, boost, a 3D hangar and adaptive music. The experimental build adds eighteen alternative corridors, twenty district civilian models, the HUD DSP cue bank and Sony/Vader turbo layers.
 
 **[Play on GitHub Pages](https://adinlm.github.io/neon-vertigo/)**
 
@@ -12,7 +12,7 @@ Choose **ESPAÑOL** or **ENGLISH** when opening the game. Your preference is rem
 
 ## Play online or offline
 
-The complete `index.html` is about 31.2 MB and includes its graphics and audio. Allow time for the first download. Download the file and open it in a modern Chromium browser to play offline, without installation, login, translation services or remote language files.
+The complete `index.html` is about 30.9 MB and includes its graphics and audio. Allow time for the first download. Download the file and open it in a modern Chromium browser to play offline, without installation, login, translation services or remote language files.
 
 Designed for desktop and mobile browsers. Use landscape orientation for racing; the language selector and ending screens also support portrait orientation. Galaxy Z Fold5 physical-device validation remains a player test; no blanket device or performance guarantee is claimed.
 
@@ -70,3 +70,8 @@ The existing engine, physics, rivals, audio, campaign rules, eighteen boss portr
 - [3.6.2 report](docs/UPDATE_3.6.2.md)
 - [Historical 3.6.2 verification](docs/verification.json)
 - [3.6.1 history](docs/UPDATE_3.6.1.md)
+
+
+## Experimental 3.7 validation
+
+497 final checks passed with no final failures, including 13 circuits and 18 routes. Physics simulations isolate sound emission from the shared RNG; HUD/turbo/offline flow use real Web Audio in separate suites. Physical Fold5, full manual campaign, subjective audio and sustained device performance remain pending. Fresh race comparison: mean field time +0.88%, wrecks +16.67%; review risk/readability manually rather than treating historical balance figures as current.

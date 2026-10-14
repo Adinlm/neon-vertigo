@@ -1,0 +1,134 @@
+[
+  {
+    "name": "traffic",
+    "command": [
+      "node",
+      "tests/traffic.mjs"
+    ],
+    "started_utc": "2026-10-14T20:24:54.443110+00:00",
+    "ended_utc": "2026-10-14T20:28:12.259194+00:00",
+    "source_sha256": "4c56f772883dd79393a8a72f03546ecffc21cf337ed264508d63db05eb1d82f7",
+    "simlib_sha256": "bc341f1ee23d9e61a0525bd5996389287f363de3d3c1421153da38a653548e0e",
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "routes",
+    "command": [
+      "node",
+      "tests/routes.mjs"
+    ],
+    "started_utc": "2026-10-14T20:28:12.278217+00:00",
+    "ended_utc": "2026-10-14T20:30:50.873054+00:00",
+    "source_sha256": "4c56f772883dd79393a8a72f03546ecffc21cf337ed264508d63db05eb1d82f7",
+    "simlib_sha256": "bc341f1ee23d9e61a0525bd5996389287f363de3d3c1421153da38a653548e0e",
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "safety",
+    "command": [
+      "node",
+      "tests/safety.mjs"
+    ],
+    "started_utc": "2026-10-14T20:24:45.405512+00:00",
+    "ended_utc": "2026-10-14T20:24:54.425109+00:00",
+    "source_sha256": "4c56f772883dd79393a8a72f03546ecffc21cf337ed264508d63db05eb1d82f7",
+    "simlib_sha256": "bc341f1ee23d9e61a0525bd5996389287f363de3d3c1421153da38a653548e0e",
+    "seeds": [
+      7,
+      42,
+      43
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "incidents",
+    "command": [
+      "node",
+      "tests/incidents.mjs"
+    ],
+    "started_utc": "2026-10-14T20:30:50.891560+00:00",
+    "ended_utc": "2026-10-14T20:30:55.607450+00:00",
+    "source_sha256": "4c56f772883dd79393a8a72f03546ecffc21cf337ed264508d63db05eb1d82f7",
+    "simlib_sha256": "bc341f1ee23d9e61a0525bd5996389287f363de3d3c1421153da38a653548e0e",
+    "seeds": [
+      2
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "preservation",
+    "command": [
+      "node",
+      "tests/preservation.mjs"
+    ],
+    "started_utc": "2026-10-14T20:07:18.441234+00:00",
+    "ended_utc": "2026-10-14T20:07:19.453368+00:00",
+    "source_sha256": "4c56f772883dd79393a8a72f03546ecffc21cf337ed264508d63db05eb1d82f7",
+    "seeds": null,
+    "exit_code": 0
+  },
+  {
+    "name": "dom",
+    "command": [
+      "node",
+      "tests/legacy-regression/dom_tests.cjs"
+    ],
+    "started_utc": "2026-10-14T20:07:19.453368+00:00",
+    "ended_utc": "2026-10-14T20:07:32.126692+00:00",
+    "source_sha256": "4c56f772883dd79393a8a72f03546ecffc21cf337ed264508d63db05eb1d82f7",
+    "seeds": null,
+    "exit_code": 0
+  },
+  {
+    "name": "offline",
+    "command": [
+      "node",
+      "tests/offline.mjs",
+      "index.html"
+    ],
+    "started_utc": "2026-10-14T20:07:32.126692+00:00",
+    "ended_utc": "2026-10-14T20:07:48.073090+00:00",
+    "source_sha256": "4c56f772883dd79393a8a72f03546ecffc21cf337ed264508d63db05eb1d82f7",
+    "seeds": null,
+    "exit_code": 0
+  },
+  {
+    "name": "hud",
+    "command": [
+      "node",
+      "tests/hud.mjs"
+    ],
+    "started_utc": "2026-10-14T20:07:48.074089+00:00",
+    "ended_utc": "2026-10-14T20:08:14.154898+00:00",
+    "source_sha256": "4c56f772883dd79393a8a72f03546ecffc21cf337ed264508d63db05eb1d82f7",
+    "seeds": null,
+    "exit_code": 0
+  },
+  {
+    "name": "turbo",
+    "command": [
+      "node",
+      "tests/turbo.mjs",
+      "work/index_363.html",
+      "index.html"
+    ],
+    "started_utc": "2026-10-14T20:08:14.154898+00:00",
+    "ended_utc": "2026-10-14T20:08:53.086752+00:00",
+    "source_sha256": "4c56f772883dd79393a8a72f03546ecffc21cf337ed264508d63db05eb1d82f7",
+    "seeds": null,
+    "exit_code": 0
+  }
+]

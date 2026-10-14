@@ -1,0 +1,239 @@
+{
+  "method": "180 requestAnimationFrame intervals and lastFrameMs samples after 60 warmup frames; fixed high quality, DPR 1, Edge SwiftShader. JS heap is not whole-process RAM. Sequential runs on the same host; no physical GPU/device claim.",
+  "runs": [
+    {
+      "version": "legacy",
+      "track": "k9",
+      "rafMs": {
+        "n": 180,
+        "mean": 76.36611111111111,
+        "median": 75.09999999999854,
+        "p95": 91.69999999999709,
+        "max": 95.90000000000146
+      },
+      "tickMs": {
+        "n": 180,
+        "mean": 0.6344444444816973,
+        "median": 0.599999999627471,
+        "p95": 0.900000000372529,
+        "max": 1.5
+      },
+      "drawCalls": {
+        "n": 180,
+        "mean": 68.57777777777778,
+        "median": 68,
+        "p95": 78,
+        "max": 80
+      },
+      "trackedGPUBytes": 17280840,
+      "traffic": 19,
+      "quality": 2,
+      "canvas": [
+        1280,
+        720
+      ],
+      "renderer": "WebKit WebGL",
+      "heap": {
+        "usedSize": 32121636,
+        "totalSize": 108781568,
+        "embedderHeapUsedSize": 8486960,
+        "backingStorageSize": 50509450
+      }
+    },
+    {
+      "version": "legacy",
+      "track": "iab",
+      "rafMs": {
+        "n": 180,
+        "mean": 77.15277777777776,
+        "median": 75,
+        "p95": 95.89999999999418,
+        "max": 116.59999999999854
+      },
+      "tickMs": {
+        "n": 180,
+        "mean": 0.7750000000103481,
+        "median": 0.7000000011175871,
+        "p95": 1.200000001117587,
+        "max": 1.900000000372529
+      },
+      "drawCalls": {
+        "n": 180,
+        "mean": 51.77777777777778,
+        "median": 47,
+        "p95": 70,
+        "max": 73
+      },
+      "trackedGPUBytes": 31063080,
+      "traffic": 15,
+      "quality": 2,
+      "canvas": [
+        1280,
+        720
+      ],
+      "renderer": "WebKit WebGL",
+      "heap": {
+        "usedSize": 29918416,
+        "totalSize": 33021952,
+        "embedderHeapUsedSize": 6222344,
+        "backingStorageSize": 46486752
+      }
+    },
+    {
+      "version": "legacy",
+      "track": "orb",
+      "rafMs": {
+        "n": 180,
+        "mean": 52.50055555555555,
+        "median": 50.099999999998545,
+        "p95": 66.59999999999854,
+        "max": 70.90000000000146
+      },
+      "tickMs": {
+        "n": 180,
+        "mean": 0.6427777778150306,
+        "median": 0.599999999627471,
+        "p95": 0.900000000372529,
+        "max": 1.5
+      },
+      "drawCalls": {
+        "n": 180,
+        "mean": 71.64444444444445,
+        "median": 71,
+        "p95": 79,
+        "max": 81
+      },
+      "trackedGPUBytes": 35450424,
+      "traffic": 26,
+      "quality": 2,
+      "canvas": [
+        1280,
+        720
+      ],
+      "renderer": "WebKit WebGL",
+      "heap": {
+        "usedSize": 29956564,
+        "totalSize": 33284096,
+        "embedderHeapUsedSize": 5491776,
+        "backingStorageSize": 46841861
+      }
+    },
+    {
+      "version": "experimental",
+      "track": "k9",
+      "rafMs": {
+        "n": 180,
+        "mean": 84.93055555555557,
+        "median": 83.30000000000109,
+        "p95": 100,
+        "max": 116.70000000000073
+      },
+      "tickMs": {
+        "n": 180,
+        "mean": 1.3838888888661232,
+        "median": 1.299999998882413,
+        "p95": 2.300000000745058,
+        "max": 13.099999999627471
+      },
+      "drawCalls": {
+        "n": 180,
+        "mean": 70.88888888888889,
+        "median": 68,
+        "p95": 84,
+        "max": 86
+      },
+      "trackedGPUBytes": 19256856,
+      "traffic": 21,
+      "quality": 2,
+      "canvas": [
+        1280,
+        720
+      ],
+      "renderer": "WebKit WebGL",
+      "heap": {
+        "usedSize": 48877536,
+        "totalSize": 113614848,
+        "embedderHeapUsedSize": 9040488,
+        "backingStorageSize": 60015363
+      }
+    },
+    {
+      "version": "experimental",
+      "track": "iab",
+      "rafMs": {
+        "n": 180,
+        "mean": 90.20888888888891,
+        "median": 87.60000000000582,
+        "p95": 112.5,
+        "max": 133.39999999999782
+      },
+      "tickMs": {
+        "n": 180,
+        "mean": 1.187222222228431,
+        "median": 1.099999999627471,
+        "p95": 1.900000000372529,
+        "max": 7.199999999254942
+      },
+      "drawCalls": {
+        "n": 180,
+        "mean": 58.827777777777776,
+        "median": 62,
+        "p95": 68,
+        "max": 72
+      },
+      "trackedGPUBytes": 32415432,
+      "traffic": 13,
+      "quality": 2,
+      "canvas": [
+        1280,
+        720
+      ],
+      "renderer": "WebKit WebGL",
+      "heap": {
+        "usedSize": 31278800,
+        "totalSize": 33398784,
+        "embedderHeapUsedSize": 6253352,
+        "backingStorageSize": 49547637
+      }
+    },
+    {
+      "version": "experimental",
+      "track": "orb",
+      "rafMs": {
+        "n": 180,
+        "mean": 54.00500000000001,
+        "median": 54.099999999998545,
+        "p95": 66.69999999999709,
+        "max": 150
+      },
+      "tickMs": {
+        "n": 180,
+        "mean": 1.3805555555659035,
+        "median": 1.300000000745058,
+        "p95": 1.900000000372529,
+        "max": 5.700000001117587
+      },
+      "drawCalls": {
+        "n": 180,
+        "mean": 70.19444444444444,
+        "median": 70,
+        "p95": 75,
+        "max": 76
+      },
+      "trackedGPUBytes": 37764840,
+      "traffic": 26,
+      "quality": 2,
+      "canvas": [
+        1280,
+        720
+      ],
+      "renderer": "WebKit WebGL",
+      "heap": {
+        "usedSize": 32422736,
+        "totalSize": 37855232,
+        "embedderHeapUsedSize": 5805072,
+        "backingStorageSize": 49928860
+      }
+    }
+  ]
+}

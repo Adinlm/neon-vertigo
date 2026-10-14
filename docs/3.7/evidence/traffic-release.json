@@ -1,0 +1,7307 @@
+{
+ "results": [
+  {
+   "name": "k9: every vehicle belongs to its district fleet (k9)",
+   "status": "PASS",
+   "info": {
+    "kinds": {
+     "k9_taxi": 7,
+     "k9_street": 5,
+     "k9_bus": 2,
+     "k9_courier": 5,
+     "k9_van": 2
+    },
+    "n": 21,
+    "legacy_3_6_3": 19
+   }
+  },
+  {
+   "name": "ia: every vehicle belongs to its district fleet (ia)",
+   "status": "PASS",
+   "info": {
+    "kinds": {
+     "ia_hauler": 3,
+     "ia_maint": 6,
+     "ia_truck": 4
+    },
+    "n": 13,
+    "legacy_3_6_3": 15
+   }
+  },
+  {
+   "name": "sv: every vehicle belongs to its district fleet (sv)",
+   "status": "PASS",
+   "info": {
+    "kinds": {
+     "sv_civil": 5,
+     "sv_priv": 13,
+     "sv_exec": 3,
+     "sv_limo": 1,
+     "sv_sec": 2
+    },
+    "n": 24,
+    "legacy_3_6_3": 24
+   }
+  },
+  {
+   "name": "k9a: every vehicle belongs to its district fleet (k9)",
+   "status": "PASS",
+   "info": {
+    "kinds": {
+     "k9_taxi": 8,
+     "k9_van": 9,
+     "k9_courier": 5,
+     "k9_bus": 1,
+     "k9_street": 5
+    },
+    "n": 28,
+    "legacy_3_6_3": 25
+   }
+  },
+  {
+   "name": "k9b: every vehicle belongs to its district fleet (k9)",
+   "status": "PASS",
+   "info": {
+    "kinds": {
+     "k9_street": 4,
+     "k9_van": 4,
+     "k9_taxi": 10,
+     "k9_courier": 5,
+     "k9_bus": 2
+    },
+    "n": 25,
+    "legacy_3_6_3": 22
+   }
+  },
+  {
+   "name": "k9c: every vehicle belongs to its district fleet (k9)",
+   "status": "PASS",
+   "info": {
+    "kinds": {
+     "k9_taxi": 7,
+     "k9_courier": 5,
+     "k9_van": 6,
+     "k9_street": 11,
+     "k9_bus": 2
+    },
+    "n": 31,
+    "legacy_3_6_3": 28
+   }
+  },
+  {
+   "name": "iaa: every vehicle belongs to its district fleet (ia)",
+   "status": "PASS",
+   "info": {
+    "kinds": {
+     "ia_truck": 6,
+     "ia_mover": 2,
+     "ia_maint": 2,
+     "ia_hauler": 5
+    },
+    "n": 15,
+    "legacy_3_6_3": 17
+   }
+  },
+  {
+   "name": "iab: every vehicle belongs to its district fleet (ia)",
+   "status": "PASS",
+   "info": {
+    "kinds": {
+     "ia_hauler": 1,
+     "ia_platform": 2,
+     "ia_truck": 4,
+     "ia_maint": 6
+    },
+    "n": 13,
+    "legacy_3_6_3": 15
+   }
+  },
+  {
+   "name": "iac: every vehicle belongs to its district fleet (ia)",
+   "status": "PASS",
+   "info": {
+    "kinds": {
+     "ia_maint": 3,
+     "ia_truck": 5,
+     "ia_hauler": 6,
+     "ia_mover": 1
+    },
+    "n": 15,
+    "legacy_3_6_3": 17
+   }
+  },
+  {
+   "name": "sva: every vehicle belongs to its district fleet (sv)",
+   "status": "PASS",
+   "info": {
+    "kinds": {
+     "sv_priv": 8,
+     "sv_sec": 6,
+     "sv_exec": 4,
+     "sv_civil": 7,
+     "sv_limo": 4
+    },
+    "n": 29,
+    "legacy_3_6_3": 29
+   }
+  },
+  {
+   "name": "svb: every vehicle belongs to its district fleet (sv)",
+   "status": "PASS",
+   "info": {
+    "kinds": {
+     "sv_limo": 2,
+     "sv_civil": 6,
+     "sv_exec": 7,
+     "sv_sec": 3,
+     "sv_priv": 11
+    },
+    "n": 29,
+    "legacy_3_6_3": 29
+   }
+  },
+  {
+   "name": "svc: every vehicle belongs to its district fleet (sv)",
+   "status": "PASS",
+   "info": {
+    "kinds": {
+     "sv_civil": 8,
+     "sv_priv": 6,
+     "sv_exec": 12,
+     "sv_sec": 2,
+     "sv_limo": 3
+    },
+    "n": 31,
+    "legacy_3_6_3": 31
+   }
+  },
+  {
+   "name": "orb: every vehicle belongs to its district fleet (orb)",
+   "status": "PASS",
+   "info": {
+    "kinds": {
+     "orb_shuttle": 8,
+     "orb_service": 6,
+     "orb_capsule": 6,
+     "orb_cargo": 3,
+     "orb_drone": 3
+    },
+    "n": 26,
+    "legacy_3_6_3": 26
+   }
+  },
+  {
+   "name": "District fleets are disjoint (no shared vehicle model between districts)",
+   "status": "PASS",
+   "info": {
+    "k9": [
+     "k9_taxi",
+     "k9_street",
+     "k9_bus",
+     "k9_courier",
+     "k9_van"
+    ],
+    "ia": [
+     "ia_hauler",
+     "ia_maint",
+     "ia_truck",
+     "ia_mover",
+     "ia_platform"
+    ],
+    "sv": [
+     "sv_civil",
+     "sv_priv",
+     "sv_exec",
+     "sv_limo",
+     "sv_sec"
+    ],
+    "orb": [
+     "orb_shuttle",
+     "orb_service",
+     "orb_capsule",
+     "orb_cargo",
+     "orb_drone"
+    ]
+   }
+  },
+  {
+   "name": "Density stays within -20%..+20% of 3.6.3 on every track",
+   "status": "PASS",
+   "info": {
+    "k9": "21/19",
+    "ia": "13/15",
+    "sv": "24/24",
+    "k9a": "28/25",
+    "k9b": "25/22",
+    "k9c": "31/28",
+    "iaa": "15/17",
+    "iab": "13/15",
+    "iac": "15/17",
+    "sva": "29/29",
+    "svb": "29/29",
+    "svc": "31/31",
+    "orb": "26/26"
+   }
+  },
+  {
+   "name": "No vehicle starts inside the starting grid (>= 200 m from the line)",
+   "status": "PASS",
+   "info": {
+    "k9": 286,
+    "ia": 319,
+    "sv": 254,
+    "k9a": 271,
+    "k9b": 240,
+    "k9c": 241,
+    "iaa": 270,
+    "iab": 252,
+    "iac": 234,
+    "sva": 238,
+    "svb": 220,
+    "svc": 230,
+    "orb": 254
+   }
+  },
+  {
+   "name": "k9: traffic never overlaps obstacles, walls or the flight band",
+   "status": "PASS",
+   "info": {
+    "obOverlap": 0,
+    "byOb": [
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "examples": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "wall": 0,
+    "band": 0,
+    "steps": 28843
+   }
+  },
+  {
+   "name": "k9: respawned traffic never appears near a racer (>= 80 m)",
+   "status": "PASS",
+   "info": {
+    "spawns": 3,
+    "minGap": 320
+   }
+  },
+  {
+   "name": "k9: lane changes never move into an occupied space",
+   "status": "PASS",
+   "info": {
+    "laneChanges": 81,
+    "unsafe": 0
+   }
+  },
+  {
+   "name": "k9: races finish with every racer and no NaN",
+   "status": "PASS",
+   "info": [
+    [
+     64.28,
+     79.36,
+     72.85,
+     72.34
+    ],
+    [
+     70.07,
+     78.42,
+     76.98,
+     76.16
+    ],
+    [
+     69.69,
+     78.41,
+     80.25,
+     77.02
+    ],
+    [
+     79.07,
+     79.59,
+     76.5,
+     71.59
+    ],
+    [
+     73.21,
+     80.63,
+     75.43,
+     74.62
+    ],
+    [
+     64.27,
+     76.36,
+     82.4,
+     78.57
+    ]
+   ]
+  },
+  {
+   "name": "ia: traffic never overlaps obstacles, walls or the flight band",
+   "status": "PASS",
+   "info": {
+    "obOverlap": 0,
+    "byOb": [
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "examples": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "wall": 0,
+    "band": 0,
+    "steps": 31945
+   }
+  },
+  {
+   "name": "ia: respawned traffic never appears near a racer (>= 80 m)",
+   "status": "PASS",
+   "info": {
+    "spawns": 10,
+    "minGap": 108
+   }
+  },
+  {
+   "name": "ia: lane changes never move into an occupied space",
+   "status": "PASS",
+   "info": {
+    "laneChanges": 0,
+    "unsafe": 0
+   }
+  },
+  {
+   "name": "ia: races finish with every racer and no NaN",
+   "status": "PASS",
+   "info": [
+    [
+     77.61,
+     89.37,
+     90,
+     77.45
+    ],
+    [
+     73.91,
+     83.79,
+     83.38,
+     79.63
+    ],
+    [
+     73.08,
+     88.6,
+     83.65,
+     85.7
+    ],
+    [
+     68.75,
+     83.2,
+     87.43,
+     90.39
+    ],
+    [
+     74.99,
+     86.78,
+     88.13,
+     81.64
+    ],
+    [
+     70.63,
+     88.54,
+     91.44,
+     88.22
+    ]
+   ]
+  },
+  {
+   "name": "sv: traffic never overlaps obstacles, walls or the flight band",
+   "status": "PASS",
+   "info": {
+    "obOverlap": 0,
+    "byOb": [
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "examples": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "wall": 0,
+    "band": 0,
+    "steps": 36953
+   }
+  },
+  {
+   "name": "sv: respawned traffic never appears near a racer (>= 80 m)",
+   "status": "PASS",
+   "info": {
+    "spawns": 0,
+    "minGap": 1000000000
+   }
+  },
+  {
+   "name": "sv: lane changes never move into an occupied space",
+   "status": "PASS",
+   "info": {
+    "laneChanges": 4,
+    "unsafe": 0
+   }
+  },
+  {
+   "name": "sv: races finish with every racer and no NaN",
+   "status": "PASS",
+   "info": [
+    [
+     92.74,
+     101.21,
+     94.31,
+     100.99
+    ],
+    [
+     91.58,
+     110.8,
+     99.44,
+     105.27
+    ],
+    [
+     95.69,
+     94.32,
+     98.47,
+     101.68
+    ],
+    [
+     91.93,
+     99.83,
+     103,
+     100.61
+    ],
+    [
+     93.23,
+     100.4,
+     97.28,
+     96.46
+    ],
+    [
+     94.5,
+     95.01,
+     98.74,
+     93.41
+    ]
+   ]
+  },
+  {
+   "name": "k9a: traffic never overlaps obstacles, walls or the flight band",
+   "status": "PASS",
+   "info": {
+    "obOverlap": 0,
+    "byOb": [
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "examples": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "wall": 0,
+    "band": 0,
+    "steps": 40581
+   }
+  },
+  {
+   "name": "k9a: respawned traffic never appears near a racer (>= 80 m)",
+   "status": "PASS",
+   "info": {
+    "spawns": 0,
+    "minGap": 1000000000
+   }
+  },
+  {
+   "name": "k9a: lane changes never move into an occupied space",
+   "status": "PASS",
+   "info": {
+    "laneChanges": 604,
+    "unsafe": 0
+   }
+  },
+  {
+   "name": "k9a: races finish with every racer and no NaN",
+   "status": "PASS",
+   "info": [
+    [
+     112.81,
+     108.44,
+     103.47,
+     110.94
+    ],
+    [
+     101.79,
+     106.43,
+     103.23,
+     113.48
+    ],
+    [
+     101.12,
+     103.57,
+     102.67,
+     111.88
+    ],
+    [
+     104.58,
+     110.62,
+     103.06,
+     109.68
+    ],
+    [
+     95.91,
+     110.24,
+     104.54,
+     113.27
+    ],
+    [
+     95.5,
+     103.8,
+     99.99,
+     114.24
+    ]
+   ]
+  },
+  {
+   "name": "k9b: traffic never overlaps obstacles, walls or the flight band",
+   "status": "PASS",
+   "info": {
+    "obOverlap": 0,
+    "byOb": [
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "examples": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "wall": 0,
+    "band": 0,
+    "steps": 43026
+   }
+  },
+  {
+   "name": "k9b: respawned traffic never appears near a racer (>= 80 m)",
+   "status": "PASS",
+   "info": {
+    "spawns": 6,
+    "minGap": 221
+   }
+  },
+  {
+   "name": "k9b: lane changes never move into an occupied space",
+   "status": "PASS",
+   "info": {
+    "laneChanges": 498,
+    "unsafe": 0
+   }
+  },
+  {
+   "name": "k9b: races finish with every racer and no NaN",
+   "status": "PASS",
+   "info": [
+    [
+     111.7,
+     121.34,
+     117.25,
+     106.78
+    ],
+    [
+     111.67,
+     120.39,
+     108.09,
+     110.57
+    ],
+    [
+     105.54,
+     111.52,
+     109.2,
+     115.25
+    ],
+    [
+     113.23,
+     114.33,
+     119.31,
+     108.2
+    ],
+    [
+     114.03,
+     110.37,
+     116.82,
+     118.43
+    ],
+    [
+     122.32,
+     115.04,
+     111.01,
+     115.54
+    ]
+   ]
+  },
+  {
+   "name": "k9c: traffic never overlaps obstacles, walls or the flight band",
+   "status": "PASS",
+   "info": {
+    "obOverlap": 0,
+    "byOb": [
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "examples": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "wall": 0,
+    "band": 0,
+    "steps": 47724
+   }
+  },
+  {
+   "name": "k9c: respawned traffic never appears near a racer (>= 80 m)",
+   "status": "PASS",
+   "info": {
+    "spawns": 7,
+    "minGap": 83
+   }
+  },
+  {
+   "name": "k9c: lane changes never move into an occupied space",
+   "status": "PASS",
+   "info": {
+    "laneChanges": 337,
+    "unsafe": 0
+   }
+  },
+  {
+   "name": "k9c: races finish with every racer and no NaN",
+   "status": "PASS",
+   "info": [
+    [
+     124.84,
+     126.1
+    ],
+    [
+     130.95,
+     130.71
+    ],
+    [
+     134.2,
+     130.55
+    ],
+    [
+     124.11,
+     129.82
+    ],
+    [
+     122.68,
+     133.77
+    ],
+    [
+     140.51,
+     126.17
+    ]
+   ]
+  },
+  {
+   "name": "iaa: traffic never overlaps obstacles, walls or the flight band",
+   "status": "PASS",
+   "info": {
+    "obOverlap": 0,
+    "byOb": [
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "examples": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "wall": 0,
+    "band": 0,
+    "steps": 43778
+   }
+  },
+  {
+   "name": "iaa: respawned traffic never appears near a racer (>= 80 m)",
+   "status": "PASS",
+   "info": {
+    "spawns": 13,
+    "minGap": 265
+   }
+  },
+  {
+   "name": "iaa: lane changes never move into an occupied space",
+   "status": "PASS",
+   "info": {
+    "laneChanges": 0,
+    "unsafe": 0
+   }
+  },
+  {
+   "name": "iaa: races finish with every racer and no NaN",
+   "status": "PASS",
+   "info": [
+    [
+     107.8,
+     118.5,
+     112.24,
+     114.32
+    ],
+    [
+     104.63,
+     124.42,
+     115.7,
+     110.69
+    ],
+    [
+     103.14,
+     116.73,
+     119.05,
+     107.77
+    ],
+    [
+     99.89,
+     116.45,
+     116.79,
+     107.79
+    ],
+    [
+     109.43,
+     118.43,
+     123.03,
+     119.99
+    ],
+    [
+     99.73,
+     126.04,
+     127.78,
+     122.17
+    ]
+   ]
+  },
+  {
+   "name": "iab: traffic never overlaps obstacles, walls or the flight band",
+   "status": "PASS",
+   "info": {
+    "obOverlap": 0,
+    "byOb": [
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "examples": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "wall": 0,
+    "band": 0,
+    "steps": 55367
+   }
+  },
+  {
+   "name": "iab: respawned traffic never appears near a racer (>= 80 m)",
+   "status": "PASS",
+   "info": {
+    "spawns": 10,
+    "minGap": 98
+   }
+  },
+  {
+   "name": "iab: lane changes never move into an occupied space",
+   "status": "PASS",
+   "info": {
+    "laneChanges": 0,
+    "unsafe": 0
+   }
+  },
+  {
+   "name": "iab: races finish with every racer and no NaN",
+   "status": "PASS",
+   "info": [
+    [
+     130.34,
+     150.51,
+     143,
+     147.03
+    ],
+    [
+     129.3,
+     149.73,
+     139.19,
+     128.9
+    ],
+    [
+     127.68,
+     149.42,
+     152.94,
+     151.95
+    ],
+    [
+     129.88,
+     153.8,
+     162.1,
+     142.04
+    ],
+    [
+     127.06,
+     156.83,
+     152.1,
+     158.11
+    ],
+    [
+     126.79,
+     141.24,
+     149.35,
+     139.38
+    ]
+   ]
+  },
+  {
+   "name": "iac: traffic never overlaps obstacles, walls or the flight band",
+   "status": "PASS",
+   "info": {
+    "obOverlap": 0,
+    "byOb": [
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "examples": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "wall": 0,
+    "band": 0,
+    "steps": 49872
+   }
+  },
+  {
+   "name": "iac: respawned traffic never appears near a racer (>= 80 m)",
+   "status": "PASS",
+   "info": {
+    "spawns": 2,
+    "minGap": 1615
+   }
+  },
+  {
+   "name": "iac: lane changes never move into an occupied space",
+   "status": "PASS",
+   "info": {
+    "laneChanges": 0,
+    "unsafe": 0
+   }
+  },
+  {
+   "name": "iac: races finish with every racer and no NaN",
+   "status": "PASS",
+   "info": [
+    [
+     135.48,
+     139.33
+    ],
+    [
+     138.68,
+     141.58
+    ],
+    [
+     136.14,
+     142.37
+    ],
+    [
+     131.1,
+     134.27
+    ],
+    [
+     134.29,
+     131.31
+    ],
+    [
+     131.08,
+     139.29
+    ]
+   ]
+  },
+  {
+   "name": "sva: traffic never overlaps obstacles, walls or the flight band",
+   "status": "PASS",
+   "info": {
+    "obOverlap": 0,
+    "byOb": [
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "examples": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "wall": 0,
+    "band": 0,
+    "steps": 51264
+   }
+  },
+  {
+   "name": "sva: respawned traffic never appears near a racer (>= 80 m)",
+   "status": "PASS",
+   "info": {
+    "spawns": 2,
+    "minGap": 580
+   }
+  },
+  {
+   "name": "sva: lane changes never move into an occupied space",
+   "status": "PASS",
+   "info": {
+    "laneChanges": 5,
+    "unsafe": 0
+   }
+  },
+  {
+   "name": "sva: races finish with every racer and no NaN",
+   "status": "PASS",
+   "info": [
+    [
+     137.51,
+     138.05,
+     143.84,
+     139.01
+    ],
+    [
+     133.24,
+     135.85,
+     138.68,
+     140.07
+    ],
+    [
+     138.77,
+     141.62,
+     137.67,
+     136.36
+    ],
+    [
+     128.36,
+     136.61,
+     142.11,
+     139.4
+    ],
+    [
+     129.38,
+     140.53,
+     146.09,
+     137.27
+    ],
+    [
+     126.4,
+     136.34,
+     139.19,
+     140.63
+    ]
+   ]
+  },
+  {
+   "name": "svb: traffic never overlaps obstacles, walls or the flight band",
+   "status": "PASS",
+   "info": {
+    "obOverlap": 0,
+    "byOb": [
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "examples": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "wall": 0,
+    "band": 0,
+    "steps": 52090
+   }
+  },
+  {
+   "name": "svb: respawned traffic never appears near a racer (>= 80 m)",
+   "status": "PASS",
+   "info": {
+    "spawns": 1,
+    "minGap": 1085
+   }
+  },
+  {
+   "name": "svb: lane changes never move into an occupied space",
+   "status": "PASS",
+   "info": {
+    "laneChanges": 1,
+    "unsafe": 0
+   }
+  },
+  {
+   "name": "svb: races finish with every racer and no NaN",
+   "status": "PASS",
+   "info": [
+    [
+     138.28,
+     150.89,
+     140.91,
+     138.41
+    ],
+    [
+     137.62,
+     144.15,
+     143.38,
+     138.36
+    ],
+    [
+     132.67,
+     140.61,
+     138.58,
+     137.48
+    ],
+    [
+     135.64,
+     138.66,
+     142.7,
+     141.37
+    ],
+    [
+     131.26,
+     139.83,
+     146.58,
+     141.13
+    ],
+    [
+     138.47,
+     142.38,
+     143.16,
+     136.85
+    ]
+   ]
+  },
+  {
+   "name": "svc: traffic never overlaps obstacles, walls or the flight band",
+   "status": "PASS",
+   "info": {
+    "obOverlap": 0,
+    "byOb": [
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "examples": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "wall": 0,
+    "band": 0,
+    "steps": 56061
+   }
+  },
+  {
+   "name": "svc: respawned traffic never appears near a racer (>= 80 m)",
+   "status": "PASS",
+   "info": {
+    "spawns": 2,
+    "minGap": 497
+   }
+  },
+  {
+   "name": "svc: lane changes never move into an occupied space",
+   "status": "PASS",
+   "info": {
+    "laneChanges": 16,
+    "unsafe": 0
+   }
+  },
+  {
+   "name": "svc: races finish with every racer and no NaN",
+   "status": "PASS",
+   "info": [
+    [
+     153.06,
+     156.46
+    ],
+    [
+     153.7,
+     155.93
+    ],
+    [
+     149.23,
+     158.31
+    ],
+    [
+     154.33,
+     151.67
+    ],
+    [
+     149.57,
+     152.61
+    ],
+    [
+     153.36,
+     156.68
+    ]
+   ]
+  },
+  {
+   "name": "orb: traffic never overlaps obstacles, walls or the flight band",
+   "status": "PASS",
+   "info": {
+    "obOverlap": 0,
+    "byOb": [
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "examples": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "wall": 0,
+    "band": 0,
+    "steps": 63589
+   }
+  },
+  {
+   "name": "orb: respawned traffic never appears near a racer (>= 80 m)",
+   "status": "PASS",
+   "info": {
+    "spawns": 3,
+    "minGap": 819
+   }
+  },
+  {
+   "name": "orb: lane changes never move into an occupied space",
+   "status": "PASS",
+   "info": {
+    "laneChanges": 0,
+    "unsafe": 0
+   }
+  },
+  {
+   "name": "orb: races finish with every racer and no NaN",
+   "status": "PASS",
+   "info": [
+    [
+     168.86,
+     183.22,
+     166.77,
+     168.75
+    ],
+    [
+     171.24,
+     179.38,
+     175.77,
+     168.17
+    ],
+    [
+     172.78,
+     169.85,
+     169.56,
+     172.96
+    ],
+    [
+     163.64,
+     170.9,
+     174.34,
+     172.34
+    ],
+    [
+     168.92,
+     173.44,
+     165.68,
+     171.28
+    ],
+    [
+     166.86,
+     176.43,
+     172.79,
+     169.14
+    ]
+   ]
+  },
+  {
+   "name": "Kowloon-9 traffic changes lanes (urban behaviour); Industrial Abyss never does (predictable convoys)",
+   "status": "PASS",
+   "info": {
+    "k9": 1520,
+    "ia": 0,
+    "sv": 26,
+    "orb": 0
+   }
+  },
+  {
+   "name": "District speed profiles: Industrial slowest, Skyline/Orbital fastest",
+   "status": "PASS",
+   "info": {
+    "k9a": {
+     "mean": 42.2,
+     "min": 27.4,
+     "max": 55.4,
+     "lanes": [
+      4,
+      -11.3,
+      -12.6,
+      1.7,
+      -6.2,
+      1.2,
+      8.4,
+      8
+     ]
+    },
+    "iaa": {
+     "mean": 27.6,
+     "min": 20.8,
+     "max": 33.1,
+     "lanes": [
+      4.9,
+      4.8,
+      -4.8,
+      4.7,
+      -4.5,
+      -4.7,
+      -4.9,
+      4.9
+     ]
+    },
+    "sva": {
+     "mean": 48.5,
+     "min": 39.6,
+     "max": 58.1,
+     "lanes": [
+      -8.6,
+      0,
+      -8.5,
+      0,
+      -8.6,
+      0,
+      0,
+      0
+     ]
+    },
+    "orb": {
+     "mean": 42.9,
+     "min": 34.2,
+     "max": 51.1,
+     "lanes": [
+      4.1,
+      -0.3,
+      3.7,
+      0.5,
+      2.3,
+      14.6,
+      -8.8,
+      -12.9
+     ]
+    }
+   }
+  },
+  {
+   "name": "No page errors during traffic tests",
+   "status": "PASS",
+   "info": []
+  }
+ ],
+ "comp": {
+  "k9": {
+   "district": "k9",
+   "n": 21,
+   "same": 17,
+   "onc": 4,
+   "legacy": 19,
+   "kinds": {
+    "k9_taxi": 7,
+    "k9_street": 5,
+    "k9_bus": 2,
+    "k9_courier": 5,
+    "k9_van": 2
+   },
+   "allDistrict": true,
+   "minStart": 286.4939477196623
+  },
+  "ia": {
+   "district": "ia",
+   "n": 13,
+   "same": 10,
+   "onc": 3,
+   "legacy": 15,
+   "kinds": {
+    "ia_hauler": 3,
+    "ia_maint": 6,
+    "ia_truck": 4
+   },
+   "allDistrict": true,
+   "minStart": 319.37012267655825
+  },
+  "sv": {
+   "district": "sv",
+   "n": 24,
+   "same": 18,
+   "onc": 6,
+   "legacy": 24,
+   "kinds": {
+    "sv_civil": 5,
+    "sv_priv": 13,
+    "sv_exec": 3,
+    "sv_limo": 1,
+    "sv_sec": 2
+   },
+   "allDistrict": true,
+   "minStart": 253.6129613954286
+  },
+  "k9a": {
+   "district": "k9",
+   "n": 28,
+   "same": 23,
+   "onc": 5,
+   "legacy": 25,
+   "kinds": {
+    "k9_taxi": 8,
+    "k9_van": 9,
+    "k9_courier": 5,
+    "k9_bus": 1,
+    "k9_street": 5
+   },
+   "allDistrict": true,
+   "minStart": 270.9823054192081
+  },
+  "k9b": {
+   "district": "k9",
+   "n": 25,
+   "same": 21,
+   "onc": 4,
+   "legacy": 22,
+   "kinds": {
+    "k9_street": 4,
+    "k9_van": 4,
+    "k9_taxi": 10,
+    "k9_courier": 5,
+    "k9_bus": 2
+   },
+   "allDistrict": true,
+   "minStart": 239.84401140672836
+  },
+  "k9c": {
+   "district": "k9",
+   "n": 31,
+   "same": 25,
+   "onc": 6,
+   "legacy": 28,
+   "kinds": {
+    "k9_taxi": 7,
+    "k9_courier": 5,
+    "k9_van": 6,
+    "k9_street": 11,
+    "k9_bus": 2
+   },
+   "allDistrict": true,
+   "minStart": 241.26422368486232
+  },
+  "iaa": {
+   "district": "ia",
+   "n": 15,
+   "same": 12,
+   "onc": 3,
+   "legacy": 17,
+   "kinds": {
+    "ia_truck": 6,
+    "ia_mover": 2,
+    "ia_maint": 2,
+    "ia_hauler": 5
+   },
+   "allDistrict": true,
+   "minStart": 269.90029194862035
+  },
+  "iab": {
+   "district": "ia",
+   "n": 13,
+   "same": 10,
+   "onc": 3,
+   "legacy": 15,
+   "kinds": {
+    "ia_hauler": 1,
+    "ia_platform": 2,
+    "ia_truck": 4,
+    "ia_maint": 6
+   },
+   "allDistrict": true,
+   "minStart": 251.97834887051778
+  },
+  "iac": {
+   "district": "ia",
+   "n": 15,
+   "same": 12,
+   "onc": 3,
+   "legacy": 17,
+   "kinds": {
+    "ia_maint": 3,
+    "ia_truck": 5,
+    "ia_hauler": 6,
+    "ia_mover": 1
+   },
+   "allDistrict": true,
+   "minStart": 234.1090999099712
+  },
+  "sva": {
+   "district": "sv",
+   "n": 29,
+   "same": 22,
+   "onc": 7,
+   "legacy": 29,
+   "kinds": {
+    "sv_priv": 8,
+    "sv_sec": 6,
+    "sv_exec": 4,
+    "sv_civil": 7,
+    "sv_limo": 4
+   },
+   "allDistrict": true,
+   "minStart": 238.02935750353905
+  },
+  "svb": {
+   "district": "sv",
+   "n": 29,
+   "same": 22,
+   "onc": 7,
+   "legacy": 29,
+   "kinds": {
+    "sv_limo": 2,
+    "sv_civil": 6,
+    "sv_exec": 7,
+    "sv_sec": 3,
+    "sv_priv": 11
+   },
+   "allDistrict": true,
+   "minStart": 220.41093461436094
+  },
+  "svc": {
+   "district": "sv",
+   "n": 31,
+   "same": 24,
+   "onc": 7,
+   "legacy": 31,
+   "kinds": {
+    "sv_civil": 8,
+    "sv_priv": 6,
+    "sv_exec": 12,
+    "sv_sec": 2,
+    "sv_limo": 3
+   },
+   "allDistrict": true,
+   "minStart": 230.0816205327004
+  },
+  "orb": {
+   "district": "orb",
+   "n": 26,
+   "same": 20,
+   "onc": 6,
+   "legacy": 26,
+   "kinds": {
+    "orb_shuttle": 8,
+    "orb_service": 6,
+    "orb_capsule": 6,
+    "orb_cargo": 3,
+    "orb_drone": 3
+   },
+   "allDistrict": true,
+   "minStart": 253.63624578669456
+  }
+ },
+ "sim": {
+  "k9": [
+   {
+    "seed": 1,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 64.28,
+      "dist": 11358,
+      "place": 1,
+      "wrecks": 0,
+      "td": 1,
+      "best": 20.42,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 79.36,
+      "dist": 9133,
+      "place": 4,
+      "wrecks": 2,
+      "td": 0,
+      "best": 23.88,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 72.85,
+      "dist": 10027,
+      "place": 3,
+      "wrecks": 2,
+      "td": 1,
+      "best": 21.23,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 72.34,
+      "dist": 10059,
+      "place": 2,
+      "wrecks": 0,
+      "td": 1,
+      "best": 22.05,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 4762,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 320.0690160369991,
+     "lc": 8,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "kira:slam": 1,
+     "kira:obstacle": 1,
+     "vega:slam": 2
+    }
+   },
+   {
+    "seed": 2,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 70.07,
+      "dist": 10373,
+      "place": 1,
+      "wrecks": 1,
+      "td": 2,
+      "best": 20.72,
+      "rt": 1,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 78.42,
+      "dist": 9133,
+      "place": 4,
+      "wrecks": 1,
+      "td": 0,
+      "best": 24.88,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 76.98,
+      "dist": 9341,
+      "place": 3,
+      "wrecks": 1,
+      "td": 1,
+      "best": 23.98,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 76.16,
+      "dist": 9388,
+      "place": 2,
+      "wrecks": 1,
+      "td": 0,
+      "best": 23.43,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 4705,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 15,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "kira:wall": 1,
+     "me:obstacle": 1,
+     "rook:obstacle": 1,
+     "vega:slam": 1
+    }
+   },
+   {
+    "seed": 3,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 69.69,
+      "dist": 10686,
+      "place": 1,
+      "wrecks": 2,
+      "td": 1,
+      "best": 21.17,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 78.41,
+      "dist": 9334,
+      "place": 3,
+      "wrecks": 2,
+      "td": 1,
+      "best": 22.62,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 80.25,
+      "dist": 9134,
+      "place": 4,
+      "wrecks": 2,
+      "td": 2,
+      "best": 23.57,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 77.02,
+      "dist": 9623,
+      "place": 2,
+      "wrecks": 2,
+      "td": 1,
+      "best": 22.12,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 4816,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 448.75157442916316,
+     "lc": 15,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "vega:slam": 1,
+     "rook:obstacle": 1,
+     "rook:frontal": 1,
+     "me:obstacle": 2,
+     "kira:slam": 1,
+     "kira:obstacle": 1,
+     "vega:obstacle": 1
+    }
+   },
+   {
+    "seed": 4,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 79.07,
+      "dist": 9198,
+      "place": 3,
+      "wrecks": 4,
+      "td": 0,
+      "best": 24.62,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 79.59,
+      "dist": 9133,
+      "place": 4,
+      "wrecks": 2,
+      "td": 1,
+      "best": 24.18,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 76.5,
+      "dist": 9600,
+      "place": 2,
+      "wrecks": 1,
+      "td": 0,
+      "best": 21.53,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 71.59,
+      "dist": 10113,
+      "place": 1,
+      "wrecks": 1,
+      "td": 1,
+      "best": 21.1,
+      "rt": 1,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 4776,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 444.31797274273913,
+     "lc": 17,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "kira:slam": 1,
+     "me:obstacle": 3,
+     "rook:obstacle": 1,
+     "vega:obstacle": 2,
+     "me:frontal": 1
+    }
+   },
+   {
+    "seed": 5,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 73.21,
+      "dist": 10146,
+      "place": 1,
+      "wrecks": 2,
+      "td": 0,
+      "best": 22.63,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 80.63,
+      "dist": 9134,
+      "place": 4,
+      "wrecks": 2,
+      "td": 0,
+      "best": 23.27,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 75.43,
+      "dist": 9716,
+      "place": 3,
+      "wrecks": 1,
+      "td": 1,
+      "best": 24.08,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 74.62,
+      "dist": 9876,
+      "place": 2,
+      "wrecks": 1,
+      "td": 1,
+      "best": 22.35,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 4839,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 12,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "vega:obstacle": 2,
+     "kira:obstacle": 1,
+     "me:obstacle": 2,
+     "rook:obstacle": 1
+    }
+   },
+   {
+    "seed": 6,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 64.27,
+      "dist": 11248,
+      "place": 1,
+      "wrecks": 1,
+      "td": 1,
+      "best": 19.53,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 76.36,
+      "dist": 9983,
+      "place": 2,
+      "wrecks": 1,
+      "td": 0,
+      "best": 22.62,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 82.4,
+      "dist": 9135,
+      "place": 4,
+      "wrecks": 2,
+      "td": 0,
+      "best": 26.23,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 78.57,
+      "dist": 9648,
+      "place": 3,
+      "wrecks": 2,
+      "td": 1,
+      "best": 22.77,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 4945,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 14,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "vega:slam": 1,
+     "rook:obstacle": 2,
+     "kira:obstacle": 2,
+     "me:obstacle": 1
+    }
+   }
+  ],
+  "ia": [
+   {
+    "seed": 1,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 77.61,
+      "dist": 10508,
+      "place": 2,
+      "wrecks": 2,
+      "td": 0,
+      "best": 25.38,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 89.37,
+      "dist": 9044,
+      "place": 3,
+      "wrecks": 3,
+      "td": 2,
+      "best": 26.2,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 90,
+      "dist": 8969,
+      "place": 4,
+      "wrecks": 2,
+      "td": 2,
+      "best": 27.35,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 77.45,
+      "dist": 10559,
+      "place": 1,
+      "wrecks": 0,
+      "td": 3,
+      "best": 24.68,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 5401,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 171.19512684119445,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "kira:wall": 1,
+     "vega:wall": 1,
+     "me:obstacle": 2,
+     "vega:obstacle": 2,
+     "kira:obstacle": 1
+    }
+   },
+   {
+    "seed": 2,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 73.91,
+      "dist": 10258,
+      "place": 1,
+      "wrecks": 1,
+      "td": 0,
+      "best": 23.62,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 83.79,
+      "dist": 8969,
+      "place": 4,
+      "wrecks": 1,
+      "td": 0,
+      "best": 26.17,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 83.38,
+      "dist": 9033,
+      "place": 3,
+      "wrecks": 1,
+      "td": 2,
+      "best": 24.97,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 79.63,
+      "dist": 9531,
+      "place": 2,
+      "wrecks": 0,
+      "td": 0,
+      "best": 25.02,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 5028,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1
+     }
+    },
+    "wc": {
+     "vega:obstacle": 1,
+     "kira:obstacle": 1,
+     "me:obstacle": 1
+    }
+   },
+   {
+    "seed": 3,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 73.08,
+      "dist": 10831,
+      "place": 1,
+      "wrecks": 1,
+      "td": 0,
+      "best": 23.63,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 88.6,
+      "dist": 8969,
+      "place": 4,
+      "wrecks": 3,
+      "td": 2,
+      "best": 25.1,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 83.65,
+      "dist": 9623,
+      "place": 2,
+      "wrecks": 1,
+      "td": 2,
+      "best": 25.45,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 85.7,
+      "dist": 9387,
+      "place": 3,
+      "wrecks": 2,
+      "td": 2,
+      "best": 25.67,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 5317,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 4,
+     "minSpawnGap": 157.35071312497394,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "kira:wall": 1,
+     "rook:slam": 2,
+     "vega:obstacle": 2,
+     "me:obstacle": 1,
+     "vega:frontal": 1
+    }
+   },
+   {
+    "seed": 4,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 68.75,
+      "dist": 11869,
+      "place": 1,
+      "wrecks": 0,
+      "td": 1,
+      "best": 22.4,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 83.2,
+      "dist": 9867,
+      "place": 2,
+      "wrecks": 0,
+      "td": 1,
+      "best": 25.6,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 87.43,
+      "dist": 9276,
+      "place": 3,
+      "wrecks": 1,
+      "td": 1,
+      "best": 27.33,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 90.39,
+      "dist": 8968,
+      "place": 4,
+      "wrecks": 2,
+      "td": 0,
+      "best": 26.48,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 5424,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 107.50697033532836,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "kira:slam": 1,
+     "rook:obstacle": 1,
+     "rook:slam": 1
+    }
+   },
+   {
+    "seed": 5,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 74.99,
+      "dist": 10597,
+      "place": 1,
+      "wrecks": 1,
+      "td": 0,
+      "best": 23.77,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 86.78,
+      "dist": 9117,
+      "place": 3,
+      "wrecks": 1,
+      "td": 0,
+      "best": 26.87,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 88.13,
+      "dist": 8968,
+      "place": 4,
+      "wrecks": 2,
+      "td": 1,
+      "best": 28.88,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 81.64,
+      "dist": 9876,
+      "place": 2,
+      "wrecks": 1,
+      "td": 2,
+      "best": 24.47,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 5288,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 3,
+     "minSpawnGap": 385.2324617621646,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "vega:obstacle": 1,
+     "me:frontal": 1,
+     "kira:obstacle": 2,
+     "rook:obstacle": 1
+    }
+   },
+   {
+    "seed": 6,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 70.63,
+      "dist": 11580,
+      "place": 1,
+      "wrecks": 0,
+      "td": 2,
+      "best": 22.75,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 88.54,
+      "dist": 9375,
+      "place": 3,
+      "wrecks": 1,
+      "td": 2,
+      "best": 27.77,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 91.44,
+      "dist": 8968,
+      "place": 4,
+      "wrecks": 3,
+      "td": 0,
+      "best": 26.27,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 88.22,
+      "dist": 9075,
+      "place": 2,
+      "wrecks": 3,
+      "td": 1,
+      "best": 26.28,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 5487,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 299.70621273008,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "kira:slam": 1,
+     "vega:obstacle": 1,
+     "rook:obstacle": 2,
+     "kira:wall": 1,
+     "kira:obstacle": 1,
+     "rook:slam": 1
+    }
+   }
+  ],
+  "sv": [
+   {
+    "seed": 1,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 92.74,
+      "dist": 15272,
+      "place": 1,
+      "wrecks": 1,
+      "td": 1,
+      "best": 28.02,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 101.21,
+      "dist": 14001,
+      "place": 4,
+      "wrecks": 2,
+      "td": 0,
+      "best": 30.4,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 94.31,
+      "dist": 15054,
+      "place": 2,
+      "wrecks": 0,
+      "td": 0,
+      "best": 30.33,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 100.99,
+      "dist": 14028,
+      "place": 3,
+      "wrecks": 2,
+      "td": 3,
+      "best": 30.93,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 6073,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "vega:slam": 2,
+     "rook:wall": 1,
+     "me:obstacle": 1,
+     "rook:obstacle": 1
+    }
+   },
+   {
+    "seed": 2,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 91.58,
+      "dist": 16997,
+      "place": 1,
+      "wrecks": 1,
+      "td": 2,
+      "best": 29.05,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 110.8,
+      "dist": 14002,
+      "place": 4,
+      "wrecks": 3,
+      "td": 0,
+      "best": 32.92,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 99.44,
+      "dist": 15744,
+      "place": 2,
+      "wrecks": 1,
+      "td": 0,
+      "best": 30.33,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 105.27,
+      "dist": 14822,
+      "place": 3,
+      "wrecks": 3,
+      "td": 2,
+      "best": 34.57,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 6649,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 1,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "vega:slam": 1,
+     "me:wall": 1,
+     "rook:obstacle": 3,
+     "vega:obstacle": 2,
+     "kira:obstacle": 1
+    }
+   },
+   {
+    "seed": 3,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 95.69,
+      "dist": 14944,
+      "place": 2,
+      "wrecks": 2,
+      "td": 1,
+      "best": 29.35,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 94.32,
+      "dist": 15265,
+      "place": 1,
+      "wrecks": 0,
+      "td": 2,
+      "best": 30.97,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 98.47,
+      "dist": 14459,
+      "place": 3,
+      "wrecks": 1,
+      "td": 2,
+      "best": 30.28,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 101.68,
+      "dist": 14000,
+      "place": 4,
+      "wrecks": 2,
+      "td": 0,
+      "best": 30.35,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 6101,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 1,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "rook:slam": 2,
+     "kira:slam": 1,
+     "me:obstacle": 1,
+     "me:slam": 1
+    }
+   },
+   {
+    "seed": 4,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 91.93,
+      "dist": 15838,
+      "place": 1,
+      "wrecks": 1,
+      "td": 0,
+      "best": 28.78,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 99.83,
+      "dist": 14504,
+      "place": 2,
+      "wrecks": 1,
+      "td": 2,
+      "best": 31.45,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 103,
+      "dist": 14000,
+      "place": 4,
+      "wrecks": 2,
+      "td": 2,
+      "best": 32.4,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 100.61,
+      "dist": 14338,
+      "place": 3,
+      "wrecks": 1,
+      "td": 1,
+      "best": 31.65,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 6180,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 2,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "rook:slam": 1,
+     "vega:obstacle": 1,
+     "me:obstacle": 1,
+     "kira:obstacle": 2
+    }
+   },
+   {
+    "seed": 5,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 93.23,
+      "dist": 15216,
+      "place": 1,
+      "wrecks": 1,
+      "td": 1,
+      "best": 29.17,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 100.4,
+      "dist": 14001,
+      "place": 4,
+      "wrecks": 1,
+      "td": 0,
+      "best": 30.6,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 97.28,
+      "dist": 14448,
+      "place": 3,
+      "wrecks": 1,
+      "td": 2,
+      "best": 28.3,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 96.46,
+      "dist": 14608,
+      "place": 2,
+      "wrecks": 0,
+      "td": 0,
+      "best": 31.47,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 6025,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "me:wall": 1,
+     "vega:slam": 1,
+     "kira:slam": 1
+    }
+   },
+   {
+    "seed": 6,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 94.5,
+      "dist": 14650,
+      "place": 2,
+      "wrecks": 1,
+      "td": 0,
+      "best": 29.22,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 95.01,
+      "dist": 14572,
+      "place": 3,
+      "wrecks": 0,
+      "td": 0,
+      "best": 30.3,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 98.74,
+      "dist": 14002,
+      "place": 4,
+      "wrecks": 1,
+      "td": 0,
+      "best": 30.55,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 93.41,
+      "dist": 14817,
+      "place": 1,
+      "wrecks": 0,
+      "td": 2,
+      "best": 30,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 5925,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "kira:wall": 1,
+     "me:slam": 1
+    }
+   }
+  ],
+  "k9a": [
+   {
+    "seed": 1,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 112.81,
+      "dist": 13354,
+      "place": 4,
+      "wrecks": 4,
+      "td": 0,
+      "best": 36.15,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "glitch",
+      "finished": true,
+      "time": 108.44,
+      "dist": 13869,
+      "place": 2,
+      "wrecks": 2,
+      "td": 1,
+      "best": 33.23,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "chispa",
+      "finished": true,
+      "time": 103.47,
+      "dist": 14455,
+      "place": 1,
+      "wrecks": 1,
+      "td": 2,
+      "best": 32.72,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 110.94,
+      "dist": 13623,
+      "place": 3,
+      "wrecks": 0,
+      "td": 3,
+      "best": 34.45,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 6769,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 97,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "chispa:obstacle": 1,
+     "me:slam": 3,
+     "glitch:obstacle": 2,
+     "me:obstacle": 1
+    }
+   },
+   {
+    "seed": 2,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 101.79,
+      "dist": 14971,
+      "place": 1,
+      "wrecks": 1,
+      "td": 1,
+      "best": 31.38,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "glitch",
+      "finished": true,
+      "time": 106.43,
+      "dist": 14308,
+      "place": 3,
+      "wrecks": 2,
+      "td": 1,
+      "best": 32.23,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "chispa",
+      "finished": true,
+      "time": 103.23,
+      "dist": 14792,
+      "place": 2,
+      "wrecks": 1,
+      "td": 2,
+      "best": 33.07,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 113.48,
+      "dist": 13353,
+      "place": 4,
+      "wrecks": 1,
+      "td": 0,
+      "best": 35.12,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 6809,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 106,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "me:obstacle": 1,
+     "chispa:obstacle": 1,
+     "glitch:obstacle": 2,
+     "vega:obstacle": 1
+    }
+   },
+   {
+    "seed": 3,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 101.12,
+      "dist": 14842,
+      "place": 1,
+      "wrecks": 1,
+      "td": 0,
+      "best": 32.02,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "glitch",
+      "finished": true,
+      "time": 103.57,
+      "dist": 14323,
+      "place": 3,
+      "wrecks": 2,
+      "td": 1,
+      "best": 33.18,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "chispa",
+      "finished": true,
+      "time": 102.67,
+      "dist": 14638,
+      "place": 2,
+      "wrecks": 1,
+      "td": 2,
+      "best": 31.45,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 111.88,
+      "dist": 13353,
+      "place": 4,
+      "wrecks": 1,
+      "td": 1,
+      "best": 35.13,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 6713,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 99,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "me:slam": 1,
+     "vega:wall": 1,
+     "glitch:slam": 1,
+     "chispa:obstacle": 1,
+     "glitch:wall": 1
+    }
+   },
+   {
+    "seed": 4,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 104.58,
+      "dist": 14145,
+      "place": 2,
+      "wrecks": 2,
+      "td": 1,
+      "best": 31.72,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "glitch",
+      "finished": true,
+      "time": 110.62,
+      "dist": 13354,
+      "place": 4,
+      "wrecks": 3,
+      "td": 1,
+      "best": 33.13,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "chispa",
+      "finished": true,
+      "time": 103.06,
+      "dist": 14413,
+      "place": 1,
+      "wrecks": 1,
+      "td": 2,
+      "best": 32.22,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 109.68,
+      "dist": 13491,
+      "place": 3,
+      "wrecks": 1,
+      "td": 1,
+      "best": 33.95,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 6638,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 106,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "me:wall": 1,
+     "glitch:obstacle": 2,
+     "vega:slam": 1,
+     "glitch:slam": 1,
+     "chispa:obstacle": 1,
+     "me:obstacle": 1
+    }
+   },
+   {
+    "seed": 5,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 95.91,
+      "dist": 15848,
+      "place": 1,
+      "wrecks": 0,
+      "td": 0,
+      "best": 30.63,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "glitch",
+      "finished": true,
+      "time": 110.24,
+      "dist": 13686,
+      "place": 3,
+      "wrecks": 3,
+      "td": 2,
+      "best": 32.83,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "chispa",
+      "finished": true,
+      "time": 104.54,
+      "dist": 14490,
+      "place": 2,
+      "wrecks": 2,
+      "td": 3,
+      "best": 31.13,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 113.27,
+      "dist": 13354,
+      "place": 4,
+      "wrecks": 1,
+      "td": 0,
+      "best": 32.78,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 6797,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 73,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "glitch:wall": 1,
+     "chispa:obstacle": 1,
+     "chispa:wall": 1,
+     "glitch:obstacle": 1,
+     "vega:slam": 1,
+     "glitch:slam": 1
+    }
+   },
+   {
+    "seed": 6,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 95.5,
+      "dist": 15842,
+      "place": 1,
+      "wrecks": 0,
+      "td": 1,
+      "best": 30.88,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "glitch",
+      "finished": true,
+      "time": 103.8,
+      "dist": 14722,
+      "place": 3,
+      "wrecks": 1,
+      "td": 1,
+      "best": 33.4,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "chispa",
+      "finished": true,
+      "time": 99.99,
+      "dist": 15285,
+      "place": 2,
+      "wrecks": 0,
+      "td": 0,
+      "best": 32.67,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vega",
+      "finished": true,
+      "time": 114.24,
+      "dist": 13354,
+      "place": 4,
+      "wrecks": 2,
+      "td": 0,
+      "best": 35.43,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 6855,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 123,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "glitch:wall": 1,
+     "vega:wall": 1,
+     "vega:obstacle": 1
+    }
+   }
+  ],
+  "k9b": [
+   {
+    "seed": 1,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 111.7,
+      "dist": 15551,
+      "place": 2,
+      "wrecks": 0,
+      "td": 1,
+      "best": 36.22,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "glitch",
+      "finished": true,
+      "time": 121.34,
+      "dist": 14244,
+      "place": 4,
+      "wrecks": 3,
+      "td": 0,
+      "best": 38.4,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "chispa",
+      "finished": true,
+      "time": 117.25,
+      "dist": 14818,
+      "place": 3,
+      "wrecks": 2,
+      "td": 0,
+      "best": 35.98,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rayo",
+      "finished": true,
+      "time": 106.78,
+      "dist": 16249,
+      "place": 1,
+      "wrecks": 0,
+      "td": 2,
+      "best": 34.47,
+      "rt": 1,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 7281,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 871.0110135811071,
+     "lc": 93,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "chispa:obstacle": 2,
+     "glitch:obstacle": 1,
+     "glitch:frontal": 2
+    }
+   },
+   {
+    "seed": 2,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 111.67,
+      "dist": 15442,
+      "place": 3,
+      "wrecks": 0,
+      "td": 1,
+      "best": 35.98,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "glitch",
+      "finished": true,
+      "time": 120.39,
+      "dist": 14243,
+      "place": 4,
+      "wrecks": 3,
+      "td": 0,
+      "best": 36.05,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "chispa",
+      "finished": true,
+      "time": 108.09,
+      "dist": 15949,
+      "place": 1,
+      "wrecks": 0,
+      "td": 1,
+      "best": 35.47,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rayo",
+      "finished": true,
+      "time": 110.57,
+      "dist": 15612,
+      "place": 2,
+      "wrecks": 1,
+      "td": 0,
+      "best": 34.27,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 7224,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 96,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "rayo:obstacle": 1,
+     "glitch:wall": 1,
+     "glitch:obstacle": 2
+    }
+   },
+   {
+    "seed": 3,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 105.54,
+      "dist": 15544,
+      "place": 1,
+      "wrecks": 0,
+      "td": 2,
+      "best": 34.18,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "glitch",
+      "finished": true,
+      "time": 111.52,
+      "dist": 14703,
+      "place": 3,
+      "wrecks": 1,
+      "td": 1,
+      "best": 33.87,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "chispa",
+      "finished": true,
+      "time": 109.2,
+      "dist": 15203,
+      "place": 2,
+      "wrecks": 0,
+      "td": 0,
+      "best": 35.83,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rayo",
+      "finished": true,
+      "time": 115.25,
+      "dist": 14245,
+      "place": 4,
+      "wrecks": 2,
+      "td": 0,
+      "best": 35.23,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 6916,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 694.6378992813889,
+     "lc": 59,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "glitch:wall": 1,
+     "rayo:slam": 1,
+     "rayo:obstacle": 1
+    }
+   },
+   {
+    "seed": 4,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 113.23,
+      "dist": 15002,
+      "place": 2,
+      "wrecks": 0,
+      "td": 0,
+      "best": 37.12,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "glitch",
+      "finished": true,
+      "time": 114.33,
+      "dist": 14893,
+      "place": 3,
+      "wrecks": 2,
+      "td": 2,
+      "best": 35.05,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "chispa",
+      "finished": true,
+      "time": 119.31,
+      "dist": 14243,
+      "place": 4,
+      "wrecks": 3,
+      "td": 1,
+      "best": 36.17,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rayo",
+      "finished": true,
+      "time": 108.2,
+      "dist": 15860,
+      "place": 1,
+      "wrecks": 0,
+      "td": 0,
+      "best": 35.53,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 7159,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 2,
+     "minSpawnGap": 1203.0180981246374,
+     "lc": 94,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "glitch:obstacle": 2,
+     "chispa:obstacle": 3
+    }
+   },
+   {
+    "seed": 5,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 114.03,
+      "dist": 14875,
+      "place": 2,
+      "wrecks": 1,
+      "td": 0,
+      "best": 34.9,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "glitch",
+      "finished": true,
+      "time": 110.37,
+      "dist": 15349,
+      "place": 1,
+      "wrecks": 1,
+      "td": 2,
+      "best": 33.3,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "chispa",
+      "finished": true,
+      "time": 116.82,
+      "dist": 14428,
+      "place": 3,
+      "wrecks": 2,
+      "td": 3,
+      "best": 37.33,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rayo",
+      "finished": true,
+      "time": 118.43,
+      "dist": 14242,
+      "place": 4,
+      "wrecks": 4,
+      "td": 1,
+      "best": 33.68,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 7106,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 2,
+     "minSpawnGap": 220.547031502349,
+     "lc": 64,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "rayo:wall": 2,
+     "rayo:obstacle": 1,
+     "glitch:slam": 1,
+     "chispa:obstacle": 2,
+     "me:wall": 1,
+     "rayo:frontal": 1
+    }
+   },
+   {
+    "seed": 6,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 122.32,
+      "dist": 14244,
+      "place": 4,
+      "wrecks": 3,
+      "td": 0,
+      "best": 36.97,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "glitch",
+      "finished": true,
+      "time": 115.04,
+      "dist": 15198,
+      "place": 2,
+      "wrecks": 2,
+      "td": 3,
+      "best": 35.8,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "chispa",
+      "finished": true,
+      "time": 111.01,
+      "dist": 15854,
+      "place": 1,
+      "wrecks": 0,
+      "td": 1,
+      "best": 35.65,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rayo",
+      "finished": true,
+      "time": 115.54,
+      "dist": 15277,
+      "place": 3,
+      "wrecks": 2,
+      "td": 2,
+      "best": 35.97,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 7340,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 92,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "glitch:slam": 1,
+     "rayo:obstacle": 1,
+     "me:slam": 1,
+     "rayo:wall": 1,
+     "glitch:obstacle": 1,
+     "me:obstacle": 1,
+     "me:frontal": 1
+    }
+   }
+  ],
+  "k9c": [
+   {
+    "seed": 1,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 124.84,
+      "dist": 16573,
+      "place": 1,
+      "wrecks": 1,
+      "td": 0,
+      "best": 39.83,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sony",
+      "finished": true,
+      "time": 126.1,
+      "dist": 16364,
+      "place": 2,
+      "wrecks": 2,
+      "td": 1,
+      "best": 39.58,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 7566,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 2,
+     "minSpawnGap": 1048.3194011641372,
+     "lc": 60,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "me:wall": 1,
+     "sony:dmg": 1,
+     "sony:frontal": 1
+    }
+   },
+   {
+    "seed": 2,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 130.95,
+      "dist": 16366,
+      "place": 2,
+      "wrecks": 3,
+      "td": 0,
+      "best": 40.23,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sony",
+      "finished": true,
+      "time": 130.71,
+      "dist": 16394,
+      "place": 1,
+      "wrecks": 3,
+      "td": 1,
+      "best": 39.53,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 7858,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 83.35656863871372,
+     "lc": 64,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "me:wall": 1,
+     "me:obstacle": 2,
+     "sony:frontal": 1,
+     "sony:obstacle": 2
+    }
+   },
+   {
+    "seed": 3,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 134.2,
+      "dist": 16364,
+      "place": 2,
+      "wrecks": 4,
+      "td": 1,
+      "best": 42.4,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sony",
+      "finished": true,
+      "time": 130.55,
+      "dist": 16860,
+      "place": 1,
+      "wrecks": 3,
+      "td": 2,
+      "best": 42.63,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8052,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 56,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "me:wall": 2,
+     "sony:obstacle": 3,
+     "me:obstacle": 2
+    }
+   },
+   {
+    "seed": 4,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 124.11,
+      "dist": 17261,
+      "place": 1,
+      "wrecks": 2,
+      "td": 0,
+      "best": 39.42,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sony",
+      "finished": true,
+      "time": 129.82,
+      "dist": 16364,
+      "place": 2,
+      "wrecks": 3,
+      "td": 2,
+      "best": 39,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 7790,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 2,
+     "minSpawnGap": 2075.5904747664504,
+     "lc": 72,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "sony:obstacle": 3,
+     "me:obstacle": 2
+    }
+   },
+   {
+    "seed": 5,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 122.68,
+      "dist": 17820,
+      "place": 1,
+      "wrecks": 1,
+      "td": 0,
+      "best": 38.07,
+      "rt": 1,
+      "routes": null
+     },
+     {
+      "id": "sony",
+      "finished": true,
+      "time": 133.77,
+      "dist": 16365,
+      "place": 2,
+      "wrecks": 4,
+      "td": 1,
+      "best": 43.6,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8027,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 41,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "me:wall": 1,
+     "sony:obstacle": 4
+    }
+   },
+   {
+    "seed": 6,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 140.51,
+      "dist": 16364,
+      "place": 2,
+      "wrecks": 4,
+      "td": 0,
+      "best": 45.3,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sony",
+      "finished": true,
+      "time": 126.17,
+      "dist": 18367,
+      "place": 1,
+      "wrecks": 2,
+      "td": 1,
+      "best": 39.5,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8431,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 2,
+     "minSpawnGap": 197.28768017594803,
+     "lc": 44,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+     }
+    },
+    "wc": {
+     "me:wall": 1,
+     "sony:obstacle": 2,
+     "me:obstacle": 2,
+     "me:frontal": 1
+    }
+   }
+  ],
+  "iaa": [
+   {
+    "seed": 1,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 107.8,
+      "dist": 14200,
+      "place": 1,
+      "wrecks": 2,
+      "td": 0,
+      "best": 33.35,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "yunque",
+      "finished": true,
+      "time": 118.5,
+      "dist": 12916,
+      "place": 4,
+      "wrecks": 1,
+      "td": 0,
+      "best": 38.4,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "remache",
+      "finished": true,
+      "time": 112.24,
+      "dist": 13639,
+      "place": 2,
+      "wrecks": 0,
+      "td": 4,
+      "best": 36.18,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 114.32,
+      "dist": 13351,
+      "place": 3,
+      "wrecks": 2,
+      "td": 1,
+      "best": 37.03,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 7111,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "kira:slam": 2,
+     "yunque:wall": 1,
+     "me:wall": 1,
+     "me:slam": 1
+    }
+   },
+   {
+    "seed": 2,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 104.63,
+      "dist": 15481,
+      "place": 1,
+      "wrecks": 1,
+      "td": 0,
+      "best": 32.45,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "yunque",
+      "finished": true,
+      "time": 124.42,
+      "dist": 12916,
+      "place": 4,
+      "wrecks": 3,
+      "td": 1,
+      "best": 40.55,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "remache",
+      "finished": true,
+      "time": 115.7,
+      "dist": 13802,
+      "place": 3,
+      "wrecks": 1,
+      "td": 1,
+      "best": 35.75,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 110.69,
+      "dist": 14482,
+      "place": 2,
+      "wrecks": 0,
+      "td": 2,
+      "best": 36,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 7466,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 2,
+     "minSpawnGap": 407.77740530751316,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "remache:wall": 1,
+     "yunque:obstacle": 2,
+     "yunque:wall": 1,
+     "me:obstacle": 1
+    }
+   },
+   {
+    "seed": 3,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 103.14,
+      "dist": 15027,
+      "place": 1,
+      "wrecks": 1,
+      "td": 1,
+      "best": 32.17,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "yunque",
+      "finished": true,
+      "time": 116.73,
+      "dist": 13128,
+      "place": 3,
+      "wrecks": 2,
+      "td": 3,
+      "best": 36.43,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "remache",
+      "finished": true,
+      "time": 119.05,
+      "dist": 12916,
+      "place": 4,
+      "wrecks": 2,
+      "td": 0,
+      "best": 36.6,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 107.77,
+      "dist": 14124,
+      "place": 2,
+      "wrecks": 1,
+      "td": 1,
+      "best": 34.68,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 7144,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 5,
+     "minSpawnGap": 271.26609369567336,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "me:slam": 1,
+     "remache:slam": 2,
+     "yunque:wall": 1,
+     "kira:obstacle": 1,
+     "yunque:obstacle": 1
+    }
+   },
+   {
+    "seed": 4,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 99.89,
+      "dist": 15087,
+      "place": 1,
+      "wrecks": 1,
+      "td": 1,
+      "best": 31.12,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "yunque",
+      "finished": true,
+      "time": 116.45,
+      "dist": 12951,
+      "place": 3,
+      "wrecks": 1,
+      "td": 0,
+      "best": 38.4,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "remache",
+      "finished": true,
+      "time": 116.79,
+      "dist": 12915,
+      "place": 4,
+      "wrecks": 1,
+      "td": 1,
+      "best": 35.88,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 107.79,
+      "dist": 14201,
+      "place": 2,
+      "wrecks": 1,
+      "td": 2,
+      "best": 33.32,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 7008,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 2,
+     "minSpawnGap": 339.20574791163676,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "me:obstacle": 1,
+     "kira:obstacle": 1,
+     "remache:wall": 1,
+     "yunque:obstacle": 1
+    }
+   },
+   {
+    "seed": 5,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 109.43,
+      "dist": 14755,
+      "place": 1,
+      "wrecks": 3,
+      "td": 0,
+      "best": 32.02,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "yunque",
+      "finished": true,
+      "time": 118.43,
+      "dist": 13435,
+      "place": 2,
+      "wrecks": 2,
+      "td": 3,
+      "best": 37.58,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "remache",
+      "finished": true,
+      "time": 123.03,
+      "dist": 12915,
+      "place": 4,
+      "wrecks": 2,
+      "td": 1,
+      "best": 39.5,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 119.99,
+      "dist": 13360,
+      "place": 3,
+      "wrecks": 2,
+      "td": 1,
+      "best": 36.17,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 7382,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 1703.805916108004,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "10": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "me:wall": 1,
+     "me:slam": 1,
+     "me:obstacle": 1,
+     "remache:obstacle": 1,
+     "yunque:obstacle": 2,
+     "kira:obstacle": 1,
+     "kira:slam": 1,
+     "remache:slam": 1
+    }
+   },
+   {
+    "seed": 6,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 99.73,
+      "dist": 16378,
+      "place": 1,
+      "wrecks": 1,
+      "td": 1,
+      "best": 30.75,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "yunque",
+      "finished": true,
+      "time": 126.04,
+      "dist": 13183,
+      "place": 3,
+      "wrecks": 3,
+      "td": 3,
+      "best": 36.9,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "remache",
+      "finished": true,
+      "time": 127.78,
+      "dist": 12915,
+      "place": 4,
+      "wrecks": 3,
+      "td": 2,
+      "best": 36.42,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "kira",
+      "finished": true,
+      "time": 122.17,
+      "dist": 13659,
+      "place": 2,
+      "wrecks": 3,
+      "td": 3,
+      "best": 36.8,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 7667,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 3,
+     "minSpawnGap": 264.6363597458528,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "me:wall": 1,
+     "yunque:slam": 1,
+     "remache:obstacle": 1,
+     "kira:obstacle": 1,
+     "yunque:obstacle": 2,
+     "kira:slam": 1,
+     "remache:slam": 2,
+     "kira:wall": 1
+    }
+   }
+  ],
+  "iab": [
+   {
+    "seed": 1,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 130.34,
+      "dist": 16622,
+      "place": 1,
+      "wrecks": 4,
+      "td": 1,
+      "best": 41.55,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "yunque",
+      "finished": true,
+      "time": 150.51,
+      "dist": 14103,
+      "place": 4,
+      "wrecks": 5,
+      "td": 1,
+      "best": 47.33,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "remache",
+      "finished": true,
+      "time": 143,
+      "dist": 14866,
+      "place": 2,
+      "wrecks": 2,
+      "td": 2,
+      "best": 43.93,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sargento",
+      "finished": true,
+      "time": 147.03,
+      "dist": 14583,
+      "place": 3,
+      "wrecks": 4,
+      "td": 1,
+      "best": 43.72,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 9031,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 1683.1876668786722,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1
+     }
+    },
+    "wc": {
+     "sargento:slam": 1,
+     "me:obstacle": 3,
+     "yunque:obstacle": 4,
+     "yunque:dmg": 1,
+     "sargento:wall": 1,
+     "remache:obstacle": 1,
+     "sargento:obstacle": 2,
+     "me:dmg": 1,
+     "remache:dmg": 1
+    }
+   },
+   {
+    "seed": 2,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 129.3,
+      "dist": 16387,
+      "place": 2,
+      "wrecks": 4,
+      "td": 1,
+      "best": 42.37,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "yunque",
+      "finished": true,
+      "time": 149.73,
+      "dist": 14102,
+      "place": 4,
+      "wrecks": 4,
+      "td": 0,
+      "best": 47.2,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "remache",
+      "finished": true,
+      "time": 139.19,
+      "dist": 15326,
+      "place": 3,
+      "wrecks": 2,
+      "td": 1,
+      "best": 43.65,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sargento",
+      "finished": true,
+      "time": 128.9,
+      "dist": 16534,
+      "place": 1,
+      "wrecks": 2,
+      "td": 4,
+      "best": 41.08,
+      "rt": 1,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8984,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 4,
+     "minSpawnGap": 98.13597154317495,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "remache:slam": 1,
+     "yunque:obstacle": 4,
+     "me:wall": 2,
+     "me:frontal": 1,
+     "sargento:dmg": 1,
+     "sargento:obstacle": 1,
+     "remache:dmg": 1,
+     "me:slam": 1
+    }
+   },
+   {
+    "seed": 3,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 127.68,
+      "dist": 16864,
+      "place": 1,
+      "wrecks": 4,
+      "td": 1,
+      "best": 38.37,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "yunque",
+      "finished": true,
+      "time": 149.42,
+      "dist": 14587,
+      "place": 2,
+      "wrecks": 4,
+      "td": 2,
+      "best": 47.27,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "remache",
+      "finished": true,
+      "time": 152.94,
+      "dist": 14104,
+      "place": 4,
+      "wrecks": 4,
+      "td": 2,
+      "best": 48.05,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sargento",
+      "finished": true,
+      "time": 151.95,
+      "dist": 14209,
+      "place": 3,
+      "wrecks": 6,
+      "td": 1,
+      "best": 42.02,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 9177,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 697.3753770497283,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "me:slam": 1,
+     "sargento:slam": 1,
+     "remache:obstacle": 3,
+     "yunque:obstacle": 3,
+     "me:obstacle": 2,
+     "sargento:frontal": 1,
+     "sargento:obstacle": 3,
+     "remache:slam": 1,
+     "me:dmg": 1,
+     "yunque:slam": 1,
+     "sargento:dmg": 1
+    }
+   },
+   {
+    "seed": 4,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 129.88,
+      "dist": 17464,
+      "place": 1,
+      "wrecks": 5,
+      "td": 0,
+      "best": 40.62,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "yunque",
+      "finished": true,
+      "time": 153.8,
+      "dist": 15233,
+      "place": 3,
+      "wrecks": 4,
+      "td": 2,
+      "best": 48.23,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "remache",
+      "finished": true,
+      "time": 162.1,
+      "dist": 14104,
+      "place": 4,
+      "wrecks": 6,
+      "td": 2,
+      "best": 52.97,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sargento",
+      "finished": true,
+      "time": 142.04,
+      "dist": 16367,
+      "place": 2,
+      "wrecks": 3,
+      "td": 1,
+      "best": 43.73,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 9727,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 162.24320673379862,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "remache:wall": 2,
+     "yunque:obstacle": 3,
+     "me:obstacle": 5,
+     "yunque:wall": 1,
+     "sargento:obstacle": 3,
+     "remache:dmg": 1,
+     "remache:obstacle": 3
+    }
+   },
+   {
+    "seed": 5,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 127.06,
+      "dist": 17167,
+      "place": 1,
+      "wrecks": 5,
+      "td": 0,
+      "best": 37.77,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "yunque",
+      "finished": true,
+      "time": 156.83,
+      "dist": 14233,
+      "place": 3,
+      "wrecks": 6,
+      "td": 2,
+      "best": 48.12,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "remache",
+      "finished": true,
+      "time": 152.1,
+      "dist": 14823,
+      "place": 2,
+      "wrecks": 5,
+      "td": 3,
+      "best": 42.5,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sargento",
+      "finished": true,
+      "time": 158.11,
+      "dist": 14104,
+      "place": 4,
+      "wrecks": 7,
+      "td": 2,
+      "best": 50.22,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 9487,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 3,
+     "minSpawnGap": 493.1492480404495,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "12": 1
+     }
+    },
+    "wc": {
+     "yunque:wall": 1,
+     "me:wall": 1,
+     "remache:obstacle": 3,
+     "sargento:obstacle": 4,
+     "me:obstacle": 3,
+     "sargento:frontal": 1,
+     "yunque:obstacle": 5,
+     "sargento:slam": 2,
+     "remache:slam": 2,
+     "me:dmg": 1
+    }
+   },
+   {
+    "seed": 6,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 126.79,
+      "dist": 16887,
+      "place": 1,
+      "wrecks": 4,
+      "td": 2,
+      "best": 40.38,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "yunque",
+      "finished": true,
+      "time": 141.24,
+      "dist": 15076,
+      "place": 3,
+      "wrecks": 2,
+      "td": 1,
+      "best": 43.13,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "remache",
+      "finished": true,
+      "time": 149.35,
+      "dist": 14102,
+      "place": 4,
+      "wrecks": 3,
+      "td": 1,
+      "best": 44.9,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sargento",
+      "finished": true,
+      "time": 139.38,
+      "dist": 15183,
+      "place": 2,
+      "wrecks": 3,
+      "td": 3,
+      "best": 44.77,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8961,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1
+     }
+    },
+    "wc": {
+     "me:slam": 1,
+     "yunque:wall": 2,
+     "remache:obstacle": 2,
+     "sargento:obstacle": 3,
+     "me:obstacle": 2,
+     "remache:dmg": 1,
+     "me:dmg": 1
+    }
+   }
+  ],
+  "iac": [
+   {
+    "seed": 1,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 135.48,
+      "dist": 16373,
+      "place": 1,
+      "wrecks": 3,
+      "td": 0,
+      "best": 40.45,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vader",
+      "finished": true,
+      "time": 139.33,
+      "dist": 15906,
+      "place": 2,
+      "wrecks": 3,
+      "td": 1,
+      "best": 45.05,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8360,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "me:obstacle": 3,
+     "vader:obstacle": 3
+    }
+   },
+   {
+    "seed": 2,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 138.68,
+      "dist": 16279,
+      "place": 1,
+      "wrecks": 4,
+      "td": 1,
+      "best": 44.2,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vader",
+      "finished": true,
+      "time": 141.58,
+      "dist": 15907,
+      "place": 2,
+      "wrecks": 3,
+      "td": 3,
+      "best": 44.75,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8496,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "me:wall": 1,
+     "vader:obstacle": 3,
+     "me:obstacle": 2,
+     "me:slam": 1
+    }
+   },
+   {
+    "seed": 3,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 136.14,
+      "dist": 16761,
+      "place": 1,
+      "wrecks": 4,
+      "td": 0,
+      "best": 43.88,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vader",
+      "finished": true,
+      "time": 142.37,
+      "dist": 15907,
+      "place": 2,
+      "wrecks": 3,
+      "td": 1,
+      "best": 46.85,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8543,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 1908.846801378007,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "me:slam": 1,
+     "me:obstacle": 3,
+     "vader:obstacle": 3
+    }
+   },
+   {
+    "seed": 4,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 131.1,
+      "dist": 16338,
+      "place": 1,
+      "wrecks": 2,
+      "td": 0,
+      "best": 40.85,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vader",
+      "finished": true,
+      "time": 134.27,
+      "dist": 15906,
+      "place": 2,
+      "wrecks": 2,
+      "td": 1,
+      "best": 42.93,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8057,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "me:obstacle": 2,
+     "vader:obstacle": 2
+    }
+   },
+   {
+    "seed": 5,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 134.29,
+      "dist": 15907,
+      "place": 2,
+      "wrecks": 4,
+      "td": 0,
+      "best": 43.43,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vader",
+      "finished": true,
+      "time": 131.31,
+      "dist": 16304,
+      "place": 1,
+      "wrecks": 1,
+      "td": 2,
+      "best": 42.92,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8058,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 1615.478568005909,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "12": 1
+     }
+    },
+    "wc": {
+     "me:wall": 1,
+     "me:obstacle": 3,
+     "vader:obstacle": 1
+    }
+   },
+   {
+    "seed": 6,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 131.08,
+      "dist": 16997,
+      "place": 1,
+      "wrecks": 3,
+      "td": 0,
+      "best": 43.07,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vader",
+      "finished": true,
+      "time": 139.29,
+      "dist": 15906,
+      "place": 2,
+      "wrecks": 3,
+      "td": 1,
+      "best": 44.48,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8358,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1
+     }
+    },
+    "wc": {
+     "me:slam": 1,
+     "vader:obstacle": 3,
+     "me:obstacle": 2
+    }
+   }
+  ],
+  "sva": [
+   {
+    "seed": 1,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 137.51,
+      "dist": 20777,
+      "place": 1,
+      "wrecks": 3,
+      "td": 2,
+      "best": 41.87,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "duquesa",
+      "finished": true,
+      "time": 138.05,
+      "dist": 20674,
+      "place": 2,
+      "wrecks": 0,
+      "td": 1,
+      "best": 45.25,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "baron",
+      "finished": true,
+      "time": 143.84,
+      "dist": 19807,
+      "place": 4,
+      "wrecks": 2,
+      "td": 1,
+      "best": 44.08,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 139.01,
+      "dist": 20568,
+      "place": 3,
+      "wrecks": 1,
+      "td": 2,
+      "best": 44.47,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8631,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 1,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "baron:wall": 1,
+     "rook:wall": 1,
+     "me:obstacle": 2,
+     "me:wall": 1,
+     "baron:slam": 1
+    }
+   },
+   {
+    "seed": 2,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 133.24,
+      "dist": 20923,
+      "place": 1,
+      "wrecks": 2,
+      "td": 2,
+      "best": 42.43,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "duquesa",
+      "finished": true,
+      "time": 135.85,
+      "dist": 20479,
+      "place": 2,
+      "wrecks": 1,
+      "td": 2,
+      "best": 43.33,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "baron",
+      "finished": true,
+      "time": 138.68,
+      "dist": 20057,
+      "place": 3,
+      "wrecks": 1,
+      "td": 0,
+      "best": 43.47,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 140.07,
+      "dist": 19807,
+      "place": 4,
+      "wrecks": 1,
+      "td": 0,
+      "best": 45.27,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8405,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 1479.9185778784233,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "baron:wall": 1,
+     "me:wall": 1,
+     "rook:slam": 1,
+     "me:obstacle": 1,
+     "duquesa:wall": 1
+    }
+   },
+   {
+    "seed": 3,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 138.77,
+      "dist": 20304,
+      "place": 3,
+      "wrecks": 3,
+      "td": 0,
+      "best": 41.88,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "duquesa",
+      "finished": true,
+      "time": 141.62,
+      "dist": 19806,
+      "place": 4,
+      "wrecks": 2,
+      "td": 2,
+      "best": 44.58,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "baron",
+      "finished": true,
+      "time": 137.67,
+      "dist": 20391,
+      "place": 2,
+      "wrecks": 1,
+      "td": 2,
+      "best": 44.17,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 136.36,
+      "dist": 20722,
+      "place": 1,
+      "wrecks": 0,
+      "td": 2,
+      "best": 45.07,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8497,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 1,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "baron:wall": 1,
+     "me:obstacle": 2,
+     "duquesa:obstacle": 2,
+     "me:slam": 1
+    }
+   },
+   {
+    "seed": 4,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 128.36,
+      "dist": 21992,
+      "place": 1,
+      "wrecks": 0,
+      "td": 1,
+      "best": 41.33,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "duquesa",
+      "finished": true,
+      "time": 136.61,
+      "dist": 20586,
+      "place": 2,
+      "wrecks": 1,
+      "td": 3,
+      "best": 43.6,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "baron",
+      "finished": true,
+      "time": 142.11,
+      "dist": 19806,
+      "place": 4,
+      "wrecks": 2,
+      "td": 0,
+      "best": 43.95,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 139.4,
+      "dist": 20208,
+      "place": 3,
+      "wrecks": 1,
+      "td": 0,
+      "best": 44.43,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8527,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 1,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "baron:obstacle": 1,
+     "duquesa:obstacle": 1,
+     "baron:slam": 1,
+     "rook:wall": 1
+    }
+   },
+   {
+    "seed": 5,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 129.38,
+      "dist": 22399,
+      "place": 1,
+      "wrecks": 1,
+      "td": 1,
+      "best": 41.78,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "duquesa",
+      "finished": true,
+      "time": 140.53,
+      "dist": 20643,
+      "place": 3,
+      "wrecks": 1,
+      "td": 2,
+      "best": 44.02,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "baron",
+      "finished": true,
+      "time": 146.09,
+      "dist": 19807,
+      "place": 4,
+      "wrecks": 3,
+      "td": 0,
+      "best": 47.68,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 137.27,
+      "dist": 21206,
+      "place": 2,
+      "wrecks": 1,
+      "td": 2,
+      "best": 43.73,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8766,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 1,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "baron:wall": 1,
+     "rook:obstacle": 1,
+     "me:obstacle": 1,
+     "duquesa:slam": 1,
+     "baron:slam": 1,
+     "baron:obstacle": 1
+    }
+   },
+   {
+    "seed": 6,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 126.4,
+      "dist": 22147,
+      "place": 1,
+      "wrecks": 0,
+      "td": 1,
+      "best": 41.7,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "duquesa",
+      "finished": true,
+      "time": 136.34,
+      "dist": 20443,
+      "place": 2,
+      "wrecks": 1,
+      "td": 2,
+      "best": 43.52,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "baron",
+      "finished": true,
+      "time": 139.19,
+      "dist": 19987,
+      "place": 3,
+      "wrecks": 1,
+      "td": 1,
+      "best": 44.23,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "rook",
+      "finished": true,
+      "time": 140.63,
+      "dist": 19806,
+      "place": 4,
+      "wrecks": 2,
+      "td": 0,
+      "best": 43.42,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8438,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 580.4219319658764,
+     "lc": 1,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "rook:slam": 2,
+     "duquesa:obstacle": 1,
+     "baron:obstacle": 1
+    }
+   }
+  ],
+  "svb": [
+   {
+    "seed": 1,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 138.28,
+      "dist": 22217,
+      "place": 1,
+      "wrecks": 3,
+      "td": 2,
+      "best": 44.03,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "duquesa",
+      "finished": true,
+      "time": 150.89,
+      "dist": 20705,
+      "place": 4,
+      "wrecks": 4,
+      "td": 0,
+      "best": 45.68,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "baron",
+      "finished": true,
+      "time": 140.91,
+      "dist": 22296,
+      "place": 3,
+      "wrecks": 1,
+      "td": 1,
+      "best": 45.17,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "conde",
+      "finished": true,
+      "time": 138.41,
+      "dist": 22752,
+      "place": 2,
+      "wrecks": 2,
+      "td": 3,
+      "best": 43.87,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 9054,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "duquesa:slam": 1,
+     "conde:obstacle": 2,
+     "me:obstacle": 1,
+     "duquesa:obstacle": 3,
+     "me:wall": 2,
+     "baron:wall": 1
+    }
+   },
+   {
+    "seed": 2,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 137.62,
+      "dist": 21832,
+      "place": 1,
+      "wrecks": 2,
+      "td": 1,
+      "best": 43.8,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "duquesa",
+      "finished": true,
+      "time": 144.15,
+      "dist": 20706,
+      "place": 4,
+      "wrecks": 2,
+      "td": 1,
+      "best": 45.27,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "baron",
+      "finished": true,
+      "time": 143.38,
+      "dist": 20837,
+      "place": 3,
+      "wrecks": 2,
+      "td": 0,
+      "best": 44.58,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "conde",
+      "finished": true,
+      "time": 138.36,
+      "dist": 21621,
+      "place": 2,
+      "wrecks": 1,
+      "td": 2,
+      "best": 44.18,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8650,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 1,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "duquesa:obstacle": 2,
+     "baron:wall": 1,
+     "me:slam": 1,
+     "conde:obstacle": 1,
+     "me:obstacle": 1,
+     "baron:slam": 1
+    }
+   },
+   {
+    "seed": 3,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 132.67,
+      "dist": 22069,
+      "place": 1,
+      "wrecks": 0,
+      "td": 0,
+      "best": 43.23,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "duquesa",
+      "finished": true,
+      "time": 140.61,
+      "dist": 20705,
+      "place": 4,
+      "wrecks": 1,
+      "td": 0,
+      "best": 45.97,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "baron",
+      "finished": true,
+      "time": 138.58,
+      "dist": 21067,
+      "place": 3,
+      "wrecks": 1,
+      "td": 1,
+      "best": 43.87,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "conde",
+      "finished": true,
+      "time": 137.48,
+      "dist": 21209,
+      "place": 2,
+      "wrecks": 1,
+      "td": 0,
+      "best": 44.43,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8437,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 1085.1536786131164,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "baron:obstacle": 1,
+     "duquesa:obstacle": 1,
+     "conde:obstacle": 1
+    }
+   },
+   {
+    "seed": 4,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 135.64,
+      "dist": 21897,
+      "place": 1,
+      "wrecks": 1,
+      "td": 0,
+      "best": 42.78,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "duquesa",
+      "finished": true,
+      "time": 138.66,
+      "dist": 21332,
+      "place": 2,
+      "wrecks": 1,
+      "td": 0,
+      "best": 43.58,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "baron",
+      "finished": true,
+      "time": 142.7,
+      "dist": 20706,
+      "place": 4,
+      "wrecks": 1,
+      "td": 3,
+      "best": 45.97,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "conde",
+      "finished": true,
+      "time": 141.37,
+      "dist": 20924,
+      "place": 3,
+      "wrecks": 1,
+      "td": 1,
+      "best": 45.4,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8563,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "me:wall": 1,
+     "duquesa:slam": 1,
+     "conde:obstacle": 1,
+     "baron:obstacle": 1
+    }
+   },
+   {
+    "seed": 5,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 131.26,
+      "dist": 22803,
+      "place": 1,
+      "wrecks": 1,
+      "td": 0,
+      "best": 42.1,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "duquesa",
+      "finished": true,
+      "time": 139.83,
+      "dist": 21843,
+      "place": 2,
+      "wrecks": 1,
+      "td": 3,
+      "best": 45.48,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "baron",
+      "finished": true,
+      "time": 146.58,
+      "dist": 20706,
+      "place": 4,
+      "wrecks": 2,
+      "td": 0,
+      "best": 44.98,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "conde",
+      "finished": true,
+      "time": 141.13,
+      "dist": 21668,
+      "place": 3,
+      "wrecks": 2,
+      "td": 3,
+      "best": 44.32,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8796,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "baron:wall": 2,
+     "conde:slam": 1,
+     "duquesa:obstacle": 1,
+     "conde:wall": 1,
+     "me:obstacle": 1
+    }
+   },
+   {
+    "seed": 6,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 138.47,
+      "dist": 21471,
+      "place": 2,
+      "wrecks": 1,
+      "td": 0,
+      "best": 43.82,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "duquesa",
+      "finished": true,
+      "time": 142.38,
+      "dist": 20802,
+      "place": 3,
+      "wrecks": 2,
+      "td": 2,
+      "best": 43.85,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "baron",
+      "finished": true,
+      "time": 143.16,
+      "dist": 20704,
+      "place": 4,
+      "wrecks": 2,
+      "td": 2,
+      "best": 45.52,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "conde",
+      "finished": true,
+      "time": 136.85,
+      "dist": 21800,
+      "place": 1,
+      "wrecks": 0,
+      "td": 1,
+      "best": 44.2,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 8590,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "duquesa:slam": 1,
+     "baron:obstacle": 2,
+     "me:obstacle": 1,
+     "duquesa:wall": 1
+    }
+   }
+  ],
+  "svc": [
+   {
+    "seed": 1,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 153.06,
+      "dist": 23358,
+      "place": 1,
+      "wrecks": 2,
+      "td": 0,
+      "best": 48.65,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "cooper",
+      "finished": true,
+      "time": 156.46,
+      "dist": 22811,
+      "place": 2,
+      "wrecks": 2,
+      "td": 1,
+      "best": 48.82,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 9388,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 2,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "me:wall": 1,
+     "cooper:obstacle": 2,
+     "me:obstacle": 1
+    }
+   },
+   {
+    "seed": 2,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 153.7,
+      "dist": 23213,
+      "place": 1,
+      "wrecks": 2,
+      "td": 1,
+      "best": 49.15,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "cooper",
+      "finished": true,
+      "time": 155.93,
+      "dist": 22812,
+      "place": 2,
+      "wrecks": 2,
+      "td": 1,
+      "best": 49.03,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 9356,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 1,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "me:obstacle": 2,
+     "cooper:obstacle": 1,
+     "cooper:wall": 1
+    }
+   },
+   {
+    "seed": 3,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 149.23,
+      "dist": 24247,
+      "place": 1,
+      "wrecks": 1,
+      "td": 0,
+      "best": 47.65,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "cooper",
+      "finished": true,
+      "time": 158.31,
+      "dist": 22811,
+      "place": 2,
+      "wrecks": 2,
+      "td": 1,
+      "best": 49.5,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 9499,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 496.56474057165815,
+     "lc": 3,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "me:slam": 1,
+     "cooper:obstacle": 2
+    }
+   },
+   {
+    "seed": 4,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 154.33,
+      "dist": 22811,
+      "place": 2,
+      "wrecks": 2,
+      "td": 1,
+      "best": 47.27,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "cooper",
+      "finished": true,
+      "time": 151.67,
+      "dist": 23251,
+      "place": 1,
+      "wrecks": 1,
+      "td": 1,
+      "best": 48.07,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 9260,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 2,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "me:obstacle": 2,
+     "cooper:obstacle": 1
+    }
+   },
+   {
+    "seed": 5,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 149.57,
+      "dist": 23314,
+      "place": 1,
+      "wrecks": 1,
+      "td": 1,
+      "best": 48.37,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "cooper",
+      "finished": true,
+      "time": 152.61,
+      "dist": 22811,
+      "place": 2,
+      "wrecks": 1,
+      "td": 1,
+      "best": 49.15,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 9157,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 2,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "cooper:slam": 1,
+     "me:obstacle": 1
+    }
+   },
+   {
+    "seed": 6,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 153.36,
+      "dist": 23388,
+      "place": 1,
+      "wrecks": 1,
+      "td": 0,
+      "best": 48.9,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "cooper",
+      "finished": true,
+      "time": 156.68,
+      "dist": 22812,
+      "place": 2,
+      "wrecks": 2,
+      "td": 1,
+      "best": 47.82,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 9401,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 2516.082875677015,
+     "lc": 6,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1
+     }
+    },
+    "wc": {
+     "me:wall": 1,
+     "cooper:obstacle": 2
+    }
+   }
+  ],
+  "orb": [
+   {
+    "seed": 1,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 168.86,
+      "dist": 27364,
+      "place": 3,
+      "wrecks": 3,
+      "td": 1,
+      "best": 53.45,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sony",
+      "finished": true,
+      "time": 183.22,
+      "dist": 25528,
+      "place": 4,
+      "wrecks": 5,
+      "td": 1,
+      "best": 53.25,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vader",
+      "finished": true,
+      "time": 166.77,
+      "dist": 28051,
+      "place": 1,
+      "wrecks": 0,
+      "td": 3,
+      "best": 54.25,
+      "rt": 1,
+      "routes": null
+     },
+     {
+      "id": "cooper",
+      "finished": true,
+      "time": 168.75,
+      "dist": 27880,
+      "place": 2,
+      "wrecks": 2,
+      "td": 2,
+      "best": 54.45,
+      "rt": 1,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 10994,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1
+     }
+    },
+    "wc": {
+     "me:slam": 2,
+     "sony:wall": 1,
+     "sony:slam": 1,
+     "me:obstacle": 1,
+     "cooper:obstacle": 2,
+     "sony:dmg": 1,
+     "sony:obstacle": 2
+    }
+   },
+   {
+    "seed": 2,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 171.24,
+      "dist": 26926,
+      "place": 2,
+      "wrecks": 2,
+      "td": 1,
+      "best": 54.4,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sony",
+      "finished": true,
+      "time": 179.38,
+      "dist": 25527,
+      "place": 4,
+      "wrecks": 4,
+      "td": 0,
+      "best": 58.87,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vader",
+      "finished": true,
+      "time": 175.77,
+      "dist": 26177,
+      "place": 3,
+      "wrecks": 2,
+      "td": 2,
+      "best": 57.58,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "cooper",
+      "finished": true,
+      "time": 168.17,
+      "dist": 27198,
+      "place": 1,
+      "wrecks": 1,
+      "td": 2,
+      "best": 53.97,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 10763,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1
+     }
+    },
+    "wc": {
+     "vader:slam": 1,
+     "sony:wall": 1,
+     "me:obstacle": 2,
+     "sony:obstacle": 2,
+     "sony:slam": 1,
+     "vader:obstacle": 1,
+     "cooper:obstacle": 1
+    }
+   },
+   {
+    "seed": 3,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 172.78,
+      "dist": 25561,
+      "place": 3,
+      "wrecks": 3,
+      "td": 1,
+      "best": 54.73,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sony",
+      "finished": true,
+      "time": 169.85,
+      "dist": 26030,
+      "place": 2,
+      "wrecks": 2,
+      "td": 3,
+      "best": 53.97,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vader",
+      "finished": true,
+      "time": 169.56,
+      "dist": 26102,
+      "place": 1,
+      "wrecks": 1,
+      "td": 3,
+      "best": 53.48,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "cooper",
+      "finished": true,
+      "time": 172.96,
+      "dist": 25527,
+      "place": 4,
+      "wrecks": 2,
+      "td": 0,
+      "best": 53.52,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 10378,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 3638.4580985852117,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1
+     }
+    },
+    "wc": {
+     "sony:obstacle": 2,
+     "vader:obstacle": 1,
+     "me:obstacle": 1,
+     "cooper:obstacle": 1,
+     "me:wall": 1,
+     "cooper:slam": 1,
+     "me:slam": 1
+    }
+   },
+   {
+    "seed": 4,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 163.64,
+      "dist": 27239,
+      "place": 1,
+      "wrecks": 1,
+      "td": 2,
+      "best": 52.9,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sony",
+      "finished": true,
+      "time": 170.9,
+      "dist": 26079,
+      "place": 2,
+      "wrecks": 2,
+      "td": 2,
+      "best": 53.82,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vader",
+      "finished": true,
+      "time": 174.34,
+      "dist": 25529,
+      "place": 4,
+      "wrecks": 1,
+      "td": 0,
+      "best": 55.35,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "cooper",
+      "finished": true,
+      "time": 172.34,
+      "dist": 25848,
+      "place": 3,
+      "wrecks": 2,
+      "td": 1,
+      "best": 54.35,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 10461,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 3080.104380790833,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1
+     }
+    },
+    "wc": {
+     "cooper:obstacle": 1,
+     "me:obstacle": 1,
+     "sony:obstacle": 2,
+     "cooper:slam": 1,
+     "vader:slam": 1
+    }
+   },
+   {
+    "seed": 5,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 168.92,
+      "dist": 26287,
+      "place": 2,
+      "wrecks": 2,
+      "td": 1,
+      "best": 53.75,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sony",
+      "finished": true,
+      "time": 173.44,
+      "dist": 25527,
+      "place": 4,
+      "wrecks": 2,
+      "td": 0,
+      "best": 54.78,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vader",
+      "finished": true,
+      "time": 165.68,
+      "dist": 26816,
+      "place": 1,
+      "wrecks": 0,
+      "td": 3,
+      "best": 54.57,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "cooper",
+      "finished": true,
+      "time": 171.28,
+      "dist": 25877,
+      "place": 3,
+      "wrecks": 2,
+      "td": 1,
+      "best": 54.82,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 10407,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 0,
+     "minSpawnGap": 1000000000,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1
+     }
+    },
+    "wc": {
+     "me:slam": 2,
+     "sony:wall": 1,
+     "sony:obstacle": 1,
+     "cooper:slam": 1,
+     "cooper:obstacle": 1
+    }
+   },
+   {
+    "seed": 6,
+    "racers": [
+     {
+      "id": "me",
+      "finished": true,
+      "time": 166.86,
+      "dist": 27081,
+      "place": 1,
+      "wrecks": 2,
+      "td": 1,
+      "best": 53.17,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "sony",
+      "finished": true,
+      "time": 176.43,
+      "dist": 25527,
+      "place": 4,
+      "wrecks": 3,
+      "td": 0,
+      "best": 54.52,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "vader",
+      "finished": true,
+      "time": 172.79,
+      "dist": 26105,
+      "place": 3,
+      "wrecks": 2,
+      "td": 3,
+      "best": 53.98,
+      "rt": 0,
+      "routes": null
+     },
+     {
+      "id": "cooper",
+      "finished": true,
+      "time": 169.14,
+      "dist": 26623,
+      "place": 2,
+      "wrecks": 1,
+      "td": 0,
+      "best": 54.33,
+      "rt": 0,
+      "routes": null
+     }
+    ],
+    "mon": {
+     "steps": 10586,
+     "obOverlap": 0,
+     "wall": 0,
+     "band": 0,
+     "spawnNear": 0,
+     "spawns": 1,
+     "minSpawnGap": 819.2701625421141,
+     "lc": 0,
+     "lcUnsafe": 0,
+     "lcNoSignal": 0,
+     "kinds": {
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1
+     }
+    },
+    "wc": {
+     "sony:wall": 1,
+     "cooper:obstacle": 1,
+     "me:slam": 1,
+     "sony:frontal": 1,
+     "sony:obstacle": 1,
+     "me:wall": 1,
+     "vader:obstacle": 2
+    }
+   }
+  ]
+ }
+}

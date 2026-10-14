@@ -1,0 +1,10 @@
+{
+  "before_sha256": "d1b753eaaea962e5625da726df554ab909cfe1230346eeb63ec8fa1a6b2cd6df",
+  "after_sha256": "4c56f772883dd79393a8a72f03546ecffc21cf337ed264508d63db05eb1d82f7",
+  "changes": [
+    "title",
+    "three logo version labels",
+    "NV3 descriptive game label"
+  ],
+  "schema_unchanged": true
+}

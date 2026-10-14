@@ -1,0 +1,3698 @@
+{
+ "results": [
+  {
+   "name": "k9 R1 'PASAJE AÉREO NEÓN' (high): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "k9 R1: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 1
+   }
+  },
+  {
+   "name": "k9 R1: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.891,
+    "kmax": 1.064,
+    "span": 521,
+    "real": 522
+   }
+  },
+  {
+   "name": "k9 R2 'TÚNEL DEL MERCADO' (low): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "k9 R2: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 1
+   }
+  },
+  {
+   "name": "k9 R2: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.966,
+    "kmax": 1.052,
+    "span": 499,
+    "real": 492
+   }
+  },
+  {
+   "name": "k9 R1: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@945",
+     "out1@1465",
+     "in1@3989",
+     "out1@4510",
+     "in2@5085",
+     "out2@5584",
+     "in1@7034",
+     "out1@7554",
+     "in1@10077"
+    ],
+    "finished": true,
+    "time": 74.13,
+    "dist": 10155,
+    "wrecks": 2,
+    "L": 3044,
+    "maxJump": 2.884,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "k9 R1 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.884,
+    "okBand": true
+   }
+  },
+  {
+   "name": "k9 R1: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 73.75,
+    "dist": 10534,
+    "wrecks": 2,
+    "L": 3044,
+    "maxJump": 2.793,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "k9 R1 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.793,
+    "okBand": true
+   }
+  },
+  {
+   "name": "k9 R2: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@945",
+     "out1@1465",
+     "in2@2041",
+     "out2@2539",
+     "in1@3990",
+     "out1@4510",
+     "in2@5085",
+     "out2@5584",
+     "in1@7033",
+     "out1@7554",
+     "in2@8129",
+     "out2@8628",
+     "in1@10078"
+    ],
+    "finished": true,
+    "time": 73.21,
+    "dist": 10588,
+    "wrecks": 1,
+    "L": 3044,
+    "maxJump": 2.955,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "k9 R2 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.955,
+    "okBand": true
+   }
+  },
+  {
+   "name": "k9 R2: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@945",
+     "out1@1465",
+     "in1@10078",
+     "out1@10599"
+    ],
+    "finished": true,
+    "time": 71.2,
+    "dist": 10628,
+    "wrecks": 1,
+    "L": 3044,
+    "maxJump": 2.85,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "k9 R2 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.85,
+    "okBand": true
+   }
+  },
+  {
+   "name": "k9: laps counted at 8 checkpoints each, everyone finishes",
+   "status": "PASS",
+   "info": {
+    "cps": [
+     8,
+     16,
+     24
+    ],
+    "finished": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "times": [
+     73.73,
+     77.69,
+     76.8,
+     76.91
+    ]
+   }
+  },
+  {
+   "name": "k9: pilots in different corridors at the same place never collide; in the same corridor they do",
+   "status": "PASS",
+   "info": {
+    "differentCorridorsNoContact": true,
+    "sameCorridorContact": true
+   }
+  },
+  {
+   "name": "k9 R1: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 1,
+     "x": 0,
+     "y": 1,
+     "band": [
+      -5,
+      7
+     ],
+     "hw": 8,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 1,
+     "x": 0,
+     "y": 2.77,
+     "band": [
+      -8.5,
+      14.1
+     ],
+     "hw": 8,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "k9 R2: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 2,
+     "x": -2.1,
+     "y": 0.5,
+     "band": [
+      -4,
+      5
+     ],
+     "hw": 7,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 2,
+     "x": 0,
+     "y": 2.74,
+     "band": [
+      -8.5,
+      14
+     ],
+     "hw": 7,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "k9: no invisible blocking geometry — every 2 m of each route and of the avenue beside it keeps a passable cross-section",
+   "status": "PASS",
+   "info": [
+    {
+     "route": 1,
+     "minFreeRoute": 0.56,
+     "at": 210,
+     "minFreeAvenue": 0.38,
+     "atAvenue": 8
+    },
+    {
+     "route": 2,
+     "minFreeRoute": 0.46,
+     "at": 170,
+     "minFreeAvenue": 0.46,
+     "atAvenue": 8
+    }
+   ]
+  },
+  {
+   "name": "k9: AI pilots choose both the route and the avenue at every fork (variety)",
+   "status": "PASS",
+   "info": {
+    "route": 26,
+    "main": 46,
+    "wrecks": 16,
+    "unfinished": 0,
+    "traffic": 16420,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 16,
+      "main": 20
+     },
+     "R2": {
+      "route": 10,
+      "main": 26
+     }
+    }
+   }
+  },
+  {
+   "name": "k9: traffic on routes stays in its corridor and never overlaps route obstacles",
+   "status": "PASS",
+   "info": {
+    "trafficSteps": 16420,
+    "bad": 0
+   }
+  },
+  {
+   "name": "ia R1 'TÚNEL DE MANTENIMIENTO 7' (low): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "ia R1: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 0.9999,
+    "c1": 1
+   }
+  },
+  {
+   "name": "ia R1: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.855,
+    "kmax": 1.093,
+    "span": 420,
+    "real": 435
+   }
+  },
+  {
+   "name": "ia R1: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@807",
+     "out1@1229",
+     "in1@3797",
+     "out1@4216",
+     "in1@6786",
+     "out1@7206",
+     "in1@9775",
+     "out1@10194"
+    ],
+    "finished": true,
+    "time": 72.43,
+    "dist": 10876,
+    "wrecks": 1,
+    "L": 2989,
+    "maxJump": 2.687,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "ia R1 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.687,
+    "okBand": true
+   }
+  },
+  {
+   "name": "ia R1: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 74.38,
+    "dist": 10338,
+    "wrecks": 1,
+    "L": 2989,
+    "maxJump": 2.684,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "ia R1 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.684,
+    "okBand": true
+   }
+  },
+  {
+   "name": "ia: laps counted at 8 checkpoints each, everyone finishes",
+   "status": "PASS",
+   "info": {
+    "cps": [
+     8,
+     16,
+     24
+    ],
+    "finished": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "times": [
+     74.51,
+     79.71,
+     82.84,
+     86.29
+    ]
+   }
+  },
+  {
+   "name": "ia: pilots in different corridors at the same place never collide; in the same corridor they do",
+   "status": "PASS",
+   "info": {
+    "differentCorridorsNoContact": true,
+    "sameCorridorContact": true
+   }
+  },
+  {
+   "name": "ia R1: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 1,
+     "x": -1.95,
+     "y": 0.5,
+     "band": [
+      -4,
+      5
+     ],
+     "hw": 6.5,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 1,
+     "x": 0,
+     "y": 2.37,
+     "band": [
+      -7.7,
+      12.5
+     ],
+     "hw": 6.5,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "ia: no invisible blocking geometry — every 2 m of each route and of the avenue beside it keeps a passable cross-section",
+   "status": "PASS",
+   "info": [
+    {
+     "route": 1,
+     "minFreeRoute": 0.46,
+     "at": 144,
+     "minFreeAvenue": 0.38,
+     "atAvenue": 8
+    }
+   ]
+  },
+  {
+   "name": "ia: AI pilots choose both the route and the avenue at every fork (variety)",
+   "status": "PASS",
+   "info": {
+    "route": 2,
+    "main": 34,
+    "wrecks": 17,
+    "unfinished": 0,
+    "traffic": 1085,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 2,
+      "main": 34
+     }
+    }
+   }
+  },
+  {
+   "name": "ia: traffic on routes stays in its corridor and never overlaps route obstacles",
+   "status": "PASS",
+   "info": {
+    "trafficSteps": 1085,
+    "bad": 0
+   }
+  },
+  {
+   "name": "sv R1 'AUTOPISTA EJECUTIVA' (high): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "sv R1: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 1
+   }
+  },
+  {
+   "name": "sv R1: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.928,
+    "kmax": 1.027,
+    "span": 602,
+    "real": 602
+   }
+  },
+  {
+   "name": "sv R1: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@1961",
+     "out1@2562",
+     "in1@6629",
+     "out1@7229",
+     "in1@11294",
+     "out1@11896"
+    ],
+    "finished": true,
+    "time": 91.08,
+    "dist": 15715,
+    "wrecks": 0,
+    "L": 4667,
+    "maxJump": 3.163,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "sv R1 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.163,
+    "okBand": true
+   }
+  },
+  {
+   "name": "sv R1: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 93.85,
+    "dist": 15345,
+    "wrecks": 1,
+    "L": 4667,
+    "maxJump": 3.079,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "sv R1 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.079,
+    "okBand": true
+   }
+  },
+  {
+   "name": "sv: laps counted at 8 checkpoints each, everyone finishes",
+   "status": "PASS",
+   "info": {
+    "cps": [
+     8,
+     16,
+     24
+    ],
+    "finished": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "times": [
+     90.77,
+     102.96,
+     106.64,
+     98.55
+    ]
+   }
+  },
+  {
+   "name": "sv: pilots in different corridors at the same place never collide; in the same corridor they do",
+   "status": "PASS",
+   "info": {
+    "differentCorridorsNoContact": true,
+    "sameCorridorContact": true
+   }
+  },
+  {
+   "name": "sv R1: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 1,
+     "x": 0,
+     "y": -0.95,
+     "band": [
+      -5,
+      8
+     ],
+     "hw": 9,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 1,
+     "x": 0,
+     "y": 3.59,
+     "band": [
+      -9.2,
+      16.4
+     ],
+     "hw": 9,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "sv: no invisible blocking geometry — every 2 m of each route and of the avenue beside it keeps a passable cross-section",
+   "status": "PASS",
+   "info": [
+    {
+     "route": 1,
+     "minFreeRoute": 0.7,
+     "at": 242,
+     "minFreeAvenue": 0.46,
+     "atAvenue": 8
+    }
+   ]
+  },
+  {
+   "name": "sv: AI pilots choose both the route and the avenue at every fork (variety)",
+   "status": "PASS",
+   "info": {
+    "route": 13,
+    "main": 23,
+    "wrecks": 18,
+    "unfinished": 0,
+    "traffic": 15869,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 13,
+      "main": 23
+     }
+    }
+   }
+  },
+  {
+   "name": "sv: traffic on routes stays in its corridor and never overlaps route obstacles",
+   "status": "PASS",
+   "info": {
+    "trafficSteps": 15869,
+    "bad": 0
+   }
+  },
+  {
+   "name": "k9a R1 'CALLE DE SERVICIO DE LOS FANGS' (low): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "k9a R1: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 1
+   }
+  },
+  {
+   "name": "k9a R1: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.899,
+    "kmax": 1.053,
+    "span": 600,
+    "real": 612
+   }
+  },
+  {
+   "name": "k9a R1: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@2050",
+     "out1@2647",
+     "in1@6501",
+     "out1@7099",
+     "in1@10950",
+     "out1@11550"
+    ],
+    "finished": true,
+    "time": 108.85,
+    "dist": 14213,
+    "wrecks": 3,
+    "L": 4451,
+    "maxJump": 2.909,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "k9a R1 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.909,
+    "okBand": true
+   }
+  },
+  {
+   "name": "k9a R1: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 104.51,
+    "dist": 14122,
+    "wrecks": 1,
+    "L": 4451,
+    "maxJump": 2.799,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "k9a R1 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.799,
+    "okBand": true
+   }
+  },
+  {
+   "name": "k9a: laps counted at 8 checkpoints each, everyone finishes",
+   "status": "PASS",
+   "info": {
+    "cps": [
+     8,
+     16,
+     24
+    ],
+    "finished": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "times": [
+     99.52,
+     105.06,
+     103.27,
+     109.61
+    ]
+   }
+  },
+  {
+   "name": "k9a: pilots in different corridors at the same place never collide; in the same corridor they do",
+   "status": "PASS",
+   "info": {
+    "differentCorridorsNoContact": true,
+    "sameCorridorContact": true
+   }
+  },
+  {
+   "name": "k9a R1: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 1,
+     "x": -2.1,
+     "y": 0.5,
+     "band": [
+      -4,
+      5
+     ],
+     "hw": 7,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 1,
+     "x": 0,
+     "y": 2.59,
+     "band": [
+      -8.2,
+      13.4
+     ],
+     "hw": 7,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "k9a: no invisible blocking geometry — every 2 m of each route and of the avenue beside it keeps a passable cross-section",
+   "status": "PASS",
+   "info": [
+    {
+     "route": 1,
+     "minFreeRoute": 0.46,
+     "at": 204,
+     "minFreeAvenue": 0.46,
+     "atAvenue": 8
+    }
+   ]
+  },
+  {
+   "name": "k9a: AI pilots choose both the route and the avenue at every fork (variety)",
+   "status": "PASS",
+   "info": {
+    "route": 19,
+    "main": 17,
+    "wrecks": 17,
+    "unfinished": 0,
+    "traffic": 18469,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 19,
+      "main": 17
+     }
+    }
+   }
+  },
+  {
+   "name": "k9a: traffic on routes stays in its corridor and never overlaps route obstacles",
+   "status": "PASS",
+   "info": {
+    "trafficSteps": 18469,
+    "bad": 0
+   }
+  },
+  {
+   "name": "k9b R1 'PUENTE DE CABLES' (high): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "k9b R1: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 0.9997
+   }
+  },
+  {
+   "name": "k9b R1: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.847,
+    "kmax": 1.184,
+    "span": 600,
+    "real": 623
+   }
+  },
+  {
+   "name": "k9b R1: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@1995",
+     "out1@2595",
+     "in1@6742",
+     "out1@7343",
+     "in1@11489",
+     "out1@12089"
+    ],
+    "finished": true,
+    "time": 112.91,
+    "dist": 14341,
+    "wrecks": 0,
+    "L": 4747,
+    "maxJump": 3.099,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "k9b R1 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.099,
+    "okBand": true
+   }
+  },
+  {
+   "name": "k9b R1: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 118.28,
+    "dist": 14244,
+    "wrecks": 1,
+    "L": 4747,
+    "maxJump": 2.79,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "k9b R1 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.79,
+    "okBand": true
+   }
+  },
+  {
+   "name": "k9b: laps counted at 8 checkpoints each, everyone finishes",
+   "status": "PASS",
+   "info": {
+    "cps": [
+     8,
+     16,
+     24
+    ],
+    "finished": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "times": [
+     109.53,
+     115.46,
+     110.92,
+     113.4
+    ]
+   }
+  },
+  {
+   "name": "k9b: pilots in different corridors at the same place never collide; in the same corridor they do",
+   "status": "PASS",
+   "info": {
+    "differentCorridorsNoContact": true,
+    "sameCorridorContact": true
+   }
+  },
+  {
+   "name": "k9b R1: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 1,
+     "x": 0,
+     "y": 1,
+     "band": [
+      -5,
+      7
+     ],
+     "hw": 8,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 1,
+     "x": 0,
+     "y": 2.67,
+     "band": [
+      -8.3,
+      13.7
+     ],
+     "hw": 8,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "k9b: no invisible blocking geometry — every 2 m of each route and of the avenue beside it keeps a passable cross-section",
+   "status": "PASS",
+   "info": [
+    {
+     "route": 1,
+     "minFreeRoute": 0.56,
+     "at": 242,
+     "minFreeAvenue": 0.31,
+     "atAvenue": 18
+    }
+   ]
+  },
+  {
+   "name": "k9b: AI pilots choose both the route and the avenue at every fork (variety)",
+   "status": "PASS",
+   "info": {
+    "route": 28,
+    "main": 8,
+    "wrecks": 12,
+    "unfinished": 0,
+    "traffic": 26847,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 28,
+      "main": 8
+     }
+    }
+   }
+  },
+  {
+   "name": "k9b: traffic on routes stays in its corridor and never overlaps route obstacles",
+   "status": "PASS",
+   "info": {
+    "trafficSteps": 26847,
+    "bad": 0
+   }
+  },
+  {
+   "name": "k9c R1 'AVENIDA DE LAS TORRES-CORONA' (high): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "k9c R1: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 0.9999
+   }
+  },
+  {
+   "name": "k9c R1: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.877,
+    "kmax": 1.018,
+    "span": 600,
+    "real": 616
+   }
+  },
+  {
+   "name": "k9c R2 'ATAJO DE LOS FANGS' (low): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "k9c R2: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 1
+   }
+  },
+  {
+   "name": "k9c R2: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.934,
+    "kmax": 1.112,
+    "span": 600,
+    "real": 594
+   }
+  },
+  {
+   "name": "k9c R1: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@1146",
+     "out1@1746",
+     "in1@6600",
+     "out1@7200",
+     "in1@12055",
+     "out1@12655"
+    ],
+    "finished": true,
+    "time": 129.1,
+    "dist": 16365,
+    "wrecks": 2,
+    "L": 5454,
+    "maxJump": 2.8,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "k9c R1 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.8,
+    "okBand": true
+   }
+  },
+  {
+   "name": "k9c R1: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 125.77,
+    "dist": 16365,
+    "wrecks": 1,
+    "L": 5454,
+    "maxJump": 2.79,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "k9c R1 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.79,
+    "okBand": true
+   }
+  },
+  {
+   "name": "k9c R2: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in2@3002",
+     "out2@3602",
+     "in2@8454",
+     "out2@9056",
+     "in2@13910",
+     "out2@14509"
+    ],
+    "finished": true,
+    "time": 123.03,
+    "dist": 18051,
+    "wrecks": 1,
+    "L": 5454,
+    "maxJump": 2.996,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "k9c R2 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.996,
+    "okBand": true
+   }
+  },
+  {
+   "name": "k9c R2: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 130.22,
+    "dist": 17009,
+    "wrecks": 3,
+    "L": 5454,
+    "maxJump": 2.797,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "k9c R2 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.797,
+    "okBand": true
+   }
+  },
+  {
+   "name": "k9c: laps counted at 8 checkpoints each, everyone finishes",
+   "status": "PASS",
+   "info": {
+    "cps": [
+     8,
+     16,
+     24
+    ],
+    "finished": [
+     true,
+     true
+    ],
+    "times": [
+     124.88,
+     138.28
+    ]
+   }
+  },
+  {
+   "name": "k9c: pilots in different corridors at the same place never collide; in the same corridor they do",
+   "status": "PASS",
+   "info": {
+    "differentCorridorsNoContact": true,
+    "sameCorridorContact": true
+   }
+  },
+  {
+   "name": "k9c R1: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 1,
+     "x": 0,
+     "y": 1,
+     "band": [
+      -5,
+      7
+     ],
+     "hw": 8,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 1,
+     "x": 0,
+     "y": 2.67,
+     "band": [
+      -8.3,
+      13.7
+     ],
+     "hw": 8,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "k9c R2: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 2,
+     "x": -2.1,
+     "y": 0.5,
+     "band": [
+      -4,
+      5
+     ],
+     "hw": 7,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 2,
+     "x": 0,
+     "y": 2.59,
+     "band": [
+      -8.2,
+      13.4
+     ],
+     "hw": 7,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "k9c: no invisible blocking geometry — every 2 m of each route and of the avenue beside it keeps a passable cross-section",
+   "status": "PASS",
+   "info": [
+    {
+     "route": 1,
+     "minFreeRoute": 0.56,
+     "at": 240,
+     "minFreeAvenue": 0.38,
+     "atAvenue": 8
+    },
+    {
+     "route": 2,
+     "minFreeRoute": 0.46,
+     "at": 204,
+     "minFreeAvenue": 0.46,
+     "atAvenue": 8
+    }
+   ]
+  },
+  {
+   "name": "k9c: AI pilots choose both the route and the avenue at every fork (variety)",
+   "status": "PASS",
+   "info": {
+    "route": 11,
+    "main": 25,
+    "wrecks": 16,
+    "unfinished": 0,
+    "traffic": 27711,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 3,
+      "main": 15
+     },
+     "R2": {
+      "route": 8,
+      "main": 10
+     }
+    }
+   }
+  },
+  {
+   "name": "k9c: traffic on routes stays in its corridor and never overlaps route obstacles",
+   "status": "PASS",
+   "info": {
+    "trafficSteps": 27711,
+    "bad": 0
+   }
+  },
+  {
+   "name": "iaa R1 'PLATAFORMA DE CARGA' (high): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "iaa R1: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 1
+   }
+  },
+  {
+   "name": "iaa R1: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.896,
+    "kmax": 1.082,
+    "span": 603,
+    "real": 609
+   }
+  },
+  {
+   "name": "iaa R1: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@1250",
+     "out1@1852",
+     "in1@5555",
+     "out1@6156",
+     "in1@9859",
+     "out1@10462",
+     "in1@14162"
+    ],
+    "finished": true,
+    "time": 107.88,
+    "dist": 14226,
+    "wrecks": 2,
+    "L": 4305,
+    "maxJump": 2.876,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "iaa R1 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.876,
+    "okBand": true
+   }
+  },
+  {
+   "name": "iaa R1: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 101.27,
+    "dist": 15290,
+    "wrecks": 1,
+    "L": 4305,
+    "maxJump": 2.687,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "iaa R1 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.687,
+    "okBand": true
+   }
+  },
+  {
+   "name": "iaa: laps counted at 8 checkpoints each, everyone finishes",
+   "status": "PASS",
+   "info": {
+    "cps": [
+     8,
+     16,
+     24
+    ],
+    "finished": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "times": [
+     100.55,
+     122.13,
+     117.24,
+     116.76
+    ]
+   }
+  },
+  {
+   "name": "iaa: pilots in different corridors at the same place never collide; in the same corridor they do",
+   "status": "PASS",
+   "info": {
+    "differentCorridorsNoContact": true,
+    "sameCorridorContact": true
+   }
+  },
+  {
+   "name": "iaa R1: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 1,
+     "x": 0,
+     "y": 1,
+     "band": [
+      -5,
+      7
+     ],
+     "hw": 7,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 1,
+     "x": 0,
+     "y": 2.25,
+     "band": [
+      -7.5,
+      12
+     ],
+     "hw": 7,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "iaa: no invisible blocking geometry — every 2 m of each route and of the avenue beside it keeps a passable cross-section",
+   "status": "PASS",
+   "info": [
+    {
+     "route": 1,
+     "minFreeRoute": 0.56,
+     "at": 242,
+     "minFreeAvenue": 0.38,
+     "atAvenue": 8
+    }
+   ]
+  },
+  {
+   "name": "iaa: AI pilots choose both the route and the avenue at every fork (variety)",
+   "status": "PASS",
+   "info": {
+    "route": 13,
+    "main": 23,
+    "wrecks": 16,
+    "unfinished": 0,
+    "traffic": 5060,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 13,
+      "main": 23
+     }
+    }
+   }
+  },
+  {
+   "name": "iaa: traffic on routes stays in its corridor and never overlaps route obstacles",
+   "status": "PASS",
+   "info": {
+    "trafficSteps": 5060,
+    "bad": 0
+   }
+  },
+  {
+   "name": "iab R1 'BAJO LAS TUBERÍAS' (low): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "iab R1: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 1
+   }
+  },
+  {
+   "name": "iab R1: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.877,
+    "kmax": 1.202,
+    "span": 498,
+    "real": 498
+   }
+  },
+  {
+   "name": "iab R1: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@2068",
+     "out1@2568",
+     "in1@6770",
+     "out1@7268",
+     "in1@11470",
+     "out1@11968",
+     "in1@16171",
+     "out1@16669"
+    ],
+    "finished": true,
+    "time": 126.93,
+    "dist": 16795,
+    "wrecks": 2,
+    "L": 4701,
+    "maxJump": 2.67,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "iab R1 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.67,
+    "okBand": true
+   }
+  },
+  {
+   "name": "iab R1: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 138.13,
+    "dist": 16123,
+    "wrecks": 6,
+    "L": 4701,
+    "maxJump": 2.679,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "iab R1 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.679,
+    "okBand": true
+   }
+  },
+  {
+   "name": "iab: laps counted at 8 checkpoints each, everyone finishes",
+   "status": "PASS",
+   "info": {
+    "cps": [
+     8,
+     16,
+     24
+    ],
+    "finished": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "times": [
+     126.05,
+     144.51,
+     149.2,
+     151.07
+    ]
+   }
+  },
+  {
+   "name": "iab: pilots in different corridors at the same place never collide; in the same corridor they do",
+   "status": "PASS",
+   "info": {
+    "differentCorridorsNoContact": true,
+    "sameCorridorContact": true
+   }
+  },
+  {
+   "name": "iab R1: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 1,
+     "x": -1.95,
+     "y": 0.5,
+     "band": [
+      -4,
+      5
+     ],
+     "hw": 6.5,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 1,
+     "x": 0,
+     "y": 2.29,
+     "band": [
+      -7.6,
+      12.2
+     ],
+     "hw": 6.5,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "iab: no invisible blocking geometry — every 2 m of each route and of the avenue beside it keeps a passable cross-section",
+   "status": "PASS",
+   "info": [
+    {
+     "route": 1,
+     "minFreeRoute": 0.46,
+     "at": 170,
+     "minFreeAvenue": 0.38,
+     "atAvenue": 8
+    }
+   ]
+  },
+  {
+   "name": "iab: AI pilots choose both the route and the avenue at every fork (variety)",
+   "status": "PASS",
+   "info": {
+    "route": 15,
+    "main": 21,
+    "wrecks": 45,
+    "unfinished": 0,
+    "traffic": 7298,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 15,
+      "main": 21
+     }
+    }
+   }
+  },
+  {
+   "name": "iab: traffic on routes stays in its corridor and never overlaps route obstacles",
+   "status": "PASS",
+   "info": {
+    "trafficSteps": 7298,
+    "bad": 0
+   }
+  },
+  {
+   "name": "iac R1 'PASARELA DE GRÚAS' (high): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "iac R1: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 1
+   }
+  },
+  {
+   "name": "iac R1: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.907,
+    "kmax": 1.102,
+    "span": 599,
+    "real": 609
+   }
+  },
+  {
+   "name": "iac R2 'CORREDOR DE CARGA' (low): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "iac R2: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 1
+   }
+  },
+  {
+   "name": "iac R2: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.939,
+    "kmax": 1.117,
+    "span": 498,
+    "real": 498
+   }
+  },
+  {
+   "name": "iac R1: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@1061",
+     "out1@1661",
+     "in1@6363",
+     "out1@6961",
+     "in1@11666",
+     "out1@12263"
+    ],
+    "finished": true,
+    "time": 132.63,
+    "dist": 16383,
+    "wrecks": 2,
+    "L": 5302,
+    "maxJump": 2.685,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "iac R1 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.685,
+    "okBand": true
+   }
+  },
+  {
+   "name": "iac R1: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 141.87,
+    "dist": 15907,
+    "wrecks": 5,
+    "L": 5302,
+    "maxJump": 2.686,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "iac R1 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.686,
+    "okBand": true
+   }
+  },
+  {
+   "name": "iac R2: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in2@3130",
+     "out2@3627",
+     "in2@8431",
+     "out2@8928",
+     "in2@13732",
+     "out2@14231"
+    ],
+    "finished": true,
+    "time": 135.69,
+    "dist": 15906,
+    "wrecks": 4,
+    "L": 5302,
+    "maxJump": 2.984,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "iac R2 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.984,
+    "okBand": true
+   }
+  },
+  {
+   "name": "iac R2: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 131.46,
+    "dist": 16801,
+    "wrecks": 2,
+    "L": 5302,
+    "maxJump": 2.681,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "iac R2 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 2.681,
+    "okBand": true
+   }
+  },
+  {
+   "name": "iac: laps counted at 8 checkpoints each, everyone finishes",
+   "status": "PASS",
+   "info": {
+    "cps": [
+     8,
+     16,
+     24
+    ],
+    "finished": [
+     true,
+     true
+    ],
+    "times": [
+     131.67,
+     139.69
+    ]
+   }
+  },
+  {
+   "name": "iac: pilots in different corridors at the same place never collide; in the same corridor they do",
+   "status": "PASS",
+   "info": {
+    "differentCorridorsNoContact": true,
+    "sameCorridorContact": true
+   }
+  },
+  {
+   "name": "iac R1: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 1,
+     "x": 0,
+     "y": 1,
+     "band": [
+      -5,
+      7
+     ],
+     "hw": 7,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 1,
+     "x": -4.2,
+     "y": 2.26,
+     "band": [
+      -7.5,
+      12
+     ],
+     "hw": 7,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "iac R2: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 2,
+     "x": -1.95,
+     "y": 0.5,
+     "band": [
+      -4,
+      5
+     ],
+     "hw": 6.5,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 2,
+     "x": 0,
+     "y": 2.29,
+     "band": [
+      -7.6,
+      12.2
+     ],
+     "hw": 6.5,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "iac: no invisible blocking geometry — every 2 m of each route and of the avenue beside it keeps a passable cross-section",
+   "status": "PASS",
+   "info": [
+    {
+     "route": 1,
+     "minFreeRoute": 0.46,
+     "at": 40,
+     "minFreeAvenue": 0.38,
+     "atAvenue": 8
+    },
+    {
+     "route": 2,
+     "minFreeRoute": 0.46,
+     "at": 170,
+     "minFreeAvenue": 0.38,
+     "atAvenue": 8
+    }
+   ]
+  },
+  {
+   "name": "iac: AI pilots choose both the route and the avenue at every fork (variety)",
+   "status": "PASS",
+   "info": {
+    "route": 19,
+    "main": 17,
+    "wrecks": 20,
+    "unfinished": 0,
+    "traffic": 24305,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 9,
+      "main": 9
+     },
+     "R2": {
+      "route": 10,
+      "main": 8
+     }
+    }
+   }
+  },
+  {
+   "name": "iac: traffic on routes stays in its corridor and never overlaps route obstacles",
+   "status": "PASS",
+   "info": {
+    "trafficSteps": 24305,
+    "bad": 0
+   }
+  },
+  {
+   "name": "sva R1 'PUENTE DORADO' (high): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "sva R1: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 1
+   }
+  },
+  {
+   "name": "sva R1: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.9,
+    "kmax": 1.058,
+    "span": 601,
+    "real": 613
+   }
+  },
+  {
+   "name": "sva R1: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@2905",
+     "out1@3507",
+     "in1@9508",
+     "out1@10108",
+     "in1@16111",
+     "out1@16711"
+    ],
+    "finished": true,
+    "time": 134.36,
+    "dist": 21135,
+    "wrecks": 3,
+    "L": 6602,
+    "maxJump": 3.202,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "sva R1 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.202,
+    "okBand": true
+   }
+  },
+  {
+   "name": "sva R1: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 133.2,
+    "dist": 20701,
+    "wrecks": 2,
+    "L": 6602,
+    "maxJump": 3.078,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "sva R1 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.078,
+    "okBand": true
+   }
+  },
+  {
+   "name": "sva: laps counted at 8 checkpoints each, everyone finishes",
+   "status": "PASS",
+   "info": {
+    "cps": [
+     8,
+     16,
+     24
+    ],
+    "finished": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "times": [
+     129.02,
+     136.55,
+     141.12,
+     140.79
+    ]
+   }
+  },
+  {
+   "name": "sva: pilots in different corridors at the same place never collide; in the same corridor they do",
+   "status": "PASS",
+   "info": {
+    "differentCorridorsNoContact": true,
+    "sameCorridorContact": true
+   }
+  },
+  {
+   "name": "sva R1: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 1,
+     "x": 0,
+     "y": -0.95,
+     "band": [
+      -5,
+      8
+     ],
+     "hw": 9,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 1,
+     "x": 0,
+     "y": 3.59,
+     "band": [
+      -9.2,
+      16.4
+     ],
+     "hw": 9,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "sva: no invisible blocking geometry — every 2 m of each route and of the avenue beside it keeps a passable cross-section",
+   "status": "PASS",
+   "info": [
+    {
+     "route": 1,
+     "minFreeRoute": 0.62,
+     "at": 30,
+     "minFreeAvenue": 0.23,
+     "atAvenue": 32
+    }
+   ]
+  },
+  {
+   "name": "sva: AI pilots choose both the route and the avenue at every fork (variety)",
+   "status": "PASS",
+   "info": {
+    "route": 22,
+    "main": 14,
+    "wrecks": 17,
+    "unfinished": 0,
+    "traffic": 11702,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 22,
+      "main": 14
+     }
+    }
+   }
+  },
+  {
+   "name": "sva: traffic on routes stays in its corridor and never overlaps route obstacles",
+   "status": "PASS",
+   "info": {
+    "trafficSteps": 11702,
+    "bad": 0
+   }
+  },
+  {
+   "name": "svb R1 'CARRIL REAL' (high): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "svb R1: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 1
+   }
+  },
+  {
+   "name": "svb R1: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.922,
+    "kmax": 1.104,
+    "span": 600,
+    "real": 594
+   }
+  },
+  {
+   "name": "svb R1: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@4350",
+     "out1@4950",
+     "in1@11249",
+     "out1@11850",
+     "in1@18150",
+     "out1@18751"
+    ],
+    "finished": true,
+    "time": 138.85,
+    "dist": 21194,
+    "wrecks": 1,
+    "L": 6901,
+    "maxJump": 3.08,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "svb R1 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.08,
+    "okBand": true
+   }
+  },
+  {
+   "name": "svb R1: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 134.22,
+    "dist": 22758,
+    "wrecks": 0,
+    "L": 6901,
+    "maxJump": 3.08,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "svb R1 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.08,
+    "okBand": true
+   }
+  },
+  {
+   "name": "svb: laps counted at 8 checkpoints each, everyone finishes",
+   "status": "PASS",
+   "info": {
+    "cps": [
+     8,
+     16,
+     24
+    ],
+    "finished": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "times": [
+     134.53,
+     139.39,
+     145.72,
+     145.18
+    ]
+   }
+  },
+  {
+   "name": "svb: pilots in different corridors at the same place never collide; in the same corridor they do",
+   "status": "PASS",
+   "info": {
+    "differentCorridorsNoContact": true,
+    "sameCorridorContact": true
+   }
+  },
+  {
+   "name": "svb R1: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 1,
+     "x": 0,
+     "y": 1.5,
+     "band": [
+      -5,
+      8
+     ],
+     "hw": 9,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 1,
+     "x": 0,
+     "y": 3.59,
+     "band": [
+      -9.2,
+      16.4
+     ],
+     "hw": 9,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "svb: no invisible blocking geometry — every 2 m of each route and of the avenue beside it keeps a passable cross-section",
+   "status": "PASS",
+   "info": [
+    {
+     "route": 1,
+     "minFreeRoute": 0.7,
+     "at": 242,
+     "minFreeAvenue": 0.46,
+     "atAvenue": 8
+    }
+   ]
+  },
+  {
+   "name": "svb: AI pilots choose both the route and the avenue at every fork (variety)",
+   "status": "PASS",
+   "info": {
+    "route": 30,
+    "main": 6,
+    "wrecks": 20,
+    "unfinished": 0,
+    "traffic": 13251,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 30,
+      "main": 6
+     }
+    }
+   }
+  },
+  {
+   "name": "svb: traffic on routes stays in its corridor and never overlaps route obstacles",
+   "status": "PASS",
+   "info": {
+    "trafficSteps": 13251,
+    "bad": 0
+   }
+  },
+  {
+   "name": "svc R1 'TERRAZA CORPORATIVA' (high): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "svc R1: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 1
+   }
+  },
+  {
+   "name": "svc R1: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.901,
+    "kmax": 1.015,
+    "span": 601,
+    "real": 628
+   }
+  },
+  {
+   "name": "svc R2 'ATAJO DEL SOBERANO' (high): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "svc R2: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 1
+   }
+  },
+  {
+   "name": "svc R2: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.903,
+    "kmax": 1.058,
+    "span": 601,
+    "real": 605
+   }
+  },
+  {
+   "name": "svc R1: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@1065",
+     "out1@1666",
+     "in1@8669",
+     "out1@9270",
+     "in1@16273",
+     "out1@16874"
+    ],
+    "finished": true,
+    "time": 153.91,
+    "dist": 22812,
+    "wrecks": 1,
+    "L": 7603,
+    "maxJump": 3.077,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "svc R1 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.077,
+    "okBand": true
+   }
+  },
+  {
+   "name": "svc R1: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in2@11481",
+     "out2@12084",
+     "in2@19085",
+     "out2@19687"
+    ],
+    "finished": true,
+    "time": 154.98,
+    "dist": 22810,
+    "wrecks": 2,
+    "L": 7603,
+    "maxJump": 3.078,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "svc R1 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.078,
+    "okBand": true
+   }
+  },
+  {
+   "name": "svc R2: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in2@3881",
+     "out2@4480",
+     "in1@8669",
+     "out1@9270",
+     "in2@11482",
+     "out2@12083",
+     "in2@19086",
+     "out2@19687"
+    ],
+    "finished": true,
+    "time": 158.82,
+    "dist": 22912,
+    "wrecks": 3,
+    "L": 7603,
+    "maxJump": 3.078,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "svc R2 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.078,
+    "okBand": true
+   }
+  },
+  {
+   "name": "svc R2: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 155.09,
+    "dist": 22942,
+    "wrecks": 2,
+    "L": 7603,
+    "maxJump": 3.077,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "svc R2 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.077,
+    "okBand": true
+   }
+  },
+  {
+   "name": "svc: laps counted at 8 checkpoints each, everyone finishes",
+   "status": "PASS",
+   "info": {
+    "cps": [
+     8,
+     16,
+     24
+    ],
+    "finished": [
+     true,
+     true
+    ],
+    "times": [
+     156.82,
+     151.59
+    ]
+   }
+  },
+  {
+   "name": "svc: pilots in different corridors at the same place never collide; in the same corridor they do",
+   "status": "PASS",
+   "info": {
+    "differentCorridorsNoContact": true,
+    "sameCorridorContact": true
+   }
+  },
+  {
+   "name": "svc R1: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 1,
+     "x": 0,
+     "y": -0.95,
+     "band": [
+      -5,
+      8
+     ],
+     "hw": 9,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 1,
+     "x": 0,
+     "y": 3.59,
+     "band": [
+      -9.2,
+      16.4
+     ],
+     "hw": 9,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "svc R2: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 2,
+     "x": 0,
+     "y": -0.95,
+     "band": [
+      -5,
+      8
+     ],
+     "hw": 9,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 2,
+     "x": 0,
+     "y": 3.59,
+     "band": [
+      -9.2,
+      16.4
+     ],
+     "hw": 9,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "svc: no invisible blocking geometry — every 2 m of each route and of the avenue beside it keeps a passable cross-section",
+   "status": "PASS",
+   "info": [
+    {
+     "route": 1,
+     "minFreeRoute": 0.7,
+     "at": 242,
+     "minFreeAvenue": 0.46,
+     "atAvenue": 8
+    },
+    {
+     "route": 2,
+     "minFreeRoute": 0.7,
+     "at": 242,
+     "minFreeAvenue": 0.46,
+     "atAvenue": 8
+    }
+   ]
+  },
+  {
+   "name": "svc: AI pilots choose both the route and the avenue at every fork (variety)",
+   "status": "PASS",
+   "info": {
+    "route": 20,
+    "main": 16,
+    "wrecks": 11,
+    "unfinished": 0,
+    "traffic": 25652,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 9,
+      "main": 9
+     },
+     "R2": {
+      "route": 11,
+      "main": 7
+     }
+    }
+   }
+  },
+  {
+   "name": "svc: traffic on routes stays in its corridor and never overlaps route obstacles",
+   "status": "PASS",
+   "info": {
+    "trafficSteps": 25652,
+    "bad": 0
+   }
+  },
+  {
+   "name": "orb R1 'CORREDOR ORBITAL SUPERIOR' (high): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "orb R1: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 1,
+    "c1": 1
+   }
+  },
+  {
+   "name": "orb R1: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.915,
+    "kmax": 1.015,
+    "span": 596,
+    "real": 611
+   }
+  },
+  {
+   "name": "orb R2 'PASO INFERIOR DEL PUERTO' (low): no geometric conflicts",
+   "status": "PASS",
+   "info": []
+  },
+  {
+   "name": "orb R2: route joins the avenue continuously at both ends (position < 0.5 m, tangent > 0.995)",
+   "status": "PASS",
+   "info": {
+    "d0": 0,
+    "d1": 0,
+    "c0": 0.9999,
+    "c1": 1
+   }
+  },
+  {
+   "name": "orb R2: advance factor stays physical (0.7..1.4)",
+   "status": "PASS",
+   "info": {
+    "kmin": 0.955,
+    "kmax": 1.138,
+    "span": 596,
+    "real": 587
+   }
+  },
+  {
+   "name": "orb R1: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@2298",
+     "out1@2895",
+     "in1@10807",
+     "out1@11402",
+     "in1@19316",
+     "out1@19911"
+    ],
+    "finished": true,
+    "time": 172.09,
+    "dist": 26777,
+    "wrecks": 2,
+    "L": 8509,
+    "maxJump": 3.182,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "orb R1 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.182,
+    "okBand": true
+   }
+  },
+  {
+   "name": "orb R1: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [],
+    "finished": true,
+    "time": 169.82,
+    "dist": 26640,
+    "wrecks": 2,
+    "L": 8509,
+    "maxJump": 3.136,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "orb R1 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.136,
+    "okBand": true
+   }
+  },
+  {
+   "name": "orb R2: drivable through the route every lap (enters 3x, exits 3x) and finishes",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in2@5531",
+     "out2@6128",
+     "in1@10808",
+     "out1@11404",
+     "in2@14042",
+     "out2@14635",
+     "in2@22550",
+     "out2@23146"
+    ],
+    "finished": true,
+    "time": 168.82,
+    "dist": 26862,
+    "wrecks": 2,
+    "L": 8509,
+    "maxJump": 3.331,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "orb R2 via route: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.331,
+    "okBand": true
+   }
+  },
+  {
+   "name": "orb R2: drivable on the avenue every lap without entering the route",
+   "status": "PASS",
+   "info": {
+    "routeLog": [
+     "in1@10807",
+     "out1@11403"
+    ],
+    "finished": true,
+    "time": 170,
+    "dist": 27327,
+    "wrecks": 2,
+    "L": 8509,
+    "maxJump": 3.135,
+    "maxInv": 0,
+    "okBand": true,
+    "nan": 0
+   }
+  },
+  {
+   "name": "orb R2 via main: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band",
+   "status": "PASS",
+   "info": {
+    "maxInv": 0,
+    "maxStep": 3.135,
+    "okBand": true
+   }
+  },
+  {
+   "name": "orb: laps counted at 8 checkpoints each, everyone finishes",
+   "status": "PASS",
+   "info": {
+    "cps": [
+     8,
+     16,
+     24
+    ],
+    "finished": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "times": [
+     173.69,
+     173.38,
+     169.43,
+     164.48
+    ]
+   }
+  },
+  {
+   "name": "orb: pilots in different corridors at the same place never collide; in the same corridor they do",
+   "status": "PASS",
+   "info": {
+    "differentCorridorsNoContact": true,
+    "sameCorridorContact": true
+   }
+  },
+  {
+   "name": "orb R1: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 1,
+     "x": 0,
+     "y": -0.95,
+     "band": [
+      -5,
+      8
+     ],
+     "hw": 9,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 1,
+     "x": 0,
+     "y": 3.18,
+     "band": [
+      -9.2,
+      15.6
+     ],
+     "hw": 9,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "orb R2: respawn after a wreck on the route reappears on a valid corridor (route mid-way stays on it), inside the band and clear of obstacles",
+   "status": "PASS",
+   "info": [
+    {
+     "at": 0.5,
+     "rt": 2,
+     "x": -2.4,
+     "y": 0.5,
+     "band": [
+      -4,
+      5
+     ],
+     "hw": 8,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    },
+    {
+     "at": 0.02,
+     "rt": 2,
+     "x": 0,
+     "y": 3.02,
+     "band": [
+      -9,
+      15.1
+     ],
+     "hw": 8,
+     "inBand": true,
+     "inObs": false,
+     "back": 0
+    }
+   ]
+  },
+  {
+   "name": "orb: no invisible blocking geometry — every 2 m of each route and of the avenue beside it keeps a passable cross-section",
+   "status": "PASS",
+   "info": [
+    {
+     "route": 1,
+     "minFreeRoute": 0.7,
+     "at": 240,
+     "minFreeAvenue": 0.5,
+     "atAvenue": 8
+    },
+    {
+     "route": 2,
+     "minFreeRoute": 0.46,
+     "at": 204,
+     "minFreeAvenue": 0.42,
+     "atAvenue": 8
+    }
+   ]
+  },
+  {
+   "name": "orb: AI pilots choose both the route and the avenue at every fork (variety)",
+   "status": "PASS",
+   "info": {
+    "route": 44,
+    "main": 28,
+    "wrecks": 27,
+    "unfinished": 0,
+    "traffic": 26834,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 24,
+      "main": 12
+     },
+     "R2": {
+      "route": 20,
+      "main": 16
+     }
+    }
+   }
+  },
+  {
+   "name": "orb: traffic on routes stays in its corridor and never overlaps route obstacles",
+   "status": "PASS",
+   "info": {
+    "trafficSteps": 26834,
+    "bad": 0
+   }
+  },
+  {
+   "name": "No page errors during route tests",
+   "status": "PASS",
+   "info": []
+  }
+ ],
+ "summary": {
+  "k9": {
+   "routes": [
+    {
+     "id": 1,
+     "name": "PASAJE AÉREO NEÓN",
+     "kind": "high",
+     "a": 0.31,
+     "b": 0.481,
+     "span": 521,
+     "Lreal": 522,
+     "sep": 116,
+     "join": 116,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 1,
+     "kmin": 0.891,
+     "kmax": 1.064,
+     "obs": 2,
+     "div": 30
+    },
+    {
+     "id": 2,
+     "name": "TÚNEL DEL MERCADO",
+     "kind": "low",
+     "a": 0.67,
+     "b": 0.834,
+     "span": 499,
+     "Lreal": 492,
+     "sep": 94,
+     "join": 94,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 1,
+     "kmin": 0.966,
+     "kmax": 1.052,
+     "obs": 2,
+     "div": 24
+    }
+   ],
+   "use": {
+    "route": 26,
+    "main": 46,
+    "wrecks": 16,
+    "unfinished": 0,
+    "traffic": 16420,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 16,
+      "main": 20
+     },
+     "R2": {
+      "route": 10,
+      "main": 26
+     }
+    }
+   }
+  },
+  "ia": {
+   "routes": [
+    {
+     "id": 1,
+     "name": "TÚNEL DE MANTENIMIENTO 7",
+     "kind": "low",
+     "a": 0.27,
+     "b": 0.4105,
+     "span": 420,
+     "Lreal": 435,
+     "sep": 76,
+     "join": 76,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 0.9999,
+     "c1": 1,
+     "kmin": 0.855,
+     "kmax": 1.093,
+     "obs": 3,
+     "div": 20
+    }
+   ],
+   "use": {
+    "route": 2,
+    "main": 34,
+    "wrecks": 17,
+    "unfinished": 0,
+    "traffic": 1085,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 2,
+      "main": 34
+     }
+    }
+   }
+  },
+  "sv": {
+   "routes": [
+    {
+     "id": 1,
+     "name": "AUTOPISTA EJECUTIVA",
+     "kind": "high",
+     "a": 0.42,
+     "b": 0.549,
+     "span": 602,
+     "Lreal": 602,
+     "sep": 128,
+     "join": 128,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 1,
+     "kmin": 0.928,
+     "kmax": 1.027,
+     "obs": 2,
+     "div": 32
+    }
+   ],
+   "use": {
+    "route": 13,
+    "main": 23,
+    "wrecks": 18,
+    "unfinished": 0,
+    "traffic": 15869,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 13,
+      "main": 23
+     }
+    }
+   }
+  },
+  "k9a": {
+   "routes": [
+    {
+     "id": 1,
+     "name": "CALLE DE SERVICIO DE LOS FANGS",
+     "kind": "low",
+     "a": 0.46,
+     "b": 0.5948,
+     "span": 600,
+     "Lreal": 612,
+     "sep": 112,
+     "join": 112,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 1,
+     "kmin": 0.899,
+     "kmax": 1.053,
+     "obs": 2,
+     "div": 28
+    }
+   ],
+   "use": {
+    "route": 19,
+    "main": 17,
+    "wrecks": 17,
+    "unfinished": 0,
+    "traffic": 18469,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 19,
+      "main": 17
+     }
+    }
+   }
+  },
+  "k9b": {
+   "routes": [
+    {
+     "id": 1,
+     "name": "PUENTE DE CABLES",
+     "kind": "high",
+     "a": 0.42,
+     "b": 0.5464,
+     "span": 600,
+     "Lreal": 623,
+     "sep": 134,
+     "join": 134,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 0.9997,
+     "kmin": 0.847,
+     "kmax": 1.184,
+     "obs": 3,
+     "div": 34
+    }
+   ],
+   "use": {
+    "route": 28,
+    "main": 8,
+    "wrecks": 12,
+    "unfinished": 0,
+    "traffic": 26847,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 28,
+      "main": 8
+     }
+    }
+   }
+  },
+  "k9c": {
+   "routes": [
+    {
+     "id": 1,
+     "name": "AVENIDA DE LAS TORRES-CORONA",
+     "kind": "high",
+     "a": 0.21,
+     "b": 0.32,
+     "span": 600,
+     "Lreal": 616,
+     "sep": 134,
+     "join": 134,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 0.9999,
+     "kmin": 0.877,
+     "kmax": 1.018,
+     "obs": 2,
+     "div": 34
+    },
+    {
+     "id": 2,
+     "name": "ATAJO DE LOS FANGS",
+     "kind": "low",
+     "a": 0.55,
+     "b": 0.66,
+     "span": 600,
+     "Lreal": 594,
+     "sep": 112,
+     "join": 112,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 1,
+     "kmin": 0.934,
+     "kmax": 1.112,
+     "obs": 2,
+     "div": 28
+    }
+   ],
+   "use": {
+    "route": 11,
+    "main": 25,
+    "wrecks": 16,
+    "unfinished": 0,
+    "traffic": 27711,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 3,
+      "main": 15
+     },
+     "R2": {
+      "route": 8,
+      "main": 10
+     }
+    }
+   }
+  },
+  "iaa": {
+   "routes": [
+    {
+     "id": 1,
+     "name": "PLATAFORMA DE CARGA",
+     "kind": "high",
+     "a": 0.29,
+     "b": 0.43,
+     "span": 603,
+     "Lreal": 609,
+     "sep": 124,
+     "join": 124,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 1,
+     "kmin": 0.896,
+     "kmax": 1.082,
+     "obs": 2,
+     "div": 32
+    }
+   ],
+   "use": {
+    "route": 13,
+    "main": 23,
+    "wrecks": 16,
+    "unfinished": 0,
+    "traffic": 5060,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 13,
+      "main": 23
+     }
+    }
+   }
+  },
+  "iab": {
+   "routes": [
+    {
+     "id": 1,
+     "name": "BAJO LAS TUBERÍAS",
+     "kind": "low",
+     "a": 0.44,
+     "b": 0.546,
+     "span": 498,
+     "Lreal": 498,
+     "sep": 90,
+     "join": 90,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 1,
+     "kmin": 0.877,
+     "kmax": 1.202,
+     "obs": 3,
+     "div": 22
+    }
+   ],
+   "use": {
+    "route": 15,
+    "main": 21,
+    "wrecks": 45,
+    "unfinished": 0,
+    "traffic": 7298,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 15,
+      "main": 21
+     }
+    }
+   }
+  },
+  "iac": {
+   "routes": [
+    {
+     "id": 1,
+     "name": "PASARELA DE GRÚAS",
+     "kind": "high",
+     "a": 0.2,
+     "b": 0.313,
+     "span": 599,
+     "Lreal": 609,
+     "sep": 124,
+     "join": 124,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 1,
+     "kmin": 0.907,
+     "kmax": 1.102,
+     "obs": 1,
+     "div": 32
+    },
+    {
+     "id": 2,
+     "name": "CORREDOR DE CARGA",
+     "kind": "low",
+     "a": 0.59,
+     "b": 0.684,
+     "span": 498,
+     "Lreal": 498,
+     "sep": 90,
+     "join": 90,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 1,
+     "kmin": 0.939,
+     "kmax": 1.117,
+     "obs": 3,
+     "div": 22
+    }
+   ],
+   "use": {
+    "route": 19,
+    "main": 17,
+    "wrecks": 20,
+    "unfinished": 0,
+    "traffic": 24305,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 9,
+      "main": 9
+     },
+     "R2": {
+      "route": 10,
+      "main": 8
+     }
+    }
+   }
+  },
+  "sva": {
+   "routes": [
+    {
+     "id": 1,
+     "name": "PUENTE DORADO",
+     "kind": "high",
+     "a": 0.44,
+     "b": 0.531,
+     "span": 601,
+     "Lreal": 613,
+     "sep": 128,
+     "join": 128,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 1,
+     "kmin": 0.9,
+     "kmax": 1.058,
+     "obs": 2,
+     "div": 32
+    }
+   ],
+   "use": {
+    "route": 22,
+    "main": 14,
+    "wrecks": 17,
+    "unfinished": 0,
+    "traffic": 11702,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 22,
+      "main": 14
+     }
+    }
+   }
+  },
+  "svb": {
+   "routes": [
+    {
+     "id": 1,
+     "name": "CARRIL REAL",
+     "kind": "high",
+     "a": 0.63,
+     "b": 0.717,
+     "span": 600,
+     "Lreal": 594,
+     "sep": 128,
+     "join": 128,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 1,
+     "kmin": 0.922,
+     "kmax": 1.104,
+     "obs": 1,
+     "div": 32
+    }
+   ],
+   "use": {
+    "route": 30,
+    "main": 6,
+    "wrecks": 20,
+    "unfinished": 0,
+    "traffic": 13251,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 30,
+      "main": 6
+     }
+    }
+   }
+  },
+  "svc": {
+   "routes": [
+    {
+     "id": 1,
+     "name": "TERRAZA CORPORATIVA",
+     "kind": "high",
+     "a": 0.14,
+     "b": 0.219,
+     "span": 601,
+     "Lreal": 628,
+     "sep": 128,
+     "join": 128,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 1,
+     "kmin": 0.901,
+     "kmax": 1.015,
+     "obs": 2,
+     "div": 32
+    },
+    {
+     "id": 2,
+     "name": "ATAJO DEL SOBERANO",
+     "kind": "high",
+     "a": 0.51,
+     "b": 0.589,
+     "span": 601,
+     "Lreal": 605,
+     "sep": 128,
+     "join": 128,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 1,
+     "kmin": 0.903,
+     "kmax": 1.058,
+     "obs": 2,
+     "div": 32
+    }
+   ],
+   "use": {
+    "route": 20,
+    "main": 16,
+    "wrecks": 11,
+    "unfinished": 0,
+    "traffic": 25652,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 9,
+      "main": 9
+     },
+     "R2": {
+      "route": 11,
+      "main": 7
+     }
+    }
+   }
+  },
+  "orb": {
+   "routes": [
+    {
+     "id": 1,
+     "name": "CORREDOR ORBITAL SUPERIOR",
+     "kind": "high",
+     "a": 0.27,
+     "b": 0.34,
+     "span": 596,
+     "Lreal": 611,
+     "sep": 126,
+     "join": 126,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 1,
+     "c1": 1,
+     "kmin": 0.915,
+     "kmax": 1.015,
+     "obs": 3,
+     "div": 32
+    },
+    {
+     "id": 2,
+     "name": "PASO INFERIOR DEL PUERTO",
+     "kind": "low",
+     "a": 0.65,
+     "b": 0.72,
+     "span": 596,
+     "Lreal": 587,
+     "sep": 114,
+     "join": 114,
+     "val": [],
+     "d0": 0,
+     "d1": 0,
+     "c0": 0.9999,
+     "c1": 1,
+     "kmin": 0.955,
+     "kmax": 1.138,
+     "obs": 2,
+     "div": 28
+    }
+   ],
+   "use": {
+    "route": 44,
+    "main": 28,
+    "wrecks": 27,
+    "unfinished": 0,
+    "traffic": 26834,
+    "trafficBad": 0,
+    "per": {
+     "R1": {
+      "route": 24,
+      "main": 12
+     },
+     "R2": {
+      "route": 20,
+      "main": 16
+     }
+    }
+   }
+  }
+ }
+}

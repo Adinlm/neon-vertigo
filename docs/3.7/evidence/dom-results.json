@@ -1,0 +1,183 @@
+{
+  "category": "DOM and game logic with mocked Canvas/WebGL; no pixel rendering or real audio",
+  "passed": 44,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "Standalone game JavaScript parses",
+      "status": "PASS"
+    },
+    {
+      "name": "Every full load opens language selection with stored preference highlighted",
+      "status": "PASS"
+    },
+    {
+      "name": "One language tap opens translated title",
+      "status": "PASS"
+    },
+    {
+      "name": "13 original tracks and 6 ships",
+      "status": "PASS"
+    },
+    {
+      "name": "Settings language switch preserves career and stored save exactly",
+      "status": "PASS"
+    },
+    {
+      "name": "English save-code placeholder is localized",
+      "status": "PASS"
+    },
+    {
+      "name": "Spanish save-code placeholder is restored",
+      "status": "PASS"
+    },
+    {
+      "name": "Localization never changes typed save-code contents",
+      "status": "PASS"
+    },
+    {
+      "name": "Unplayed campaign tracks have no completion badges",
+      "status": "PASS"
+    },
+    {
+      "name": "Campaign defeat earns no completion badge",
+      "status": "PASS"
+    },
+    {
+      "name": "Actual Easy victory adds Easy only",
+      "status": "PASS"
+    },
+    {
+      "name": "Repeated Normal victory adds Normal without replacing Easy",
+      "status": "PASS"
+    },
+    {
+      "name": "Hard remains gated on incomplete campaign",
+      "status": "PASS"
+    },
+    {
+      "name": "Locked event cannot earn a badge",
+      "status": "PASS"
+    },
+    {
+      "name": "Winning all 10 events on Normal unlocks Hard",
+      "status": "PASS"
+    },
+    {
+      "name": "Winning all 10 events on Hard unlocks PROJECT ZERO",
+      "status": "PASS"
+    },
+    {
+      "name": "Campaign track displays all three earned difficulties in order",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing NV3 export/import preserves per-difficulty wins",
+      "status": "PASS"
+    },
+    {
+      "name": "Imported hard clear without starter selection renders all ship cards safely",
+      "status": "PASS"
+    },
+    {
+      "name": "Starter confirmation enters a race after imported hard clear",
+      "status": "PASS"
+    },
+    {
+      "name": "Badges persist after reload and render in Spanish",
+      "status": "PASS"
+    },
+    {
+      "name": "Free-race badges use recorded finishes and reject nonfinite times",
+      "status": "PASS"
+    },
+    {
+      "name": "New free-race record appears on reopening list",
+      "status": "PASS"
+    },
+    {
+      "name": "Visible badges switch English to Spanish without reopening",
+      "status": "PASS"
+    },
+    {
+      "name": "Visible badges switch back to English without reopening",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy clear does not fabricate difficulty",
+      "status": "PASS"
+    },
+    {
+      "name": "Dynamic English notification: ¡SUPERASTE A COOPER!",
+      "status": "PASS"
+    },
+    {
+      "name": "Dynamic notification switches back to Spanish: ¡SUPERASTE A COOPER!",
+      "status": "PASS"
+    },
+    {
+      "name": "Dynamic English notification: ¡PLASMA!",
+      "status": "PASS"
+    },
+    {
+      "name": "Dynamic notification switches back to Spanish: ¡PLASMA!",
+      "status": "PASS"
+    },
+    {
+      "name": "Dynamic English notification: ¡TURBO!",
+      "status": "PASS"
+    },
+    {
+      "name": "Dynamic notification switches back to Spanish: ¡TURBO!",
+      "status": "PASS"
+    },
+    {
+      "name": "Dynamic English notification: ¡YA!",
+      "status": "PASS"
+    },
+    {
+      "name": "Dynamic notification switches back to Spanish: ¡YA!",
+      "status": "PASS"
+    },
+    {
+      "name": "All 324 ES and 324 EN radio lines render exactly with stable portraits",
+      "status": "PASS"
+    },
+    {
+      "name": "Presenting translated dialogue does not alter dialogue state",
+      "status": "PASS"
+    },
+    {
+      "name": "Anti-repeat dialogue bags avoid immediate repeats for each character/event",
+      "status": "PASS"
+    },
+    {
+      "name": "Hard unlock ending translates",
+      "status": "PASS"
+    },
+    {
+      "name": "PROJECT ZERO ending translates",
+      "status": "PASS"
+    },
+    {
+      "name": "Acknowledged endings do not repeat",
+      "status": "PASS"
+    },
+    {
+      "name": "Actual race simulation starts after language gate",
+      "status": "PASS"
+    },
+    {
+      "name": "HUD English and original rank/lap content remain present",
+      "status": "PASS"
+    },
+    {
+      "name": "Returning from race does not reopen language gate",
+      "status": "PASS"
+    },
+    {
+      "name": "No game boot or DOM errors",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+ "new": {
+  "nav": {
+   "dur_s": 0.09,
+   "peak_dbfs": -9.0,
+   "rms_dbfs": -23.3,
+   "centroid_hz": 1482,
+   "pct_above_4k": 0.02,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 99.9,
+   "end_abs": 1e-05,
+   "start_abs": 0.0
+  },
+  "back": {
+   "dur_s": 0.3,
+   "peak_dbfs": -7.4,
+   "rms_dbfs": -22.5,
+   "centroid_hz": 733,
+   "pct_above_4k": 0.0,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 89.8,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "confirm": {
+   "dur_s": 0.42,
+   "peak_dbfs": -7.2,
+   "rms_dbfs": -24.8,
+   "centroid_hz": 1563,
+   "pct_above_4k": 2.9,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 97.1,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "shipSwap": {
+   "dur_s": 0.4,
+   "peak_dbfs": -7.2,
+   "rms_dbfs": -23.5,
+   "centroid_hz": 1347,
+   "pct_above_4k": 0.01,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 97.5,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "locked": {
+   "dur_s": 0.34,
+   "peak_dbfs": -7.2,
+   "rms_dbfs": -23.2,
+   "centroid_hz": 467,
+   "pct_above_4k": 0.04,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 77.6,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "diff": {
+   "dur_s": 0.24,
+   "peak_dbfs": -7.4,
+   "rms_dbfs": -23.4,
+   "centroid_hz": 1210,
+   "pct_above_4k": 0.01,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 99.4,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "hangar": {
+   "dur_s": 1.05,
+   "peak_dbfs": -7.4,
+   "rms_dbfs": -22.4,
+   "centroid_hz": 1084,
+   "pct_above_4k": 0.16,
+   "pct_above_6k": 0.03,
+   "pct_300_2500": 96.9,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "count": {
+   "dur_s": 0.32,
+   "peak_dbfs": -5.5,
+   "rms_dbfs": -24.2,
+   "centroid_hz": 676,
+   "pct_above_4k": 0.0,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 99.4,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "turboReady": {
+   "dur_s": 0.36,
+   "peak_dbfs": -8.0,
+   "rms_dbfs": -21.8,
+   "centroid_hz": 1337,
+   "pct_above_4k": 0.07,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 97.7,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "turboEnd": {
+   "dur_s": 0.42,
+   "peak_dbfs": -9.0,
+   "rms_dbfs": -25.5,
+   "centroid_hz": 406,
+   "pct_above_4k": 0.0,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 63.8,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "overtake": {
+   "dur_s": 0.5,
+   "peak_dbfs": -7.7,
+   "rms_dbfs": -24.0,
+   "centroid_hz": 1424,
+   "pct_above_4k": 0.82,
+   "pct_above_6k": 0.01,
+   "pct_300_2500": 95.6,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "raceGo": {
+   "dur_s": 0.95,
+   "peak_dbfs": -7.2,
+   "rms_dbfs": -21.6,
+   "centroid_hz": 662,
+   "pct_above_4k": 0.27,
+   "pct_above_6k": 0.02,
+   "pct_300_2500": 45.7,
+   "end_abs": 4e-05,
+   "start_abs": 0.0
+  },
+  "critical": {
+   "dur_s": 0.7,
+   "peak_dbfs": -7.4,
+   "rms_dbfs": -23.3,
+   "centroid_hz": 704,
+   "pct_above_4k": 0.03,
+   "pct_above_6k": 0.01,
+   "pct_300_2500": 86.6,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "go": {
+   "dur_s": 0.85,
+   "peak_dbfs": -5.9,
+   "rms_dbfs": -23.7,
+   "centroid_hz": 941,
+   "pct_above_4k": 0.17,
+   "pct_above_6k": 0.03,
+   "pct_300_2500": 94.5,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "unlock": {
+   "dur_s": 1.6,
+   "peak_dbfs": -7.2,
+   "rms_dbfs": -21.1,
+   "centroid_hz": 1249,
+   "pct_above_4k": 1.14,
+   "pct_above_6k": 0.2,
+   "pct_300_2500": 95.0,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "takedown": {
+   "dur_s": 0.75,
+   "peak_dbfs": -6.1,
+   "rms_dbfs": -22.4,
+   "centroid_hz": 1026,
+   "pct_above_4k": 0.1,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 82.3,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "lapNew": {
+   "dur_s": 0.55,
+   "peak_dbfs": -7.7,
+   "rms_dbfs": -24.5,
+   "centroid_hz": 1255,
+   "pct_above_4k": 0.01,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 96.3,
+   "end_abs": 1e-05,
+   "start_abs": 0.0
+  },
+  "lastLap": {
+   "dur_s": 1.0,
+   "peak_dbfs": -5.9,
+   "rms_dbfs": -20.2,
+   "centroid_hz": 1286,
+   "pct_above_4k": 0.67,
+   "pct_above_6k": 0.01,
+   "pct_300_2500": 76.8,
+   "end_abs": 2e-05,
+   "start_abs": 0.0
+  },
+  "resultLose": {
+   "dur_s": 0.9,
+   "peak_dbfs": -7.7,
+   "rms_dbfs": -22.9,
+   "centroid_hz": 675,
+   "pct_above_4k": 0.0,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 92.1,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "finish": {
+   "dur_s": 1.25,
+   "peak_dbfs": -5.9,
+   "rms_dbfs": -27.6,
+   "centroid_hz": 2248,
+   "pct_above_4k": 12.05,
+   "pct_above_6k": 2.03,
+   "pct_300_2500": 66.8,
+   "end_abs": 0.0,
+   "start_abs": 0.0
+  },
+  "resultWin": {
+   "dur_s": 1.1,
+   "peak_dbfs": -7.2,
+   "rms_dbfs": -23.9,
+   "centroid_hz": 2169,
+   "pct_above_4k": 6.71,
+   "pct_above_6k": 0.61,
+   "pct_300_2500": 66.7,
+   "end_abs": 1e-05,
+   "start_abs": 0.0
+  }
+ },
+ "old_3_6_3": {
+  "uiC": {
+   "dur_s": 0.14,
+   "peak_dbfs": -8.5,
+   "rms_dbfs": -23.3,
+   "centroid_hz": 1729,
+   "pct_above_4k": 0.15,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 99.8,
+   "end_abs": 3e-05,
+   "start_abs": 0.00312
+  },
+  "uiO": {
+   "dur_s": 0.5,
+   "peak_dbfs": -10.0,
+   "rms_dbfs": -24.8,
+   "centroid_hz": 1881,
+   "pct_above_4k": 2.02,
+   "pct_above_6k": 0.04,
+   "pct_300_2500": 97.8,
+   "end_abs": 2e-05,
+   "start_abs": 0.00061
+  },
+  "uiB": {
+   "dur_s": 0.45,
+   "peak_dbfs": -10.1,
+   "rms_dbfs": -25.1,
+   "centroid_hz": 1238,
+   "pct_above_4k": 0.1,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 95.7,
+   "end_abs": 1e-05,
+   "start_abs": 0.00257
+  },
+  "beepL": {
+   "dur_s": 0.5,
+   "peak_dbfs": -9.5,
+   "rms_dbfs": -23.7,
+   "centroid_hz": 577,
+   "pct_above_4k": 0.0,
+   "pct_above_6k": 0.0,
+   "pct_300_2500": 95.3,
+   "end_abs": 1e-05,
+   "start_abs": 0.00037
+  },
+  "beepH": {
+   "dur_s": 1.05,
+   "peak_dbfs": -9.0,
+   "rms_dbfs": -25.6,
+   "centroid_hz": 1145,
+   "pct_above_4k": 0.36,
+   "pct_above_6k": 0.01,
+   "pct_300_2500": 97.6,
+   "end_abs": 2e-05,
+   "start_abs": 0.00034
+  },
+  "lap": {
+   "dur_s": 1.1,
+   "peak_dbfs": -12.0,
+   "rms_dbfs": -26.2,
+   "centroid_hz": 1905,
+   "pct_above_4k": 4.32,
+   "pct_above_6k": 0.12,
+   "pct_300_2500": 94.3,
+   "end_abs": 1e-05,
+   "start_abs": 0.00029
+  },
+  "cp": {
+   "dur_s": 0.55,
+   "peak_dbfs": -10.0,
+   "rms_dbfs": -25.6,
+   "centroid_hz": 1517,
+   "pct_above_4k": 0.04,
+   "pct_above_6k": 0.02,
+   "pct_300_2500": 98.6,
+   "end_abs": 2e-05,
+   "start_abs": 0.00107
+  }
+ }
+}

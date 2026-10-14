@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Initial traffic placements valid on all 13 circuits",
+    "status": "PASS",
+    "info": [
+      {
+        "id": "k9",
+        "bad": 0
+      },
+      {
+        "id": "ia",
+        "bad": 0
+      },
+      {
+        "id": "sv",
+        "bad": 0
+      },
+      {
+        "id": "k9a",
+        "bad": 0
+      },
+      {
+        "id": "k9b",
+        "bad": 0
+      },
+      {
+        "id": "k9c",
+        "bad": 0
+      },
+      {
+        "id": "iaa",
+        "bad": 0
+      },
+      {
+        "id": "iab",
+        "bad": 0
+      },
+      {
+        "id": "iac",
+        "bad": 0
+      },
+      {
+        "id": "sva",
+        "bad": 0
+      },
+      {
+        "id": "svb",
+        "bad": 0
+      },
+      {
+        "id": "svc",
+        "bad": 0
+      },
+      {
+        "id": "orb",
+        "bad": 0
+      }
+    ]
+  },
+  {
+    "name": "Same seed repeats after track, quality, dialogue, input, camera and audio-limit changes",
+    "status": "PASS",
+    "info": {
+      "same": true,
+      "a": [
+        {
+          "id": "me",
+          "finished": true,
+          "time": 69.28,
+          "dist": 10852,
+          "place": 1,
+          "wrecks": 1,
+          "td": 2,
+          "best": 20.28,
+          "rt": 0,
+          "routes": null
+        },
+        {
+          "id": "vega",
+          "finished": true,
+          "time": 81.26,
+          "dist": 9133,
+          "place": 4,
+          "wrecks": 2,
+          "td": 0,
+          "best": 23.98,
+          "rt": 0,
+          "routes": null
+        },
+        {
+          "id": "kira",
+          "finished": true,
+          "time": 79.95,
+          "dist": 9336,
+          "place": 3,
+          "wrecks": 1,
+          "td": 3,
+          "best": 25.4,
+          "rt": 0,
+          "routes": null
+        },
+        {
+          "id": "rook",
+          "finished": true,
+          "time": 79.62,
+          "dist": 9405,
+          "place": 2,
+          "wrecks": 2,
+          "td": 0,
+          "best": 21.93,
+          "rt": 0,
+          "routes": null
+        }
+      ],
+      "b": [
+        {
+          "id": "me",
+          "finished": true,
+          "time": 69.28,
+          "dist": 10852,
+          "place": 1,
+          "wrecks": 1,
+          "td": 2,
+          "best": 20.28,
+          "rt": 0,
+          "routes": null
+        },
+        {
+          "id": "vega",
+          "finished": true,
+          "time": 81.26,
+          "dist": 9133,
+          "place": 4,
+          "wrecks": 2,
+          "td": 0,
+          "best": 23.98,
+          "rt": 0,
+          "routes": null
+        },
+        {
+          "id": "kira",
+          "finished": true,
+          "time": 79.95,
+          "dist": 9336,
+          "place": 3,
+          "wrecks": 1,
+          "td": 3,
+          "best": 25.4,
+          "rt": 0,
+          "routes": null
+        },
+        {
+          "id": "rook",
+          "finished": true,
+          "time": 79.62,
+          "dist": 9405,
+          "place": 2,
+          "wrecks": 2,
+          "td": 0,
+          "best": 21.93,
+          "rt": 0,
+          "routes": null
+        }
+      ]
+    }
+  },
+  {
+    "name": "Failed traffic spawn search remains hidden and retries",
+    "status": "PASS",
+    "info": {
+      "state": 3,
+      "dead": 3
+    }
+  },
+  {
+    "name": "Pilot respawn never falls back to an occupied centre",
+    "status": "PASS",
+    "info": {
+      "state": 2,
+      "dead": 2
+    }
+  },
+  {
+    "name": "Solid forward contact stops penetration",
+    "status": "PASS",
+    "info": {
+      "hit": false,
+      "s": 1004.379,
+      "cy": 0,
+      "contacts": 1,
+      "vk": 0.15
+    }
+  },
+  {
+    "name": "Solid vertical contact stops penetration",
+    "status": "PASS",
+    "info": {
+      "hit": false,
+      "s": 1000,
+      "cy": 3.8706,
+      "contacts": 1,
+      "vk": 1
+    }
+  },
+  {
+    "name": "Tunnel band is part of spawn validation",
+    "status": "PASS"
+  },
+  {
+    "name": "No errors in safety regressions",
+    "status": "PASS",
+    "info": []
+  }
+]

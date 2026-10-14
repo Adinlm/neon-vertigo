@@ -1,0 +1,210 @@
+[
+ {
+  "name": "HUD bank rendered completely",
+  "status": "PASS",
+  "info": {
+   "bank": 21,
+   "of": 21,
+   "renderMs": 122
+  }
+ },
+ {
+  "name": "Burst of 100 menu navigation calls produces a single sound",
+  "status": "PASS",
+  "info": {
+   "plays": 1,
+   "active": 1
+  }
+ },
+ {
+  "name": "Fast menu scrolling is rate-limited (cooldown) and monophonic",
+  "status": "PASS",
+  "info": {
+   "plays": 29,
+   "maxNavVoices": 1
+  }
+ },
+ {
+  "name": "Low-priority navigation is dropped while critical cues fill the HUD voices",
+  "status": "PASS",
+  "info": {
+   "started": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "navAccepted": false,
+   "active": [
+    "go",
+    "lastLap",
+    "finish",
+    "critical"
+   ]
+  }
+ },
+ {
+  "name": "A critical cue steals the oldest lower-priority voice when the HUD is full",
+  "status": "PASS",
+  "info": {
+   "accepted": true,
+   "stolen": 1,
+   "active": [
+    "back",
+    "diff",
+    "locked",
+    "lastLap"
+   ]
+  }
+ },
+ {
+  "name": "Per-event cooldown blocks immediate repetition of alerts",
+  "status": "PASS",
+  "info": {
+   "first": true,
+   "second": false
+  }
+ },
+ {
+  "name": "UI volume slider scales HUD level (50% ≈ -9.6 dB by the existing curve, peak)",
+  "status": "PASS",
+  "info": {
+   "full": {
+    "rms": -20.7,
+    "peak": -3.3
+   },
+   "half": {
+    "rms": -30.5,
+    "peak": -12.9
+   }
+  }
+ },
+ {
+  "name": "UI mute silences HUD cues (below -60 dBFS, inaudible)",
+  "status": "PASS",
+  "info": {
+   "rms": -120,
+   "peak": -180
+  }
+ },
+ {
+  "name": "Master mute silences HUD cues at the output (below -60 dBFS)",
+  "status": "PASS",
+  "info": {
+   "rms": -114.1,
+   "peak": -93.6
+  }
+ },
+ {
+  "name": "No clipping at the master output: four loudest HUD cues together at full volume",
+  "status": "PASS",
+  "info": {
+   "rms": -14.2,
+   "peak": -1.9
+  }
+ },
+ {
+  "name": "Stress (21 cues at once, beyond the 4-voice limit) stays below 0 dBFS",
+  "status": "PASS",
+  "info": {
+   "rms": -14.4,
+   "peak": -2
+  }
+ },
+ {
+  "name": "Temporary ducking (~-3 dB music, ~-1.8 dB engine) and full recovery",
+  "status": "PASS",
+  "info": {
+   "during": 0.708,
+   "eng": 0.813,
+   "after": 1,
+   "engAfter": 1
+  }
+ },
+ {
+  "name": "No accumulation of Web Audio voices after 300 rapid HUD plays",
+  "status": "PASS",
+  "info": {
+   "starts": 300,
+   "ends": 300,
+   "active": 0,
+   "voices": 0,
+   "v0": 0
+  }
+ },
+ {
+  "name": "Suspended AudioContext: no errors, no sound; recovers after resume",
+  "status": "PASS",
+  "info": {
+   "err": null,
+   "whileSuspended": null,
+   "afterResume": true,
+   "state": "running"
+  }
+ },
+ {
+  "name": "Race flow fires countdown, start, laps, last lap and finish cues",
+  "status": "PASS",
+  "info": {
+   "state": "done",
+   "frames": 4143,
+   "counts": {
+    "raceGo": 1,
+    "count": 3,
+    "go": 1,
+    "confirm": 1,
+    "pause:paused->race": 1,
+    "lapNew": 1,
+    "lastLap": 1,
+    "finish": 1,
+    "resultWin": 1
+   }
+  }
+ },
+ {
+  "name": "Race flow fires one result cue on the results screen",
+  "status": "PASS",
+  "info": {
+   "raceGo": 1,
+   "count": 3,
+   "go": 1,
+   "confirm": 1,
+   "pause:paused->race": 1,
+   "lapNew": 1,
+   "lastLap": 1,
+   "finish": 1,
+   "resultWin": 1
+  }
+ },
+ {
+  "name": "HUD watcher: turbo ready (immediate and after a pickup), turbo exhausted, critical integrity with re-arm",
+  "status": "PASS",
+  "info": [
+   "turboReady",
+   "turboReady@delayed",
+   "turboEnd",
+   "critical",
+   "critical"
+  ]
+ },
+ {
+  "name": "Pause and resume keep the race state",
+  "status": "PASS",
+  "info": {
+   "raceGo": 1,
+   "count": 3,
+   "go": 1,
+   "confirm": 1,
+   "pause:paused->race": 1,
+   "lapNew": 1,
+   "lastLap": 1,
+   "finish": 1,
+   "resultWin": 1
+  }
+ },
+ {
+  "name": "No page errors during HUD tests",
+  "status": "PASS",
+  "info": []
+ }
+]

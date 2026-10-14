@@ -1,0 +1,347 @@
+{
+  "results": [
+    {
+      "name": "STEMB64.mel preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "8170def4259e44a8bb046e84b1723746a37db2f2e6233a416013fcfae3b029c6",
+        "final": "8170def4259e44a8bb046e84b1723746a37db2f2e6233a416013fcfae3b029c6"
+      }
+    },
+    {
+      "name": "STEMB64.chd preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "c966c964ea5d21919744614b38cae15ee9fd08e4980c19ed9387905327016909",
+        "final": "c966c964ea5d21919744614b38cae15ee9fd08e4980c19ed9387905327016909"
+      }
+    },
+    {
+      "name": "STEMB64.bas preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "e0abbaef3d1feba4956810e5982016a8cfb8b368429eeee73ba0812314340459",
+        "final": "e0abbaef3d1feba4956810e5982016a8cfb8b368429eeee73ba0812314340459"
+      }
+    },
+    {
+      "name": "STEMB64.drm preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "2a25838c26277e0a1cf847175697dcf4e7cea46f0439a98ec3a8cd81e803f936",
+        "final": "2a25838c26277e0a1cf847175697dcf4e7cea46f0439a98ec3a8cd81e803f936"
+      }
+    },
+    {
+      "name": "STEMB64.tur intended new turbo",
+      "status": "PASS",
+      "info": {
+        "legacy": "6d1c2ff2dddae221d448effbb240a467aa48593b6a0f7cf087e0c39bd1042ce9",
+        "final": "4952ee5ee06e87048c6ebf3173caf072faf076b37d3968b050bce07f2e5dc9b2"
+      }
+    },
+    {
+      "name": "VADERSTEMB64.mel preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "a9377a80db4f0d538f413e64365085e0f2e3132804df4f31621f7d95b2220f41",
+        "final": "a9377a80db4f0d538f413e64365085e0f2e3132804df4f31621f7d95b2220f41"
+      }
+    },
+    {
+      "name": "VADERSTEMB64.chd preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "5abcbc177de37f78673dfe4bb2833e27ab14428989b86471ffdea143a7924a31",
+        "final": "5abcbc177de37f78673dfe4bb2833e27ab14428989b86471ffdea143a7924a31"
+      }
+    },
+    {
+      "name": "VADERSTEMB64.bas preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "e9acf4c9698166ea24f7ecc4080166d3c14c6339848f63d2a19c6df8b7a3cacc",
+        "final": "e9acf4c9698166ea24f7ecc4080166d3c14c6339848f63d2a19c6df8b7a3cacc"
+      }
+    },
+    {
+      "name": "VADERSTEMB64.drm preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "aeb7ec8b68818c08eed9ac84be6608d8cd886149878ada9b56ffa1dc714780da",
+        "final": "aeb7ec8b68818c08eed9ac84be6608d8cd886149878ada9b56ffa1dc714780da"
+      }
+    },
+    {
+      "name": "VADERSTEMB64.tur intended new turbo",
+      "status": "PASS",
+      "info": {
+        "legacy": "e89927d1b55e8eedfc4d9befeec9a2a1fc02402657825af62f1aeac0d4c8badd",
+        "final": "b37b2062abbe032135de98d0f52403e5118c2649700cf50b14b4ea5a84be79c7"
+      }
+    },
+    {
+      "name": "COOPERSTEMB64.mel preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "93974e0d888156974ad6f82f7a4d241be360760dffc3fc2a10b997999a84e499",
+        "final": "93974e0d888156974ad6f82f7a4d241be360760dffc3fc2a10b997999a84e499"
+      }
+    },
+    {
+      "name": "COOPERSTEMB64.chd preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "87007acd87022a5584f3360a0f23e4bbb73cfbee6cac9d5a2b177a0af4dc1ce9",
+        "final": "87007acd87022a5584f3360a0f23e4bbb73cfbee6cac9d5a2b177a0af4dc1ce9"
+      }
+    },
+    {
+      "name": "COOPERSTEMB64.bas preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "250060c23e1ab46a59fe1614f30e11532e86c784d2a7a6e9dc9b1aa14df7d19b",
+        "final": "250060c23e1ab46a59fe1614f30e11532e86c784d2a7a6e9dc9b1aa14df7d19b"
+      }
+    },
+    {
+      "name": "COOPERSTEMB64.drm preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "1ac0176245955993d783b4ff0ba9959108284932fb6625101189256a58bb3ff8",
+        "final": "1ac0176245955993d783b4ff0ba9959108284932fb6625101189256a58bb3ff8"
+      }
+    },
+    {
+      "name": "COOPERSTEMB64.tur preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "9d56fd6ebb5ef1f5a653e207ce2bc5e20839bf871e70643714092967391b85c9",
+        "final": "9d56fd6ebb5ef1f5a653e207ce2bc5e20839bf871e70643714092967391b85c9"
+      }
+    },
+    {
+      "name": "CROWNSTEMB64.mel preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "d5b5fe9e86a6c3d1e592b495fcd293c6a4d3f70875722a9593efb788484c13ac",
+        "final": "d5b5fe9e86a6c3d1e592b495fcd293c6a4d3f70875722a9593efb788484c13ac"
+      }
+    },
+    {
+      "name": "CROWNSTEMB64.chd preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "2f0d26bb22025df4ed86812a5a13c5abdf4a723b506018fbcfdc1e9bd5732ac9",
+        "final": "2f0d26bb22025df4ed86812a5a13c5abdf4a723b506018fbcfdc1e9bd5732ac9"
+      }
+    },
+    {
+      "name": "CROWNSTEMB64.bas preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "f4051597c98dc1affd7561a469c3bbc189f2352c80e1f6af09726103cbc82e8d",
+        "final": "f4051597c98dc1affd7561a469c3bbc189f2352c80e1f6af09726103cbc82e8d"
+      }
+    },
+    {
+      "name": "CROWNSTEMB64.drm preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "2f95e1b9fc788164bb4492e811a147efad5769d11dd64b3552f02d083e27a93f",
+        "final": "2f95e1b9fc788164bb4492e811a147efad5769d11dd64b3552f02d083e27a93f"
+      }
+    },
+    {
+      "name": "CROWNSTEMB64.tur preserved",
+      "status": "PASS",
+      "info": {
+        "legacy": "f34f34888921a8670cb937033e3e45e948aa5e66cdd7d6ef7bf142b9fcdbdfba",
+        "final": "f34f34888921a8670cb937033e3e45e948aa5e66cdd7d6ef7bf142b9fcdbdfba"
+      }
+    },
+    {
+      "name": "20 WebP images byte-identical to Legacy",
+      "status": "PASS",
+      "info": {
+        "n": 20,
+        "hashes": [
+          "056938855ec6ab9a76e44d65a61698b382e8f4fe75412850e5d724f91b3b02e0",
+          "d4e2dba42147344d628ba9b3ccea82a5db233212b6e22fe8761151664770002f",
+          "092407d26e946dc073945a07db39a77d2921a50d7f165cae7a1802d4d27e76ac",
+          "788b1ae245ac2743030314a2fc17d75c51e3e12dd26ceeff497903eee05734cc",
+          "97ed5f16dc4f8bf66f23bf1513e5b3a1ca8526553eb523865b2509e9700f41c7",
+          "80010ee92d8dd6b07c734a18bca08211bd63377dac07f477800ba30b8c32f262",
+          "79bd5acb8fba765849ac3c36b766f1113ee7e12521232a8de29472d53bbef4b6",
+          "09f6485083d2a3b7d4ce1a95221e38bd0fac98fca2152bbde6619528c896c2ae",
+          "6a9f8ec6f3a855626a8b96400592cfd8df289cb75c7a407bb284bbb765253302",
+          "db13d3cdcd9654bff0c444008151029d9d4a523533588772a28f3ac0a0e332b4",
+          "4c1aa5fdfb38de497521cbb6261f7266ad290a68ba072c9ebb838553ad15aea6",
+          "044bbd06140c3ac0fbe3e293984ebe384774a24ed3ef1dede71b9997919b0baa",
+          "cb9b9a792001508ca6f389c2b72d3fbea128db9cb545485591d0809c83b74b7f",
+          "8ba6a94d662dbff3db1d86b5f5ab162365d7652a8a7fb2e3f3c330a94d37dc98",
+          "c63ea37fe95099f48d7be3c550a8ea3ece2cea321a094ca0e87f52f39acb596f",
+          "481e51b5da472def17798f4e806051f4035abc82b5977e87fbf09a120a98345c",
+          "f511d58a485eb4481395310c9c76bbb2f14539ecdaeed4beabef5151297f5b05",
+          "82593449ec05162fc29d8770200a78ceedbf338a36a13dfa1c17c8c66184b8f5",
+          "2c148cab65b6dba127e77b25bf5a204494f437d1e71f4a48397d0fb93b179821",
+          "39a99e94301173a68c8c67069194d768fac79185ac39defed8ec48e2531c4cb0"
+        ]
+      }
+    },
+    {
+      "name": "All embedded resource blobs identical to recovered WIP",
+      "status": "PASS",
+      "info": {
+        "count": 80
+      }
+    },
+    {
+      "name": "Engine profiles and engine synthesis preserved",
+      "status": "PASS"
+    },
+    {
+      "name": "HTML script parses",
+      "status": "PASS"
+    },
+    {
+      "name": "No external runtime markup assets",
+      "status": "PASS",
+      "info": []
+    }
+  ],
+  "stems": {
+    "STEMB64": {
+      "mel": {
+        "legacy": "8170def4259e44a8bb046e84b1723746a37db2f2e6233a416013fcfae3b029c6",
+        "final": "8170def4259e44a8bb046e84b1723746a37db2f2e6233a416013fcfae3b029c6",
+        "bytes": 735875
+      },
+      "chd": {
+        "legacy": "c966c964ea5d21919744614b38cae15ee9fd08e4980c19ed9387905327016909",
+        "final": "c966c964ea5d21919744614b38cae15ee9fd08e4980c19ed9387905327016909",
+        "bytes": 649895
+      },
+      "bas": {
+        "legacy": "e0abbaef3d1feba4956810e5982016a8cfb8b368429eeee73ba0812314340459",
+        "final": "e0abbaef3d1feba4956810e5982016a8cfb8b368429eeee73ba0812314340459",
+        "bytes": 677664
+      },
+      "drm": {
+        "legacy": "2a25838c26277e0a1cf847175697dcf4e7cea46f0439a98ec3a8cd81e803f936",
+        "final": "2a25838c26277e0a1cf847175697dcf4e7cea46f0439a98ec3a8cd81e803f936",
+        "bytes": 602141
+      },
+      "tur": {
+        "legacy": "6d1c2ff2dddae221d448effbb240a467aa48593b6a0f7cf087e0c39bd1042ce9",
+        "final": "4952ee5ee06e87048c6ebf3173caf072faf076b37d3968b050bce07f2e5dc9b2",
+        "bytes": 682377
+      }
+    },
+    "VADERSTEMB64": {
+      "mel": {
+        "legacy": "a9377a80db4f0d538f413e64365085e0f2e3132804df4f31621f7d95b2220f41",
+        "final": "a9377a80db4f0d538f413e64365085e0f2e3132804df4f31621f7d95b2220f41",
+        "bytes": 842843
+      },
+      "chd": {
+        "legacy": "5abcbc177de37f78673dfe4bb2833e27ab14428989b86471ffdea143a7924a31",
+        "final": "5abcbc177de37f78673dfe4bb2833e27ab14428989b86471ffdea143a7924a31",
+        "bytes": 741612
+      },
+      "bas": {
+        "legacy": "e9acf4c9698166ea24f7ecc4080166d3c14c6339848f63d2a19c6df8b7a3cacc",
+        "final": "e9acf4c9698166ea24f7ecc4080166d3c14c6339848f63d2a19c6df8b7a3cacc",
+        "bytes": 776054
+      },
+      "drm": {
+        "legacy": "aeb7ec8b68818c08eed9ac84be6608d8cd886149878ada9b56ffa1dc714780da",
+        "final": "aeb7ec8b68818c08eed9ac84be6608d8cd886149878ada9b56ffa1dc714780da",
+        "bytes": 708102
+      },
+      "tur": {
+        "legacy": "e89927d1b55e8eedfc4d9befeec9a2a1fc02402657825af62f1aeac0d4c8badd",
+        "final": "b37b2062abbe032135de98d0f52403e5118c2649700cf50b14b4ea5a84be79c7",
+        "bytes": 751027
+      }
+    },
+    "COOPERSTEMB64": {
+      "mel": {
+        "legacy": "93974e0d888156974ad6f82f7a4d241be360760dffc3fc2a10b997999a84e499",
+        "final": "93974e0d888156974ad6f82f7a4d241be360760dffc3fc2a10b997999a84e499",
+        "bytes": 710996
+      },
+      "chd": {
+        "legacy": "87007acd87022a5584f3360a0f23e4bbb73cfbee6cac9d5a2b177a0af4dc1ce9",
+        "final": "87007acd87022a5584f3360a0f23e4bbb73cfbee6cac9d5a2b177a0af4dc1ce9",
+        "bytes": 588871
+      },
+      "bas": {
+        "legacy": "250060c23e1ab46a59fe1614f30e11532e86c784d2a7a6e9dc9b1aa14df7d19b",
+        "final": "250060c23e1ab46a59fe1614f30e11532e86c784d2a7a6e9dc9b1aa14df7d19b",
+        "bytes": 667470
+      },
+      "drm": {
+        "legacy": "1ac0176245955993d783b4ff0ba9959108284932fb6625101189256a58bb3ff8",
+        "final": "1ac0176245955993d783b4ff0ba9959108284932fb6625101189256a58bb3ff8",
+        "bytes": 589843
+      },
+      "tur": {
+        "legacy": "9d56fd6ebb5ef1f5a653e207ce2bc5e20839bf871e70643714092967391b85c9",
+        "final": "9d56fd6ebb5ef1f5a653e207ce2bc5e20839bf871e70643714092967391b85c9",
+        "bytes": 832304
+      }
+    },
+    "CROWNSTEMB64": {
+      "mel": {
+        "legacy": "d5b5fe9e86a6c3d1e592b495fcd293c6a4d3f70875722a9593efb788484c13ac",
+        "final": "d5b5fe9e86a6c3d1e592b495fcd293c6a4d3f70875722a9593efb788484c13ac",
+        "bytes": 726734
+      },
+      "chd": {
+        "legacy": "2f0d26bb22025df4ed86812a5a13c5abdf4a723b506018fbcfdc1e9bd5732ac9",
+        "final": "2f0d26bb22025df4ed86812a5a13c5abdf4a723b506018fbcfdc1e9bd5732ac9",
+        "bytes": 624156
+      },
+      "bas": {
+        "legacy": "f4051597c98dc1affd7561a469c3bbc189f2352c80e1f6af09726103cbc82e8d",
+        "final": "f4051597c98dc1affd7561a469c3bbc189f2352c80e1f6af09726103cbc82e8d",
+        "bytes": 627397
+      },
+      "drm": {
+        "legacy": "2f95e1b9fc788164bb4492e811a147efad5769d11dd64b3552f02d083e27a93f",
+        "final": "2f95e1b9fc788164bb4492e811a147efad5769d11dd64b3552f02d083e27a93f",
+        "bytes": 567653
+      },
+      "tur": {
+        "legacy": "f34f34888921a8670cb937033e3e45e948aa5e66cdd7d6ef7bf142b9fcdbdfba",
+        "final": "f34f34888921a8670cb937033e3e45e948aa5e66cdd7d6ef7bf142b9fcdbdfba",
+        "bytes": 770816
+      }
+    }
+  },
+  "images": [
+    "056938855ec6ab9a76e44d65a61698b382e8f4fe75412850e5d724f91b3b02e0",
+    "d4e2dba42147344d628ba9b3ccea82a5db233212b6e22fe8761151664770002f",
+    "092407d26e946dc073945a07db39a77d2921a50d7f165cae7a1802d4d27e76ac",
+    "788b1ae245ac2743030314a2fc17d75c51e3e12dd26ceeff497903eee05734cc",
+    "97ed5f16dc4f8bf66f23bf1513e5b3a1ca8526553eb523865b2509e9700f41c7",
+    "80010ee92d8dd6b07c734a18bca08211bd63377dac07f477800ba30b8c32f262",
+    "79bd5acb8fba765849ac3c36b766f1113ee7e12521232a8de29472d53bbef4b6",
+    "09f6485083d2a3b7d4ce1a95221e38bd0fac98fca2152bbde6619528c896c2ae",
+    "6a9f8ec6f3a855626a8b96400592cfd8df289cb75c7a407bb284bbb765253302",
+    "db13d3cdcd9654bff0c444008151029d9d4a523533588772a28f3ac0a0e332b4",
+    "4c1aa5fdfb38de497521cbb6261f7266ad290a68ba072c9ebb838553ad15aea6",
+    "044bbd06140c3ac0fbe3e293984ebe384774a24ed3ef1dede71b9997919b0baa",
+    "cb9b9a792001508ca6f389c2b72d3fbea128db9cb545485591d0809c83b74b7f",
+    "8ba6a94d662dbff3db1d86b5f5ab162365d7652a8a7fb2e3f3c330a94d37dc98",
+    "c63ea37fe95099f48d7be3c550a8ea3ece2cea321a094ca0e87f52f39acb596f",
+    "481e51b5da472def17798f4e806051f4035abc82b5977e87fbf09a120a98345c",
+    "f511d58a485eb4481395310c9c76bbb2f14539ecdaeed4beabef5151297f5b05",
+    "82593449ec05162fc29d8770200a78ceedbf338a36a13dfa1c17c8c66184b8f5",
+    "2c148cab65b6dba127e77b25bf5a204494f437d1e71f4a48397d0fb93b179821",
+    "39a99e94301173a68c8c67069194d768fac79185ac39defed8ec48e2531c4cb0"
+  ],
+  "sha256": "4c56f772883dd79393a8a72f03546ecffc21cf337ed264508d63db05eb1d82f7",
+  "bytes": 30859275
+}

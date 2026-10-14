@@ -1,0 +1,378 @@
+{
+ "k9": {
+  "old": {
+   "player_avg": 66.63,
+   "field_avg": 74.91,
+   "player_wins": 3,
+   "runs": 3,
+   "wrecks": 18,
+   "unfinished": 0,
+   "causes": {
+    "slam": 6,
+    "obstacle": 10,
+    "wall": 2
+   }
+  },
+  "new": {
+   "player_avg": 68.01,
+   "field_avg": 74.65,
+   "player_wins": 3,
+   "runs": 3,
+   "wrecks": 16,
+   "unfinished": 0,
+   "causes": {
+    "slam": 6,
+    "obstacle": 8,
+    "wall": 1,
+    "frontal": 1
+   }
+  }
+ },
+ "ia": {
+  "old": {
+   "player_avg": 73.68,
+   "field_avg": 82.63,
+   "player_wins": 3,
+   "runs": 3,
+   "wrecks": 18,
+   "unfinished": 0,
+   "causes": {
+    "wall": 2,
+    "slam": 5,
+    "frontal": 2,
+    "obstacle": 9
+   }
+  },
+  "new": {
+   "player_avg": 74.87,
+   "field_avg": 82.18,
+   "player_wins": 2,
+   "runs": 3,
+   "wrecks": 17,
+   "unfinished": 0,
+   "causes": {
+    "wall": 3,
+    "obstacle": 11,
+    "slam": 2,
+    "frontal": 1
+   }
+  }
+ },
+ "sv": {
+  "old": {
+   "player_avg": 89.34,
+   "field_avg": 96.62,
+   "player_wins": 3,
+   "runs": 3,
+   "wrecks": 12,
+   "unfinished": 0,
+   "causes": {
+    "wall": 3,
+    "obstacle": 6,
+    "slam": 3
+   }
+  },
+  "new": {
+   "player_avg": 93.34,
+   "field_avg": 98.88,
+   "player_wins": 2,
+   "runs": 3,
+   "wrecks": 18,
+   "unfinished": 0,
+   "causes": {
+    "slam": 7,
+    "wall": 2,
+    "obstacle": 9
+   }
+  }
+ },
+ "k9a": {
+  "old": {
+   "player_avg": 103.69,
+   "field_avg": 107.21,
+   "player_wins": 2,
+   "runs": 3,
+   "wrecks": 18,
+   "unfinished": 0,
+   "causes": {
+    "slam": 4,
+    "obstacle": 11,
+    "wall": 3
+   }
+  },
+  "new": {
+   "player_avg": 105.24,
+   "field_avg": 106.65,
+   "player_wins": 2,
+   "runs": 3,
+   "wrecks": 17,
+   "unfinished": 0,
+   "causes": {
+    "obstacle": 10,
+    "slam": 5,
+    "wall": 2
+   }
+  }
+ },
+ "k9b": {
+  "old": {
+   "player_avg": 115.17,
+   "field_avg": 113.07,
+   "player_wins": 0,
+   "runs": 3,
+   "wrecks": 16,
+   "unfinished": 0,
+   "causes": {
+    "wall": 5,
+    "obstacle": 9,
+    "slam": 2
+   }
+  },
+  "new": {
+   "player_avg": 109.64,
+   "field_avg": 112.44,
+   "player_wins": 1,
+   "runs": 3,
+   "wrecks": 12,
+   "unfinished": 0,
+   "causes": {
+    "obstacle": 7,
+    "frontal": 2,
+    "wall": 2,
+    "slam": 1
+   }
+  }
+ },
+ "k9c": {
+  "old": {
+   "player_avg": 123.74,
+   "field_avg": 124.29,
+   "player_wins": 2,
+   "runs": 3,
+   "wrecks": 8,
+   "unfinished": 0,
+   "causes": {
+    "obstacle": 5,
+    "wall": 2,
+    "frontal": 1
+   }
+  },
+  "new": {
+   "player_avg": 130.0,
+   "field_avg": 129.56,
+   "player_wins": 1,
+   "runs": 3,
+   "wrecks": 16,
+   "unfinished": 0,
+   "causes": {
+    "wall": 4,
+    "dmg": 1,
+    "frontal": 2,
+    "obstacle": 9
+   }
+  }
+ },
+ "iaa": {
+  "old": {
+   "player_avg": 100.52,
+   "field_avg": 112.5,
+   "player_wins": 3,
+   "runs": 3,
+   "wrecks": 16,
+   "unfinished": 0,
+   "causes": {
+    "wall": 5,
+    "obstacle": 6,
+    "slam": 5
+   }
+  },
+  "new": {
+   "player_avg": 105.19,
+   "field_avg": 112.92,
+   "player_wins": 3,
+   "runs": 3,
+   "wrecks": 16,
+   "unfinished": 0,
+   "causes": {
+    "slam": 6,
+    "wall": 5,
+    "obstacle": 5
+   }
+  }
+ },
+ "iab": {
+  "old": {
+   "player_avg": 129.78,
+   "field_avg": 138.38,
+   "player_wins": 2,
+   "runs": 3,
+   "wrecks": 33,
+   "unfinished": 0,
+   "causes": {
+    "slam": 2,
+    "wall": 11,
+    "obstacle": 14,
+    "dmg": 6
+   }
+  },
+  "new": {
+   "player_avg": 129.11,
+   "field_avg": 141.67,
+   "player_wins": 2,
+   "runs": 3,
+   "wrecks": 45,
+   "unfinished": 0,
+   "causes": {
+    "slam": 7,
+    "obstacle": 26,
+    "dmg": 7,
+    "wall": 3,
+    "frontal": 2
+   }
+  }
+ },
+ "iac": {
+  "old": {
+   "player_avg": 138.5,
+   "field_avg": 139.48,
+   "player_wins": 2,
+   "runs": 3,
+   "wrecks": 23,
+   "unfinished": 0,
+   "causes": {
+    "slam": 3,
+    "obstacle": 17,
+    "frontal": 1,
+    "wall": 2
+   }
+  },
+  "new": {
+   "player_avg": 136.77,
+   "field_avg": 138.93,
+   "player_wins": 3,
+   "runs": 3,
+   "wrecks": 20,
+   "unfinished": 0,
+   "causes": {
+    "obstacle": 17,
+    "wall": 1,
+    "slam": 2
+   }
+  }
+ },
+ "sva": {
+  "old": {
+   "player_avg": 128.23,
+   "field_avg": 135.82,
+   "player_wins": 3,
+   "runs": 3,
+   "wrecks": 13,
+   "unfinished": 0,
+   "causes": {
+    "slam": 4,
+    "obstacle": 7,
+    "wall": 2
+   }
+  },
+  "new": {
+   "player_avg": 136.51,
+   "field_avg": 138.39,
+   "player_wins": 2,
+   "runs": 3,
+   "wrecks": 17,
+   "unfinished": 0,
+   "causes": {
+    "wall": 7,
+    "obstacle": 7,
+    "slam": 3
+   }
+  }
+ },
+ "svb": {
+  "old": {
+   "player_avg": 136.86,
+   "field_avg": 139.35,
+   "player_wins": 2,
+   "runs": 3,
+   "wrecks": 11,
+   "unfinished": 0,
+   "causes": {
+    "obstacle": 4,
+    "slam": 3,
+    "wall": 3,
+    "frontal": 1
+   }
+  },
+  "new": {
+   "player_avg": 136.19,
+   "field_avg": 140.11,
+   "player_wins": 3,
+   "runs": 3,
+   "wrecks": 20,
+   "unfinished": 0,
+   "causes": {
+    "slam": 3,
+    "obstacle": 13,
+    "wall": 4
+   }
+  }
+ },
+ "svc": {
+  "old": {
+   "player_avg": 154.96,
+   "field_avg": 153.94,
+   "player_wins": 1,
+   "runs": 3,
+   "wrecks": 10,
+   "unfinished": 0,
+   "causes": {
+    "slam": 1,
+    "obstacle": 6,
+    "wall": 3
+   }
+  },
+  "new": {
+   "player_avg": 152.0,
+   "field_avg": 154.45,
+   "player_wins": 3,
+   "runs": 3,
+   "wrecks": 11,
+   "unfinished": 0,
+   "causes": {
+    "wall": 2,
+    "obstacle": 8,
+    "slam": 1
+   }
+  }
+ },
+ "orb": {
+  "old": {
+   "player_avg": 166.42,
+   "field_avg": 170.1,
+   "player_wins": 0,
+   "runs": 3,
+   "wrecks": 20,
+   "unfinished": 0,
+   "causes": {
+    "slam": 8,
+    "wall": 3,
+    "obstacle": 7,
+    "frontal": 2
+   }
+  },
+  "new": {
+   "player_avg": 170.96,
+   "field_avg": 172.28,
+   "player_wins": 0,
+   "runs": 3,
+   "wrecks": 27,
+   "unfinished": 0,
+   "causes": {
+    "slam": 7,
+    "wall": 3,
+    "obstacle": 16,
+    "dmg": 1
+   }
+  }
+ }
+}
