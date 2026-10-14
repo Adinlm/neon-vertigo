@@ -1,0 +1,44 @@
+{
+ "sony": {
+  "loop_frames_48k": 1271172,
+  "frames_with_tail": 1307172,
+  "rms_old_db": -22.17,
+  "rms_new_db_after_match": -22.17,
+  "peak_new_db": -3.61,
+  "harmonic_fit_new_mean_p10": [
+   0.811,
+   0.654
+  ],
+  "harmonic_fit_old_mean_p10": [
+   0.893,
+   0.604
+  ],
+  "grid_offset_ms_new": 5.8,
+  "grid_concentration_new": 0.773,
+  "grid_offset_ms_old": 33.95,
+  "grid_concentration_old": 0.06,
+  "loop_seam_jump": 0.00165,
+  "p999_sample_step": 0.1
+ },
+ "vader": {
+  "loop_frames_48k": 1271172,
+  "frames_with_tail": 1307172,
+  "rms_old_db": -24.42,
+  "rms_new_db_after_match": -24.42,
+  "peak_new_db": -8.17,
+  "harmonic_fit_new_mean_p10": [
+   0.732,
+   0.587
+  ],
+  "harmonic_fit_old_mean_p10": [
+   0.542,
+   0.071
+  ],
+  "grid_offset_ms_new": 8.68,
+  "grid_concentration_new": 0.5,
+  "grid_offset_ms_old": 24.37,
+  "grid_concentration_old": 0.084,
+  "loop_seam_jump": 1e-05,
+  "p999_sample_step": 0.0286
+ }
+}

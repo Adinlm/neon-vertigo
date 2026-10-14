@@ -1,0 +1,122 @@
+{
+ "STEMB64.mel": {
+  "n44": 1309706,
+  "b64_len": 981168,
+  "ogg_bytes": 735875,
+  "sha256_ogg": "8170def4259e44a8bb046e84b1723746a37db2f2e6233a416013fcfae3b029c6"
+ },
+ "STEMB64.chd": {
+  "n44": 1251653,
+  "b64_len": 866528,
+  "ogg_bytes": 649895,
+  "sha256_ogg": "c966c964ea5d21919744614b38cae15ee9fd08e4980c19ed9387905327016909"
+ },
+ "STEMB64.bas": {
+  "n44": 1295250,
+  "b64_len": 903552,
+  "ogg_bytes": 677664,
+  "sha256_ogg": "e0abbaef3d1feba4956810e5982016a8cfb8b368429eeee73ba0812314340459"
+ },
+ "STEMB64.drm": {
+  "n44": 1168675,
+  "b64_len": 802856,
+  "ogg_bytes": 602141,
+  "sha256_ogg": "2a25838c26277e0a1cf847175697dcf4e7cea46f0439a98ec3a8cd81e803f936"
+ },
+ "STEMB64.tur": {
+  "n44": 1174589,
+  "b64_len": 1212888,
+  "ogg_bytes": 909665,
+  "sha256_ogg": "6d1c2ff2dddae221d448effbb240a467aa48593b6a0f7cf087e0c39bd1042ce9"
+ },
+ "VADERSTEMB64.mel": {
+  "n44": 1296994,
+  "b64_len": 1123792,
+  "ogg_bytes": 842843,
+  "sha256_ogg": "a9377a80db4f0d538f413e64365085e0f2e3132804df4f31621f7d95b2220f41"
+ },
+ "VADERSTEMB64.chd": {
+  "n44": 1243768,
+  "b64_len": 988816,
+  "ogg_bytes": 741612,
+  "sha256_ogg": "5abcbc177de37f78673dfe4bb2833e27ab14428989b86471ffdea143a7924a31"
+ },
+ "VADERSTEMB64.bas": {
+  "n44": 1319081,
+  "b64_len": 1034740,
+  "ogg_bytes": 776054,
+  "sha256_ogg": "e9acf4c9698166ea24f7ecc4080166d3c14c6339848f63d2a19c6df8b7a3cacc"
+ },
+ "VADERSTEMB64.drm": {
+  "n44": 1172208,
+  "b64_len": 944136,
+  "ogg_bytes": 708102,
+  "sha256_ogg": "aeb7ec8b68818c08eed9ac84be6608d8cd886149878ada9b56ffa1dc714780da"
+ },
+ "VADERSTEMB64.tur": {
+  "n44": 1167890,
+  "b64_len": 1108352,
+  "ogg_bytes": 831262,
+  "sha256_ogg": "e89927d1b55e8eedfc4d9befeec9a2a1fc02402657825af62f1aeac0d4c8badd"
+ },
+ "COOPERSTEMB64.mel": {
+  "n44": 1295739,
+  "b64_len": 947996,
+  "ogg_bytes": 710996,
+  "sha256_ogg": "93974e0d888156974ad6f82f7a4d241be360760dffc3fc2a10b997999a84e499"
+ },
+ "COOPERSTEMB64.chd": {
+  "n44": 1225648,
+  "b64_len": 785164,
+  "ogg_bytes": 588871,
+  "sha256_ogg": "87007acd87022a5584f3360a0f23e4bbb73cfbee6cac9d5a2b177a0af4dc1ce9"
+ },
+ "COOPERSTEMB64.bas": {
+  "n44": 1329547,
+  "b64_len": 889960,
+  "ogg_bytes": 667470,
+  "sha256_ogg": "250060c23e1ab46a59fe1614f30e11532e86c784d2a7a6e9dc9b1aa14df7d19b"
+ },
+ "COOPERSTEMB64.drm": {
+  "n44": 1168424,
+  "b64_len": 786460,
+  "ogg_bytes": 589843,
+  "sha256_ogg": "1ac0176245955993d783b4ff0ba9959108284932fb6625101189256a58bb3ff8"
+ },
+ "COOPERSTEMB64.tur": {
+  "n44": 1282550,
+  "b64_len": 1109740,
+  "ogg_bytes": 832304,
+  "sha256_ogg": "9d56fd6ebb5ef1f5a653e207ce2bc5e20839bf871e70643714092967391b85c9"
+ },
+ "CROWNSTEMB64.mel": {
+  "n44": 1297124,
+  "b64_len": 968980,
+  "ogg_bytes": 726734,
+  "sha256_ogg": "d5b5fe9e86a6c3d1e592b495fcd293c6a4d3f70875722a9593efb788484c13ac"
+ },
+ "CROWNSTEMB64.chd": {
+  "n44": 1249946,
+  "b64_len": 832208,
+  "ogg_bytes": 624156,
+  "sha256_ogg": "2f0d26bb22025df4ed86812a5a13c5abdf4a723b506018fbcfdc1e9bd5732ac9"
+ },
+ "CROWNSTEMB64.bas": {
+  "n44": 1295245,
+  "b64_len": 836532,
+  "ogg_bytes": 627397,
+  "sha256_ogg": "f4051597c98dc1affd7561a469c3bbc189f2352c80e1f6af09726103cbc82e8d"
+ },
+ "CROWNSTEMB64.drm": {
+  "n44": 1172349,
+  "b64_len": 756872,
+  "ogg_bytes": 567653,
+  "sha256_ogg": "2f95e1b9fc788164bb4492e811a147efad5769d11dd64b3552f02d083e27a93f"
+ },
+ "CROWNSTEMB64.tur": {
+  "n44": 1282550,
+  "b64_len": 1027756,
+  "ogg_bytes": 770816,
+  "sha256_ogg": "f34f34888921a8670cb937033e3e45e948aa5e66cdd7d6ef7bf142b9fcdbdfba"
+ }
+}
