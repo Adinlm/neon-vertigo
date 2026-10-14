@@ -1,6 +1,8 @@
 # NEON VERTIGO — Kings of Coope City
 
-**3.6.3 — International Edition · Español / English**
+**3.7 — DISTRICT OVERDRIVE · Experimental branch · Español / English**
+
+This branch contains the 3.7 experimental build. The public GitHub Pages version remains **3.6.3 International Edition**. See [technical handoff](docs/3.7/NEON_VERTIGO_3.7_COMPLETE_TECHNICAL_HANDOFF.md), [test results](docs/3.7/NEON_VERTIGO_3.7_TEST_RESULTS.json) and [Fold5 protocol](docs/3.7/NEON_VERTIGO_3.7_FOLD5_CHECKLIST.md).
 
 A cyberpunk anti-gravity racing game for the browser: conquer three territories, challenge Sony, Vader and Cooper, and race for the crown of Coope City. Includes thirteen circuits, six ships, takedowns, boost, a 3D hangar and adaptive music.
 
