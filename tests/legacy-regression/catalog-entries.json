@@ -1,0 +1,6007 @@
+[
+  {
+    "id": "ui.004",
+    "es": "VUELTA 1/3",
+    "source": "html",
+    "en": "LAP 1/3",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.010",
+    "es": "KM/H",
+    "source": "html",
+    "en": "KM/H",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.011",
+    "es": "TURBO",
+    "source": "html",
+    "en": "TURBO",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.012",
+    "es": "ÓPTIMO",
+    "source": "html",
+    "en": "OPTIMAL",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.013",
+    "es": "TAKEDOWN",
+    "source": "html",
+    "en": "TAKEDOWN",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.014",
+    "es": "¡DESTRUIDO!",
+    "source": "html",
+    "en": "WRECKED!",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.015",
+    "es": "REAPARECIENDO…",
+    "source": "html",
+    "en": "RESPAWNING…",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.016",
+    "es": "PULGAR AQUÍ · GIRAR / ALTITUD",
+    "source": "html",
+    "en": "THUMB HERE · STEER / ALTITUDE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.017",
+    "es": "FRENO",
+    "source": "html",
+    "en": "BRAKE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.018",
+    "es": "ACEL",
+    "source": "html",
+    "en": "ACCEL",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.019",
+    "es": "NEON",
+    "source": "html",
+    "en": "NEON",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.020",
+    "es": "VERTIGO",
+    "source": "html",
+    "en": "VERTIGO",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.022",
+    "es": "KINGS OF COOPE CITY",
+    "source": "html",
+    "en": "KINGS OF COOPE CITY",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.023",
+    "es": "♛ CAMPAÑA",
+    "source": "html",
+    "en": "♛ CAMPAIGN",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.024",
+    "es": "CONQUISTA COOPE CITY",
+    "source": "html",
+    "en": "CONQUER COOPE CITY",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.025",
+    "es": "CARRERA LIBRE",
+    "source": "html",
+    "en": "FREE RACE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.026",
+    "es": "CUALQUIER CIRCUITO",
+    "source": "html",
+    "en": "AVAILABLE CIRCUITS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.027",
+    "es": "🛸 HANGAR",
+    "source": "html",
+    "en": "🛸 HANGAR",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.028",
+    "es": "STRIX-01",
+    "source": "html",
+    "en": "STRIX-01",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.029",
+    "es": "⚙ AJUSTES",
+    "source": "html",
+    "en": "⚙ SETTINGS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.030",
+    "es": "AUDIO · CONTROLES · GRÁFICOS",
+    "source": "html",
+    "en": "AUDIO · CONTROLS · GRAPHICS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.031",
+    "es": "🏆 LOGROS",
+    "source": "html",
+    "en": "🏆 ACHIEVEMENTS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.033",
+    "es": "💾 PARTIDA",
+    "source": "html",
+    "en": "💾 SAVE DATA",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.034",
+    "es": "EXPORTAR · IMPORTAR",
+    "source": "html",
+    "en": "EXPORT · IMPORT",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.035",
+    "es": "DIFICULTAD",
+    "source": "html",
+    "en": "DIFFICULTY",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.036",
+    "es": "FÁCIL",
+    "source": "html",
+    "en": "EASY",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.037",
+    "es": "NORMAL",
+    "source": "html",
+    "en": "NORMAL",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.038",
+    "es": "DIFÍCIL",
+    "source": "html",
+    "en": "HARD",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.039",
+    "es": "Joystick: apoya el pulgar en la mitad izquierda (girar ◀ ▶ · subir ▲ · bajar ▼). Derecha: ACEL, FRENO y TURBO. Embiste a los rivales por detrás o de lado para hacer TAKEDOWNS; golpea el tráfico por detrás a gran velocidad para destrozarlo. Evita los choques frontales.",
+    "source": "html",
+    "en": "Joystick: rest your thumb on the left half (steer ◀ ▶ · climb ▲ · descend ▼). Right: ACCEL, BRAKE and BOOST. Ram rivals from behind or the side for TAKEDOWNS; hit traffic from behind at high speed to smash it. Avoid head-on collisions.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.040",
+    "es": "CONTINUAR",
+    "source": "html",
+    "en": "CONTINUE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.041",
+    "es": "TOCA EL ARTE O EL BOTÓN PARA CONTINUAR",
+    "source": "html",
+    "en": "TAP THE ARTWORK OR BUTTON TO CONTINUE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.042",
+    "es": "AJUSTES",
+    "source": "html",
+    "en": "SETTINGS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.043",
+    "es": "AUDIO",
+    "source": "html",
+    "en": "AUDIO",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.044",
+    "es": "GENERAL",
+    "source": "html",
+    "en": "MASTER",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.046",
+    "es": "MÚSICA",
+    "source": "html",
+    "en": "MUSIC",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.047",
+    "es": "EFECTOS",
+    "source": "html",
+    "en": "SOUND EFFECTS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.048",
+    "es": "INTERFAZ",
+    "source": "html",
+    "en": "INTERFACE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.049",
+    "es": "♪ PROBAR INTERFAZ",
+    "source": "html",
+    "en": "♪ PREVIEW INTERFACE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.050",
+    "es": "💥 PROBAR EFECTOS",
+    "source": "html",
+    "en": "💥 PREVIEW EFFECTS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.051",
+    "es": "CONTROLES",
+    "source": "html",
+    "en": "CONTROLS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.052",
+    "es": "ZONA MUERTA",
+    "source": "html",
+    "en": "DEAD ZONE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.054",
+    "es": "SENSIBILIDAD",
+    "source": "html",
+    "en": "SENSITIVITY",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.056",
+    "es": "GRÁFICOS",
+    "source": "html",
+    "en": "GRAPHICS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.057",
+    "es": "AUTO",
+    "source": "html",
+    "en": "AUTO",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.058",
+    "es": "BAJA",
+    "source": "html",
+    "en": "LOW",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.059",
+    "es": "MEDIA",
+    "source": "html",
+    "en": "MEDIUM",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.060",
+    "es": "ALTA",
+    "source": "html",
+    "en": "HIGH",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.061",
+    "es": "ULTRA",
+    "source": "html",
+    "en": "ULTRA",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.062",
+    "es": "VOLVER",
+    "source": "html",
+    "en": "BACK",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.063",
+    "es": "PAUSA",
+    "source": "html",
+    "en": "PAUSED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.064",
+    "es": "REINICIAR CARRERA",
+    "source": "html",
+    "en": "RESTART RACE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.065",
+    "es": "MENÚ",
+    "source": "html",
+    "en": "MENU",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.066",
+    "es": "VICTORIA",
+    "source": "html",
+    "en": "VICTORY",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.067",
+    "es": "REINTENTAR",
+    "source": "html",
+    "en": "RETRY",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.068",
+    "es": "🛸 NAVE",
+    "source": "html",
+    "en": "🛸 SHIP",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.069",
+    "es": "◀ MENÚ",
+    "source": "html",
+    "en": "◀ MENU",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.070",
+    "es": "COOPE CITY",
+    "source": "html",
+    "en": "COOPE CITY",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.071",
+    "es": "Gana las dos carreras de cada crew (1º lugar) para desafiar a su jefe. Derrota a los tres jefes para desbloquear THE CROWN.",
+    "source": "html",
+    "en": "Win both crew races (1st place) to challenge their boss. Defeat all three bosses to unlock THE CROWN.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.072",
+    "es": "◀ MAPA",
+    "source": "html",
+    "en": "◀ MAP",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.074",
+    "es": "▶ CORRER",
+    "source": "html",
+    "en": "▶ RACE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.075",
+    "es": "¡ERES EL REY DE COOPE CITY!",
+    "source": "html",
+    "en": "YOU ARE THE KING OF COOPE CITY!",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.076",
+    "es": "◀ VOLVER",
+    "source": "html",
+    "en": "◀ BACK",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.077",
+    "es": "HANGAR",
+    "source": "html",
+    "en": "HANGAR",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.078",
+    "es": "⟲ ARRASTRA PARA GIRAR",
+    "source": "html",
+    "en": "⟲ DRAG TO ROTATE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.079",
+    "es": "♪ MOTOR",
+    "source": "html",
+    "en": "♪ ENGINE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.080",
+    "es": "⚡ TURBO",
+    "source": "html",
+    "en": "⚡ TURBO",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.081",
+    "es": "SELECCIONAR",
+    "source": "html",
+    "en": "SELECT",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.082",
+    "es": "LOGROS",
+    "source": "html",
+    "en": "ACHIEVEMENTS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.083",
+    "es": "PARTIDA",
+    "source": "html",
+    "en": "SAVE DATA",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.084",
+    "es": "EXPORTAR CÓDIGO",
+    "source": "html",
+    "en": "EXPORT CODE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.085",
+    "es": "DESCARGAR ARCHIVO",
+    "source": "html",
+    "en": "DOWNLOAD FILE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.086",
+    "es": "COPIAR",
+    "source": "html",
+    "en": "COPY",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.087",
+    "es": "Aquí aparece tu código de partida, o pega uno para importarlo (empieza con NV3:)",
+    "source": "html",
+    "en": "Your save code appears here. Paste a code to import it (starts with NV3:)",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.088",
+    "es": "IMPORTAR CÓDIGO",
+    "source": "html",
+    "en": "IMPORT CODE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.089",
+    "es": "ABRIR ARCHIVO",
+    "source": "html",
+    "en": "OPEN FILE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.090",
+    "es": "REINICIAR CAMPAÑA",
+    "source": "html",
+    "en": "RESET CAMPAIGN",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.091",
+    "es": "SÍ",
+    "source": "html",
+    "en": "YES",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.092",
+    "es": "NO",
+    "source": "html",
+    "en": "NO",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.094",
+    "es": "Gira el teléfono a horizontal para jugar.",
+    "source": "html",
+    "en": "Rotate your phone to landscape to race.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.095",
+    "es": "Jugar en vertical igualmente",
+    "source": "html",
+    "en": "Play in portrait anyway",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.096",
+    "es": "Ups",
+    "source": "html",
+    "en": "Oops",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.097",
+    "es": "Cerrar",
+    "source": "html",
+    "en": "Close",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.098",
+    "es": "GENERANDO CIUDAD…",
+    "source": "html",
+    "en": "GENERATING CITY…",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.099",
+    "es": "Error: ",
+    "source": "js:17",
+    "en": "Error: ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.100",
+    "es": "NEON METROPOLIS",
+    "source": "js:53",
+    "en": "NEON METROPOLIS",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.101",
+    "es": "El distrito original: cañones de rascacielos, neón, túneles y tráfico denso en ambos sentidos.",
+    "source": "js:54",
+    "en": "The original district: skyscraper canyons, neon, tunnels and heavy traffic in both directions.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.102",
+    "es": "RAMEN",
+    "source": "js:66",
+    "en": "RAMEN",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.103",
+    "es": "SYNTH",
+    "source": "js:66",
+    "en": "SYNTH",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.104",
+    "es": "OMNI",
+    "source": "js:66",
+    "en": "OMNI",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.105",
+    "es": "NOVA",
+    "source": "js:66",
+    "en": "NOVA",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.106",
+    "es": "BAR 24H",
+    "source": "js:66",
+    "en": "BAR 24H",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.107",
+    "es": "HOLO",
+    "source": "js:66",
+    "en": "HOLO",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.108",
+    "es": "KAIJU",
+    "source": "js:66",
+    "en": "KAIJU",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.109",
+    "es": "◆ META ◆",
+    "source": "js:66",
+    "en": "◆ META ◆",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.110",
+    "es": "INDUSTRIAL ABYSS",
+    "source": "js:69",
+    "en": "INDUSTRIAL ABYSS",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.111",
+    "es": "DISTRITO FUNDICIÓN",
+    "source": "js:69",
+    "en": "FOUNDRY DISTRICT",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.112",
+    "es": "Refinerías, reactores y tuberías. Trazado estrecho y técnico con caídas bruscas de altitud.",
+    "source": "js:70",
+    "en": "Refineries, reactors and pipelines. A narrow, technical course with sharp drops in altitude.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.113",
+    "es": "DANGER",
+    "source": "js:83",
+    "en": "DANGER",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.114",
+    "es": "REACTOR",
+    "source": "js:83",
+    "en": "REACTOR",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.115",
+    "es": "NO ENTRY",
+    "source": "js:83",
+    "en": "NO ENTRY",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.116",
+    "es": "FOUNDRY",
+    "source": "js:83",
+    "en": "FOUNDRY",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.117",
+    "es": "CAUTION",
+    "source": "js:83",
+    "en": "CAUTION",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.118",
+    "es": "ACID",
+    "source": "js:83",
+    "en": "ACID",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.119",
+    "es": "HAZARD",
+    "source": "js:83",
+    "en": "HAZARD",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.120",
+    "es": "UNIT 09",
+    "source": "js:83",
+    "en": "UNIT 09",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.121",
+    "es": "SKYLINE VELOCITY",
+    "source": "js:86",
+    "en": "SKYLINE VELOCITY",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.122",
+    "es": "CORPORACIÓN ZENITH",
+    "source": "js:86",
+    "en": "ZENITH CORPORATION",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.123",
+    "es": "VELOCIDAD",
+    "source": "js:86",
+    "en": "SPEED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.124",
+    "es": "Autopistas aéreas entre torres monumentales sobre un mar de nubes. Velocidad pura.",
+    "source": "js:87",
+    "en": "Aerial highways between monumental towers above a sea of clouds. Pure speed.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.125",
+    "es": "ZENITH",
+    "source": "js:100",
+    "en": "ZENITH",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.126",
+    "es": "APEX",
+    "source": "js:100",
+    "en": "APEX",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.127",
+    "es": "SKYWAY",
+    "source": "js:100",
+    "en": "SKYWAY",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.128",
+    "es": "VELOCITY",
+    "source": "js:100",
+    "en": "VELOCITY",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.129",
+    "es": "AURORA",
+    "source": "js:100",
+    "en": "AURORA",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.130",
+    "es": "HELIX",
+    "source": "js:100",
+    "en": "HELIX",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.131",
+    "es": "ORBIT",
+    "source": "js:100",
+    "en": "ORBIT",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.132",
+    "es": "FLUX",
+    "source": "js:100",
+    "en": "FLUX",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.133",
+    "es": "EXPRESS",
+    "source": "js:100",
+    "en": "EXPRESS",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.134",
+    "es": "NEON RUSH",
+    "source": "js:109",
+    "en": "NEON RUSH",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.135",
+    "es": "KOWLOON-9 · SONY I",
+    "source": "js:109",
+    "en": "KOWLOON-9 · SONY I",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.136",
+    "es": "Grandes avenidas aéreas entre letreros holográficos. La bienvenida de los Neon Fangs.",
+    "source": "js:109",
+    "en": "Wide aerial avenues lined with holographic signs. Your welcome from the Neon Fangs.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.137",
+    "es": "KOWLOON LABYRINTH",
+    "source": "js:112",
+    "en": "KOWLOON LABYRINTH",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.138",
+    "es": "KOWLOON-9 · SONY II",
+    "source": "js:112",
+    "en": "KOWLOON-9 · SONY II",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.139",
+    "es": "Manzanas en ángulo recto, cuatro túneles y cambios de altura. Técnico y traicionero.",
+    "source": "js:112",
+    "en": "Right-angled blocks, four tunnels and changing elevations. Technical and treacherous.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.140",
+    "es": "BEAGLE'S CROWN",
+    "source": "js:115",
+    "en": "BEAGLE'S CROWN",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.141",
+    "es": "KOWLOON-9 · DUELO CONTRA SONY",
+    "source": "js:115",
+    "en": "KOWLOON-9 · DUEL AGAINST SONY",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.142",
+    "es": "JEFE",
+    "source": "js:115",
+    "en": "BOSS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.143",
+    "es": "Las tres torres-corona de Kowloon-9: subidas, horquillas y la gran avenida final.",
+    "source": "js:115",
+    "en": "The three crown towers of Kowloon-9: climbs, hairpins and the great final avenue.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.144",
+    "es": "FOUNDRY RUN",
+    "source": "js:118",
+    "en": "FOUNDRY RUN",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.145",
+    "es": "INDUSTRIAL ABYSS · VADER I",
+    "source": "js:118",
+    "en": "INDUSTRIAL ABYSS · VADER I",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.146",
+    "es": "Entre refinerías, reactores y torres de enfriamiento. Las subidas castigan los errores.",
+    "source": "js:118",
+    "en": "Through refineries, reactors and cooling towers. The climbs punish mistakes.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.147",
+    "es": "STEEL INFERNO",
+    "source": "js:122",
+    "en": "STEEL INFERNO",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.148",
+    "es": "INDUSTRIAL ABYSS · VADER II",
+    "source": "js:122",
+    "en": "INDUSTRIAL ABYSS · VADER II",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.149",
+    "es": "EXTREMA",
+    "source": "js:122",
+    "en": "EXTREME",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.150",
+    "es": "Túneles estrechos, prensas hidráulicas y respiraderos de plasma. Sobrevivir ya es ganar.",
+    "source": "js:122",
+    "en": "Narrow tunnels, hydraulic presses and plasma vents. Surviving is a victory in itself.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.151",
+    "es": "IRON DOMINION",
+    "source": "js:126",
+    "en": "IRON DOMINION",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.152",
+    "es": "INDUSTRIAL ABYSS · DUELO CONTRA VADER",
+    "source": "js:126",
+    "en": "INDUSTRIAL ABYSS · DUEL AGAINST VADER",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.153",
+    "es": "El complejo central de Vader: rectas de alta velocidad, prensas y plasma entre fortalezas.",
+    "source": "js:126",
+    "en": "Vader's central complex: high-speed straights, presses and plasma between fortresses.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.154",
+    "es": "GOLDEN SKYLINE",
+    "source": "js:130",
+    "en": "GOLDEN SKYLINE",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.155",
+    "es": "SKYLINE VELOCITY · COOPER I",
+    "source": "js:130",
+    "en": "SKYLINE VELOCITY · COOPER I",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.156",
+    "es": "Autopistas aéreas entre torres corporativas doradas. Royal Velocity no perdona.",
+    "source": "js:130",
+    "en": "Aerial highways between golden corporate towers. Royal Velocity shows no mercy.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.157",
+    "es": "ROYAL EXPRESS",
+    "source": "js:133",
+    "en": "ROYAL EXPRESS",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.158",
+    "es": "SKYLINE VELOCITY · COOPER II",
+    "source": "js:133",
+    "en": "SKYLINE VELOCITY · COOPER II",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.159",
+    "es": "Dos rectas eternas unidas por curvas peligrosas. Turbo, rebufo y nervios de acero.",
+    "source": "js:133",
+    "en": "Two endless straights linked by dangerous corners. Boost, slipstream and nerves of steel.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.160",
+    "es": "SOVEREIGN'S THRONE",
+    "source": "js:136",
+    "en": "SOVEREIGN'S THRONE",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.161",
+    "es": "SKYLINE VELOCITY · DUELO CONTRA COOPER",
+    "source": "js:136",
+    "en": "SKYLINE VELOCITY · DUEL AGAINST COOPER",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.162",
+    "es": "Sobre las estructuras más altas de Coope City. El trono de Cooper espera en la cima.",
+    "source": "js:136",
+    "en": "Above the tallest structures in Coope City. Cooper's throne awaits at the summit.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.163",
+    "es": "THE CROWN",
+    "source": "js:139",
+    "en": "THE CROWN",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.164",
+    "es": "ORBITAL CITY · CARRERA FINAL",
+    "source": "js:139",
+    "en": "ORBITAL CITY · FINAL RACE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.165",
+    "es": "FINAL",
+    "source": "js:139",
+    "en": "FINAL",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.166",
+    "es": "La ciudad flotante en órbita. Sony, Vader y Cooper a la vez: solo uno será el Rey de Coope City.",
+    "source": "js:140",
+    "en": "The floating city in orbit. Sony, Vader and Cooper together: only one will be King of Coope City.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.167",
+    "es": "ORBITAL TRANSIT",
+    "source": "js:151",
+    "en": "ORBITAL TRANSIT",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.168",
+    "es": "SKYPORT",
+    "source": "js:151",
+    "en": "SKYPORT",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.169",
+    "es": "DOCK 07",
+    "source": "js:151",
+    "en": "DOCK 07",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.170",
+    "es": "DOCK 12",
+    "source": "js:151",
+    "en": "DOCK 12",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.171",
+    "es": "CONTROL ZONE",
+    "source": "js:151",
+    "en": "CONTROL ZONE",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.172",
+    "es": "APEX ORBITAL",
+    "source": "js:151",
+    "en": "APEX ORBITAL",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.173",
+    "es": "CENTRAL COMMAND",
+    "source": "js:151",
+    "en": "CENTRAL COMMAND",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.174",
+    "es": "RESTRICTED AIRSPACE",
+    "source": "js:151",
+    "en": "RESTRICTED AIRSPACE",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.175",
+    "es": "VERTICAL PORT",
+    "source": "js:151",
+    "en": "VERTICAL PORT",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.176",
+    "es": "ORBITAL CITY",
+    "source": "js:151",
+    "en": "ORBITAL CITY",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.177",
+    "es": "TRAFFIC GRID",
+    "source": "js:151",
+    "en": "TRAFFIC GRID",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.178",
+    "es": "ASTRA",
+    "source": "js:151",
+    "en": "ASTRA",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.179",
+    "es": "STATION",
+    "source": "js:151",
+    "en": "STATION",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.180",
+    "es": "INTERCEPTOR EQUILIBRADO",
+    "source": "js:1529",
+    "en": "BALANCED INTERCEPTOR",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.181",
+    "es": "El interceptor original de Coope City. Respuesta neutra en todo: la referencia con la que se miden las demás naves.",
+    "source": "js:1531",
+    "en": "The original interceptor of Coope City. Neutral response in every area: the benchmark for every other ship.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.182",
+    "es": "TITÁN DE ASALTO",
+    "source": "js:1533",
+    "en": "ASSAULT TITAN",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.183",
+    "es": "Chasis de titanio con cuatro toberas. Pesa más, empuja más y aguanta castigo; tarda en arrancar y gira con firmeza.",
+    "source": "js:1535",
+    "en": "A titanium chassis with four thrusters. Heavier, harder-hitting and built to take punishment; slow off the line, with firm handling.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.184",
+    "es": "FANG GT",
+    "source": "js:1537",
+    "en": "FANG GT",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.185",
+    "es": "AGUJA DE CARRERAS",
+    "source": "js:1537",
+    "en": "RACING NEEDLE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.186",
+    "es": "Ligera, nerviosa y precisa. Acelera y cambia de carril como ninguna, pero un golpe fuerte la deja tocada.",
+    "source": "js:1539",
+    "en": "Light, twitchy and precise. Unmatched acceleration and lane changes, but a heavy hit leaves it hurting.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.187",
+    "es": "IRON WRAITH",
+    "source": "js:1541",
+    "en": "IRON WRAITH",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.188",
+    "es": "ACORAZADO ESPECTRAL",
+    "source": "js:1541",
+    "en": "SPECTRAL DREADNOUGHT",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.189",
+    "es": "Blindaje en capas y un núcleo de plasma carmesí. Lenta al salir, imparable lanzada; su turbo dura más que ninguno.",
+    "source": "js:1543",
+    "en": "Layered armor and a crimson plasma core. Slow off the line, unstoppable at speed; its boost lasts longer than any other.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.190",
+    "es": "SOVEREIGN",
+    "source": "js:1545",
+    "en": "SOVEREIGN",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.191",
+    "es": "HIPERDEPORTIVO REAL",
+    "source": "js:1545",
+    "en": "ROYAL HYPERCAR",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.192",
+    "es": "Turbinas gemelas con anillos de oro y halo de corona. La más rápida en recta de las naves de campaña.",
+    "source": "js:1547",
+    "en": "Twin turbines with golden rings and a crown halo. The fastest campaign ship on the straights.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.193",
+    "es": "PROJECT ZERO",
+    "source": "js:1549",
+    "en": "PROJECT ZERO",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.194",
+    "es": "PROTOTIPO EXPERIMENTAL",
+    "source": "js:1549",
+    "en": "EXPERIMENTAL PROTOTYPE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.195",
+    "es": "Fragmentos suspendidos en un campo de contención, anillos orbitales y un núcleo de luz imposible. Origen: desconocido.",
+    "source": "js:1551",
+    "en": "Fragments suspended in a containment field, orbital rings and an impossible core of light. Origin: unknown.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.196",
+    "es": "TÚ",
+    "source": "js:2929",
+    "en": "YOU",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.197",
+    "es": "VEGA",
+    "source": "js:2930",
+    "en": "VEGA",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.198",
+    "es": "KIRA",
+    "source": "js:2931",
+    "en": "KIRA",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.199",
+    "es": "ROOK",
+    "source": "js:2932",
+    "en": "ROOK",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.200",
+    "es": "GLITCH",
+    "source": "js:2934",
+    "en": "GLITCH",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.201",
+    "es": "CHISPA",
+    "source": "js:2935",
+    "en": "CHISPA",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.202",
+    "es": "RAYO",
+    "source": "js:2936",
+    "en": "RAYO",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.203",
+    "es": "YUNQUE",
+    "source": "js:2938",
+    "en": "YUNQUE",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.204",
+    "es": "REMACHE",
+    "source": "js:2939",
+    "en": "REMACHE",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.205",
+    "es": "SARGENTO",
+    "source": "js:2940",
+    "en": "SARGENTO",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.206",
+    "es": "LA DUQUESA",
+    "source": "js:2942",
+    "en": "LA DUQUESA",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.207",
+    "es": "BARÓN VOLT",
+    "source": "js:2943",
+    "en": "BARÓN VOLT",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.208",
+    "es": "CONDE AURUM",
+    "source": "js:2944",
+    "en": "CONDE AURUM",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.209",
+    "es": "SONY",
+    "source": "js:2946",
+    "en": "SONY",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.210",
+    "es": "FANG RUNNER",
+    "source": "js:2946",
+    "en": "FANG RUNNER",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.211",
+    "es": "VADER",
+    "source": "js:2948",
+    "en": "VADER",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.212",
+    "es": "IRON WARDEN",
+    "source": "js:2948",
+    "en": "IRON WARDEN",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.213",
+    "es": "COOPER",
+    "source": "js:2950",
+    "en": "COOPER",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.214",
+    "es": "THRONE ONE",
+    "source": "js:2950",
+    "en": "THRONE ONE",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.215",
+    "es": "Neón, túneles y avenidas aéreas. El barrio de Sony, el beagle más rápido de la ciudad.",
+    "source": "js:2955",
+    "en": "Neon, tunnels and aerial avenues. Home turf for Sony, the fastest beagle in the city.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.216",
+    "es": "Fundiciones, prensas y plasma. Vader dirige el Iron Pack con disciplina de hierro.",
+    "source": "js:2957",
+    "en": "Foundries, presses and plasma. Vader commands the Iron Pack with iron discipline.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.217",
+    "es": "Torres doradas sobre las nubes. Cooper, el pug soberano, reina desde su trono.",
+    "source": "js:2959",
+    "en": "Golden towers above the clouds. Cooper, the sovereign pug, rules from his throne.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.218",
+    "es": "DESAFÍO DE CREW I",
+    "source": "js:2974",
+    "en": "CREW CHALLENGE I",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.219",
+    "es": "DESAFÍO DE CREW II",
+    "source": "js:2974",
+    "en": "CREW CHALLENGE II",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.220",
+    "es": "DUELO DE JEFE",
+    "source": "js:2974",
+    "en": "BOSS DUEL",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.221",
+    "es": "CARRERA FINAL",
+    "source": "js:2974",
+    "en": "FINAL RACE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.222",
+    "es": "🔒 DIFÍCIL",
+    "source": "js:3132",
+    "en": "🔒 HARD",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.223",
+    "es": "Completa la campaña en Fácil o Normal para desbloquear Difícil.",
+    "source": "js:3133",
+    "en": "Complete the campaign on Easy or Normal to unlock Hard.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.224",
+    "es": "DIFÍCIL: ",
+    "source": "js:3135",
+    "en": "HARD: ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.225",
+    "es": "/10 EVENTOS GANADOS · Completa los 10 y gana THE CROWN para desbloquear PROJECT ZERO.",
+    "source": "js:3135",
+    "en": "/10 EVENTS WON · Win all 10 and THE CROWN to unlock PROJECT ZERO.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.226",
+    "es": "🔒 DIFÍCIL: completa la campaña en Fácil o Normal para desbloquearlo.",
+    "source": "js:3135",
+    "en": "🔒 HARD: complete the campaign on Easy or Normal to unlock it.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.227",
+    "es": "DIFÍCIL DISPONIBLE · PROJECT ZERO DESBLOQUEADA",
+    "source": "js:3136",
+    "en": "HARD AVAILABLE · PROJECT ZERO UNLOCKED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.228",
+    "es": "ALMACENAMIENTO NO DISPONIBLE",
+    "source": "js:3160",
+    "en": "STORAGE UNAVAILABLE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.229",
+    "es": "Usa EXPORTAR PARTIDA para guardar tu progreso.",
+    "source": "js:3160",
+    "en": "Use EXPORT SAVE DATA to keep your progress.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.230",
+    "es": "TERRITORIO CONQUISTADO",
+    "source": "js:3165",
+    "en": "TERRITORY CONQUERED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.231",
+    "es": "JEFE DISPONIBLE",
+    "source": "js:3166",
+    "en": "BOSS AVAILABLE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.232",
+    "es": "CREW EN PROCESO DE DERROTA",
+    "source": "js:3166",
+    "en": "CREW CHALLENGES IN PROGRESS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.233",
+    "es": "NO CONQUISTADO",
+    "source": "js:3166",
+    "en": "NOT CONQUERED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.234",
+    "es": "PRIMER TAKEDOWN",
+    "source": "js:3177",
+    "en": "FIRST TAKEDOWN",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.235",
+    "es": "Elimina a un rival con un takedown.",
+    "source": "js:3177",
+    "en": "Eliminate a rival with a takedown.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.236",
+    "es": "CONQUISTADOR DE KOWLOON",
+    "source": "js:3177",
+    "en": "CONQUEROR OF KOWLOON",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.237",
+    "es": "Derrota a Sony en Beagle's Crown.",
+    "source": "js:3177",
+    "en": "Defeat Sony in Beagle's Crown.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.238",
+    "es": "SEÑOR DEL ABISMO",
+    "source": "js:3178",
+    "en": "LORD OF THE ABYSS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.239",
+    "es": "Derrota a Vader en Iron Dominion.",
+    "source": "js:3178",
+    "en": "Defeat Vader in Iron Dominion.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.240",
+    "es": "SOBERANO DEL CIELO",
+    "source": "js:3178",
+    "en": "SOVEREIGN OF THE SKY",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.241",
+    "es": "Derrota a Cooper en Sovereign's Throne.",
+    "source": "js:3178",
+    "en": "Defeat Cooper in Sovereign's Throne.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.242",
+    "es": "VENCEDOR DE LOS TRES REYES",
+    "source": "js:3179",
+    "en": "VICTOR OVER THE THREE KINGS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.243",
+    "es": "Conquista los tres territorios.",
+    "source": "js:3179",
+    "en": "Conquer all three territories.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.244",
+    "es": "REY DE COOPE CITY",
+    "source": "js:3179",
+    "en": "KING OF COOPE CITY",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.245",
+    "es": "Gana THE CROWN en primera posición.",
+    "source": "js:3179",
+    "en": "Win THE CROWN in first place.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.246",
+    "es": "🏆 LOGRO DESBLOQUEADO",
+    "source": "js:3180",
+    "en": "🏆 ACHIEVEMENT UNLOCKED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.248",
+    "es": "Código vacío.",
+    "source": "js:3191",
+    "en": "Empty code.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.249",
+    "es": "Formato no reconocido. Debe empezar con NV3:",
+    "source": "js:3192",
+    "en": "Unrecognized format. The code must start with NV3:",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.250",
+    "es": "El código está dañado o incompleto (suma de verificación incorrecta).",
+    "source": "js:3192",
+    "en": "The code is damaged or incomplete (checksum mismatch).",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.251",
+    "es": "No se pudo leer el contenido.",
+    "source": "js:3193",
+    "en": "Could not read the contents.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.252",
+    "es": "Versión de partida no compatible.",
+    "source": "js:3194",
+    "en": "Incompatible save version.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.253",
+    "es": "Una partida de diagnóstico no puede importarse en la campaña pública.",
+    "source": "js:3194",
+    "en": "A diagnostic save cannot be imported into the public campaign.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.254",
+    "es": "Datos de campaña inválidos.",
+    "source": "js:3194",
+    "en": "Invalid campaign data.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.255",
+    "es": "Partida válida.",
+    "source": "js:3198",
+    "en": "Valid save.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.256",
+    "es": "COOPER ▲ 8888 m DELANTE",
+    "source": "js:3316",
+    "en": "COOPER ▲ 8888 m AHEAD",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.257",
+    "es": "ACELERADOR",
+    "source": "js:3534",
+    "en": "ACCELERATOR",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.258",
+    "es": " se estrelló",
+    "source": "js:3566",
+    "en": " crashed",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.259",
+    "es": "¡DESTROZO! +TURBO",
+    "source": "js:3629",
+    "en": "TRAFFIC SMASH! +BOOST",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.260",
+    "es": "¡ÚLTIMA VUELTA!",
+    "source": "js:3668",
+    "en": "FINAL LAP!",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.261",
+    "es": "VUELTA ",
+    "source": "js:3668",
+    "en": "LAP ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.262",
+    "es": " ELIMINADO · TOTAL ",
+    "source": "js:3889",
+    "en": " ELIMINATED · TOTAL ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.263",
+    "es": " TAKEDOWN",
+    "source": "js:3894",
+    "en": " TAKEDOWN",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.264",
+    "es": " DESTROZOS",
+    "source": "js:3894",
+    "en": " TRAFFIC SMASHES",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.265",
+    "es": "MEJOR VUELTA ",
+    "source": "js:3895",
+    "en": "BEST LAP ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.266",
+    "es": "VUELTA ACTUAL ",
+    "source": "js:3895",
+    "en": "CURRENT LAP ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.267",
+    "es": "DESTRUIDO",
+    "source": "js:3899",
+    "en": "WRECKED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.268",
+    "es": "REAPARICIÓN",
+    "source": "js:3899",
+    "en": "RESPAWNING",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.269",
+    "es": "PROTEGIDO",
+    "source": "js:3899",
+    "en": "PROTECTED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.270",
+    "es": "DAÑADO",
+    "source": "js:3899",
+    "en": "DAMAGED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.271",
+    "es": "CRÍTICO",
+    "source": "js:3899",
+    "en": "CRITICAL",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.272",
+    "es": "DERRIBADO POR ",
+    "source": "js:3901",
+    "en": "TAKEN DOWN BY ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.274",
+    "es": "· DESTRUIDO",
+    "source": "js:3907",
+    "en": "· WRECKED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.275",
+    "es": " m DELANTE",
+    "source": "js:3907",
+    "en": " m AHEAD",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.276",
+    "es": " m DETRÁS",
+    "source": "js:3907",
+    "en": " m BEHIND",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.279",
+    "es": "Completa los 10 eventos de campaña en DIFÍCIL y gana THE CROWN para revelar PROJECT ZERO.",
+    "source": "js:3978",
+    "en": "Win all 10 campaign events on HARD and THE CROWN to reveal PROJECT ZERO.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.280",
+    "es": "Derrota a ",
+    "source": "js:3979",
+    "en": "Defeat ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.281",
+    "es": " en ",
+    "source": "js:3979",
+    "en": " in ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.282",
+    "es": "🛸 NUEVA NAVE DESBLOQUEADA",
+    "source": "js:3981",
+    "en": "🛸 NEW SHIP UNLOCKED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.283",
+    "es": " · elígela en el HANGAR",
+    "source": "js:3981",
+    "en": " · select it in the HANGAR",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.284",
+    "es": "ACELERACIÓN",
+    "source": "js:4010",
+    "en": "ACCELERATION",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.285",
+    "es": "MANEJO",
+    "source": "js:4010",
+    "en": "HANDLING",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.286",
+    "es": "RESISTENCIA",
+    "source": "js:4010",
+    "en": "DURABILITY",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.287",
+    "es": "ELIGE TU NAVE",
+    "source": "js:4014",
+    "en": "CHOOSE YOUR SHIP",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.288",
+    "es": "PODRÁS CAMBIARLA ANTES DE CADA CARRERA",
+    "source": "js:4015",
+    "en": "YOU CAN SWITCH BEFORE EACH RACE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.289",
+    "es": "NAVE ACTUAL: ",
+    "source": "js:4015",
+    "en": "CURRENT SHIP: ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.293",
+    "es": "NAVE INICIAL",
+    "source": "js:4021",
+    "en": "STARTER SHIP",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.294",
+    "es": "✓ EN USO",
+    "source": "js:4021",
+    "en": "✓ IN USE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.295",
+    "es": "DISPONIBLE",
+    "source": "js:4021",
+    "en": "AVAILABLE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.296",
+    "es": "★ NUEVA",
+    "source": "js:4022",
+    "en": "★ NEW",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.297",
+    "es": "SEÑAL DESCONOCIDA",
+    "source": "js:4026",
+    "en": "UNKNOWN SIGNAL",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.298",
+    "es": "Una firma de energía imposible orbita sobre Coope City. Nadie ha visto su forma completa.",
+    "source": "js:4027",
+    "en": "An impossible energy signature orbits above Coope City. No one has seen its complete form.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.300",
+    "es": "🔒 SE DESBLOQUEA EN LA CAMPAÑA",
+    "source": "js:4031",
+    "en": "🔒 UNLOCKED THROUGH THE CAMPAIGN",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.301",
+    "es": "CONFIRMAR Y CORRER ▶",
+    "source": "js:4031",
+    "en": "CONFIRM AND RACE ▶",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.302",
+    "es": "🔒 BLOQUEADA",
+    "source": "js:4031",
+    "en": "🔒 LOCKED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.303",
+    "es": "✓ SELECCIONADA",
+    "source": "js:4031",
+    "en": "✓ SELECTED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.307",
+    "es": "CARGANDO ",
+    "source": "js:4069",
+    "en": "LOADING ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.308",
+    "es": "No se pudo generar el circuito: ",
+    "source": "js:4070",
+    "en": "Could not generate the circuit: ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.309",
+    "es": "👑 REY DE COOPE CITY · ",
+    "source": "js:4074",
+    "en": "👑 KING OF COOPE CITY · ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.310",
+    "es": "/10 EVENTOS · ",
+    "source": "js:4074",
+    "en": "/10 EVENTS · ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.311",
+    "es": "/3 TERRITORIOS",
+    "source": "js:4074",
+    "en": "/3 TERRITORIES",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.312",
+    "es": " DESBLOQUEADOS",
+    "source": "js:4075",
+    "en": " UNLOCKED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.316",
+    "es": "JEFE: ",
+    "source": "js:4158",
+    "en": "BOSS: ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.317",
+    "es": "ORBITAL CITY · LOS TRES JEFES",
+    "source": "js:4163",
+    "en": "ORBITAL CITY · ALL THREE BOSSES",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.318",
+    "es": "¡ERES EL REY!",
+    "source": "js:4163",
+    "en": "YOU ARE THE KING!",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.319",
+    "es": "DESBLOQUEADA",
+    "source": "js:4163",
+    "en": "UNLOCKED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.320",
+    "es": "DERROTA A LOS TRES JEFES",
+    "source": "js:4163",
+    "en": "DEFEAT ALL THREE BOSSES",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.321",
+    "es": "CARRERA BLOQUEADA",
+    "source": "js:4164",
+    "en": "RACE LOCKED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.322",
+    "es": "Conquista Kowloon-9, Industrial Abyss y Skyline Velocity.",
+    "source": "js:4164",
+    "en": "Conquer Kowloon-9, Industrial Abyss and Skyline Velocity.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.324",
+    "es": "Gana NEON/FOUNDRY/GOLDEN primero",
+    "source": "js:4171",
+    "en": "Win NEON/FOUNDRY/GOLDEN first",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.325",
+    "es": "Gana las dos carreras de la crew",
+    "source": "js:4171",
+    "en": "Win both crew races",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.327",
+    "es": " vueltas · ",
+    "source": "js:4172",
+    "en": " laps · ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.331",
+    "es": "✓ SUPERADO ×",
+    "source": "js:4173",
+    "en": "✓ CLEARED ×",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.333",
+    "es": "RÉCORD: ",
+    "source": "js:4173",
+    "en": "RECORD: ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.334",
+    "es": "Derrota a los tres jefes",
+    "source": "js:4173",
+    "en": "Defeat all three bosses",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.335",
+    "es": "Gana la carrera anterior",
+    "source": "js:4173",
+    "en": "Win the previous race",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.337",
+    "es": "REPETIR",
+    "source": "js:4174",
+    "en": "REPLAY",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.338",
+    "es": "CORRER",
+    "source": "js:4174",
+    "en": "RACE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.340",
+    "es": "La ciudad flotante en órbita. Termina en primer lugar contra Sony, Vader y Cooper para coronarte.",
+    "source": "js:4175",
+    "en": "The floating city in orbit. Finish first against Sony, Vader and Cooper to claim the crown.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.341",
+    "es": "Supera los desafíos anteriores de la campaña.",
+    "source": "js:4186",
+    "en": "Complete the previous campaign challenges.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.342",
+    "es": "DUELO DE JEFE · ",
+    "source": "js:4191",
+    "en": "BOSS DUEL · ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.343",
+    "es": "VEHÍCULO: ",
+    "source": "js:4191",
+    "en": "VEHICLE: ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.344",
+    "es": " · LÍDER DE ",
+    "source": "js:4191",
+    "en": " · LEADER OF ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.345",
+    "es": " VUELTAS · ",
+    "source": "js:4192",
+    "en": " LAPS · ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.346",
+    "es": "CARRERA FINAL · ORBITAL CITY",
+    "source": "js:4193",
+    "en": "FINAL RACE · ORBITAL CITY",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.348",
+    "es": "SONY · VADER · COOPER — LOS TRES A LA VEZ",
+    "source": "js:4194",
+    "en": "SONY · VADER · COOPER — ALL THREE AT ONCE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.349",
+    "es": " km · SOLO EL 1.er LUGAR CORONA AL REY",
+    "source": "js:4194",
+    "en": " km · ONLY 1ST PLACE CROWNS THE KING",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.350",
+    "es": "CARRERA",
+    "source": "js:4196",
+    "en": "RACE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.352",
+    "es": "OBJETIVO: TERMINAR EN 1.er LUGAR",
+    "source": "js:4198",
+    "en": "OBJECTIVE: FINISH IN 1ST PLACE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.353",
+    "es": "TOCA PARA COMENZAR",
+    "source": "js:4199",
+    "en": "TAP TO START",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.355",
+    "es": " · nivel ",
+    "source": "js:4207",
+    "en": " · level ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.359",
+    "es": "META",
+    "source": "js:4208",
+    "en": "FINISH",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.360",
+    "es": "THE CROWN · CAMPAÑA SUPERADA",
+    "source": "js:4215",
+    "en": "THE CROWN · CAMPAIGN COMPLETE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.361",
+    "es": "¡MODO DIFÍCIL DESBLOQUEADO!",
+    "source": "js:4215",
+    "en": "HARD MODE UNLOCKED!",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.362",
+    "es": "Has derrotado a los reyes de Coope City, pero tu conquista aún no termina. ¡Supera el desafío definitivo para demostrar que mereces la corona! Completa la campaña en DIFÍCIL para desbloquear PROJECT ZERO.",
+    "source": "js:4215",
+    "en": "You have defeated the kings of Coope City, but your conquest is not over. Take on the ultimate challenge and prove you deserve the crown! Complete the campaign on HARD to unlock PROJECT ZERO.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.363",
+    "es": "¡PROJECT ZERO DESBLOQUEADA!",
+    "source": "js:4216",
+    "en": "PROJECT ZERO UNLOCKED!",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.364",
+    "es": "Has conquistado el desafío definitivo en DIFÍCIL. Los secretos tecnológicos de Coope City ahora están a tu alcance.",
+    "source": "js:4216",
+    "en": "You have conquered the ultimate challenge on HARD. The technological secrets of Coope City are now yours to discover.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.365",
+    "es": "IR AL HANGAR",
+    "source": "js:4216",
+    "en": "GO TO HANGAR",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.366",
+    "es": "Sony, Vader y Cooper agotados después de la derrota en Coope City.",
+    "source": "js:4223",
+    "en": "Sony, Vader and Cooper exhausted after their defeat in Coope City.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.367",
+    "es": "PROJECT ZERO revelada en un hangar orbital secreto.",
+    "source": "js:4223",
+    "en": "PROJECT ZERO revealed in a secret orbital hangar.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.368",
+    "es": "º PUESTO",
+    "source": "js:4252",
+    "en": "º PLACE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.369",
+    "es": "DERROTA",
+    "source": "js:4252",
+    "en": "DEFEAT",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.370",
+    "es": " · Tiempo ",
+    "source": "js:4253",
+    "en": " · Time ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.371",
+    "es": " · ¡NUEVO RÉCORD!",
+    "source": "js:4253",
+    "en": " · NEW RECORD!",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.372",
+    "es": "CARRERA DE PRÁCTICA — el evento aún está bloqueado y no cuenta para la campaña",
+    "source": "js:4254",
+    "en": "PRACTICE RACE — this event is still locked and does not count toward the campaign",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.373",
+    "es": "✓ DESAFÍO SUPERADO",
+    "source": "js:4254",
+    "en": "✓ CHALLENGE CLEARED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.374",
+    "es": "✗ DESAFÍO NO SUPERADO — necesitas terminar en 1.er lugar",
+    "source": "js:4254",
+    "en": "✗ CHALLENGE FAILED — finish in 1st place",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.375",
+    "es": "POSICIÓN",
+    "source": "js:4255",
+    "en": "POSITION",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.376",
+    "es": "TIEMPO",
+    "source": "js:4255",
+    "en": "TIME",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.377",
+    "es": "MEJOR VUELTA",
+    "source": "js:4255",
+    "en": "BEST LAP",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.378",
+    "es": "TAKEDOWNS",
+    "source": "js:4256",
+    "en": "TAKEDOWNS",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.379",
+    "es": "TRÁFICO DESTRUIDO",
+    "source": "js:4256",
+    "en": "TRAFFIC SMASHES",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.380",
+    "es": "DESTRUCCIONES SUFRIDAS",
+    "source": "js:4256",
+    "en": "WRECKS SUFFERED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.382",
+    "es": "🔓 DESBLOQUEADO: ",
+    "source": "js:4259",
+    "en": "🔓 UNLOCKED: ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.383",
+    "es": "SIGUIENTE: ",
+    "source": "js:4259",
+    "en": "NEXT: ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.384",
+    "es": "VER CONQUISTA",
+    "source": "js:4260",
+    "en": "VIEW CONQUEST",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.385",
+    "es": "👑 CORONACIÓN",
+    "source": "js:4260",
+    "en": "👑 CORONATION",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.386",
+    "es": "SIGUIENTE CARRERA",
+    "source": "js:4260",
+    "en": "NEXT RACE",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.387",
+    "es": "MAPA",
+    "source": "js:4260",
+    "en": "MAP",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.388",
+    "es": "OTRA PISTA",
+    "source": "js:4260",
+    "en": "ANOTHER CIRCUIT",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.390",
+    "es": " DERROTADO",
+    "source": "js:4277",
+    "en": " DEFEATED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.391",
+    "es": " CONQUISTADO",
+    "source": "js:4277",
+    "en": " CONQUERED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.393",
+    "es": "TIEMPO FINAL",
+    "source": "js:4286",
+    "en": "FINAL TIME",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.394",
+    "es": "MEJORES TIEMPOS (10)",
+    "source": "js:4286",
+    "en": "BEST TIMES (10)",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.395",
+    "es": "CARRERAS",
+    "source": "js:4286",
+    "en": "RACES",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.396",
+    "es": "VICTORIAS",
+    "source": "js:4287",
+    "en": "WINS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.398",
+    "es": "EVENTOS",
+    "source": "js:4293",
+    "en": "EVENTS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.399",
+    "es": "TERRITORIOS",
+    "source": "js:4293",
+    "en": "TERRITORIES",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.400",
+    "es": "DESTROZOS",
+    "source": "js:4293",
+    "en": "TRAFFIC SMASHES",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.401",
+    "es": "Tu progreso se guarda automáticamente en este navegador.",
+    "source": "js:4296",
+    "en": "Your progress is saved automatically in this browser.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.402",
+    "es": "Este navegador no permite guardar automáticamente al abrir el archivo localmente.",
+    "source": "js:4296",
+    "en": "This browser cannot save automatically when you open a local file.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.403",
+    "es": " Exporta tu partida para no perderla al actualizar el juego o cambiar el archivo de carpeta.",
+    "source": "js:4297",
+    "en": " Export your save data to keep it when updating the game or moving the file.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.404",
+    "es": "Código generado. Cópialo o descarga el archivo.",
+    "source": "js:4298",
+    "en": "Code generated. Copy it or download the file.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.405",
+    "es": "Archivo de respaldo descargado (carpeta Descargas).",
+    "source": "js:4299",
+    "en": "Backup file downloaded (Downloads folder).",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.406",
+    "es": "No se pudo descargar; copia el código manualmente.",
+    "source": "js:4299",
+    "en": "Could not download; copy the code manually.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.407",
+    "es": "Código copiado al portapapeles.",
+    "source": "js:4300",
+    "en": "Code copied to the clipboard.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.408",
+    "es": "Selecciona el texto y cópialo manualmente.",
+    "source": "js:4301",
+    "en": "Select the text and copy it manually.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.409",
+    "es": "IMPORTAR PARTIDA",
+    "source": "js:4305",
+    "en": "IMPORT SAVE DATA",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.410",
+    "es": "Se reemplazará tu progreso actual por una partida con ",
+    "source": "js:4305",
+    "en": "Your current progress will be replaced by a save with ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.411",
+    "es": "/10 eventos superados",
+    "source": "js:4305",
+    "en": "/10 events cleared",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.412",
+    "es": " y la corona de Coope City",
+    "source": "js:4305",
+    "en": " and the crown of Coope City",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.413",
+    "es": "✓ Partida importada correctamente.",
+    "source": "js:4305",
+    "en": "✓ Save imported successfully.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.414",
+    "es": "✗ Archivo demasiado grande.",
+    "source": "js:4307",
+    "en": "✗ File is too large.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.415",
+    "es": "Se borrarán los eventos, conquistas, estadísticas y logros. Tus ajustes de audio, controles y gráficos se conservan. ¿Seguro?",
+    "source": "js:4308",
+    "en": "Events, conquests, statistics and achievements will be cleared. Your audio, control and graphics settings will be kept. Are you sure?",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.416",
+    "es": "Campaña reiniciada.",
+    "source": "js:4308",
+    "en": "Campaign reset.",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.417",
+    "es": "ACELERADOR AUTO",
+    "source": "js:4313",
+    "en": "AUTO ACCELERATOR",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.418",
+    "es": "EJE VERTICAL",
+    "source": "js:4313",
+    "en": "VERTICAL AXIS",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.419",
+    "es": "INVERTIDO",
+    "source": "js:4313",
+    "en": "INVERTED",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.420",
+    "es": "VIBRACIÓN",
+    "source": "js:4313",
+    "en": "VIBRATION",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.421",
+    "es": "RÉCORD (",
+    "source": "js:4316",
+    "en": "RECORD (",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.422",
+    "es": "Error en ejecución: ",
+    "source": "js:4346",
+    "en": "Runtime error: ",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.starter.campaign",
+    "es": "CAMPAÑA",
+    "en": "CAMPAIGN",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.rival.pass",
+    "es": "¡SUPERASTE A ",
+    "en": "YOU PASSED ",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.event.plasma",
+    "es": "¡PLASMA!",
+    "en": "PLASMA!",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.event.boost",
+    "es": "¡TURBO!",
+    "en": "BOOST!",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.countdown.go",
+    "es": "¡YA!",
+    "en": "GO!",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.error.webgl.detail",
+    "es": "Tu navegador no tiene WebGL disponible. Abre el archivo con Google Chrome actualizado y comprueba que la aceleración por hardware esté activada.",
+    "en": "WebGL is unavailable in your browser. Open the file in an up-to-date Chromium browser and check that hardware acceleration is enabled.",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "completion.campaign",
+    "es": "SUPERADA EN:",
+    "en": "CLEARED ON:",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "completion.race",
+    "es": "COMPLETADA EN:",
+    "en": "COMPLETED ON:",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "completion.easy",
+    "es": "FÁCIL",
+    "en": "EASY",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "completion.normal",
+    "es": "NORMAL",
+    "en": "NORMAL",
+    "source": "reviewed supplemental",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "completion.hard",
+    "es": "DIFÍCIL",
+    "en": "HARD",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "completion.unknown",
+    "es": "Dificultad no registrada",
+    "en": "Difficulty not recorded",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "language.label",
+    "es": "IDIOMA",
+    "en": "LANGUAGE",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "language.es",
+    "es": "ESPAÑOL",
+    "en": "ESPAÑOL",
+    "source": "reviewed supplemental",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "language.en",
+    "es": "ENGLISH",
+    "en": "ENGLISH",
+    "source": "reviewed supplemental",
+    "kind": "proper_name_or_universal"
+  },
+  {
+    "id": "ui.import.confirm",
+    "es": "¿Continuar?",
+    "en": "Continue?",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.screen.error",
+    "es": "Tu navegador no soporta WebGL.",
+    "en": "Your browser does not support WebGL.",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.free.best",
+    "es": "RÉCORD",
+    "en": "RECORD",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.victory.exclaim",
+    "es": "¡VICTORIA!",
+    "en": "VICTORY!",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "ui.selected.boost",
+    "es": "TURBO",
+    "en": "BOOST",
+    "source": "reviewed supplemental",
+    "kind": "translated"
+  },
+  {
+    "id": "dialog.sony.intro.0",
+    "driver": "sony",
+    "event": "intro",
+    "index": 0,
+    "es": "¡Llegaste! Ya tenía las orejas listas para el viento.",
+    "expression": "neutral",
+    "en": "You're here! My ears were already set for the wind.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.intro.1",
+    "driver": "sony",
+    "event": "intro",
+    "index": 1,
+    "es": "Kowloon tiene mil atajos. Hoy te enseño los rápidos.",
+    "expression": "neutral",
+    "en": "Kowloon has a thousand shortcuts. Today I'll show you the fast ones.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.intro.2",
+    "driver": "sony",
+    "event": "intro",
+    "index": 2,
+    "es": "¿Una carrera por mi barrio? ¡Eso sí es un buen plan!",
+    "expression": "neutral",
+    "en": "A race through my neighborhood? Now that's a plan!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.intro.3",
+    "driver": "sony",
+    "event": "intro",
+    "index": 3,
+    "es": "Traje mi mejor nave. Tú trajiste ganas, ¿verdad?",
+    "expression": "neutral",
+    "en": "I brought my best ship. You brought your game, right?",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.intro.4",
+    "driver": "sony",
+    "event": "intro",
+    "index": 4,
+    "es": "¡Al fin alguien que quiere jugar a mi velocidad!",
+    "expression": "neutral",
+    "en": "Finally, someone who wants to play at my speed!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.intro.5",
+    "driver": "sony",
+    "event": "intro",
+    "index": 5,
+    "es": "Si me alcanzas, te cuento dónde compro estas gafas.",
+    "expression": "neutral",
+    "en": "Catch me and I'll tell you where I buy these goggles.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.start.0",
+    "driver": "sony",
+    "event": "start",
+    "index": 0,
+    "es": "¡Vamos! El neón no se va a perseguir solo.",
+    "expression": "neutral",
+    "en": "Let's go! The neon isn't going to chase itself.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.start.1",
+    "driver": "sony",
+    "event": "start",
+    "index": 1,
+    "es": "¡Arrancamos! A ver quién despeina a quién.",
+    "expression": "neutral",
+    "en": "We're off! Let's see who messes up whose hair.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.start.2",
+    "driver": "sony",
+    "event": "start",
+    "index": 2,
+    "es": "¡Orejas atrás y acelerador a fondo!",
+    "expression": "neutral",
+    "en": "Ears back and throttle wide open!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.start.3",
+    "driver": "sony",
+    "event": "start",
+    "index": 3,
+    "es": "¡No te me pierdas en la primera curva!",
+    "expression": "neutral",
+    "en": "Don't lose me at the first corner!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.start.4",
+    "driver": "sony",
+    "event": "start",
+    "index": 4,
+    "es": "¡Esto ya huele a buena carrera!",
+    "expression": "neutral",
+    "en": "This already smells like a great race!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.start.5",
+    "driver": "sony",
+    "event": "start",
+    "index": 5,
+    "es": "¡Atrápame si puedes! Hoy tengo energía de sobra.",
+    "expression": "neutral",
+    "en": "Catch me if you can! I've got energy to spare today.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.bossPass.0",
+    "driver": "sony",
+    "event": "bossPass",
+    "index": 0,
+    "es": "¡Permiso! Mi carril acaba de pasar por aquí.",
+    "expression": "confident",
+    "en": "Coming through! My lane just moved over here.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.bossPass.1",
+    "driver": "sony",
+    "event": "bossPass",
+    "index": 1,
+    "es": "¡Te vi por el espejo! Saliste bastante bien.",
+    "expression": "confident",
+    "en": "Saw you in the mirror! You looked pretty good back there.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.bossPass.2",
+    "driver": "sony",
+    "event": "bossPass",
+    "index": 2,
+    "es": "¡Y Sony aparece por el lado menos aburrido!",
+    "expression": "confident",
+    "en": "And Sony arrives from the less boring side!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.bossPass.3",
+    "driver": "sony",
+    "event": "bossPass",
+    "index": 3,
+    "es": "¡Uy, te dejé mirando mis luces!",
+    "expression": "confident",
+    "en": "Oops, left you staring at my lights!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.bossPass.4",
+    "driver": "sony",
+    "event": "bossPass",
+    "index": 4,
+    "es": "¡Ese hueco tenía mi nombre!",
+    "expression": "confident",
+    "en": "That gap had my name on it!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.bossPass.5",
+    "driver": "sony",
+    "event": "bossPass",
+    "index": 5,
+    "es": "¡Buen intento! Ahora te toca perseguirme.",
+    "expression": "confident",
+    "en": "Nice try! Your turn to chase me now.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.playerPass.0",
+    "driver": "sony",
+    "event": "playerPass",
+    "index": 0,
+    "es": "¡Ey! ¡Ese hueco lo estaba mirando yo!",
+    "expression": "angry",
+    "en": "Hey! I was eyeing that gap!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.playerPass.1",
+    "driver": "sony",
+    "event": "playerPass",
+    "index": 1,
+    "es": "¡Uy! Esa no la vi venir.",
+    "expression": "shocked",
+    "en": "Whoa! Didn't see that one coming.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.playerPass.2",
+    "driver": "sony",
+    "event": "playerPass",
+    "index": 2,
+    "es": "¡Me pasaste! Bueno, ahora esto sí se puso divertido.",
+    "expression": "shocked",
+    "en": "You passed me! Okay, now this is getting fun.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.playerPass.3",
+    "driver": "sony",
+    "event": "playerPass",
+    "index": 3,
+    "es": "¡Un segundo! Todavía no termino mi truco.",
+    "expression": "angry",
+    "en": "One second! I haven't finished my trick yet.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.playerPass.4",
+    "driver": "sony",
+    "event": "playerPass",
+    "index": 4,
+    "es": "¡Buena maniobra! No pienso regalarte la siguiente.",
+    "expression": "neutral",
+    "en": "Nice move! I'm not giving you the next one.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.playerPass.5",
+    "driver": "sony",
+    "event": "playerPass",
+    "index": 5,
+    "es": "¡Ajá! Así que sí traías velocidad escondida.",
+    "expression": "shocked",
+    "en": "Aha! So you were hiding some speed after all.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.leading.0",
+    "driver": "sony",
+    "event": "leading",
+    "index": 0,
+    "es": "¡Sigo primero! ¿Se escucha mi risa desde ahí?",
+    "expression": "confident",
+    "en": "Still in first! Can you hear me laughing back there?",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.leading.1",
+    "driver": "sony",
+    "event": "leading",
+    "index": 1,
+    "es": "¡El barrio me está dando luz verde!",
+    "expression": "confident",
+    "en": "The neighborhood's giving me the green light!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.leading.2",
+    "driver": "sony",
+    "event": "leading",
+    "index": 2,
+    "es": "¡Me encanta abrir camino! El viento llega fresquito.",
+    "expression": "confident",
+    "en": "Love clearing the way! The breeze is nice up here.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.leading.3",
+    "driver": "sony",
+    "event": "leading",
+    "index": 3,
+    "es": "¡Primero y con las orejas en su sitio!",
+    "expression": "confident",
+    "en": "First place, ears still attached!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.leading.4",
+    "driver": "sony",
+    "event": "leading",
+    "index": 4,
+    "es": "¡La punta me queda bien, admítelo!",
+    "expression": "confident",
+    "en": "The lead looks good on me. Admit it!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.leading.5",
+    "driver": "sony",
+    "event": "leading",
+    "index": 5,
+    "es": "¡Vamos! Quiero verte acercarte antes de la meta.",
+    "expression": "confident",
+    "en": "Come on! I want to see you closing in before the finish.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.falling.0",
+    "driver": "sony",
+    "event": "falling",
+    "index": 0,
+    "es": "¡Te estás alejando! Eso pide un poquito más de turbo.",
+    "expression": "angry",
+    "en": "You're pulling away! Time for a little more boost.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.falling.1",
+    "driver": "sony",
+    "event": "falling",
+    "index": 1,
+    "es": "¡Ey, espera! La persecución era mi parte favorita.",
+    "expression": "angry",
+    "en": "Hey, wait! Chasing you was my favorite part.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.falling.2",
+    "driver": "sony",
+    "event": "falling",
+    "index": 2,
+    "es": "¡Mi estela es más corta que esa distancia!",
+    "expression": "angry",
+    "en": "My trail's shorter than that gap!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.falling.3",
+    "driver": "sony",
+    "event": "falling",
+    "index": 3,
+    "es": "¡Me falta terreno, pero me sobran ganas!",
+    "expression": "angry",
+    "en": "I'm short on track position, not enthusiasm!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.falling.4",
+    "driver": "sony",
+    "event": "falling",
+    "index": 4,
+    "es": "¡Ya te vi allá adelante! Voy por ti.",
+    "expression": "angry",
+    "en": "I see you up there! I'm coming for you.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.falling.5",
+    "driver": "sony",
+    "event": "falling",
+    "index": 5,
+    "es": "¡Tengo que apurarme! No pienso perderme el final.",
+    "expression": "angry",
+    "en": "Gotta hurry! I'm not missing the big finish.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.tdRecv.0",
+    "driver": "sony",
+    "event": "tdRecv",
+    "index": 0,
+    "es": "¡Auch! ¡Hasta mis gafas dieron una vuelta!",
+    "expression": "damaged",
+    "en": "Ouch! Even my goggles did a lap!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.tdRecv.1",
+    "driver": "sony",
+    "event": "tdRecv",
+    "index": 1,
+    "es": "¡Eso sí que me movió las orejas!",
+    "expression": "damaged",
+    "en": "That really rattled my ears!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.tdRecv.2",
+    "driver": "sony",
+    "event": "tdRecv",
+    "index": 2,
+    "es": "¡Mi nave! ¡Acababa de dejarla bonita!",
+    "expression": "damaged",
+    "en": "My ship! I just made it look nice!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.tdRecv.3",
+    "driver": "sony",
+    "event": "tdRecv",
+    "index": 3,
+    "es": "¡Uf! Ese golpe no venía en el paseo.",
+    "expression": "damaged",
+    "en": "Oof! That hit wasn't part of the scenic route.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.tdRecv.4",
+    "driver": "sony",
+    "event": "tdRecv",
+    "index": 4,
+    "es": "¡Me dejaste viendo neón doble!",
+    "expression": "damaged",
+    "en": "You left me seeing double neon!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.tdRecv.5",
+    "driver": "sony",
+    "event": "tdRecv",
+    "index": 5,
+    "es": "¡Ay! Dame un segundo para juntar mi orgullo.",
+    "expression": "damaged",
+    "en": "Ow! Give me a second to gather up my pride.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.tdDealt.0",
+    "driver": "sony",
+    "event": "tdDealt",
+    "index": 0,
+    "es": "¡Ups! Mi nave acaba de hacerse espacio.",
+    "expression": "confident",
+    "en": "Oops! My ship just made itself some room.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.tdDealt.1",
+    "driver": "sony",
+    "event": "tdDealt",
+    "index": 1,
+    "es": "¡Ese choque se escuchó hasta en el callejón!",
+    "expression": "confident",
+    "en": "They heard that crash all the way down the alley!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.tdDealt.2",
+    "driver": "sony",
+    "event": "tdDealt",
+    "index": 2,
+    "es": "¡Te saqué de pista! Esta carrera viene con sacudidas.",
+    "expression": "confident",
+    "en": "Knocked you off course! This race comes with a few bumps.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.tdDealt.3",
+    "driver": "sony",
+    "event": "tdDealt",
+    "index": 3,
+    "es": "¡Vaya golpe! Ahora sí voy a tener que pulir esto.",
+    "expression": "confident",
+    "en": "What a hit! Now I'll have to polish this thing.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.tdDealt.4",
+    "driver": "sony",
+    "event": "tdDealt",
+    "index": 4,
+    "es": "¡Te tocó el lado travieso de mi nave!",
+    "expression": "confident",
+    "en": "You met my ship's mischievous side!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.tdDealt.5",
+    "driver": "sony",
+    "event": "tdDealt",
+    "index": 5,
+    "es": "¡Uf! Nos cruzamos demasiado cerca.",
+    "expression": "confident",
+    "en": "Whew! We crossed paths a little too close.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.lastLap.0",
+    "driver": "sony",
+    "event": "lastLap",
+    "index": 0,
+    "es": "¡Última vuelta! ¡Ahora sí, todo lo que queda!",
+    "expression": "neutral",
+    "en": "Final lap! Give it everything you've got left!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.lastLap.1",
+    "driver": "sony",
+    "event": "lastLap",
+    "index": 1,
+    "es": "¡Una más! Que nadie guarde turbo para mañana.",
+    "expression": "neutral",
+    "en": "One more! Nobody's saving boost for tomorrow.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.lastLap.2",
+    "driver": "sony",
+    "event": "lastLap",
+    "index": 2,
+    "es": "¡Llegó la última! Mis orejas ya están en modo carrera.",
+    "expression": "neutral",
+    "en": "Last one's here! My ears are officially in race mode.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.lastLap.3",
+    "driver": "sony",
+    "event": "lastLap",
+    "index": 3,
+    "es": "¡Última vuelta! Quiero un final que haga ruido.",
+    "expression": "neutral",
+    "en": "Final lap! I want a finish that makes some noise.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.lastLap.4",
+    "driver": "sony",
+    "event": "lastLap",
+    "index": 4,
+    "es": "¡Nos queda una! Todavía caben muchas travesuras.",
+    "expression": "neutral",
+    "en": "We've got one left! Still plenty of room for trouble.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.lastLap.5",
+    "driver": "sony",
+    "event": "lastLap",
+    "index": 5,
+    "es": "¡La meta ya viene! Nada de bajar el ritmo.",
+    "expression": "neutral",
+    "en": "The finish is coming! No easing off now.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.losing.0",
+    "driver": "sony",
+    "event": "losing",
+    "index": 0,
+    "es": "¡La meta está cerca y tú vas adelante! ¡Tengo que volar!",
+    "expression": "angry",
+    "en": "The finish is close and you're ahead! Time to fly!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.losing.1",
+    "driver": "sony",
+    "event": "losing",
+    "index": 1,
+    "es": "¡Se me acaba la pista para alcanzarte!",
+    "expression": "angry",
+    "en": "I'm running out of track to catch you!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.losing.2",
+    "driver": "sony",
+    "event": "losing",
+    "index": 2,
+    "es": "¡Me estás ganando! Mis orejas todavía no se resignan.",
+    "expression": "shocked",
+    "en": "You're beating me! My ears haven't accepted it yet.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.losing.3",
+    "driver": "sony",
+    "event": "losing",
+    "index": 3,
+    "es": "¡Último esfuerzo! No pienso mirar la meta desde lejos.",
+    "expression": "angry",
+    "en": "One last push! I'm not watching the finish from way back here.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.losing.4",
+    "driver": "sony",
+    "event": "losing",
+    "index": 4,
+    "es": "¡Te falta poco! A mí me falta un milagrito rápido.",
+    "expression": "neutral",
+    "en": "You're almost there! I could use a tiny, speedy miracle.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.losing.5",
+    "driver": "sony",
+    "event": "losing",
+    "index": 5,
+    "es": "¡No me dejes la revancha tan fácil de pedir!",
+    "expression": "angry",
+    "en": "Don't make asking for a rematch this easy!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.win.0",
+    "driver": "sony",
+    "event": "win",
+    "index": 0,
+    "es": "¡Gané! Hoy mis orejas fueron aerodinámicas.",
+    "expression": "victory",
+    "en": "I won! My ears were aerodynamic today.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.win.1",
+    "driver": "sony",
+    "event": "win",
+    "index": 1,
+    "es": "¡Primero! Esa persecución estuvo buenísima.",
+    "expression": "victory",
+    "en": "First! That chase was awesome.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.win.2",
+    "driver": "sony",
+    "event": "win",
+    "index": 2,
+    "es": "¡Meta para Sony! ¿Repetimos cuando recuperes el aire?",
+    "expression": "victory",
+    "en": "Sony takes the finish! Again once you've caught your breath?",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.win.3",
+    "driver": "sony",
+    "event": "win",
+    "index": 3,
+    "es": "¡Ja! ¡Hoy sí me salió la carrera redonda!",
+    "expression": "victory",
+    "en": "Ha! That race really came together for me today.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.win.4",
+    "driver": "sony",
+    "event": "win",
+    "index": 4,
+    "es": "¡Me llevo la victoria y unas ganas enormes de otra!",
+    "expression": "victory",
+    "en": "I'll take the win and a huge appetite for another!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.win.5",
+    "driver": "sony",
+    "event": "win",
+    "index": 5,
+    "es": "¡Gané por velocidad! Las gafas fueron puro estilo.",
+    "expression": "victory",
+    "en": "Won it on speed! The goggles were just for style.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.lose.0",
+    "driver": "sony",
+    "event": "lose",
+    "index": 0,
+    "es": "¡Me ganaste! Bueno, eso merece una revancha.",
+    "expression": "angry",
+    "en": "You beat me! Okay, that deserves a rematch.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.lose.1",
+    "driver": "sony",
+    "event": "lose",
+    "index": 1,
+    "es": "¡Uf! Corriste mejor. Me cuesta decirlo sin hacer puchero.",
+    "expression": "neutral",
+    "en": "Whew! You raced better. Hard to say that without pouting.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.lose.2",
+    "driver": "sony",
+    "event": "lose",
+    "index": 2,
+    "es": "¡Mis orejas no lo creen! Bien jugado.",
+    "expression": "shocked",
+    "en": "My ears don't believe it! Well played.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.lose.3",
+    "driver": "sony",
+    "event": "lose",
+    "index": 3,
+    "es": "¡La meta fue tuya! La próxima persecución la empiezo yo.",
+    "expression": "neutral",
+    "en": "The finish was yours! Next chase, I'm starting it.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.lose.4",
+    "driver": "sony",
+    "event": "lose",
+    "index": 4,
+    "es": "¡Qué carrera! Perdí, pero no me aburrí ni un segundo.",
+    "expression": "angry",
+    "en": "What a race! I lost, but I wasn't bored for a second.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.lose.5",
+    "driver": "sony",
+    "event": "lose",
+    "index": 5,
+    "es": "¡Está bien, ganaste! Voy a practicar esa maniobra.",
+    "expression": "neutral",
+    "en": "All right, you won! I'm going to practice that move.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.conquest.0",
+    "driver": "sony",
+    "event": "conquest",
+    "index": 0,
+    "es": "Kowloon es tuyo. ¡Cuida los atajos, que son buenísimos!",
+    "expression": "neutral",
+    "en": "Kowloon is yours. Look after those shortcuts; they're amazing!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.conquest.1",
+    "driver": "sony",
+    "event": "conquest",
+    "index": 1,
+    "es": "¡Te ganaste el barrio! Déjame un callejón para practicar.",
+    "expression": "neutral",
+    "en": "You earned the neighborhood! Leave me an alley to practice in.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.conquest.2",
+    "driver": "sony",
+    "event": "conquest",
+    "index": 2,
+    "es": "Kowloon cambia de rey. ¡No dejes que se vuelva aburrido!",
+    "expression": "neutral",
+    "en": "Kowloon has a new king. Don't let it get boring!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.conquest.3",
+    "driver": "sony",
+    "event": "conquest",
+    "index": 3,
+    "es": "¡Es oficial! Mandas tú. Yo sigo buscando revancha.",
+    "expression": "neutral",
+    "en": "It's official! You're in charge. I'm still hunting for a rematch.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.conquest.4",
+    "driver": "sony",
+    "event": "conquest",
+    "index": 4,
+    "es": "El barrio vio quién ganó. ¡Ahora te toca hacerlo brillar!",
+    "expression": "neutral",
+    "en": "The neighborhood saw who won. Now make it shine!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.conquest.5",
+    "driver": "sony",
+    "event": "conquest",
+    "index": 5,
+    "es": "¡Buen reinado! Y si oyes una risa, seguro ando cerca.",
+    "expression": "neutral",
+    "en": "Enjoy your reign! If you hear a laugh, I'm probably nearby.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewStart.0",
+    "driver": "sony",
+    "event": "crewStart",
+    "index": 0,
+    "es": "¡Fangs, a correr! Quiero ver chispas, no bostezos.",
+    "expression": "neutral",
+    "en": "Fangs, let's race! I want sparks, not yawns.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewStart.1",
+    "driver": "sony",
+    "event": "crewStart",
+    "index": 1,
+    "es": "¡Mi banda ya está en pista! Dales una buena carrera.",
+    "expression": "neutral",
+    "en": "My crew's on the track! Give them a good race.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewStart.2",
+    "driver": "sony",
+    "event": "crewStart",
+    "index": 2,
+    "es": "¡Kowloon te recibe a toda velocidad!",
+    "expression": "neutral",
+    "en": "Kowloon welcomes you at full speed!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewStart.3",
+    "driver": "sony",
+    "event": "crewStart",
+    "index": 3,
+    "es": "¡Ojo con los Fangs! Les encanta colarse por los huecos.",
+    "expression": "neutral",
+    "en": "Watch the Fangs! They love slipping through gaps.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewStart.4",
+    "driver": "sony",
+    "event": "crewStart",
+    "index": 4,
+    "es": "¡A ver qué haces contra mi pandilla del neón!",
+    "expression": "neutral",
+    "en": "Let's see what you've got against my neon gang!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewStart.5",
+    "driver": "sony",
+    "event": "crewStart",
+    "index": 5,
+    "es": "¡Fangs, que el barrio se entere de que arrancaron!",
+    "expression": "neutral",
+    "en": "Fangs, let the neighborhood hear you take off!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewLead.0",
+    "driver": "sony",
+    "event": "crewLead",
+    "index": 0,
+    "es": "¡Ey, Fangs! ¡El visitante les está marcando el camino!",
+    "expression": "angry",
+    "en": "Hey, Fangs! Our visitor's showing you the way!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewLead.1",
+    "driver": "sony",
+    "event": "crewLead",
+    "index": 1,
+    "es": "¡Vas primero! Mi banda necesita café o turbo.",
+    "expression": "angry",
+    "en": "You're in first! My crew needs coffee or boost.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewLead.2",
+    "driver": "sony",
+    "event": "crewLead",
+    "index": 2,
+    "es": "¡Se les escapó! Bueno, esto se puso interesante.",
+    "expression": "angry",
+    "en": "You got away from them! Well, this just got interesting.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewLead.3",
+    "driver": "sony",
+    "event": "crewLead",
+    "index": 3,
+    "es": "¡Fangs, miren al frente! Ahí va quien hay que alcanzar.",
+    "expression": "angry",
+    "en": "Fangs, eyes forward! That's who you need to catch.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewLead.4",
+    "driver": "sony",
+    "event": "crewLead",
+    "index": 4,
+    "es": "¡Tomaste la punta! Ya quiero ver cómo reaccionan.",
+    "expression": "angry",
+    "en": "You took the lead! Can't wait to see their reaction.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewLead.5",
+    "driver": "sony",
+    "event": "crewLead",
+    "index": 5,
+    "es": "¡Mi barrio tiene un nuevo guía por un rato!",
+    "expression": "angry",
+    "en": "My neighborhood has a new tour guide for a while!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewWin.0",
+    "driver": "sony",
+    "event": "crewWin",
+    "index": 0,
+    "es": "¡Le ganaste a los Fangs! Ahora quiero correr contigo.",
+    "expression": "neutral",
+    "en": "You beat the Fangs! Now I want to race you myself.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewWin.1",
+    "driver": "sony",
+    "event": "crewWin",
+    "index": 1,
+    "es": "¡Mi banda quedó atrás! Trae esa velocidad al duelo.",
+    "expression": "neutral",
+    "en": "My crew got left behind! Bring that speed to the duel.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewWin.2",
+    "driver": "sony",
+    "event": "crewWin",
+    "index": 2,
+    "es": "¡Desafío superado! Ya me dieron ganas de alcanzarte.",
+    "expression": "neutral",
+    "en": "Challenge cleared! Now I'm itching to catch you.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewWin.3",
+    "driver": "sony",
+    "event": "crewWin",
+    "index": 3,
+    "es": "¡Qué bien corriste! Tendré que dejar de bromear un ratito.",
+    "expression": "neutral",
+    "en": "You raced so well! I might have to stop joking for a minute.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewWin.4",
+    "driver": "sony",
+    "event": "crewWin",
+    "index": 4,
+    "es": "¡Los Fangs te vieron llegar primero! Yo también.",
+    "expression": "neutral",
+    "en": "The Fangs saw you finish first! So did I.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewWin.5",
+    "driver": "sony",
+    "event": "crewWin",
+    "index": 5,
+    "es": "¡Pasaste la prueba! Nos vemos con las naves frente a frente.",
+    "expression": "neutral",
+    "en": "You passed the test! See you with our ships head-to-head.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewLose.0",
+    "driver": "sony",
+    "event": "crewLose",
+    "index": 0,
+    "es": "¡Los Fangs llegaron antes! Vamos, prueba otra vez.",
+    "expression": "confident",
+    "en": "The Fangs got there first! Come on, try again.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewLose.1",
+    "driver": "sony",
+    "event": "crewLose",
+    "index": 1,
+    "es": "¡Esta fue de mi banda! Ya viste por dónde corren.",
+    "expression": "confident",
+    "en": "That one went to my crew! Now you know their lines.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewLose.2",
+    "driver": "sony",
+    "event": "crewLose",
+    "index": 2,
+    "es": "¡Mi pandilla se llevó la carrera! Todavía puedes volver.",
+    "expression": "confident",
+    "en": "My gang took the race! You can still come back.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewLose.3",
+    "driver": "sony",
+    "event": "crewLose",
+    "index": 3,
+    "es": "¡Hoy los Fangs fueron más rápidos! Ajusta esas curvas.",
+    "expression": "confident",
+    "en": "The Fangs were faster today! Tighten up those corners.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewLose.4",
+    "driver": "sony",
+    "event": "crewLose",
+    "index": 4,
+    "es": "¡Te faltó poquito o mucho! La meta te espera de nuevo.",
+    "expression": "confident",
+    "en": "Close, or not so close! The finish is waiting for you again.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.crewLose.5",
+    "driver": "sony",
+    "event": "crewLose",
+    "index": 5,
+    "es": "¡Desafío pendiente! El barrio siempre acepta revancha.",
+    "expression": "confident",
+    "en": "Challenge still open! This neighborhood always takes a rematch.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.final.0",
+    "driver": "sony",
+    "event": "final",
+    "index": 0,
+    "es": "¡Los tres en pista! Esto merece mis mejores gafas.",
+    "expression": "confident",
+    "en": "All three on the track! This calls for my best goggles.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.final.1",
+    "driver": "sony",
+    "event": "final",
+    "index": 1,
+    "es": "¡La ciudad entera de premio! Me gusta cómo suena.",
+    "expression": "confident",
+    "en": "The whole city as the prize! I like the sound of that.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.final.2",
+    "driver": "sony",
+    "event": "final",
+    "index": 2,
+    "es": "¡Sony, Vader, Cooper y tú! Qué reunión tan rápida.",
+    "expression": "confident",
+    "en": "Sony, Vader, Cooper and you! What a fast get-together.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.final.3",
+    "driver": "sony",
+    "event": "final",
+    "index": 3,
+    "es": "¡La carrera grande! Hoy nadie vino a pasear.",
+    "expression": "confident",
+    "en": "The big race! Nobody came for a sightseeing trip today.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.final.4",
+    "driver": "sony",
+    "event": "final",
+    "index": 4,
+    "es": "¡Si esto acaba en foto, quiero salir con las orejas al viento!",
+    "expression": "confident",
+    "en": "If this ends in a photo, I want my ears flying in it!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.sony.final.5",
+    "driver": "sony",
+    "event": "final",
+    "index": 5,
+    "es": "¡Vamos por la ciudad! A ver quién se ríe en la meta.",
+    "expression": "confident",
+    "en": "Let's race for the city! See who laughs at the finish.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.intro.0",
+    "driver": "vader",
+    "event": "intro",
+    "index": 0,
+    "es": "En el Abismo, cada error deja una marca.",
+    "expression": "neutral",
+    "en": "In the Abyss, every mistake leaves a mark.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.intro.1",
+    "driver": "vader",
+    "event": "intro",
+    "index": 1,
+    "es": "Tu trayectoria dirá más que tus palabras.",
+    "expression": "neutral",
+    "en": "Your racing line will say more than your words.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.intro.2",
+    "driver": "vader",
+    "event": "intro",
+    "index": 2,
+    "es": "Has llegado al duelo. Ahora sostén tu ritmo.",
+    "expression": "neutral",
+    "en": "You have reached the duel. Now maintain your pace.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.intro.3",
+    "driver": "vader",
+    "event": "intro",
+    "index": 3,
+    "es": "No te concederé espacio. Tendrás que encontrarlo.",
+    "expression": "neutral",
+    "en": "I will give you no room. You will have to find it.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.intro.4",
+    "driver": "vader",
+    "event": "intro",
+    "index": 4,
+    "es": "Conozco esta pista. Tendrás que superarme en ella.",
+    "expression": "neutral",
+    "en": "I know this track. You will have to beat me on it.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.intro.5",
+    "driver": "vader",
+    "event": "intro",
+    "index": 5,
+    "es": "La fuerza sin control no sirve aquí.",
+    "expression": "neutral",
+    "en": "Force without control has no place here.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.start.0",
+    "driver": "vader",
+    "event": "start",
+    "index": 0,
+    "es": "Mantén el rumbo. Yo mantendré la presión.",
+    "expression": "neutral",
+    "en": "Hold your course. I will maintain the pressure.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.start.1",
+    "driver": "vader",
+    "event": "start",
+    "index": 1,
+    "es": "Se acabó la preparación.",
+    "expression": "neutral",
+    "en": "Preparation is over.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.start.2",
+    "driver": "vader",
+    "event": "start",
+    "index": 2,
+    "es": "Comienza la prueba.",
+    "expression": "neutral",
+    "en": "The test begins.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.start.3",
+    "driver": "vader",
+    "event": "start",
+    "index": 3,
+    "es": "Cada maniobra tendrá un costo.",
+    "expression": "neutral",
+    "en": "Every maneuver will have a cost.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.start.4",
+    "driver": "vader",
+    "event": "start",
+    "index": 4,
+    "es": "No pierdas la concentración.",
+    "expression": "neutral",
+    "en": "Do not lose concentration.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.start.5",
+    "driver": "vader",
+    "event": "start",
+    "index": 5,
+    "es": "Veremos cuánto resiste tu técnica.",
+    "expression": "neutral",
+    "en": "We will see how well your technique holds.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.bossPass.0",
+    "driver": "vader",
+    "event": "bossPass",
+    "index": 0,
+    "es": "Dejaste un flanco abierto.",
+    "expression": "confident",
+    "en": "You left a flank open.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.bossPass.1",
+    "driver": "vader",
+    "event": "bossPass",
+    "index": 1,
+    "es": "Recuperé la posición. Aprende de eso.",
+    "expression": "confident",
+    "en": "I recovered the position. Learn from that.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.bossPass.2",
+    "driver": "vader",
+    "event": "bossPass",
+    "index": 2,
+    "es": "Tu margen acaba de desaparecer.",
+    "expression": "confident",
+    "en": "Your margin has just disappeared.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.bossPass.3",
+    "driver": "vader",
+    "event": "bossPass",
+    "index": 3,
+    "es": "Mi trayectoria fue más precisa.",
+    "expression": "confident",
+    "en": "My line was more precise.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.bossPass.4",
+    "driver": "vader",
+    "event": "bossPass",
+    "index": 4,
+    "es": "Ahora tendrás que perseguirme.",
+    "expression": "confident",
+    "en": "Now you will have to pursue me.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.bossPass.5",
+    "driver": "vader",
+    "event": "bossPass",
+    "index": 5,
+    "es": "Cediste espacio. Lo ocupé.",
+    "expression": "confident",
+    "en": "You yielded space. I took it.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.playerPass.0",
+    "driver": "vader",
+    "event": "playerPass",
+    "index": 0,
+    "es": "Vi tu maniobra. No tendrás el mismo hueco dos veces.",
+    "expression": "angry",
+    "en": "I saw your maneuver. You will not get the same gap twice.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.playerPass.1",
+    "driver": "vader",
+    "event": "playerPass",
+    "index": 1,
+    "es": "Has tomado la posición. Sosténla.",
+    "expression": "shocked",
+    "en": "You have taken the position. Hold it.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.playerPass.2",
+    "driver": "vader",
+    "event": "playerPass",
+    "index": 2,
+    "es": "Una ejecución limpia. La siguiente será más difícil.",
+    "expression": "shocked",
+    "en": "A clean execution. The next one will be harder.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.playerPass.3",
+    "driver": "vader",
+    "event": "playerPass",
+    "index": 3,
+    "es": "Tendré que corregir ese margen.",
+    "expression": "angry",
+    "en": "I will have to close that margin.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.playerPass.4",
+    "driver": "vader",
+    "event": "playerPass",
+    "index": 4,
+    "es": "No confundas esta ventaja con la meta.",
+    "expression": "neutral",
+    "en": "Do not confuse this advantage with the finish.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.playerPass.5",
+    "driver": "vader",
+    "event": "playerPass",
+    "index": 5,
+    "es": "Tu ritmo mejoró. Ajustaré el mío.",
+    "expression": "shocked",
+    "en": "Your pace improved. I will adjust mine.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.leading.0",
+    "driver": "vader",
+    "event": "leading",
+    "index": 0,
+    "es": "Mantengo la punta. Sin movimientos innecesarios.",
+    "expression": "confident",
+    "en": "I retain the lead. No unnecessary movements.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.leading.1",
+    "driver": "vader",
+    "event": "leading",
+    "index": 1,
+    "es": "Mi ritmo sostiene la ventaja.",
+    "expression": "confident",
+    "en": "My pace maintains the advantage.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.leading.2",
+    "driver": "vader",
+    "event": "leading",
+    "index": 2,
+    "es": "El control de la carrera sigue conmigo.",
+    "expression": "confident",
+    "en": "Control of this race remains with me.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.leading.3",
+    "driver": "vader",
+    "event": "leading",
+    "index": 3,
+    "es": "Primero. La presión no cambia el plan.",
+    "expression": "confident",
+    "en": "First. Pressure does not change the plan.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.leading.4",
+    "driver": "vader",
+    "event": "leading",
+    "index": 4,
+    "es": "La distancia confirma mi ejecución.",
+    "expression": "confident",
+    "en": "The gap confirms my execution.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.leading.5",
+    "driver": "vader",
+    "event": "leading",
+    "index": 5,
+    "es": "La punta exige disciplina. La mantengo.",
+    "expression": "confident",
+    "en": "The lead demands discipline. I maintain it.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.falling.0",
+    "driver": "vader",
+    "event": "falling",
+    "index": 0,
+    "es": "La distancia aumenta. Debo corregir la salida.",
+    "expression": "angry",
+    "en": "The gap is growing. I must correct my exit.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.falling.1",
+    "driver": "vader",
+    "event": "falling",
+    "index": 1,
+    "es": "Me estás sacando terreno. Lo he medido.",
+    "expression": "angry",
+    "en": "You are gaining ground on me. I have measured it.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.falling.2",
+    "driver": "vader",
+    "event": "falling",
+    "index": 2,
+    "es": "Mi ritmo es insuficiente. Ajustaré la línea.",
+    "expression": "angry",
+    "en": "My pace is insufficient. I will adjust the line.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.falling.3",
+    "driver": "vader",
+    "event": "falling",
+    "index": 3,
+    "es": "Vas adelante. Todavía queda pista.",
+    "expression": "angry",
+    "en": "You are ahead. There is still track remaining.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.falling.4",
+    "driver": "vader",
+    "event": "falling",
+    "index": 4,
+    "es": "La ventaja es tuya. Mi respuesta está en marcha.",
+    "expression": "angry",
+    "en": "The advantage is yours. My response is underway.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.falling.5",
+    "driver": "vader",
+    "event": "falling",
+    "index": 5,
+    "es": "Necesito una vuelta más precisa.",
+    "expression": "angry",
+    "en": "I need a more precise lap.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.tdRecv.0",
+    "driver": "vader",
+    "event": "tdRecv",
+    "index": 0,
+    "es": "Impacto recibido. Aún no me has vencido.",
+    "expression": "damaged",
+    "en": "Impact received. You have not defeated me yet.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.tdRecv.1",
+    "driver": "vader",
+    "event": "tdRecv",
+    "index": 1,
+    "es": "Buen golpe. Tendré que recomponerme.",
+    "expression": "damaged",
+    "en": "A good hit. I will have to recover.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.tdRecv.2",
+    "driver": "vader",
+    "event": "tdRecv",
+    "index": 2,
+    "es": "Mi nave cedió. Mi intención no.",
+    "expression": "damaged",
+    "en": "My ship gave way. My resolve did not.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.tdRecv.3",
+    "driver": "vader",
+    "event": "tdRecv",
+    "index": 3,
+    "es": "Subestimé tu ángulo de ataque.",
+    "expression": "damaged",
+    "en": "I underestimated your angle of attack.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.tdRecv.4",
+    "driver": "vader",
+    "event": "tdRecv",
+    "index": 4,
+    "es": "Has encontrado un punto débil.",
+    "expression": "damaged",
+    "en": "You found a weak point.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.tdRecv.5",
+    "driver": "vader",
+    "event": "tdRecv",
+    "index": 5,
+    "es": "Ese impacto tuvo precisión. Lo recordaré.",
+    "expression": "damaged",
+    "en": "That impact was precise. I will remember it.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.tdDealt.0",
+    "driver": "vader",
+    "event": "tdDealt",
+    "index": 0,
+    "es": "Objetivo fuera de pista.",
+    "expression": "confident",
+    "en": "Target off the track.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.tdDealt.1",
+    "driver": "vader",
+    "event": "tdDealt",
+    "index": 1,
+    "es": "Dejaste expuesto el costado.",
+    "expression": "confident",
+    "en": "You left your side exposed.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.tdDealt.2",
+    "driver": "vader",
+    "event": "tdDealt",
+    "index": 2,
+    "es": "Tu defensa no resistió.",
+    "expression": "confident",
+    "en": "Your defense did not hold.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.tdDealt.3",
+    "driver": "vader",
+    "event": "tdDealt",
+    "index": 3,
+    "es": "Impacto confirmado.",
+    "expression": "confident",
+    "en": "Impact confirmed.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.tdDealt.4",
+    "driver": "vader",
+    "event": "tdDealt",
+    "index": 4,
+    "es": "Calculé tu movimiento. Acerté.",
+    "expression": "confident",
+    "en": "I calculated your movement. Correctly.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.tdDealt.5",
+    "driver": "vader",
+    "event": "tdDealt",
+    "index": 5,
+    "es": "El espacio quedó libre.",
+    "expression": "confident",
+    "en": "The space is clear.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.lastLap.0",
+    "driver": "vader",
+    "event": "lastLap",
+    "index": 0,
+    "es": "Última vuelta. Cada decisión cuenta.",
+    "expression": "neutral",
+    "en": "Final lap. Every decision counts.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.lastLap.1",
+    "driver": "vader",
+    "event": "lastLap",
+    "index": 1,
+    "es": "Queda una vuelta. Sin errores.",
+    "expression": "neutral",
+    "en": "One lap remains. No mistakes.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.lastLap.2",
+    "driver": "vader",
+    "event": "lastLap",
+    "index": 2,
+    "es": "La reserva termina aquí.",
+    "expression": "neutral",
+    "en": "There is no holding back now.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.lastLap.3",
+    "driver": "vader",
+    "event": "lastLap",
+    "index": 3,
+    "es": "Último tramo de la prueba. Mantén el control.",
+    "expression": "neutral",
+    "en": "The final stage of the test. Maintain control.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.lastLap.4",
+    "driver": "vader",
+    "event": "lastLap",
+    "index": 4,
+    "es": "La meta está cerca. La concentración sigue intacta.",
+    "expression": "neutral",
+    "en": "The finish is close. My concentration remains intact.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.lastLap.5",
+    "driver": "vader",
+    "event": "lastLap",
+    "index": 5,
+    "es": "Una vuelta más. Ejecuta lo que hayas aprendido.",
+    "expression": "neutral",
+    "en": "One more lap. Execute what you have learned.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.losing.0",
+    "driver": "vader",
+    "event": "losing",
+    "index": 0,
+    "es": "Vas adelante y queda poca pista. Necesito recuperar terreno.",
+    "expression": "angry",
+    "en": "You are ahead, and little track remains. I must regain ground.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.losing.1",
+    "driver": "vader",
+    "event": "losing",
+    "index": 1,
+    "es": "La meta favorece tu posición. Aún puedo responder.",
+    "expression": "angry",
+    "en": "The finish favors your position. I can still respond.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.losing.2",
+    "driver": "vader",
+    "event": "losing",
+    "index": 2,
+    "es": "Mi margen se agota. Debo actuar ahora.",
+    "expression": "shocked",
+    "en": "My margin is running out. I must act now.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.losing.3",
+    "driver": "vader",
+    "event": "losing",
+    "index": 3,
+    "es": "Estás cerca de vencerme. No aflojes.",
+    "expression": "angry",
+    "en": "You are close to defeating me. Do not ease off.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.losing.4",
+    "driver": "vader",
+    "event": "losing",
+    "index": 4,
+    "es": "La distancia debe cerrarse antes de la meta.",
+    "expression": "neutral",
+    "en": "The gap must close before the finish.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.losing.5",
+    "driver": "vader",
+    "event": "losing",
+    "index": 5,
+    "es": "El resultado se acerca. Mi ritmo aún puede cambiarlo.",
+    "expression": "angry",
+    "en": "The result is approaching. My pace can still change it.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.win.0",
+    "driver": "vader",
+    "event": "win",
+    "index": 0,
+    "es": "Victoria confirmada.",
+    "expression": "victory",
+    "en": "Victory confirmed.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.win.1",
+    "driver": "vader",
+    "event": "win",
+    "index": 1,
+    "es": "Mi disciplina sostuvo la victoria.",
+    "expression": "victory",
+    "en": "My discipline secured the victory.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.win.2",
+    "driver": "vader",
+    "event": "win",
+    "index": 2,
+    "es": "Mi ejecución sostuvo el resultado.",
+    "expression": "victory",
+    "en": "My execution secured the result.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.win.3",
+    "driver": "vader",
+    "event": "win",
+    "index": 3,
+    "es": "Llegué primero. Revisa tus errores.",
+    "expression": "victory",
+    "en": "I finished first. Review your mistakes.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.win.4",
+    "driver": "vader",
+    "event": "win",
+    "index": 4,
+    "es": "La presión decidió la carrera.",
+    "expression": "victory",
+    "en": "Pressure decided the race.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.win.5",
+    "driver": "vader",
+    "event": "win",
+    "index": 5,
+    "es": "El control dio resultado. Como debía.",
+    "expression": "victory",
+    "en": "Control delivered the result. As it should.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.lose.0",
+    "driver": "vader",
+    "event": "lose",
+    "index": 0,
+    "es": "Ganaste. No discutiré el registro.",
+    "expression": "angry",
+    "en": "You won. I will not dispute the record.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.lose.1",
+    "driver": "vader",
+    "event": "lose",
+    "index": 1,
+    "es": "Tu ejecución fue superior. Esta vez.",
+    "expression": "neutral",
+    "en": "Your execution was superior. This time.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.lose.2",
+    "driver": "vader",
+    "event": "lose",
+    "index": 2,
+    "es": "El resultado es tuyo. Mi análisis empieza ahora.",
+    "expression": "shocked",
+    "en": "The result is yours. My analysis begins now.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.lose.3",
+    "driver": "vader",
+    "event": "lose",
+    "index": 3,
+    "es": "Perdí la posición definitiva. Lo recordaré.",
+    "expression": "neutral",
+    "en": "I lost the decisive position. I will remember that.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.lose.4",
+    "driver": "vader",
+    "event": "lose",
+    "index": 4,
+    "es": "Has demostrado capacidad. No esperes indulgencia.",
+    "expression": "angry",
+    "en": "You have demonstrated ability. Do not expect leniency.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.lose.5",
+    "driver": "vader",
+    "event": "lose",
+    "index": 5,
+    "es": "Me venciste en pista. Ese mérito te pertenece.",
+    "expression": "neutral",
+    "en": "You defeated me on the track. That credit is yours.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.conquest.0",
+    "driver": "vader",
+    "event": "conquest",
+    "index": 0,
+    "es": "El Abismo queda bajo tu mando. Mantén el orden.",
+    "expression": "neutral",
+    "en": "The Abyss is under your command. Maintain order.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.conquest.1",
+    "driver": "vader",
+    "event": "conquest",
+    "index": 1,
+    "es": "El Iron Pack reconoce el resultado. No la debilidad.",
+    "expression": "neutral",
+    "en": "The Iron Pack acknowledges the result. Not weakness.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.conquest.2",
+    "driver": "vader",
+    "event": "conquest",
+    "index": 2,
+    "es": "Ganaste el territorio. Ahora responde por él.",
+    "expression": "neutral",
+    "en": "You won the territory. Now answer for it.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.conquest.3",
+    "driver": "vader",
+    "event": "conquest",
+    "index": 3,
+    "es": "Mi dominio terminó. La exigencia del Abismo permanece.",
+    "expression": "neutral",
+    "en": "My rule has ended. The demands of the Abyss remain.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.conquest.4",
+    "driver": "vader",
+    "event": "conquest",
+    "index": 4,
+    "es": "Esta ciudad necesita firmeza. Demuestra que la tienes.",
+    "expression": "neutral",
+    "en": "This city needs resolve. Prove you have it.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.conquest.5",
+    "driver": "vader",
+    "event": "conquest",
+    "index": 5,
+    "es": "El mando es tuyo. Mis estándares siguen en pie.",
+    "expression": "neutral",
+    "en": "Command is yours. My standards still stand.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewStart.0",
+    "driver": "vader",
+    "event": "crewStart",
+    "index": 0,
+    "es": "Iron Pack. Sostengan sus trayectorias.",
+    "expression": "neutral",
+    "en": "Iron Pack. Hold your lines.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewStart.1",
+    "driver": "vader",
+    "event": "crewStart",
+    "index": 1,
+    "es": "Mi unidad está en pista. Demuestra tu capacidad.",
+    "expression": "neutral",
+    "en": "My unit is on the track. Demonstrate your ability.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewStart.2",
+    "driver": "vader",
+    "event": "crewStart",
+    "index": 2,
+    "es": "Avancen con precisión. No desperdicien fuerza.",
+    "expression": "neutral",
+    "en": "Advance with precision. Do not waste force.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewStart.3",
+    "driver": "vader",
+    "event": "crewStart",
+    "index": 3,
+    "es": "El Abismo comienza a evaluarte.",
+    "expression": "neutral",
+    "en": "The Abyss begins your evaluation.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewStart.4",
+    "driver": "vader",
+    "event": "crewStart",
+    "index": 4,
+    "es": "Iron Pack. Ejecuten el plan.",
+    "expression": "neutral",
+    "en": "Iron Pack. Execute the plan.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewStart.5",
+    "driver": "vader",
+    "event": "crewStart",
+    "index": 5,
+    "es": "Tendrás que atravesar una formación preparada.",
+    "expression": "neutral",
+    "en": "You will have to break through a prepared formation.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewLead.0",
+    "driver": "vader",
+    "event": "crewLead",
+    "index": 0,
+    "es": "Iron Pack. Han cedido la punta. Corrijan su ritmo.",
+    "expression": "angry",
+    "en": "Iron Pack. You have surrendered the lead. Correct your pace.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewLead.1",
+    "driver": "vader",
+    "event": "crewLead",
+    "index": 1,
+    "es": "El visitante lidera. Revisen sus salidas.",
+    "expression": "angry",
+    "en": "The visitor leads. Review your exits.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewLead.2",
+    "driver": "vader",
+    "event": "crewLead",
+    "index": 2,
+    "es": "Tomaste la primera posición. Mi unidad debe responder.",
+    "expression": "angry",
+    "en": "You took first position. My unit must respond.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewLead.3",
+    "driver": "vader",
+    "event": "crewLead",
+    "index": 3,
+    "es": "La formación quedó atrás. Recuperen terreno.",
+    "expression": "angry",
+    "en": "The formation has fallen behind. Regain ground.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewLead.4",
+    "driver": "vader",
+    "event": "crewLead",
+    "index": 4,
+    "es": "Tu avance expuso un error colectivo.",
+    "expression": "angry",
+    "en": "Your advance exposed a collective error.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewLead.5",
+    "driver": "vader",
+    "event": "crewLead",
+    "index": 5,
+    "es": "Iron Pack. Menos movimientos. Más precisión.",
+    "expression": "angry",
+    "en": "Iron Pack. Fewer movements. More precision.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewWin.0",
+    "driver": "vader",
+    "event": "crewWin",
+    "index": 0,
+    "es": "Venciste a mi unidad. El siguiente duelo es conmigo.",
+    "expression": "neutral",
+    "en": "You defeated my unit. Your next duel is with me.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewWin.1",
+    "driver": "vader",
+    "event": "crewWin",
+    "index": 1,
+    "es": "Superaste la prueba. No la exigencia final.",
+    "expression": "neutral",
+    "en": "You passed the test. Not the final challenge.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewWin.2",
+    "driver": "vader",
+    "event": "crewWin",
+    "index": 2,
+    "es": "Mi formación perdió. He visto cómo lo hiciste.",
+    "expression": "neutral",
+    "en": "My formation lost. I saw how you did it.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewWin.3",
+    "driver": "vader",
+    "event": "crewWin",
+    "index": 3,
+    "es": "La victoria te da acceso. Ven preparado.",
+    "expression": "neutral",
+    "en": "Victory grants you access. Come prepared.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewWin.4",
+    "driver": "vader",
+    "event": "crewWin",
+    "index": 4,
+    "es": "Iron Pack registró tu resultado. Yo también.",
+    "expression": "neutral",
+    "en": "The Iron Pack recorded your result. So did I.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewWin.5",
+    "driver": "vader",
+    "event": "crewWin",
+    "index": 5,
+    "es": "Has ganado el desafío. Ahora enfrentarás al mando.",
+    "expression": "neutral",
+    "en": "You won the challenge. Now you face the commander.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewLose.0",
+    "driver": "vader",
+    "event": "crewLose",
+    "index": 0,
+    "es": "Mi unidad ganó. Tu preparación fue insuficiente.",
+    "expression": "confident",
+    "en": "My unit won. Your preparation was insufficient.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewLose.1",
+    "driver": "vader",
+    "event": "crewLose",
+    "index": 1,
+    "es": "Iron Pack sostuvo el resultado. Revisa tu trayectoria.",
+    "expression": "confident",
+    "en": "The Iron Pack held the result. Review your line.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewLose.2",
+    "driver": "vader",
+    "event": "crewLose",
+    "index": 2,
+    "es": "El desafío sigue pendiente.",
+    "expression": "confident",
+    "en": "The challenge remains unfinished.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewLose.3",
+    "driver": "vader",
+    "event": "crewLose",
+    "index": 3,
+    "es": "La formación resistió tu avance.",
+    "expression": "confident",
+    "en": "The formation withstood your advance.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewLose.4",
+    "driver": "vader",
+    "event": "crewLose",
+    "index": 4,
+    "es": "Hoy no superaste la prueba. Corrige antes de volver.",
+    "expression": "confident",
+    "en": "You did not pass the test today. Correct your errors before returning.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.crewLose.5",
+    "driver": "vader",
+    "event": "crewLose",
+    "index": 5,
+    "es": "Mi unidad llegó primero. Los datos son claros.",
+    "expression": "confident",
+    "en": "My unit arrived first. The data is clear.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.final.0",
+    "driver": "vader",
+    "event": "final",
+    "index": 0,
+    "es": "Tres rivales. Un solo resultado válido para cada uno.",
+    "expression": "confident",
+    "en": "Three rivals. Only one acceptable result for each.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.final.1",
+    "driver": "vader",
+    "event": "final",
+    "index": 1,
+    "es": "La ciudad exige una prueba final.",
+    "expression": "confident",
+    "en": "The city demands a final test.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.final.2",
+    "driver": "vader",
+    "event": "final",
+    "index": 2,
+    "es": "Aquí también cuentan la precisión y el control.",
+    "expression": "confident",
+    "en": "Precision and control matter here as well.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.final.3",
+    "driver": "vader",
+    "event": "final",
+    "index": 3,
+    "es": "No somos una formación. Cada uno buscará la meta.",
+    "expression": "confident",
+    "en": "We are not a formation. Each of us will race for the finish.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.final.4",
+    "driver": "vader",
+    "event": "final",
+    "index": 4,
+    "es": "El título se decide en pista.",
+    "expression": "confident",
+    "en": "The title is decided on the track.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.vader.final.5",
+    "driver": "vader",
+    "event": "final",
+    "index": 5,
+    "es": "La presión será mayor. Mi método permanece.",
+    "expression": "confident",
+    "en": "The pressure will be greater. My method remains unchanged.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.intro.0",
+    "driver": "cooper",
+    "event": "intro",
+    "index": 0,
+    "es": "Bienvenido a las alturas. Procura estar a la altura.",
+    "expression": "neutral",
+    "en": "Welcome to the heights. Do try to measure up.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.intro.1",
+    "driver": "cooper",
+    "event": "intro",
+    "index": 1,
+    "es": "Qué entusiasmo tan encantador. Veamos tu técnica.",
+    "expression": "neutral",
+    "en": "Such charming enthusiasm. Let us see your technique.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.intro.2",
+    "driver": "cooper",
+    "event": "intro",
+    "index": 2,
+    "es": "He preparado mi mejor nave para esta ocasión.",
+    "expression": "neutral",
+    "en": "I have prepared my finest ship for the occasion.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.intro.3",
+    "driver": "cooper",
+    "event": "intro",
+    "index": 3,
+    "es": "Una carrera por mi dominio merece cierta ceremonia.",
+    "expression": "neutral",
+    "en": "A race through my domain deserves a little ceremony.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.intro.4",
+    "driver": "cooper",
+    "event": "intro",
+    "index": 4,
+    "es": "Puedes admirar el paisaje cuando termine el duelo.",
+    "expression": "neutral",
+    "en": "You may admire the scenery once the duel is over.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.intro.5",
+    "driver": "cooper",
+    "event": "intro",
+    "index": 5,
+    "es": "Te concedo toda mi atención. Es un privilegio exigente.",
+    "expression": "neutral",
+    "en": "You have my full attention. A demanding privilege.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.start.0",
+    "driver": "cooper",
+    "event": "start",
+    "index": 0,
+    "es": "Que comience una carrera digna de estas alturas.",
+    "expression": "neutral",
+    "en": "Let us begin a race worthy of these heights.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.start.1",
+    "driver": "cooper",
+    "event": "start",
+    "index": 1,
+    "es": "El espectáculo requiere movimiento. Adelante.",
+    "expression": "neutral",
+    "en": "The spectacle requires movement. Proceed.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.start.2",
+    "driver": "cooper",
+    "event": "start",
+    "index": 2,
+    "es": "Mi público espera una buena función.",
+    "expression": "neutral",
+    "en": "My audience expects a fine performance.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.start.3",
+    "driver": "cooper",
+    "event": "start",
+    "index": 3,
+    "es": "Ajusté el monóculo. Ahora puedo juzgar tus curvas.",
+    "expression": "neutral",
+    "en": "I adjusted my monocle. Now I can judge your corners.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.start.4",
+    "driver": "cooper",
+    "event": "start",
+    "index": 4,
+    "es": "Tenemos pista, velocidad y mi presencia. Todo listo.",
+    "expression": "neutral",
+    "en": "We have a track, speed and my presence. Everything is ready.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.start.5",
+    "driver": "cooper",
+    "event": "start",
+    "index": 5,
+    "es": "Conduzcamos con estilo. Y con ambición, desde luego.",
+    "expression": "neutral",
+    "en": "Let us race with style. And ambition, naturally.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.bossPass.0",
+    "driver": "cooper",
+    "event": "bossPass",
+    "index": 0,
+    "es": "Permíteme recuperar el lugar de honor.",
+    "expression": "confident",
+    "en": "Allow me to reclaim the place of honor.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.bossPass.1",
+    "driver": "cooper",
+    "event": "bossPass",
+    "index": 1,
+    "es": "Una entrada oportuna. La mía, naturalmente.",
+    "expression": "confident",
+    "en": "A timely entrance. Mine, naturally.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.bossPass.2",
+    "driver": "cooper",
+    "event": "bossPass",
+    "index": 2,
+    "es": "Ese espacio merecía una nave mejor vestida.",
+    "expression": "confident",
+    "en": "That space deserved a better-dressed ship.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.bossPass.3",
+    "driver": "cooper",
+    "event": "bossPass",
+    "index": 3,
+    "es": "Voy delante. El orden luce bastante elegante.",
+    "expression": "confident",
+    "en": "I am ahead. The arrangement looks rather elegant.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.bossPass.4",
+    "driver": "cooper",
+    "event": "bossPass",
+    "index": 4,
+    "es": "Te dejo una vista excelente de mi estela.",
+    "expression": "confident",
+    "en": "I leave you an excellent view of my trail.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.bossPass.5",
+    "driver": "cooper",
+    "event": "bossPass",
+    "index": 5,
+    "es": "Qué amable de tu parte reservarme ese hueco.",
+    "expression": "confident",
+    "en": "How kind of you to reserve that gap for me.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.playerPass.0",
+    "driver": "cooper",
+    "event": "playerPass",
+    "index": 0,
+    "es": "Admito que has conseguido sorprenderme.",
+    "expression": "angry",
+    "en": "I admit you have managed to surprise me.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.playerPass.1",
+    "driver": "cooper",
+    "event": "playerPass",
+    "index": 1,
+    "es": "Esa maniobra no estaba en mi programa.",
+    "expression": "shocked",
+    "en": "That maneuver was not in my program.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.playerPass.2",
+    "driver": "cooper",
+    "event": "playerPass",
+    "index": 2,
+    "es": "Me has pasado. Tendré que revisar la cortesía del circuito.",
+    "expression": "shocked",
+    "en": "You passed me. I must review this circuit's manners.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.playerPass.3",
+    "driver": "cooper",
+    "event": "playerPass",
+    "index": 3,
+    "es": "Una entrada audaz. Demasiado eficaz para mi gusto.",
+    "expression": "angry",
+    "en": "A bold entrance. Far too effective for my liking.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.playerPass.4",
+    "driver": "cooper",
+    "event": "playerPass",
+    "index": 4,
+    "es": "Vaya. Mis aplausos tendrán que esperar.",
+    "expression": "neutral",
+    "en": "Well. My applause will have to wait.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.playerPass.5",
+    "driver": "cooper",
+    "event": "playerPass",
+    "index": 5,
+    "es": "Acabas de adelantarme con una confianza preocupante.",
+    "expression": "shocked",
+    "en": "You just overtook me with troubling confidence.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.leading.0",
+    "driver": "cooper",
+    "event": "leading",
+    "index": 0,
+    "es": "La punta ofrece una vista espléndida.",
+    "expression": "confident",
+    "en": "The lead offers a splendid view.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.leading.1",
+    "driver": "cooper",
+    "event": "leading",
+    "index": 1,
+    "es": "Sigo primero. La función marcha como esperaba.",
+    "expression": "confident",
+    "en": "Still first. The performance is proceeding as expected.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.leading.2",
+    "driver": "cooper",
+    "event": "leading",
+    "index": 2,
+    "es": "El lugar de honor continúa ocupado.",
+    "expression": "confident",
+    "en": "The place of honor remains occupied.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.leading.3",
+    "driver": "cooper",
+    "event": "leading",
+    "index": 3,
+    "es": "Mi ventaja tiene una silueta muy elegante.",
+    "expression": "confident",
+    "en": "My advantage has a very elegant silhouette.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.leading.4",
+    "driver": "cooper",
+    "event": "leading",
+    "index": 4,
+    "es": "La distancia permite apreciar mi estilo.",
+    "expression": "confident",
+    "en": "The gap gives you room to appreciate my style.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.leading.5",
+    "driver": "cooper",
+    "event": "leading",
+    "index": 5,
+    "es": "Encabezo la carrera. Un papel que conozco bien.",
+    "expression": "confident",
+    "en": "I lead the race. A role I know well.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.falling.0",
+    "driver": "cooper",
+    "event": "falling",
+    "index": 0,
+    "es": "Te alejas. Tendré que acortar este intermedio.",
+    "expression": "angry",
+    "en": "You are pulling away. I must shorten this intermission.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.falling.1",
+    "driver": "cooper",
+    "event": "falling",
+    "index": 1,
+    "es": "Esa distancia empieza a ser una falta de consideración.",
+    "expression": "angry",
+    "en": "That gap is becoming rather inconsiderate.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.falling.2",
+    "driver": "cooper",
+    "event": "falling",
+    "index": 2,
+    "es": "Vas adelante. Me veo obligado a acelerar la ceremonia.",
+    "expression": "angry",
+    "en": "You are ahead. I am obliged to hurry the ceremony along.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.falling.3",
+    "driver": "cooper",
+    "event": "falling",
+    "index": 3,
+    "es": "Mi estela necesita alcanzar la tuya.",
+    "expression": "angry",
+    "en": "My trail needs to catch yours.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.falling.4",
+    "driver": "cooper",
+    "event": "falling",
+    "index": 4,
+    "es": "Tanto espacio entre nosotros desluce mi entrada.",
+    "expression": "angry",
+    "en": "All this space between us spoils my entrance.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.falling.5",
+    "driver": "cooper",
+    "event": "falling",
+    "index": 5,
+    "es": "Has ganado terreno. Tendré que recuperar la atención.",
+    "expression": "angry",
+    "en": "You have gained ground. I must reclaim the attention.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.tdRecv.0",
+    "driver": "cooper",
+    "event": "tdRecv",
+    "index": 0,
+    "es": "¡Mi nave! Esto exige una explicación muy breve.",
+    "expression": "damaged",
+    "en": "My ship! This calls for a very brief explanation.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.tdRecv.1",
+    "driver": "cooper",
+    "event": "tdRecv",
+    "index": 1,
+    "es": "¡Qué sacudida tan poco ceremoniosa!",
+    "expression": "damaged",
+    "en": "What an unceremonious jolt!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.tdRecv.2",
+    "driver": "cooper",
+    "event": "tdRecv",
+    "index": 2,
+    "es": "¡Hasta mi monóculo perdió la compostura!",
+    "expression": "damaged",
+    "en": "Even my monocle lost its composure!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.tdRecv.3",
+    "driver": "cooper",
+    "event": "tdRecv",
+    "index": 3,
+    "es": "¡Mi dignidad necesita un segundo para aterrizar!",
+    "expression": "damaged",
+    "en": "My dignity needs a second to land!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.tdRecv.4",
+    "driver": "cooper",
+    "event": "tdRecv",
+    "index": 4,
+    "es": "¡Un golpe efectivo y una recepción lamentable!",
+    "expression": "damaged",
+    "en": "An effective hit and a regrettable reception!",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.tdRecv.5",
+    "driver": "cooper",
+    "event": "tdRecv",
+    "index": 5,
+    "es": "¡Me dejaste fuera de pista! Inadmisiblemente preciso.",
+    "expression": "damaged",
+    "en": "You knocked me off the track! Unacceptably precise.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.tdDealt.0",
+    "driver": "cooper",
+    "event": "tdDealt",
+    "index": 0,
+    "es": "Tu salida fue abrupta. La pista sigue abierta para mí.",
+    "expression": "confident",
+    "en": "Your exit was abrupt. The track remains open to me.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.tdDealt.1",
+    "driver": "cooper",
+    "event": "tdDealt",
+    "index": 1,
+    "es": "Me temo que tu nave necesita una pausa.",
+    "expression": "confident",
+    "en": "I fear your ship needs a short interval.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.tdDealt.2",
+    "driver": "cooper",
+    "event": "tdDealt",
+    "index": 2,
+    "es": "Una colisión decisiva. Poco discreta, lo admito.",
+    "expression": "confident",
+    "en": "A decisive collision. Not discreet, I admit.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.tdDealt.3",
+    "driver": "cooper",
+    "event": "tdDealt",
+    "index": 3,
+    "es": "El espacio de honor acaba de despejarse.",
+    "expression": "confident",
+    "en": "The place of honor has just been cleared.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.tdDealt.4",
+    "driver": "cooper",
+    "event": "tdDealt",
+    "index": 4,
+    "es": "Tu vehículo abandonó la función antes de tiempo.",
+    "expression": "confident",
+    "en": "Your vehicle left the performance early.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.tdDealt.5",
+    "driver": "cooper",
+    "event": "tdDealt",
+    "index": 5,
+    "es": "No fue elegante. Fue eficaz.",
+    "expression": "confident",
+    "en": "It was not elegant. It was effective.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.lastLap.0",
+    "driver": "cooper",
+    "event": "lastLap",
+    "index": 0,
+    "es": "Última vuelta. Hagamos que el cierre merezca aplausos.",
+    "expression": "neutral",
+    "en": "Final lap. Let us give the ending something worth applauding.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.lastLap.1",
+    "driver": "cooper",
+    "event": "lastLap",
+    "index": 1,
+    "es": "Una vuelta más. Reservé mi ambición para el final.",
+    "expression": "neutral",
+    "en": "One more lap. I saved my ambition for the finale.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.lastLap.2",
+    "driver": "cooper",
+    "event": "lastLap",
+    "index": 2,
+    "es": "La función llega a su acto decisivo.",
+    "expression": "neutral",
+    "en": "The performance reaches its decisive act.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.lastLap.3",
+    "driver": "cooper",
+    "event": "lastLap",
+    "index": 3,
+    "es": "Última vuelta. El título aún requiere una meta.",
+    "expression": "neutral",
+    "en": "Final lap. The title still requires a finish.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.lastLap.4",
+    "driver": "cooper",
+    "event": "lastLap",
+    "index": 4,
+    "es": "Ya viene el cierre. Procura no perder la compostura.",
+    "expression": "neutral",
+    "en": "The closing scene approaches. Do keep your composure.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.lastLap.5",
+    "driver": "cooper",
+    "event": "lastLap",
+    "index": 5,
+    "es": "Es hora del gran final. Aceleremos con intención.",
+    "expression": "neutral",
+    "en": "Time for the grand finale. Let us accelerate with purpose.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.losing.0",
+    "driver": "cooper",
+    "event": "losing",
+    "index": 0,
+    "es": "Vas delante y la meta se acerca. Qué final tan incómodo.",
+    "expression": "angry",
+    "en": "You are ahead and the finish is approaching. What an awkward ending.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.losing.1",
+    "driver": "cooper",
+    "event": "losing",
+    "index": 1,
+    "es": "Necesito alcanzarte antes de que empiecen los aplausos.",
+    "expression": "angry",
+    "en": "I must catch you before the applause begins.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.losing.2",
+    "driver": "cooper",
+    "event": "losing",
+    "index": 2,
+    "es": "La pista se acaba. Mi prestigio pide más velocidad.",
+    "expression": "shocked",
+    "en": "The track is running out. My prestige calls for more speed.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.losing.3",
+    "driver": "cooper",
+    "event": "losing",
+    "index": 3,
+    "es": "Estás a punto de ganar. Tendré que arruinar esa escena.",
+    "expression": "angry",
+    "en": "You are about to win. I shall have to spoil that scene.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.losing.4",
+    "driver": "cooper",
+    "event": "losing",
+    "index": 4,
+    "es": "Mi remontada dispone de muy poco escenario.",
+    "expression": "neutral",
+    "en": "My comeback has very little stage left to work with.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.losing.5",
+    "driver": "cooper",
+    "event": "losing",
+    "index": 5,
+    "es": "Tu ventaja llega en el momento menos conveniente.",
+    "expression": "angry",
+    "en": "Your advantage arrives at the least convenient moment.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.win.0",
+    "driver": "cooper",
+    "event": "win",
+    "index": 0,
+    "es": "La victoria fue mía. Los aplausos pueden comenzar.",
+    "expression": "victory",
+    "en": "Victory was mine. The applause may begin.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.win.1",
+    "driver": "cooper",
+    "event": "win",
+    "index": 1,
+    "es": "Primero. Una conclusión a la altura de mi presencia.",
+    "expression": "victory",
+    "en": "First. A conclusion worthy of my presence.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.win.2",
+    "driver": "cooper",
+    "event": "win",
+    "index": 2,
+    "es": "Una victoria digna de mi corona.",
+    "expression": "victory",
+    "en": "A victory befitting my crown.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.win.3",
+    "driver": "cooper",
+    "event": "win",
+    "index": 3,
+    "es": "Gané. Admito que le diste emoción al programa.",
+    "expression": "victory",
+    "en": "I won. I admit you brought some excitement to the program.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.win.4",
+    "driver": "cooper",
+    "event": "win",
+    "index": 4,
+    "es": "Un resultado espléndido. Mi modestia lo celebrará después.",
+    "expression": "victory",
+    "en": "A splendid result. My modesty will celebrate it later.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.win.5",
+    "driver": "cooper",
+    "event": "win",
+    "index": 5,
+    "es": "Llegué antes. La ceremonia será agradablemente familiar.",
+    "expression": "victory",
+    "en": "I arrived first. The ceremony will be pleasantly familiar.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.lose.0",
+    "driver": "cooper",
+    "event": "lose",
+    "index": 0,
+    "es": "Ganaste. Mi dignidad solicita unos segundos de silencio.",
+    "expression": "angry",
+    "en": "You won. My dignity requests a few seconds of silence.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.lose.1",
+    "driver": "cooper",
+    "event": "lose",
+    "index": 1,
+    "es": "El resultado es tuyo. Fue una carrera excepcional.",
+    "expression": "neutral",
+    "en": "The result is yours. It was an exceptional race.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.lose.2",
+    "driver": "cooper",
+    "event": "lose",
+    "index": 2,
+    "es": "Me venciste. Qué detalle tan difícil de celebrar.",
+    "expression": "shocked",
+    "en": "You defeated me. What a difficult detail to celebrate.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.lose.3",
+    "driver": "cooper",
+    "event": "lose",
+    "index": 3,
+    "es": "Te concedo el mérito. Los aplausos también, aunque cueste.",
+    "expression": "neutral",
+    "en": "I grant you the credit. The applause too, reluctantly.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.lose.4",
+    "driver": "cooper",
+    "event": "lose",
+    "index": 4,
+    "es": "Perdí. Tendré que ensayar una reverencia convincente.",
+    "expression": "angry",
+    "en": "I lost. I must rehearse a convincing bow.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.lose.5",
+    "driver": "cooper",
+    "event": "lose",
+    "index": 5,
+    "es": "Tu victoria está registrada. Mi incredulidad tardará más.",
+    "expression": "neutral",
+    "en": "Your victory is on record. My disbelief will take longer.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.conquest.0",
+    "driver": "cooper",
+    "event": "conquest",
+    "index": 0,
+    "es": "Las alturas son tuyas. Exijo que las mantengas impecables.",
+    "expression": "neutral",
+    "en": "The heights are yours. I expect you to keep them impeccable.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.conquest.1",
+    "driver": "cooper",
+    "event": "conquest",
+    "index": 1,
+    "es": "Te entrego el dominio. Mi buen gusto queda como referencia.",
+    "expression": "neutral",
+    "en": "I hand over the domain. My good taste remains the standard.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.conquest.2",
+    "driver": "cooper",
+    "event": "conquest",
+    "index": 2,
+    "es": "Skyline reconoce tu victoria. Yo estoy ajustándome a la idea.",
+    "expression": "neutral",
+    "en": "Skyline acknowledges your victory. I am still adjusting to the idea.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.conquest.3",
+    "driver": "cooper",
+    "event": "conquest",
+    "index": 3,
+    "es": "Gobierna con criterio. El paisaje merece ese esfuerzo.",
+    "expression": "neutral",
+    "en": "Rule with judgment. The scenery deserves the effort.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.conquest.4",
+    "driver": "cooper",
+    "event": "conquest",
+    "index": 4,
+    "es": "Mi reinado aquí termina. Mi estilo seguirá siendo insuperable.",
+    "expression": "neutral",
+    "en": "My reign here ends. My style will remain unsurpassed.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.conquest.5",
+    "driver": "cooper",
+    "event": "conquest",
+    "index": 5,
+    "es": "Has ganado estas alturas. Camina con dignidad sobre ellas.",
+    "expression": "neutral",
+    "en": "You have won these heights. Walk across them with dignity.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewStart.0",
+    "driver": "cooper",
+    "event": "crewStart",
+    "index": 0,
+    "es": "Royal Velocity, ofrezcan una función impecable.",
+    "expression": "neutral",
+    "en": "Royal Velocity, deliver an impeccable performance.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewStart.1",
+    "driver": "cooper",
+    "event": "crewStart",
+    "index": 1,
+    "es": "Mi corte está en pista. Confío en su presentación.",
+    "expression": "neutral",
+    "en": "My court is on the track. I trust their presentation.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewStart.2",
+    "driver": "cooper",
+    "event": "crewStart",
+    "index": 2,
+    "es": "Los pilotos de las alturas esperan tu mejor técnica.",
+    "expression": "neutral",
+    "en": "The pilots of the heights await your finest technique.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewStart.3",
+    "driver": "cooper",
+    "event": "crewStart",
+    "index": 3,
+    "es": "Elegancia en las curvas. Ambición en la meta.",
+    "expression": "neutral",
+    "en": "Elegance in the corners. Ambition at the finish.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewStart.4",
+    "driver": "cooper",
+    "event": "crewStart",
+    "index": 4,
+    "es": "Veamos si puedes seguir el ritmo de mi corte.",
+    "expression": "neutral",
+    "en": "Let us see whether you can keep pace with my court.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewStart.5",
+    "driver": "cooper",
+    "event": "crewStart",
+    "index": 5,
+    "es": "Royal Velocity, el público ya está mirando.",
+    "expression": "neutral",
+    "en": "Royal Velocity, the audience is already watching.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewLead.0",
+    "driver": "cooper",
+    "event": "crewLead",
+    "index": 0,
+    "es": "Mi corte va detrás. Una composición francamente incómoda.",
+    "expression": "angry",
+    "en": "My court is behind. A frankly uncomfortable composition.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewLead.1",
+    "driver": "cooper",
+    "event": "crewLead",
+    "index": 1,
+    "es": "Has tomado la punta. Mis pilotos deben corregir el programa.",
+    "expression": "angry",
+    "en": "You have taken the lead. My pilots must revise the program.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewLead.2",
+    "driver": "cooper",
+    "event": "crewLead",
+    "index": 2,
+    "es": "Royal Velocity, el lugar de honor está ocupado por la visita.",
+    "expression": "angry",
+    "en": "Royal Velocity, our guest has occupied the place of honor.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewLead.3",
+    "driver": "cooper",
+    "event": "crewLead",
+    "index": 3,
+    "es": "Vas primero. Tendré que felicitarte con mucha cautela.",
+    "expression": "angry",
+    "en": "You are first. I must congratulate you with great caution.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewLead.4",
+    "driver": "cooper",
+    "event": "crewLead",
+    "index": 4,
+    "es": "Mi corte necesita una entrada más convincente.",
+    "expression": "angry",
+    "en": "My court needs a more convincing entrance.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewLead.5",
+    "driver": "cooper",
+    "event": "crewLead",
+    "index": 5,
+    "es": "Esa ventaja tuya está captando demasiados aplausos.",
+    "expression": "angry",
+    "en": "Your advantage is attracting far too much applause.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewWin.0",
+    "driver": "cooper",
+    "event": "crewWin",
+    "index": 0,
+    "es": "Venciste a mi corte. Te espero en el duelo principal.",
+    "expression": "neutral",
+    "en": "You defeated my court. I await you in the main duel.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewWin.1",
+    "driver": "cooper",
+    "event": "crewWin",
+    "index": 1,
+    "es": "Una victoria notable. La siguiente audiencia será conmigo.",
+    "expression": "neutral",
+    "en": "A notable victory. Your next audience will be with me.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewWin.2",
+    "driver": "cooper",
+    "event": "crewWin",
+    "index": 2,
+    "es": "Mi corte perdió. Tu invitación acaba de volverse personal.",
+    "expression": "neutral",
+    "en": "My court lost. Your invitation has just become personal.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewWin.3",
+    "driver": "cooper",
+    "event": "crewWin",
+    "index": 3,
+    "es": "Desafío superado. Procura repetir esa técnica ante mí.",
+    "expression": "neutral",
+    "en": "Challenge cleared. Do try to repeat that technique against me.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewWin.4",
+    "driver": "cooper",
+    "event": "crewWin",
+    "index": 4,
+    "es": "Te ganaste el duelo. Llevaré mi mejor nave.",
+    "expression": "neutral",
+    "en": "You earned the duel. I shall bring my finest ship.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewWin.5",
+    "driver": "cooper",
+    "event": "crewWin",
+    "index": 5,
+    "es": "La función fue tuya. Ahora falta el acto del soberano.",
+    "expression": "neutral",
+    "en": "The performance was yours. The sovereign's act remains.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewLose.0",
+    "driver": "cooper",
+    "event": "crewLose",
+    "index": 0,
+    "es": "Mi corte ganó. El programa sigue según lo previsto.",
+    "expression": "confident",
+    "en": "My court won. The program continues as planned.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewLose.1",
+    "driver": "cooper",
+    "event": "crewLose",
+    "index": 1,
+    "es": "Royal Velocity conservó el lugar de honor.",
+    "expression": "confident",
+    "en": "Royal Velocity retained the place of honor.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewLose.2",
+    "driver": "cooper",
+    "event": "crewLose",
+    "index": 2,
+    "es": "Te faltó llegar primero. La invitación admite otro intento.",
+    "expression": "confident",
+    "en": "You needed to finish first. The invitation allows another attempt.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewLose.3",
+    "driver": "cooper",
+    "event": "crewLose",
+    "index": 3,
+    "es": "La victoria fue de mis pilotos. Su presentación resultó eficaz.",
+    "expression": "confident",
+    "en": "Victory went to my pilots. Their presentation proved effective.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewLose.4",
+    "driver": "cooper",
+    "event": "crewLose",
+    "index": 4,
+    "es": "Mi corte cerró la función antes que tú.",
+    "expression": "confident",
+    "en": "My court brought the performance to a close before you.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.crewLose.5",
+    "driver": "cooper",
+    "event": "crewLose",
+    "index": 5,
+    "es": "Hoy las alturas exigieron más. Vuelve con una mejor entrada.",
+    "expression": "confident",
+    "en": "The heights demanded more today. Return with a better entrance.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.final.0",
+    "driver": "cooper",
+    "event": "final",
+    "index": 0,
+    "es": "Toda la ciudad como escenario. Qué ocasión tan apropiada.",
+    "expression": "confident",
+    "en": "The entire city as our stage. What a fitting occasion.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.final.1",
+    "driver": "cooper",
+    "event": "final",
+    "index": 1,
+    "es": "Hoy compartimos pista. El título tendrá un solo nombre.",
+    "expression": "confident",
+    "en": "Today we share a track. The title will bear only one name.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.final.2",
+    "driver": "cooper",
+    "event": "final",
+    "index": 2,
+    "es": "La gran función comienza con cuatro aspirantes.",
+    "expression": "confident",
+    "en": "The grand performance begins with four contenders.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.final.3",
+    "driver": "cooper",
+    "event": "final",
+    "index": 3,
+    "es": "He venido por el título. El vestuario era indispensable.",
+    "expression": "confident",
+    "en": "I came for the title. The wardrobe was essential.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.final.4",
+    "driver": "cooper",
+    "event": "final",
+    "index": 4,
+    "es": "La ciudad merece un final memorable. Espero protagonizarlo.",
+    "expression": "confident",
+    "en": "The city deserves a memorable ending. I expect to star in it.",
+    "kind": "dialogue"
+  },
+  {
+    "id": "dialog.cooper.final.5",
+    "driver": "cooper",
+    "event": "final",
+    "index": 5,
+    "es": "Hasta Sony y Vader se arreglaron para la ocasión. Casi.",
+    "expression": "confident",
+    "en": "Even Sony and Vader dressed for the occasion. Almost.",
+    "kind": "dialogue"
+  }
+]

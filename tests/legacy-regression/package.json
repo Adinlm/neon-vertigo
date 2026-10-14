@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "description": "Development-only legacy DOM regression harness; never required by the shipped HTML",
+  "devDependencies": {
+    "jsdom": "27.0.1"
+  }
+}

@@ -2,16 +2,19 @@
 // the real engine state. They never ship in the distributable HTML.
 window.NVSIM = (function () {
   function seedRandom(seed) { var s = seed >>> 0; Math.random = function () { s = (s + 0x6D2B79F5) | 0; var t = Math.imul(s ^ (s >>> 15), 1 | s); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
-  function prepare(trackId, diff, rivals) {
+  function prepare(trackId, diff, rivals, seed) {
     settings.diff = diff === undefined ? 1 : diff;
     var ti = trackIdx(trackId); if (curTrack !== ti) loadTrack(ti);
+    // Fixed quality is required: particle budgets consume Math.random and automatic quality varies with host load.
+    settings.qual = 2; qLevel = 2; timeG = 0;
+    if (seed !== undefined) seedRandom(seed); // track loads/mesh warming must not perturb the race seed
     EV = { id: 'free_' + trackId, type: 'free', layout: trackId, title: CFG.name, rivals: rivals || defaultLineup(CFG), music: CFG.music || 'k9' };
     LINEUP = EV.rivals.slice(); resetRace(false); state = 'race'; raceTime = 0; simT = 0; STATS.wc = {}; STATS.wo = {};
   }
   // full race with the player driven by the standard AI (neutral personality); returns per-racer results
   function race(trackId, opt) {
     opt = opt || {}; if (opt.seed !== undefined) seedRandom(opt.seed);
-    prepare(trackId, opt.diff, opt.rivals);
+    prepare(trackId, opt.diff, opt.rivals, opt.seed);
     var p = racers[0], h = 1 / 60, maxT = opt.maxT || 900, samples = [], nan = 0, t, i, hooks = opt.hooks || [];
     p.ai = opt.playerAI || { prec: 0.8, risk: 0.35, alt: 0.4, turbo: 0.6, aggr: 0, block: 0 };
     var origState = state;

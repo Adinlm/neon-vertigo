@@ -32,7 +32,7 @@ writeFileSync(join(OUT, 'events.json'), JSON.stringify({ SEC, EVS }));
 // fade mechanics are unchanged (linear gain ramps): record the configuration used by the race
 { const b = await openGame({ src: NEW }); const cf = await b.run(`return [STEM.CFG,STEM.VCFG].map(function(c){return {turboIn:c.turboIn,turboOut:c.turboOut,tur:c.gain.tur,bpm:c.bpm,bars:c.bars};});`);
   writeFileSync(join(ROOT, 'work', 'turbo', 'fade_cfg.json'), JSON.stringify(cf)); console.log('fade cfg', JSON.stringify(cf)); await b.close(); }
-const out = execFileSync('python', [join(ROOT, 'tools', 'turbo_verify.py'), OUT, join(ROOT, 'work', 'turbo', 'turbo_verify.json')], { encoding: 'utf8' });
+const out = execFileSync(process.env.NV_PYTHON || 'python', [join(ROOT, 'tools', 'turbo_verify.py'), OUT, join(ROOT, 'work', 'turbo', 'turbo_verify.json')], { encoding: 'utf8' });
 console.log(out);
 // in-game: the campaign events decode the new banks through the real STEM path and the turbo gain follows the player's boost
 { const b = await openGame({ src: NEW }); await b.ev('AU.init()');

@@ -19,8 +19,8 @@ for (const id of ids) {
     TUN.forEach(function(t){x.strokeStyle='#ff2bd6';x.lineWidth=6;x.beginPath();for(var s=t.s0;s<=t.s1;s+=6){tf(s);if(s===t.s0)x.moveTo(X(F.px),Z(F.pz));else x.lineTo(X(F.px),Z(F.pz));}x.stroke();});
     OB.forEach(function(o){if(o.k==='mouth')return;tf(o.s);x.fillStyle={bridge:'#ffaa00',box:'#00e5ff',pylon:'#ff3030',pipe:'#ff8800',narrow:'#aa66ff',tower:'#ffd36b',press:'#ff00ff',div:'#ffffff'}[o.k]||'#ccc';x.fillRect(X(F.px)-3,Z(F.pz)-3,6,6);});
     PADS.forEach(function(p){tf(p.s);x.strokeStyle='#ffb000';x.lineWidth=1.5;x.beginPath();x.arc(X(F.px),Z(F.pz),5,0,6.3);x.stroke();});
-    R2.forEach(function(r){if(!r)return;x.strokeStyle=r.def.col||'#39ff88';x.lineWidth=Math.max(2,r.hw*2*sc);x.globalAlpha=0.35;x.beginPath();for(var j=0;j<=r.n;j++){if(j)x.lineTo(X(r.P[j*3]),Z(r.P[j*3+2]));else x.moveTo(X(r.P[j*3]),Z(r.P[j*3+2]));}x.stroke();x.globalAlpha=1;x.lineWidth=2;x.stroke();
-      x.fillStyle=r.def.col||'#39ff88';x.fillText('R'+r.id+' '+r.def.kind+' '+Math.round(r.span)+'m->'+Math.round(r.Lreal)+'m',X(r.P[Math.floor(r.n/2)*3])+8,Z(r.P[Math.floor(r.n/2)*3+2]));});
+    R2.forEach(function(r){if(!r)return;x.strokeStyle='rgb('+r.col.map(function(c){return Math.round(c*255);}).join(',')+')';x.lineWidth=Math.max(2,r.hw*2*sc);x.globalAlpha=0.35;x.beginPath();for(var j=0;j<=r.n;j++){if(j)x.lineTo(X(r.P[j*3]),Z(r.P[j*3+2]));else x.moveTo(X(r.P[j*3]),Z(r.P[j*3+2]));}x.stroke();x.globalAlpha=1;x.lineWidth=2;x.stroke();
+      x.fillStyle='rgb('+r.col.map(function(c){return Math.round(c*255);}).join(',')+')';x.fillText('R'+r.id+' '+r.def.kind+' '+Math.round(r.span)+'m->'+Math.round(r.Lreal)+'m',X(r.P[Math.floor(r.n/2)*3])+8,Z(r.P[Math.floor(r.n/2)*3+2]));});
     // s-fraction ticks every 0.05 L
     for(var f=0;f<1;f+=0.05){tf(f*L);x.fillStyle=f===0?'#fff':'#9fe9ff';x.beginPath();x.arc(X(F.px),Z(F.pz),f===0?7:3.5,0,6.3);x.fill();x.fillText(f.toFixed(2),X(F.px)+F.rx*26*sc/sc*1+6,Z(F.pz)+F.rz*26+4);}
     tf(0);x.strokeStyle='#fff';x.beginPath();x.moveTo(X(F.px),Z(F.pz));x.lineTo(X(F.px+F.tx*120),Z(F.pz+F.tz*120));x.stroke();

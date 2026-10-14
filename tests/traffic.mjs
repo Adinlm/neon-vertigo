@@ -18,7 +18,7 @@ await b.ev(`window.TMON=function(){var m={steps:0,obOverlap:0,wall:0,band:0,spaw
     prevSt[i]=t.st;prevTg[i]=t.tgx;
     if(t.st!==TFS.ACT&&t.st!==TFS.NUDGE)continue;var x=t.x+t.ox;tfr(t.s,t.rt||0);
     if(Math.abs(x)+t.hx>F.hw+0.05)m.wall++;if(t.cy-t.hy<F.yMin-0.05||t.cy+t.hy>F.yMax+0.05)m.band++;
-    for(var k=0;k<OB.length;k++){var o=OB[k];if(o.k==='mouth')continue;var ro=rel(t,o.rt||0,o.s,o.k==='div');if(!ro)continue;if(o.k==='div'){var RR=ROUTES[o.route],dA=rtD(RR,t.s),m0=CHS+0.6;if((dA<m0+t.hs+1||dA>RR.span-m0-t.hs-1)&&(RR.side>0?x-t.hx>=RR.xs:x+t.hx<=RR.xs))continue;}var dd=wrapD(o.s-t.s);if(Math.abs(dd)<o.hs+t.hs&&x+t.hx>o.x0+ro[0]&&x-t.hx<o.x1+ro[0]&&t.cy+t.hy>o.y0+ro[1]&&t.cy-t.hy<o.y1+ro[1]){m.obOverlap++;m.byOb=m.byOb||{};var kk=o.k+(t.st===TFS.NUDGE?'@nudge':'');m.byOb[kk]=(m.byOb[kk]||0)+1;m.ex=m.ex||[];if(m.ex.length<3&&!(m.ex.length&&m.ex[m.ex.length-1].i===i))m.ex.push({i:i,k:TKIND[t.kind]?TKIND[t.kind].id:t.kind,dir:t.dir,s:Math.round(t.s),x:+x.toFixed(2),cy:+t.cy.toFixed(2),hx:t.hx,ob:o.k,o:[+o.x0.toFixed(2),+o.x1.toFixed(2),+o.y0.toFixed(1),+o.y1.toFixed(1)],dd:+wrapD(o.s-t.s).toFixed(1),hmx:+(t.hmx||0).toFixed(1),avx:+(t.avx||0).toFixed(1),avoid:!!t.avoid,blocked:!!t.blocked,urg:t.urg||0,lc:t.tgx!==null,tpf:t.tplanFor||0});break;}}}}};};1`);
+    for(var k=0;k<OB.length;k++){var o=OB[k];if(o.k==='mouth')continue;var ro=rel(t,o.rt||0,o.s,o.k==='div');if(!ro)continue;if(o.k==='div'){var RR=ROUTES[o.route],dA=rtD(RR,t.s),m0=CHS+0.6;if((dA<m0+t.hs+1||dA>RR.span-m0-t.hs-1)&&(RR.side>0?x-t.hx>=RR.xs:x+t.hx<=RR.xs))continue;}var dd=wrapD(o.s-t.s);if(Math.abs(dd)<o.hs+t.hs&&x+t.hx>o.x0+ro[0]&&x-t.hx<o.x1+ro[0]&&t.cy+t.hy>o.y0+ro[1]&&t.cy-t.hy<o.y1+ro[1]){m.obOverlap++;m.byOb=m.byOb||{};var kk=o.k+(t.st===TFS.NUDGE?'@nudge':'');m.byOb[kk]=(m.byOb[kk]||0)+1;m.ex=m.ex||[];if(m.ex.length<3&&!(m.ex.length&&m.ex[m.ex.length-1].i===i))m.ex.push({i:i,k:TKIND[t.kind]?TKIND[t.kind].id:t.kind,dir:t.dir,s:+t.s.toFixed(5),rt:t.rt||0,y:t.y,obS:o.s,obHs:o.hs,st:t.st,sig:t.sig,sigT:t.sigT,vk:t.vk,x:+x.toFixed(2),cy:+t.cy.toFixed(2),hx:t.hx,ob:o.k,o:[+o.x0.toFixed(2),+o.x1.toFixed(2),+o.y0.toFixed(1),+o.y1.toFixed(1)],dd:+wrapD(o.s-t.s).toFixed(1),hmx:+(t.hmx||0).toFixed(1),avx:+(t.avx||0).toFixed(1),avoid:!!t.avoid,blocked:!!t.blocked,urg:t.urg||0,lc:t.tgx!==null,tpf:t.tplanFor||0});break;}}}}};};1`);
 const tracks = await b.ev('TRACKS.map(function(t){return t.id;})');
 const comp = {}; const sim = {};
 const LEGACY = await b.ev('typeof TKIND==="undefined"');
@@ -40,8 +40,8 @@ const seeds = (process.env.SEEDS || '1,2').split(',').map(Number);
 for (const id of tracks) {
   sim[id] = [];
   for (const sd of seeds) {
-    const r = await b.ev(`(function(){var mon=null;var res=NVSIM.race(${JSON.stringify(id)},{seed:${sd},hooks:[function(t){if(!mon)mon=TMON();mon.hook();}]});res.mon=mon.m;return res;})()`);
-    sim[id].push(r);
+    const r = await b.ev(`(function(){var mon=null;var res=NVSIM.race(${JSON.stringify(id)},{seed:${sd},hooks:[function(t){if(!mon)mon=TMON();mon.hook();}]});res.mon=mon.m;res.seed=${sd};return res;})()`);
+    if(r.mon.ex)r.mon.ex.forEach(function(x){x.seed=sd;x.track=id;});sim[id].push(r);
   }
   const m = sim[id].map((r) => r.mon);
   const agg = (k) => m.reduce((a, x) => a + x[k], 0);
@@ -60,6 +60,6 @@ R('District speed profiles: Industrial slowest, Skyline/Orbital fastest', spd.ia
 const errs = b.logs.filter((l) => l.type === 'exception' || l.type === 'error');
 R('No page errors during traffic tests', errs.length === 0, errs.slice(0, 5));
 mkdirSync(join(ROOT, 'work', 'traffic'), { recursive: true });
-writeFileSync(join(ROOT, 'work', 'traffic', 'traffic_results.json'), JSON.stringify({ results, comp, sim: Object.fromEntries(Object.entries(sim).map(([k, v]) => [k, v.map((r) => ({ racers: r.racers, mon: r.mon, wc: r.wc }))])) }, null, 1));
+writeFileSync(join(ROOT, 'work', 'traffic', 'traffic_results.json'), JSON.stringify({ results, comp, sim: Object.fromEntries(Object.entries(sim).map(([k, v]) => [k, v.map((r) => ({ seed:r.seed,seed:r.seed,racers: r.racers, mon: r.mon, wc: r.wc }))])) }, null, 1));
 await b.close();
 process.exit(results.some((x) => x.status === 'FAIL') ? 1 : 0);

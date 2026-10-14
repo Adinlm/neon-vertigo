@@ -77,7 +77,7 @@ r = await b.runAsync(`var log=[];var orig=AU.hud;AU.hud=function(n,o){log.push(n
   NVSIM.seedRandom(7);career.fleet.chosen=true;playEvent({id:'free_k9',type:'free',layout:'k9',title:'K9',rivals:['vega','kira','rook'],music:'k9'});await new Promise(function(r){setTimeout(r,300);});
   beginCountdown();var n=0;while(state!=='done'&&n<60*400){tick(1/60,true);n++;if(n===60*20){pauseGame();var ps=state;resumeGame();log.push('pause:'+ps+'->'+state);}}
   await new Promise(function(r){setTimeout(r,600);});readInput=ri;AU.hud=orig;var cnt={};log.forEach(function(k){cnt[k]=(cnt[k]||0)+1;});return {state:state,frames:n,counts:cnt};`);
-const c = r.counts || {};
+const flow = r; const c = flow.counts || {};
 R('Race flow fires countdown, start, laps, last lap and finish cues', c.count >= 3 && c.go === 1 && c.lapNew >= 1 && c.lastLap === 1 && c.finish === 1 && c.raceGo === 1, r);
 R('Race flow fires one result cue on the results screen', ((c.resultWin || 0) + (c.resultLose || 0)) === 1, c);
 // deterministic state transitions of the player HUD watcher (turbo ready / turbo exhausted / critical integrity)
@@ -86,7 +86,7 @@ r = await b.run(`var log=[];var orig=AU.hud;AU.hud=function(n,o){log.push(n+(o&&
   p.boost=1;hudWatch(p);p.energy=0.1;p.boost=0;hudWatch(p);p.dmg=0.8;hudWatch(p);hudWatch(p);p.dmg=0.2;hudWatch(p);p.dmg=0.85;AU.hudLast.critical=-99;hudWatch(p);
   AU.hud=orig;state='title';return log;`);
 R('HUD watcher: turbo ready (immediate and after a pickup), turbo exhausted, critical integrity with re-arm', JSON.stringify(r) === JSON.stringify(['turboReady', 'turboReady@delayed', 'turboEnd', 'critical', 'critical']), r);
-R('Pause and resume keep the race state', (r.counts['pause:paused->race'] || 0) === 1, r.counts);
+R('Pause and resume keep the race state', (c['pause:paused->race'] || 0) === 1, c);
 const errs = b.logs.filter((l) => l.type === 'exception' || l.type === 'error');
 R('No page errors during HUD tests', errs.length === 0, errs.slice(0, 5));
 writeFileSync(join(ROOT, 'work', 'hud', 'hud_results.json'), JSON.stringify(results, null, 1));

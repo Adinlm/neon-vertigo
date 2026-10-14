@@ -27,7 +27,7 @@ export async function launch({ width = 1280, height = 720, extraArgs = [], headl
     `--remote-debugging-port=${port}`,
     `--user-data-dir=${profile}`,
     `--window-size=${width},${height}`,
-    '--no-first-run', '--no-default-browser-check', '--disable-extensions',
+    '--no-first-run', '--no-default-browser-check', '--disable-extensions', '--edge-skip-compat-layer-relaunch',
     '--autoplay-policy=no-user-gesture-required',
     '--allow-file-access-from-files',
     '--enable-unsafe-swiftshader', '--use-angle=swiftshader',
@@ -79,7 +79,7 @@ export async function launch({ width = 1280, height = 720, extraArgs = [], headl
       const r = await send('Page.captureScreenshot', { format: 'png' });
       const { writeFileSync } = await import('node:fs'); writeFileSync(path, Buffer.from(r.data, 'base64'));
     },
-    async close() { try { ws.close(); } catch (e) {} proc.kill(); await sleep(400); try { rmSync(profile, { recursive: true, force: true }); } catch (e) {} },
+    async close() { try { await Promise.race([send('Browser.close'), sleep(1500)]); } catch (e) {} try { ws.close(); } catch (e) {} proc.kill(); await sleep(400); try { rmSync(profile, { recursive: true, force: true }); } catch (e) {} },
     sleep,
   };
   return api;

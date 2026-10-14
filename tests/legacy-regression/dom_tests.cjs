@@ -1,0 +1,85 @@
+const fs=require('fs'),assert=require('assert/strict'),vm=require('vm');
+const {boot,H,delay}=require('./dom_harness.cjs');
+const rows=JSON.parse(fs.readFileSync(require('path').join(__dirname,'catalog-entries.json'),'utf8')).filter(r=>r.kind==='dialogue');
+const tests=[],contexts=[];
+function check(name,f){try{f();tests.push({name,status:'PASS'});}catch(e){tests.push({name,status:'FAIL',error:e.message});}}
+async function context(options){const c=await boot(options);contexts.push(c);return c;}
+function badges(w,selector){return [...w.document.querySelectorAll(selector+' [data-completed-difficulty]')].map(x=>+x.dataset.completedDifficulty);}
+(async()=>{
+ check('Standalone game JavaScript parses',()=>new vm.Script(H.match(/<script\b[^>]*>([\s\S]*?)<\/script>/)[1]));
+ const {w,errors}=await context({lang:'en'}),qa=w.__DOM_QA,d=w.document;
+ check('Every full load opens language selection with stored preference highlighted',()=>{assert.equal(d.getElementById('langS').style.display,'flex');assert.equal(d.querySelector('#bLangEN').getAttribute('aria-pressed'),'true');});
+ d.querySelector('#bLangEN').click();await delay(5);
+ check('One language tap opens translated title',()=>{assert.equal(d.getElementById('langS').style.display,'none');assert.match(d.getElementById('title').textContent,/FREE RACE/);assert.equal(d.documentElement.lang,'en');});
+ check('13 original tracks and 6 ships',()=>assert.deepEqual(JSON.parse(JSON.stringify(qa.counts())),{tracks:13,ships:6}));
+ const before=JSON.stringify(qa.career()),stored=w.localStorage.getItem('nv3_career');
+ qa.setLanguage('es');await delay(5);qa.setLanguage('en');await delay(5);
+ check('Settings language switch preserves career and stored save exactly',()=>{assert.equal(JSON.stringify(qa.career()),before);assert.equal(w.localStorage.getItem('nv3_career'),stored);});
+ qa.openSave();await delay(5);d.getElementById('saveCode').value='NV3:typed-code-must-stay-identical';
+ check('English save-code placeholder is localized',()=>assert.match(d.getElementById('saveCode').getAttribute('placeholder'),/^Your save code/));
+ qa.setLanguage('es');await delay(5);
+ check('Spanish save-code placeholder is restored',()=>assert.match(d.getElementById('saveCode').getAttribute('placeholder'),/^Aquí aparece/));
+ qa.setLanguage('en');await delay(5);
+ check('Localization never changes typed save-code contents',()=>assert.equal(d.getElementById('saveCode').value,'NV3:typed-code-must-stay-identical'));
+ qa.goTitle();qa.openTerr('k9');await delay(5);
+ check('Unplayed campaign tracks have no completion badges',()=>assert.equal(d.querySelectorAll('#evl .completion-badges').length,0));
+ const first=qa.events()[0];
+ qa.complete(first.id,2,70);qa.openTerr('k9');await delay(5);
+ check('Campaign defeat earns no completion badge',()=>assert.deepEqual(badges(w,'[data-ev="'+first.id+'"]'),[]));
+ qa.diff(0);qa.win(first.id);qa.openTerr('k9');await delay(5);
+ check('Actual Easy victory adds Easy only',()=>assert.deepEqual(badges(w,'[data-ev="'+first.id+'"]'),[0]));
+ qa.diff(1);qa.win(first.id);qa.openTerr('k9');await delay(5);
+ check('Repeated Normal victory adds Normal without replacing Easy',()=>assert.deepEqual(badges(w,'[data-ev="'+first.id+'"]'),[0,1]));
+ check('Hard remains gated on incomplete campaign',()=>assert.equal(qa.diff(2),false));
+ const blocked=qa.events().find(e=>e.type==='final');qa.complete(blocked.id,1,80);
+ check('Locked event cannot earn a badge',()=>assert.equal(qa.badges(blocked,null),''));
+ qa.diff(1);for(const event of qa.events())qa.win(event.id);
+ check('Winning all 10 events on Normal unlocks Hard',()=>{assert.equal(qa.career().unlocks.hardUnlocked,true);assert.equal(qa.diff(2),true);});
+ for(const event of qa.events())qa.win(event.id);
+ check('Winning all 10 events on Hard unlocks PROJECT ZERO',()=>assert.equal(qa.career().unlocks.projectZeroUnlocked,true));
+ qa.openTerr('k9');await delay(5);
+ check('Campaign track displays all three earned difficulties in order',()=>{assert.deepEqual(badges(w,'[data-ev="'+first.id+'"]'),[0,1,2]);assert.match(d.querySelector('[data-ev="'+first.id+'"] .completion-badges').textContent,/CLEARED ON:.*EASY.*NORMAL.*HARD/);});
+ const save=qa.saveCode(),parsed=qa.parse(save);
+ check('Existing NV3 export/import preserves per-difficulty wins',()=>{assert.equal(parsed.ok,true);assert.equal(JSON.stringify(parsed.career.ev),JSON.stringify(qa.career().ev));});
+ const seed=qa.career();const starter=await context({seed,lang:'en',diff:2});starter.w.document.getElementById('bLangEN').click();starter.w.__DOM_QA.closeEnding();starter.w.__DOM_QA.closeEnding();starter.w.__DOM_QA.playRaw(first.id);await delay(5);
+ check('Imported hard clear without starter selection renders all ship cards safely',()=>{assert.equal(starter.w.document.querySelectorAll('#gCards .gcard').length,6);assert.match(starter.w.document.querySelector('#gCards [data-id="zero"]').textContent,/CAMPAIGN/);assert.equal(starter.w.document.getElementById('gName').textContent,'STRIX-01');});
+ starter.w.document.getElementById('gSel').click();await delay(500);
+ check('Starter confirmation enters a race after imported hard clear',()=>assert.equal(starter.w.__DOM_QA.state,'intro'));
+ const reloaded=await context({seed,lang:'es',diff:2});reloaded.w.document.getElementById('bLangES').click();reloaded.w.__DOM_QA.openTerr('k9');await delay(5);
+ check('Badges persist after reload and render in Spanish',()=>{assert.deepEqual(badges(reloaded.w,'[data-ev="'+first.id+'"]'),[0,1,2]);assert.match(reloaded.w.document.querySelector('[data-ev="'+first.id+'"] .completion-badges').textContent,/SUPERADA EN:.*FÁCIL.*NORMAL.*DIFÍCIL/);});
+ qa.openFree();await delay(5);
+ const track=qa.tracks()[0];w.localStorage.setItem('nv3_best_'+track.id+'_0','80');w.localStorage.setItem('nv3_best_'+track.id+'_1','90');w.localStorage.setItem('nv3_best_'+track.id+'_2','Infinity');qa.openFree();await delay(5);
+ check('Free-race badges use recorded finishes and reject nonfinite times',()=>{assert.deepEqual(badges(w,'[data-i="0"]'),[0,1]);assert.match(d.querySelector('[data-i="0"] .completion-badges').textContent,/COMPLETED ON:/);});
+ w.localStorage.setItem('nv3_best_'+track.id+'_2','100');qa.openFree();await delay(5);
+ check('New free-race record appears on reopening list',()=>assert.deepEqual(badges(w,'[data-i="0"]'),[0,1,2]));
+ qa.setLanguage('es');await delay(5);
+ check('Visible badges switch English to Spanish without reopening',()=>assert.match(d.querySelector('[data-i="0"] .completion-badges').textContent,/COMPLETADA EN:.*FÁCIL.*NORMAL.*DIFÍCIL/));
+ qa.setLanguage('en');await delay(5);
+ check('Visible badges switch back to English without reopening',()=>assert.match(d.querySelector('[data-i="0"] .completion-badges').textContent,/COMPLETED ON:.*EASY.*NORMAL.*HARD/));
+ const legacy=JSON.parse(JSON.stringify(seed));legacy.ev[first.id].best={};
+ const old=await context({seed:legacy});old.w.document.getElementById('bLangES').click();old.w.__DOM_QA.openTerr('k9');await delay(5);
+ check('Legacy clear does not fabricate difficulty',()=>{assert.deepEqual(badges(old.w,'[data-ev="'+first.id+'"]'),[]);assert.match(old.w.document.querySelector('[data-ev="'+first.id+'"] .completion-badges').textContent,/Dificultad no registrada/);});
+ for(const [es,en] of [['¡SUPERASTE A COOPER!','YOU PASSED COOPER!'],['¡PLASMA!','PLASMA!'],['¡TURBO!','BOOST!'],['¡YA!','GO!']]){
+  qa.setLanguage('en');d.getElementById('cnt').textContent=es;await delay(1);
+  check('Dynamic English notification: '+es,()=>assert.equal(d.getElementById('cnt').textContent,en));
+  qa.setLanguage('es');await delay(1);
+  check('Dynamic notification switches back to Spanish: '+es,()=>assert.equal(d.getElementById('cnt').textContent,es));
+ }
+ const radioBefore=JSON.stringify(qa.lineState());let mismatches=[];const portraits=new Map();
+ for(const lang of ['es','en']){qa.setLanguage(lang);await delay(1);for(const row of rows){qa.tx(row.driver,row.es,row.expression);await delay(0);if(d.getElementById('txText').textContent!==row[lang])mismatches.push(row.id+':'+lang);const key=row.driver+':'+row.expression,src=d.getElementById('txImg').getAttribute('src');if(portraits.has(key)&&portraits.get(key)!==src)mismatches.push('portrait:'+key);else portraits.set(key,src);}}
+ check('All 324 ES and 324 EN radio lines render exactly with stable portraits',()=>assert.deepEqual(mismatches,[]));
+ check('Presenting translated dialogue does not alter dialogue state',()=>assert.equal(JSON.stringify(qa.lineState()),radioBefore));
+ check('Anti-repeat dialogue bags avoid immediate repeats for each character/event',()=>{for(const driver of ['sony','vader','cooper'])for(const kind of Object.keys(qa.dialogues()[driver])){let prev=null;for(let i=0;i<12;i++){const line=qa.pick(driver,kind);assert.notEqual(line,prev);prev=line;}}});
+ qa.setLanguage('en');qa.resumeReward();await delay(5);
+ check('Hard unlock ending translates',()=>assert.match(d.getElementById('endingS').textContent,/HARD MODE UNLOCKED/));
+ qa.closeEnding();qa.resumeReward();await delay(5);
+ check('PROJECT ZERO ending translates',()=>assert.match(d.getElementById('endingS').textContent,/PROJECT ZERO UNLOCKED/));
+ qa.closeEnding();qa.resumeReward();await delay(5);
+ check('Acknowledged endings do not repeat',()=>assert.equal(d.getElementById('endingS').style.display,'none'));
+ qa.goTitle();qa.play(first.id);await delay(500);qa.skip();qa.sim(5);qa.hud();await delay(5);
+ check('Actual race simulation starts after language gate',()=>assert.equal(qa.state,'race'));
+ check('HUD English and original rank/lap content remain present',()=>{assert.match(d.getElementById('hud').textContent,/LAP/);assert.equal(qa.racers().length,4);});
+ qa.goTitle();await delay(5);
+ check('Returning from race does not reopen language gate',()=>assert.equal(d.getElementById('langS').style.display,'none'));
+ check('No game boot or DOM errors',()=>assert.deepEqual(contexts.flatMap(c=>c.errors),[]));
+})().catch(e=>tests.push({name:'Suite execution',status:'FAIL',error:e.stack})).finally(()=>{contexts.forEach(c=>c.w.close());const result={category:'DOM and game logic with mocked Canvas/WebGL; no pixel rendering or real audio',passed:tests.filter(t=>t.status==='PASS').length,failed:tests.filter(t=>t.status==='FAIL').length,tests};fs.writeFileSync('work/codex-recovery/dom-results.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));process.exitCode=result.failed?1:0;});
