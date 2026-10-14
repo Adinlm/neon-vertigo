@@ -29,8 +29,12 @@ for (const id of tracks) {
         if(prev!==null&&p.st===RS.ACT&&prev.st===RS.ACT){var dd=p.dist-prev.d,dsv=wrapD(p.s-prev.s),inv=Math.abs(dd-dsv);if(inv>maxInv)maxInv=inv;if(dd>maxJump)maxJump=dd;}prev={d:p.dist,s:p.s,st:p.st};
         if(p.st===RS.ACT){tfc(p);if(p.y<F.yMin-0.05||p.y>F.yMax+0.05||Math.abs(p.x)>F.hw+0.05)okBand=false;}}]});
       return {routeLog:p.routeLog,finished:res.racers[0].finished,time:res.racers[0].time,dist:res.racers[0].dist,wrecks:res.racers[0].wrecks,L:Math.round(L),maxJump:+maxJump.toFixed(3),maxInv:+maxInv.toFixed(5),okBand:okBand,nan:res.nan};})()`);
-    const ins = t.routeLog.filter((x) => x.startsWith('in' + r.id)).length, outs = t.routeLog.filter((x) => x.startsWith('out' + r.id)).length;
-    if (via === 'route') R(`${id} R${r.id}: drivable through the route every lap (enters ${ins}x, exits ${outs}x) and finishes`, t.finished && ins >= 3 && outs >= 3 && t.nan === 0, t);
+    // The simulator continues the player's celebration drive until all rivals finish; only race-distance events count.
+    const raceLog = t.routeLog.filter((x) => +x.split('@')[1] < 3 * t.L);
+    const ins = raceLog.filter((x) => x.startsWith('in' + r.id)).length, outs = raceLog.filter((x) => x.startsWith('out' + r.id)).length;
+    const inLaps = new Set(raceLog.filter(x => x.startsWith('in'+r.id)).map(x => Math.floor(+x.split('@')[1]/t.L)));
+    const outLaps = new Set(raceLog.filter(x => x.startsWith('out'+r.id)).map(x => Math.floor(+x.split('@')[1]/t.L)));
+    if (via === 'route') R(`${id} R${r.id}: drivable through the route every lap (enters ${ins}x, exits ${outs}x) and finishes`, t.finished && ins >= 3 && outs >= 3 && inLaps.size === 3 && outLaps.size === 3 && t.nan === 0, t);
     else R(`${id} R${r.id}: drivable on the avenue every lap without entering the route`, t.finished && ins === 0 && t.nan === 0, t);
     R(`${id} R${r.id} via ${via}: progress equals travelled s every frame (no checkpoint skipping), no teleport (<6 m/frame), pilot inside its corridor band`, t.maxInv < 1e-3 && t.maxJump < 6 && t.okBand, { maxInv: t.maxInv, maxStep: t.maxJump, okBand: t.okBand });
   }
@@ -69,8 +73,8 @@ for (const id of tracks) {
     const r = await b.ev(`(function(){var tr=0,bad=0,BD=[];var res=NVSIM.race(${JSON.stringify(id)},{seed:${sd},hooks:[function(){racers.forEach(function(c){if(!c.routeLog)c.routeLog=[];});
         TF.forEach(function(t){if(!t.rt||t.st!==TFS.ACT)return;tr++;tfr(t.s,t.rt);if(t.cy-t.hy<F.yMin-0.05||t.cy+t.hy>F.yMax+0.05||Math.abs(t.x+t.ox)+t.hx>F.hw+0.05){bad++;if(BD.length<5)BD.push('band/wall '+TKIND[t.kind].id+' d='+rtD(ROUTES[t.rt],t.s).toFixed(1)+' x='+(t.x+t.ox).toFixed(2)+' cy='+t.cy.toFixed(2)+' band='+F.yMin.toFixed(2)+'/'+F.yMax.toFixed(2)+' hw='+F.hw);}
           var x=t.x+t.ox;if(OB.some(function(o){var ro=rel(t,o.rt||0,o.s,false);return ro&&o.k!=='mouth'&&Math.abs(wrapD(o.s-t.s))<o.hs+t.hs&&x+t.hx>o.x0+ro[0]&&x-t.hx<o.x1+ro[0]&&t.cy+t.hy>o.y0+ro[1]&&t.cy-t.hy<o.y1+ro[1];})){bad++;if(BD.length<5)BD.push('obstacle '+TKIND[t.kind].id+' d='+rtD(ROUTES[t.rt],t.s).toFixed(1)+' st'+t.st+' x='+x.toFixed(2)+' cy='+t.cy.toFixed(2)+' avoid '+t.avoid+' blk '+t.blocked);}});}]});
-      return {r:res.racers.map(function(x){return {routes:x.routes,f:x.finished,w:x.wrecks};}),tr:tr,bad:bad,bd:BD};})()`);
-    r.r.forEach((x) => { info.forEach((ri) => { const n = (x.routes || []).filter((q) => q.split('@')[0] === 'in' + ri.id && +q.split('@')[1] < 3 * ri.span * 1e9).length, k = 'R' + ri.id; use.per[k] = use.per[k] || { route: 0, main: 0 };
+      return {L:L,r:res.racers.map(function(x){return {routes:x.routes,f:x.finished,w:x.wrecks};}),tr:tr,bad:bad,bd:BD};})()`);
+    r.r.forEach((x) => { info.forEach((ri) => { const n = (x.routes || []).filter((q) => q.split('@')[0] === 'in' + ri.id && +q.split('@')[1] < 3 * r.L).length, k = 'R' + ri.id; use.per[k] = use.per[k] || { route: 0, main: 0 };
       const nIn = Math.min(3, n); use.per[k].route += nIn; use.per[k].main += 3 - nIn; use.route += nIn; use.main += 3 - nIn; }); use.wrecks += x.w; if (!x.f) use.unfinished++; });
     use.traffic += r.tr; use.trafficBad += r.bad; if (r.bd && r.bd.length) use.badDetail = (use.badDetail || []).concat(r.bd).slice(0, 8);
   }

@@ -19,8 +19,8 @@ export function instrument(src = join(ROOT, 'index.html'), out = join(WORK, 'nv_
   return out;
 }
 
-export async function openGame({ src, width = 1280, height = 720, lang = 'es', mobile = false, dpr = 1 } = {}) {
-  const file = instrument(src);
+export async function openGame({ src, width = 1280, height = 720, lang = 'es', mobile = false, dpr = 1, out } = {}) {
+  const file = instrument(src, out);
   const b = await launch({ width, height });
   if (mobile || dpr !== 1) await b.viewport(width, height, mobile, dpr);
   const t0 = Date.now();
