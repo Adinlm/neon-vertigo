@@ -1,6 +1,6 @@
 # NEON VERTIGO — Kings of Coope City
 
-**3.6.3 — International Edition · Español / English**
+**3.7.4 — FINAL HTML EDITION · Español / English**
 
 A cyberpunk anti-gravity racing game for the browser: conquer three territories, challenge Sony, Vader and Cooper, and race for the crown of Coope City. Includes thirteen circuits, six ships, takedowns, boost, a 3D hangar and adaptive music.
 
@@ -10,9 +10,9 @@ Choose **ESPAÑOL** or **ENGLISH** when opening the game. Your preference is rem
 
 ## Play online or offline
 
-The complete `index.html` is about 31.2 MB and includes its graphics and audio. Allow time for the first download. Download the file and open it in a modern Chromium browser to play offline, without installation, login, translation services or remote language files.
+The complete `index.html` is 30,908,623 bytes (about 30.9 MB) and includes its graphics and audio. Allow time for the first download. Download the file and open it in a modern Chromium browser to play offline, without installation, login, translation services or remote language files.
 
-Designed for desktop and mobile browsers. Use landscape orientation for racing; the language selector and ending screens also support portrait orientation. Galaxy Z Fold5 physical-device validation remains a player test; no blanket device or performance guarantee is claimed.
+Designed for desktop and mobile browsers. Use landscape orientation for racing; the language selector and ending screens also support portrait orientation. The owner reports successful Samsung Galaxy Z Fold5 testing and has approved this release. Automated PC/browser checks are documented separately; no blanket device or performance guarantee is claimed.
 
 ## Controls
 
@@ -60,9 +60,15 @@ Elige Español o English al abrir el juego; también puedes cambiar el idioma de
 
 Gana los diez eventos en Fácil/Normal para habilitar Difícil y después complétalos en Difícil para revelar PROJECT ZERO. Cada pista muestra sus dificultades completadas, usando victorias de campaña o registros de llegada en carrera libre según corresponda.
 
+## Final HTML release 3.7.4
+
+Eighteen alternative routes, district traffic/advertising, architectural tunnel and bridge integration, Beagle's Crown and Sovereign's Throne corrections, and local Performance Diagnostics with JSON export. This is the normal progression edition: no unlock-all or development advantages. Diagnostics is off by default and never changes campaign progression.
+
+[Release record](docs/3.7.4/PUBLIC_RELEASE.md) · [Validation](docs/3.7.4/PUBLIC_VALIDATION.json) · [Godot handoff](docs/3.7.4/GODOT_MIGRATION_HANDOFF.md). Previous public 3.6.3 remains recoverable from `legacy/3.6.3-international-stable`. HTML development is frozen at `v3.7.4-html-final`; the Godot migration has not started.
+
 ## Validation and release notes
 
-The existing engine, physics, rivals, audio, campaign rules, eighteen boss portraits and two approved ending illustrations are preserved. Automated logic/DOM and resource checks are recorded separately from browser rendering and manual device tests. The physical Fold5, complete manual campaign, audio mix and device performance remain to be assessed by the player.
+The existing engine, physics, rivals, audio, campaign rules, eighteen boss portraits and two approved ending illustrations are preserved. Automated logic/DOM and resource checks are recorded separately from browser rendering and manual device tests. The owner approved 3.7.4 after physical Fold5 testing. The exact release artifact has fresh isolated-profile progression, browser, audio and offline validation; results and limits are recorded in the release manifest.
 
 - [3.6.3 update](docs/UPDATE_3.6.3.md)
 - [3.6.2 report](docs/UPDATE_3.6.2.md)

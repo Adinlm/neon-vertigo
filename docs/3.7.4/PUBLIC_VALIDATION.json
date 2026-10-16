@@ -1,0 +1,259 @@
+{
+  "version": "NEON VERTIGO 3.7.4 — FINAL HTML EDITION",
+  "edition": "normal public campaign",
+  "tag": "v3.7.4-html-final",
+  "preparedUTC": "2026-10-16T15:52:05.780Z",
+  "sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+  "bytes": 30908623,
+  "sourceBranch": "fix/3.7.4-architecture-performance",
+  "sourceCommit": "4b80735f7e9f2ba2703a87ccd567f05a4c14abd3",
+  "previousPublicCommit": "16a83f77b794391b641b7f2ac656d7849354ed30",
+  "previousPublicSHA256": "f194b6d190406574869caf5dcd358804205a25914bcaa7ecbf3c27e17b9c928a",
+  "previousPublicRecovery": "legacy/3.6.3-international-stable (unchanged)",
+  "htmlChangedForPublication": false,
+  "pagesSource": {
+    "branch": "main",
+    "path": "/"
+  },
+  "initialFleet": [
+    "STRIX-01",
+    "RAZOR-X"
+  ],
+  "initialLockedFleet": [
+    "FANG GT",
+    "IRON WRAITH",
+    "SOVEREIGN",
+    "PROJECT ZERO"
+  ],
+  "initialCampaign": [
+    "k9_1",
+    "ia_1",
+    "sv_1"
+  ],
+  "initialFreeTrackIDs": [
+    "k9",
+    "ia",
+    "sv",
+    "k9a",
+    "iaa",
+    "sva"
+  ],
+  "totalTracks": 13,
+  "totalShortcuts": 18,
+  "unlockRules": {
+    "FANG_GT": "Defeat Sony after both Kowloon crew events",
+    "IRON_WRAITH": "Defeat Vader after both Industrial crew events",
+    "SOVEREIGN": "Defeat Cooper after both Skyline crew events",
+    "THE_CROWN": "Conquer all three territories",
+    "HARD": "Win all ten campaign events on Easy/Normal",
+    "PROJECT_ZERO": "Win all ten campaign events on Hard, including THE CROWN; existing legacy entitlements preserved"
+  },
+  "tests": [
+    {
+      "name": "combined",
+      "passed": 210,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/hotfix_routes_combined_reference.mjs",
+      "source_sha256": "1b6b0a6ea2ddea54e7d6d3e5c41ff770c2d6975c19b2a3a6a512eb7d4530da4b",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "separated",
+      "passed": 210,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/routes.mjs",
+      "source_sha256": "bb5aa5cce9fa32560718d52f9bba9e8cedc99bd67f66aac5c05b196ff4fa7004",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "traffic",
+      "passed": 71,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/traffic.mjs",
+      "source_sha256": "c5aadab2d9cc086fefeeb12f98bf29fb384499c56cf1acc51a8940cbfe8c8495",
+      "seeds": "1,2,3,4,5,6"
+    },
+    {
+      "name": "camera",
+      "passed": 253,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/hotfix_camera.mjs",
+      "source_sha256": "ad03d529ecfb1b9517522ee500fb47275abe78375690734d8f83d761a300759d",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "wreck-camera",
+      "passed": 55,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/hotfix_wreck_camera.mjs",
+      "source_sha256": "b3da76f7b501ed8bfc78ead6b3aca0afe6e5357acb33dd9487fc697dda53c559",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "directed-traffic",
+      "passed": 19,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/hotfix_directed_traffic.mjs",
+      "source_sha256": "98a65ed007cac3532ede1884fca1687d96918105fe53bffd374fdd5d79a2a6dc",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "shortcuts",
+      "passed": 37,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/hotfix_shortcuts.mjs",
+      "source_sha256": "3f12ba799a3423d260dd9ed07c5fcc6103ea6696b1a5d93320e9eaad67eece4c",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "preservation",
+      "passed": 25,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/preservation.mjs",
+      "source_sha256": "48bce30e7e238660db0e19e40313394ef0626f734d79d62dff9e4ecbb162445a",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "safety",
+      "passed": 8,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/safety.mjs",
+      "source_sha256": "bbf59a97a8ef51698ecd5a8c432106d59a6ae6733e6fa33082e6cc9527ae3ae3",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "incidents",
+      "passed": 3,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/incidents.mjs",
+      "source_sha256": "8829ba7ea12acdf6387a5272ff6d79d00c1d7d246a309441174fb08fe81a10d0",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "hud",
+      "passed": 19,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/hud.mjs",
+      "source_sha256": "a916d356f1087f6c6ebb7e65770ab9b585b1b8b41ca22df57033d9de3d74743f",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "turbo",
+      "passed": 18,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/turbo.mjs",
+      "source_sha256": "0d5b4c49349cdc3fce2e5189cfc0ab368bd930ef3099eead741f9e4f1299dfe9",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "dom",
+      "passed": 44,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/legacy-regression/dom_tests.cjs",
+      "source_sha256": "ccca5e54dc8660b369ab0141bdcde2fc893d9e9d13013c9863bee9897d0d37f0",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "integration",
+      "passed": 57,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/integration.mjs",
+      "source_sha256": "281e8282f26677d2a87419a025b9c9f8cff0709704798fdb8ffad5dad108ca2d",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "offline",
+      "passed": 7,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/offline.mjs",
+      "source_sha256": "7a1f31b00cc13a8082bde5f08c6f1f19c5a38fcf6c99d7946329338899fc9da8",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "preserve-hotfix",
+      "passed": 25,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/hotfix_preservation.mjs",
+      "source_sha256": "f5fb63d64be34772ba1a96cc84cabbd09031717b6b21a7c5fcd1837edf32da2e",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "buildings-before",
+      "passed": null,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/buildings_signature.mjs",
+      "source_sha256": "fb9d7cf7d47cd44d9aa1202fcfb081436deadd9066cd8c23967c61ab1c5c9725",
+      "seeds": "1,2,3"
+    },
+    {
+      "name": "buildings-after",
+      "passed": null,
+      "exit": 0,
+      "index_sha256": "1b37ddc66e03e939984b8d60f63bab913eda027fd9332a2e1616b0713f5809e0",
+      "source": "tests/buildings_signature.mjs",
+      "source_sha256": "fb9d7cf7d47cd44d9aa1202fcfb081436deadd9066cd8c23967c61ab1c5c9725",
+      "seeds": "1,2,3"
+    }
+  ],
+  "additionalTests": {
+    "progression": {
+      "passed": 65,
+      "total": 65
+    },
+    "rawDistributableOffline": {
+      "passed": 21,
+      "total": 21
+    },
+    "protectedSystemsAndMedia": {
+      "passed": 77,
+      "total": 77
+    },
+    "turboAudioLifecycle": {
+      "passed": 73,
+      "total": 73
+    },
+    "performanceDiagnostics": {
+      "passed": 29,
+      "total": 29
+    },
+    "turboPCMAndLive": {
+      "passed": 22,
+      "total": 22
+    }
+  },
+  "methods": {
+    "profile": "Fresh isolated Edge profiles; owner profiles and saves untouched",
+    "progression": "Original completeEvent invoked only in external instrumented work copies to supply legitimate victory results; no full campaign driving claim",
+    "rawUI": "Uninstrumented final file, network blocked, real UI selection/campaign/free-race/diagnostics/race/import/close-reopen",
+    "compatibility": "Actual 3.6.3 exports generated externally from original result handlers, partial/full/legacy entitlements checked",
+    "saveNormalization": "Existing importer clamps created/achievement timestamps to 1e12 and refreshes updated; known fields explicitly normalized during comparison. Pending reward notification flags are checked as presentation changes, not lost unlocks.",
+    "instrumentation": "No simulation hooks, URL unlock flags, all-unlock UI or old diagnostic save-key readers in shipped HTML",
+    "diagnostics": "Off by default, independent nv3_perf key, no progression changes, bounded recording, actual JSON downloads tested"
+  },
+  "physicalValidation": {
+    "source": "Owner reports successful Samsung Galaxy Z Fold5 test and explicitly approves publication on 2026-10-16",
+    "independentlyPerformedDuringRelease": false
+  },
+  "knownLimitations": [
+    "PC browser mobile emulation is not a new physical Fold5 measurement.",
+    "Existing NV3 sanitizer normalizes creation/achievement dates; earned progress and records are preserved.",
+    "Existing WebGL1 renderer retained; no WebGL2 or Godot migration performed."
+  ]
+}
